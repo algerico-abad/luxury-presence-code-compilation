@@ -1,0 +1,6 @@
+/*Start - Decrease header navigation font size*/
+nav#global-navbar .navigation__link {
+    font-size: 16px;
+}
+
+/*End*/

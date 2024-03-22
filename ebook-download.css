@@ -35,3 +35,21 @@
 }
 
 /*End*/
+
+/*Start - Fix Ebook Modal not scrolling*/
+.modal.visible:has(.ebook-download) {
+    overflow-y: scroll !important;
+
+    @media only screen and (max-width: 768px) {
+
+        /*Adjust close button position for mobile view*/
+        .close.lp-close {
+            top: 30px;
+            right: 20px;
+        }
+
+        /*End*/
+    }
+}
+
+/*End*/

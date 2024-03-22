@@ -13,33 +13,7 @@ div.lp-container {
         }
     }
 }
-/*End*/
 
-/*Ebook Modal*/
-/*Start - Fix Ebook Modal not scrolling*/
-.modal.visible:has(.ebook-download) {
-    overflow-y: scroll !important;
-    
-    @media only screen and (max-width: 768px) {
-        /*Adjust close button position for mobile view*/
-        .close.lp-close {
-            top: 30px;
-            right: 20px;
-        }
-        /*End*/
-    }
-}
-/*End*/
-
-/*Adjust close button position for mobile view*/
-.modal.visible:has(.ebook-download) {
-    @media only screen and (max-width: 768px) {
-        .close.lp-close {
-            top: 30px;
-            right: 20px;
-        }
-    }
-}
 /*End*/
 
 /*CTA Block*/
@@ -49,6 +23,7 @@ div.lp-container {
         padding: 20px !important;
     }
 }
+
 /*End*/
 
 /*Start - Fix the padding for horizontal alignment and adjust width of title*/
@@ -59,6 +34,7 @@ div.cta-block .text-block {
         margin-bottom: 0px !important;
     }
 }
+
 /*End*/
 
 /*Schedule a Showing*/
@@ -68,6 +44,7 @@ div.cta-block .text-block {
         padding: 64px 24px;
     }
 }
+
 /*End*/
 
 /*GSM*/
@@ -78,13 +55,14 @@ div.gallery-component.redesign {
             margin-bottom: 0px !important;
         }
     }
-    
+
     @media only screen and (max-width: 768px) {
         .gallery-component__col:last-child {
             margin-bottom: 0px !important;
         }
     }
 }
+
 /*End*/
 
 /*Contact Modal*/
@@ -95,7 +73,7 @@ div.info-zone {
         .info-zone_contact_cell {
             .contact_title {
                 font-size: 0px;
-                
+
                 &:before {
                     content: 'Office Number';
                     font-size: 14px;
@@ -109,12 +87,13 @@ div.info-zone {
 
 /*Start - Change Phone Number Labels*/
 div.contact-form.redesign {
+
     /*Phone Number Selector*/
     div.info-zone_contact.type_user:nth-child(1) {
         div.info-zone_contact_cell {
             p.contact_title {
                 font-size: 0px;
-                
+
                 &:before {
                     font-size: 14px;
                     content: 'Phone Number';
@@ -122,12 +101,13 @@ div.contact-form.redesign {
             }
         }
     }
+
     /*Office Number Selector*/
     div.info-zone_contact.type_user:nth-child(2) {
         div.info-zone_contact_cell:first-child {
             p.contact_title {
                 font-size: 0px;
-                
+
                 &:before {
                     font-size: 14px;
                     content: 'Office Number';
@@ -165,6 +145,7 @@ div.contact-form.redesign {
 .content {
     padding-bottom: 124px !important;
 }
+
 /*End*/
 
 /*Start - Adjust side menu font size*/
@@ -177,24 +158,20 @@ div#global-sidemenu {
 /*End*/
 
 /*Masterpiece*/
-/*Start - Decrease header navigation font size*/
-nav#global-navbar .navigation__link {
-    font-size: 16px;
-}
-
-/*End*/
 
 /*START - opening - from full bleed to half*/
 div.redesign {
     .lp-container {
         .collection {
             min-height: 600px !important;
+
             .item {
                 min-height: calc(600px - 240px) !important;
             }
         }
     }
 }
+
 /*END*/
 
 .wow {
@@ -205,7 +182,7 @@ div.redesign {
 /*Start - Add Display logo on hover effect*/
 .item .img-wrap {
     position: relative;
-    
+
     &::before {
         background: rgba(255, 255, 255, 0);
         background-position: bottom center;
@@ -221,7 +198,7 @@ div.redesign {
 
 .item:hover .img-wrap {
     position: relative;
-    
+
     &::before {
         background: rgba(255, 255, 255, 0.5);
         background-image: url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/dxmgczxxg11fnu65km5n/favicon");
@@ -238,7 +215,7 @@ div.redesign {
 /*Start - Add display logo on hover effectg*/
 .team-slide-img {
     position: relative;
-    
+
     &:before {
         position: absolute;
         content: '';
@@ -249,7 +226,7 @@ div.redesign {
         z-index: 10;
         transition: 0.5s;
     }
-    
+
     &:hover:before {
         background-color: rgba(255, 255, 255, 0.5);
         background-image: url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/m2689dz8etafpzsfsmjg/rr1-favicon-black");
@@ -258,13 +235,14 @@ div.redesign {
         background-size: 50%;
     }
 }
+
 /*End*/
 
 /*Team Page*/
 /*Start - Add display logo on hover effectg*/
 figure {
     position: relative;
-    
+
     &:before {
         position: absolute;
         content: '';
@@ -275,7 +253,7 @@ figure {
         z-index: 10;
         transition: 0.5s;
     }
-    
+
     &:hover:before {
         background-color: rgba(255, 255, 255, 0.5);
         background-image: url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/m2689dz8etafpzsfsmjg/rr1-favicon-black");
@@ -284,13 +262,14 @@ figure {
         background-size: 50%;
     }
 }
+
 /*End*/
 
 /*Masterpiece*/
 /*Featured Neighborhoods*/
 /*Start - Update overlay color transparency*/
 .overlay {
-    background-color: rgba(0, 0, 0, 0.15)!important;
+    background-color: rgba(0, 0, 0, 0.15) !important;
 }
 
 /*End*/
@@ -309,6 +288,7 @@ div.sidemenu .navigation__item {
         display: flex;
         flex-direction: column;
     }
+
     li.full-width:last-child:after {
         margin-top: 16px;
         content: '126 Newbury St, \a Boston, MA 02116';
@@ -397,10 +377,10 @@ div.bottom p.num-pages.js-num-pages {
 
 /*End*/
 
-/*Start - Adjust the coloring of the client quote*/
+/*Start - Adjust the theme of the client quote*/
 blockquote strong {
     color: #FFFFFF !important;
-    
+
     &:before {
         background-color: rgba(255, 255, 255, 0.5) !important;
     }
@@ -417,22 +397,12 @@ nav#global-navbar.scroll {
 
 /*End*/
 
-/*Start - Theme homepage search theme*/
-.search-lease-tabs {
-    .search-lease-tab:not(.active) {
-        background-color: #153E35 !important;
-    }
-}
-
-/*End*/
-
-
 /*Start - Adjust padding and height*/
 .redesign.opening-with-search {
     min-height: auto !important;
     padding-top: 96px !important;
     padding-bottom: 96px !important;
-    
+
     .bottom-spacer {
         display: none;
     }
@@ -440,103 +410,61 @@ nav#global-navbar.scroll {
 
 /*End*/
 
-/*Start - Fix vertical CTA block 1 line title*/
-div.cta-block .text-block {
-    max-width: 1500px;
-
-    p {
-        margin-bottom: 0px !important;
-    }
-}
-/*End*/
-
 div.text-wrapper {
     padding: 80px 60px 60px 40px;
-    @media (max-width: 768px){
+
+    @media (max-width: 768px) {
         padding: 50px 60px 70px 55px;
     }
-    
+
 }
 
 
-@media (max-width: 768px){
-    div.image-wrapper{
-        padding-bottom: 0%!important;
-        img{
-            position: unset!important;
+@media (max-width: 768px) {
+    div.image-wrapper {
+        padding-bottom: 0% !important;
+
+        img {
+            position: unset !important;
         }
     }
 }
 
-.description:after{
+.description:after {
     margin-top: 30px;
     background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ctd3utzrnvbkjrxluwky/marta_signature');
     background-size: 320px auto;
     display: inline-block;
-    width: 320px; 
+    width: 320px;
     height: 130px;
-    content:"";
+    content: "";
     background-repeat: no-repeat;
-    @media (max-width: 768px){
-         background-size: 280px auto;
+
+    @media (max-width: 768px) {
+        background-size: 280px auto;
         display: inline-block;
-        width: 280px; 
+        width: 280px;
         height: 110px;
     }
 }
 
 /*Gradient BG*/
-background-image: linear-gradient(to bottom,rgb(232, 221, 205)50%,rgba(255, 255, 255, 1)50%)!important;
+background-image: linear-gradient(to bottom, rgb(232, 221, 205)50%, rgba(255, 255, 255, 1)50%) !important;
 /*End*/
 
-/*Start - Style the hoverable image*/
-.hoverable-image.hoverable-image--straight {
-    /*Maintain the aspect ratio of the image*/
-    .hoverable-image__img-col {
-        aspect-ratio: 1/1;
-        @media only screen and (max-width: 768px) {
-            & > div {
-                min-height: auto !important;
-            }
-        }
-    }
-    /*Add Spacing for the text container in desktop view*/
-    .hoverable-image__text-wrap {
-        padding-top: 64px;
-        padding-bottom: 64px;
-        width: 100%;
-    }
-    /*Customize the spacing and theme of the text container*/
-    .hoverable-image__text-col {
-        padding-left: 60px !important;
-        padding-right: 60px !important;
-        background: #181919;
-        
-        @media only screen and (max-width: 768px) {
-            padding-left: 30px !important;
-            padding-right: 30px !important;
-            margin-top: 0px;
-            text-align: center;
-            
-            img {
-                width: 100% !important;
-            }
-        }
-    }
-}
-
-/*End*/
-
-div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow{
+div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow {
     background-color: #1B489B;
     border-color: #1B489B;
+
     &:before {
         color: #fff;
         opacity: 1;
     }
+
     &:hover {
         background-color: transparent;
         border-color: #1B489B;
+
         &:before {
             color: #1B489B;
         }
@@ -549,13 +477,13 @@ div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow{
     @media only screen and (min-width: 769px) {
         .sell-section__row {
             flex-direction: row-reverse;
-            
+
             .sell-section__col.sell-section__col--left {
                 flex-direction: row-reverse;
             }
         }
     }
-    
+
     @media only screen and (max-width: 768px) {
         .lp-h6.lp-text--subtitle {
             p {
@@ -569,11 +497,11 @@ div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow{
 
 /*Signature*/
 /*Start - Fix navigation links creating a new line*/
-#global-navbar > header {
+#global-navbar>header {
     @media only screen and (min-width: 1024px) {
         .navbar {
             align-items: center;
-            
+
             .navigation {
                 height: 56px;
                 overflow: hidden;
@@ -583,4 +511,3 @@ div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow{
 }
 
 /*End*/
-

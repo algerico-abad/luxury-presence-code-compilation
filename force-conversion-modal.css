@@ -1,9 +1,13 @@
-button.close{
-    display: block!important;
-    right: 4vh!important;
-    top: 4vh!important;
-    @media only screen and (max-width: 768px){
-        right: 4vh!important;
-        top: 7.5vh!important;
+/*Start - Add close button to force conversion modal*/
+button.close {
+    display: block !important;
+    right: 4vh !important;
+    top: 4vh !important;
+
+    @media only screen and (max-width: 768px) {
+        right: 4vh !important;
+        top: 7.5vh !important;
     }
 }
+
+/*End*/

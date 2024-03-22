@@ -1,0 +1,41 @@
+/*Start - Style the hoverable image*/
+.hoverable-image.hoverable-image--straight {
+
+    /*Maintain the aspect ratio of the image*/
+    .hoverable-image__img-col {
+        aspect-ratio: 1/1;
+
+        @media only screen and (max-width: 768px) {
+            &>div {
+                min-height: auto !important;
+            }
+        }
+    }
+
+    /*Add Spacing for the text container in desktop view*/
+    .hoverable-image__text-wrap {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        width: 100%;
+    }
+
+    /*Customize the spacing and theme of the text container*/
+    .hoverable-image__text-col {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+        background: #181919;
+
+        @media only screen and (max-width: 768px) {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+            margin-top: 0px;
+            text-align: center;
+
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+/*End*/
