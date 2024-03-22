@@ -1,0 +1,96 @@
+/*START - fix padding -*/
+.agent-bio {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media (max-width: 520px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+.lp-h2 {
+    margin-bottom: 26px !important;
+}
+
+/*END*/
+
+/*START - contact link underline */
+.lp-link {
+    font-weight: 400;
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*start - fix long email address*/
+@media only screen and (max-width:1600px) {
+    div.agent-bio.redesign div.bottom-container div.info {
+        div.info-block:nth-child(1) {
+            width: calc(17% - 30px) !important;
+        }
+
+        div.info-block:nth-child(2) {
+            width: calc(33% - 30px) !important;
+        }
+    }
+}
+
+div.agent-bio.redesign div.bottom-container {
+    div.info {
+        div.info-block:nth-child(n) {
+            @media only screen and (max-width:1300px) {
+                width: calc(50% - 30px) !important;
+                margin-bottom: 10px;
+            }
+
+            @media only screen and (max-width:768px) {
+                width: 100% !important;
+
+                a,
+                div.info-title {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:1300px) {
+        padding: 25px;
+    }
+}
+
+/*end - fix long email address*/

@@ -1,0 +1,8 @@
+/*Start - Fix font size title on mobile*/
+.lp-h2 {
+    @media only screen and (max-width: 768px) {
+        font-size: 26px;
+    }
+}
+
+/*End*/

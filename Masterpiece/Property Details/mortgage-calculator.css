@@ -1,0 +1,163 @@
+/*Start - Update Link theme*/
+.lp-link {
+    position: relative !important;
+    color: #000 !important;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #121270 !important;
+        opacity: 1 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #121270 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width: 1280px) {
+        overflow-wrap: anywhere;
+        text-decoration: underline !important;
+        white-space: normal !important;
+
+        &:before {
+            background-color: transparent;
+            width: 0% !important;
+        }
+
+        &:after {
+            background-color: transparent;
+        }
+
+        &:hover:after {
+            width: 0% !important;
+        }
+    }
+}
+
+/*End*/
+
+/*START - mortgage calcu arrow -*/
+@media (max-width: 768px) {
+    .results__expand svg {
+        stroke: #fff !important;
+    }
+}
+
+/*mortgage arrow icon theme mobile view */
+@media (max-width: 768px) {
+    div.results__expand {
+        background-color: #121270;
+    }
+}
+
+/*END*/
+
+/*START - make title in one line*/
+.mg-calc__title {
+    white-space: pre;
+
+    @media (max-width: 767px) {
+        white-space: unset;
+    }
+}
+
+.mg-calc__col {
+    max-width: 55% !important;
+
+    @media (max-width: 767px) {
+        max-width: unset !important;
+    }
+}
+
+/*END*/
+
+/*center title and desc in mobile view*/
+@media (max-width: 767px) {
+    .mg-calc__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .mg-calc__description {
+        text-align: center;
+    }
+}
+
+/*END*/
+
+/*START - fix reset link */
+.calc__footer .lp-link {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*START - Mortgage Calc Dropdown*/
+.custom-select-item {
+    color: #000 !important;
+    background-color: #fff !important;
+
+    &:hover {
+        color: #fff !important;
+        background-color: #121270 !important;
+    }
+}
+
+/*END*/

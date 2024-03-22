@@ -1,0 +1,14 @@
+/*Start - Add logo in WWU*/
+h2:before {
+    content: '';
+    background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/j0ns3vbmlavddfmfdzcg/red-tree-real-estate-logo-light');
+    display: block;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    filter: brightness(10);
+}
+
+/*End*/

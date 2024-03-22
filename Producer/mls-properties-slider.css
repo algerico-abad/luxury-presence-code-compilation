@@ -1,0 +1,76 @@
+/*START - fix paddings */
+div.lp-vertical-paddings {
+    padding-top: 88px;
+    padding-bottom: 76px;
+
+    @media (max-width: 1024px) {
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+/* END */
+
+/*START - MLS properties change card theme*/
+div.properties-grid.lp-vertical-paddings div.lp-container {
+    div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
+        background-color: #fff !important;
+        color: #000;
+
+        .listing-card__logo {
+            margin-bottom: 10px;
+        }
+    }
+
+    div.listing-card__status>div {
+        text-transform: uppercase;
+        font-weight: 700;
+        background-color: #E0C18F !important;
+    }
+}
+
+/*IDX logo*/
+.listing-card__logo img {
+    filter: invert(0);
+}
+
+/*END - MLS properties change card theme*/
+
+/*START - MLS Properties Slider Slick Arrow*/
+.lp-arrow {
+    background-color: #E0C18F;
+    border: solid 2px #E0C18F;
+    color: #fff;
+
+    &:hover {
+        background-color: transparent;
+        color: #E0C18F;
+    }
+}
+
+/*END*/
+
+.properties-grid__header {
+    @media only screen and (min-width: 769px) {
+        padding-bottom: 20px !important;
+        align-items: center !important;
+        .lp-h2 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .lp-title-group {
+            margin-right: 0px;
+            width: 100%;
+            
+            .lp-h2 {
+                text-align: center !important
+            }
+        }
+        
+        align-items: center !important;
+    }
+    
+}

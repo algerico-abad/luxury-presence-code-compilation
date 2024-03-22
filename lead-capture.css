@@ -1,0 +1,62 @@
+/*Start - Fix dimensions of the form*/
+.popup-modal {
+    min-height: 0px !important;
+
+    .form-group {
+
+        .lp-title-group,
+        .form-inputs-wrap {
+            max-width: 100%;
+        }
+    }
+}
+
+/*End*/
+
+/*Start - Theme input*/
+.form-group {
+    .lp-input {
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+}
+
+/*End*/
+
+/*Start - Fix disclaimer link underline*/
+.lp-disclaimer a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+/*End*/

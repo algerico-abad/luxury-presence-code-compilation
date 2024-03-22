@@ -1,0 +1,57 @@
+/*START - fix paddings */
+.custom-form {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media (max-width: 767px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/*START - contact form labels - */
+.lp-label {
+    text-transform: uppercase !important;
+}
+
+/*END*/
+
+/*START - adjust title width - */
+div.custom-form__header {
+    max-width: 1500px;
+}
+
+/*END*/
+
+/*START - contain photo*/
+.custom-form__img-col {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .custom-form__header {
+        margin-bottom: 0 !important;
+    }
+}
+
+div.custom-form__img-block img {
+    object-fit: contain;
+    background-color: #fff;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+overflow: hidden;
+
+/*END*/
+
+/*Start - Theme disclaimer link*/
+.lp-disclaimer a:hover {
+    color: #2a505d;
+}
+
+/*End*/

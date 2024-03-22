@@ -1,0 +1,102 @@
+/*START - fix padding*/
+.testimonials {
+    padding-top: 48px !important;
+    padding-bottom: 44px !important;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/* START - Update ‘Read More’ button theme style*/
+div.testimonials .data-container {
+    /* Button theme */
+
+    .expand-link-container .btn-more {
+        color: #000;
+
+        &:hover {
+            color: #2a505d !important;
+        }
+
+        &:before {
+            background: #ccc !important;
+        }
+
+        &:hover:before {
+            background: #2a505d !important;
+        }
+    }
+
+    /* Transition animation */
+
+    .testimonials__item-outer {
+        &:not(.expanded) {
+            .btn-more.btn-expand {
+                opacity: 1;
+                z-index: 1;
+            }
+        }
+
+        &.expanding {
+            .btn-more.btn-expand {
+                opacity: 0;
+            }
+        }
+
+        &.expanded {
+            .btn-more.btn-collapse {
+                opacity: 1;
+            }
+        }
+
+        &:not(.expanded) {
+            .btn-more.btn-collapse {
+                opacity: 0;
+            }
+        }
+
+        &.expanding {
+            .btn-more.btn-collapse {
+                opacity: 1;
+            }
+        }
+
+        &.collapsing {
+            .btn-more.btn-collapse {
+                opacity: 0;
+            }
+        }
+
+        &.expanded {
+            .btn-more.btn-collapse {
+                opacity: 1;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+/* END */
+
+/*START- align initials with desc */
+div.testimonials .author__image {
+    position: relative;
+    right: 14px;
+    margin: 0;
+
+    @media (max-width: 768px) {
+        position: relative;
+        right: 14px;
+        margin: 0;
+    }
+}
+
+.testimonials .author__image {
+    background: #fff !important;
+}
+
+/* END */

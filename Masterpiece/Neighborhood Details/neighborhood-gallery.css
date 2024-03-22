@@ -1,0 +1,23 @@
+/*Start - Theme Slick Arrows*/
+.arrows {
+    .lp-arrow {
+        background: #fff;
+        border-color: #fff;
+        
+        &:before,
+        &:after {
+            border-color: #A62424;
+        }
+        
+        &:hover {
+            background: transparent !important;
+            
+            &:before,
+            &:after {
+                border-color: #fff !important;
+            }
+        }
+    }
+}
+
+/*End*/

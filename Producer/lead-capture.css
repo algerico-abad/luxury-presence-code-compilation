@@ -1,0 +1,37 @@
+/*Start - Adjust dimensions of Lead Capture Element*/
+div.form-group {
+    .lp-title-group {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    
+    .form-inputs-wrap {
+        max-width: 100%;
+    }
+}
+
+/*End*/
+
+/*Start - Add hover color to disclaimer link*/
+.lp-disclaimer {
+    a:hover {
+        color: #fff;
+    }
+}
+
+/*End*/
+
+/*Start - Fix Modal Padding*/
+.popup-modal {
+    min-height: auto !important;
+    
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*End*/

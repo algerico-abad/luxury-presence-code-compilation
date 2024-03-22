@@ -1,0 +1,165 @@
+/*START - fix reset link*/
+.lp-link--light:after,
+.lp-a--light a:after {
+    background-color: #002349;
+}
+
+.calc__footer .lp-link {
+    text-transform: uppercase;
+}
+
+.calc__footer .lp-link {
+    font-weight: 400;
+}
+
+/*END*/
+
+/*START - mortgage calcu arrow -*/
+@media (max-width: 768px) {
+    .results__expand svg {
+        stroke: #fff !important;
+    }
+}
+
+/*mortgage arrow icon theme mobile view */
+@media (max-width: 768px) {
+    div.results__expand {
+        background-color: #002349;
+    }
+}
+
+/*END*/
+
+/*START - mortgage change input text color and dropdown*/
+.lp-input--light {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.25);
+
+    &:after {
+        border-color: #fff;
+    }
+
+    &:hover {
+        color: #fff;
+
+        &:after {
+            border-color: #fff;
+        }
+    }
+
+    &:focus {
+        border-color: #fff;
+    }
+}
+
+div.custom-select {
+    .custom-select-menu .custom-select-content {
+        color: #000;
+        background-color: #fff;
+
+        .custom-select-item {
+            color: #000;
+
+            &:hover {
+                color: #fff;
+                background-color: #002349;
+            }
+        }
+    }
+
+    button.custom-select-toggle.is-placeholder {
+        border-color: rgba(255, 255, 255, 0.25);
+
+        &:after {
+            border-color: #fff;
+        }
+    }
+}
+/*end*/
+
+/*use when your chart background is white*/
+li.legend__item.is-hovered {
+    a.legend__name {
+        opacity: 1;
+    }
+
+    span.legend__val {
+        opacity: 1;
+    }
+}
+
+/*END - mortgage change input text color and dropdown*/
+
+/*START - make title in one line */
+.mg-calc__title {
+    white-space: pre;
+
+    @media (max-width: 767px) {
+        white-space: unset;
+    }
+}
+
+.mg-calc__col {
+    max-width: 55% !important;
+
+    @media (max-width: 767px) {
+        max-width: unset !important;
+    }
+}
+
+/*END*/
+
+/*START - fix chart link upon hover */
+.lp-link.lp-link--dark {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #002349 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #002349 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*center title and desc in mobile view*/
+@media (max-width: 767px) {
+    .mg-calc__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .mg-calc__description {
+        text-align: center;
+    }
+}
+
+/*END*/

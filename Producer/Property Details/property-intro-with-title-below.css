@@ -1,0 +1,29 @@
+/*Start - Change tag color*/
+div.property-intro-2 span.label {
+    background-color: #988C7C;
+    color: #fff;
+}
+
+/*END - Change tag color*/
+
+/*START - pagination color*/
+.property-intro-2-content .property-intro-2-nav-slider button.slick-arrow {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff !important;
+
+    &:hover {
+        background-color: #fff;
+        border-color: #fff;
+        color: #988C7C !important;
+    }
+}
+
+/*END - pagination color*/
+
+/*Start - Theme border line*/
+h5:before {
+   background-color: #988C7C !important; 
+}
+
+/*End*/

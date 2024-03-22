@@ -1,0 +1,17 @@
+/*Start - Reduce the opening element globally*/
+.custom-intro {
+    @media only screen and (min-width: 769px) {
+        height: calc(100vh - 30vh);
+    
+        .custom-intro__wrapper {
+            height: 100%;
+            
+            .content-group {
+                height: 100%;
+                min-height: auto !important;
+            }
+        }
+    }
+}
+
+/*End*/

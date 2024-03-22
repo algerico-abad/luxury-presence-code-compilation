@@ -1,0 +1,78 @@
+/*START - fix padding*/
+div.featured-properties-section {
+    padding-top: 96px;
+    padding-bottom: 84px;
+
+    @media (max-width: 768px) {
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+@media (max-width: 767px) {
+    div.featured-properties-section .btn {
+        width: 100%;
+    }
+}
+
+/* END */
+
+/*START - change prev and next link color */
+div.redesign.featured-properties-section ul.slick-links-nav {
+    span.spacer {
+        background-color: #000;
+    }
+
+    li span.link {
+        color: #000;
+
+        &:hover:not(.slick-disabled) {
+            color: #2a505d;
+        }
+
+        &:before {
+            background-color: #ccc !important;
+        }
+
+        &:after {
+            background-color: #2a505d;
+        }
+    }
+}
+
+/*END - Change link colors */
+
+/*START - card property theme*/
+div.redesign.featured-properties-section ul.featured-properties {
+    div.slick-track li.featured-properties__item-cover {
+        span.featured-properties__label {
+            background: #e9f9f9 !important;
+            color: #000;
+        }
+    }
+
+    .featured-properties__item {
+        background-color: #2a505d !important;
+    }
+
+    .featured-properties__text {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background-color: #2a505d !important;
+
+        p,
+        h4,
+        h5 {
+            color: #fff !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+    div.featured-properties-button-holder {
+        margin-top: 20px;
+    }
+}
+
+/*END - Card property theme*/

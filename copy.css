@@ -1,0 +1,468 @@
+/*start arrow color custom opening*/
+
+div.custom-intro svg path {
+    stroke: #4974F0;
+}
+
+/*END- change arrow color*/
+
+/*START - adjust footer logo size*/
+footer#global-footer .logo-holder img {
+    max-height: 70px;
+
+}
+
+/*END - adjust footer logo*/
+
+/*START - adjust header logo size*/
+nav#global-navbar .logo__link {
+    @media only screen and (min-width:767px) {
+        max-width: 300px;
+        height: 60px;
+
+        img {
+
+            height: 60px;
+        }
+    }
+}
+
+/*ENd - adjust header logo size*/
+
+
+/* START - scroll*/
+nav#global-navbar .header.scroll a.logo__link {
+    img {
+        &.light {
+            display: none !important;
+        }
+
+        &.dark {
+            display: block !important;
+        }
+    }
+}
+
+nav#global-navbar {
+    header.scroll {
+        background-color: #fff !important;
+
+        .header__container ul.navigation {
+            li.navigation__item a.navigation__link {
+                color: #000;
+
+                &:hover {
+                    color: #000;
+                }
+
+                &:after {
+                    background-color: #4974F0;
+                }
+            }
+        }
+
+        button.hamburger-component span.hamburger__bars {
+            background-color: #4974F0;
+
+            &:after {
+                background-color: #4974F0
+            }
+
+            &:before {
+                background-color: #4974F0;
+            }
+        }
+
+        div.search-block div.search-wrapper {
+            input.search-input {
+                color: #000;
+            }
+
+            .search-results {
+                background-color: #000;
+                border-color: #000;
+                color: #fff;
+            }
+
+            .search-toggle {
+                color: #000;
+
+                &:hover {
+                    color: #4974F0;
+                }
+            }
+        }
+
+        a.phone-link {
+            border-color: #4974F0;
+            background: transparent;
+            color: #4974F0;
+
+            &:hover {
+                border-color: #4974F0;
+                background: #4974F0;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+/* END - scroll*/
+
+.lp-socials__link:hover::before {
+
+    border-color: #4974F0;
+}
+
+body>div.sidemenu .close {
+
+    border: solid 1px #4974F0;
+}
+
+body>div.sidemenu .close:before {
+    background-color: #4974F0;
+}
+
+
+.popup-modal__title-group h2,
+.lp-h2 {
+    font-size: 66px;
+}
+
+nav .phone-link:hover {
+    color: #000 !important;
+}
+
+/*Start - Mobile -Update color scheme - Wb martin*/
+body>div.mobile-contact-wrapper .mobile-contact .item {
+    background-color: #4974F0 !important;
+}
+
+body>div.mobile-contact-wrapper .mobile-contact .item svg {
+    fill: #fff !important;
+}
+
+/*End*/
+
+/*START fix padding WB martin*/
+
+@media(max-width:678px) {
+    .lp-h2 {
+        font-size: 48px;
+    }
+
+}
+
+/*END*/
+
+/*START - footer sitemap hyperlink*/
+footer .nav a {
+    color: #000 !important;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+        content: "" "";
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    &:before {
+        background-color: #ccc;
+        width: 100%;
+    }
+
+    &:after {
+        width: 0%;
+        background-color: #4974F0;
+        transition: 0.4s;
+    }
+
+    &:hover {
+        text-decoration: none !important;
+        color: #4974F0 !important;
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+/*END*/
+
+/*START - footer contact details hyperlink*/
+.lp-a .link,
+.lp-a a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+    &:after,
+    &:before {
+        content: "" "";
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    &:before {
+        background-color: #ccc;
+        width: 100%;
+    }
+
+    &:after {
+        width: 0%;
+        background-color: #4974F0;
+        transition: 0.4s;
+    }
+
+    &:hover {
+        text-decoration: none !important;
+        color: #4974F0 !important;
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+/*END*/
+
+@media screen and (max-width: 1920px) {
+    #global-sidemenu .menu-closed button.close {
+        top: 100px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    #global-sidemenu .menu-closed button.close {
+        top: 80px;
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #global-sidemenu .menu-closed button.close {
+        top: 60px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    footer .nav a {
+        color: #000 !important;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        position: relative;
+        display: initial;
+        vertical-align: top;
+        cursor: pointer;
+    }
+}
+
+footer#global-footer .bottom-row {
+    a {
+        &:after {
+            background: #000;
+        }
+
+        &:hover {
+            color: #1F23D7 !important;
+
+            &:after {
+                background: #1F23D7;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+footer#global-footer div.contact {
+
+    p,
+    a {
+        color: #000;
+    }
+}
+
+#global-mobile-contact .mobile-contact {
+    z-index: 9999;
+}
+
+/*social icon border - martin */
+.lp-socials__link::before {
+    border: 0px;
+}
+
+/*nav color - martin */
+nav#global-navbar .navigation__link {
+    color: #fff;
+}
+
+nav#global-navbar .sub-nav__link:hover {
+    color: #4974F0 !important;
+}
+
+/*nav dark */
+nav#global-navbar header.theme-dark {
+    ul li a {
+        color: #000;
+
+        &:after {
+            background-color: #000;
+        }
+    }
+
+    .navigation-wrapper {
+        a {
+            border-color: #000;
+
+            &:hover {
+                color: #000 !important;
+            }
+        }
+
+        span {
+            background-color: #000;
+
+            &:after,
+            &:before {
+                background-color: #000;
+            }
+        }
+    }
+}
+
+/*Start - Make the hamburger menu more visible*/
+.hamburger-component.hamburger {
+    transition: 0.4s;
+}
+
+.theme-light {
+    .hamburger-component.hamburger {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        height: 54px;
+        width: 54px;
+        padding: 10px;
+
+        &:hover {
+            background: #fff;
+            border-color: #fff;
+
+            span,
+            span:before,
+            span:after {
+                background-color: #000 !important;
+            }
+        }
+    }
+}
+
+.theme-light.scroll {
+    .hamburger-component.hamburger {
+        border: 1px solid #4974F0;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        height: 54px;
+        width: 54px;
+        padding: 10px;
+
+        &:hover {
+            background: #4974F0;
+            border-color: #4974F0;
+
+            span,
+            span:before,
+            span:after {
+                background-color: #fff !important;
+            }
+        }
+    }
+}
+
+.theme-dark {
+    .hamburger-component.hamburger {
+        border: 1px solid #000;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        height: 54px;
+        width: 54px;
+        padding: 10px;
+
+        &:hover {
+            background: transparent;
+            border-color: #000;
+
+            span,
+            span:before,
+            span:after {
+                background-color: #000 !important;
+            }
+        }
+    }
+}
+
+.theme-dark.scroll {
+    .hamburger-component.hamburger {
+        border: 1px solid #000;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        height: 54px;
+        width: 54px;
+        padding: 10px;
+
+        &:hover {
+            background: #4974F0;
+            border-color: #4974F0;
+
+            span,
+            span:before,
+            span:after {
+                background-color: #000 !important;
+            }
+        }
+    }
+}
+
+/*End*/
+
+/*Start - Reduce the opening element globally*/
+.custom-intro {
+    @media only screen and (min-width: 769px) {
+        height: calc(100vh - 30vh);
+
+        .custom-intro__wrapper {
+            height: 100%;
+
+            .content-group {
+                height: 100%;
+                min-height: auto !important;
+            }
+        }
+    }
+}
+
+/*End*/

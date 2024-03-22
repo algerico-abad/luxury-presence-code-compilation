@@ -1,0 +1,187 @@
+/*START - schedule showing change theme color*/
+div.redesign {
+    div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
+        border-color: #002349;
+        background-color: #002349;
+        color: #fff;
+
+        &:hover {
+            border-color: #002349;
+            background-color: #002349;
+            color: #fff;
+        }
+    }
+
+    div.custom-select {
+        .custom-select-menu .custom-select-content {
+            color: #000;
+            background-color: #fff;
+
+            .custom-select-item {
+                color: #000;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #002349;
+                }
+            }
+        }
+
+        button.custom-select-toggle.is-placeholder {
+            border-color: rgba(0, 0, 0, 0.25);
+
+            &:after {
+                border-color: #000;
+            }
+        }
+    }
+
+    button.slick-arrow {
+        border-color: #002349;
+        background-color: #002349;
+
+        &:before {
+            border-color: #fff !important;
+        }
+
+        &:hover {
+            background-color: #7A6F60;
+            border-color: #7A6F60;
+
+            &:before {
+                border-color: #fff !important;
+            }
+        }
+    }
+
+    .calendar__slide.selected .calendar__item {
+        border-color: #002349;
+        background-color: #002349;
+        color: #fff;
+    }
+
+    button.lp-btn {
+        text-transform: uppercase;
+    }
+}
+
+/*END- schedule showing change theme color*/
+
+/*START - center title and desc */
+div.lp-title-group {
+    text-align: center;
+}
+
+/*END*/
+
+/*START - choose a time capslock */
+div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
+    text-transform: uppercase;
+}
+
+/*END*/
+
+/*START - change time link*/
+.lp-a a {
+    font-weight: 400;
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-transform: uppercase !important;
+
+    &:hover {
+        color: #002349 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #002349 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*START - Button fix*/
+.lp-btn,
+.redesign .lp-btn {
+    font-size: 12px;
+}
+
+/*END*/
+
+/*START - padding*/
+div.step {
+    padding-left: 55px;
+    padding-right: 55px;
+
+    @media (max-width: 768px) {
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
+/*END*/
+
+/*START - change time link*/
+a.hyperlink-style-1 {
+    font-weight: 400;
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-transform: uppercase !important;
+
+    &:hover {
+        color: #002349 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #002349 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/

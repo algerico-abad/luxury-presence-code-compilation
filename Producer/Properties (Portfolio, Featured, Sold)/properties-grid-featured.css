@@ -1,0 +1,43 @@
+/*START - change card theme*/
+div.redesign.property-list-section span.property-list__label {
+    background: #002349;
+    color: #fff;
+}
+
+.property-list__text {
+    color: #000;
+    background-color: #f1f1f1 !important;
+}
+
+.property-list__item {
+    background-color: transparent !important;
+}
+
+div.container>ul.property-list .property-list__text {
+    padding: 40px;
+}
+
+/*END - Change Card Theme*/
+
+/*Start - Padding Portfolio - Featured Listings*/
+div.property-list-section .title-container {
+    padding-top: 96px;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 50px;
+    }
+}
+
+div.property-list-section {
+    padding-bottom: 36px;
+
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 14px;
+    }
+}
+
+div.redesign ul.property-list {
+    margin-top: 20px;
+}
+
+/*END*/

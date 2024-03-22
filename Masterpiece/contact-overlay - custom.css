@@ -1,0 +1,8 @@
+/*Start - Change footer close button to black*/
+#modal-global-contact-us div.contact-form__close.close {
+    @media only screen and (max-width: 768px) {
+        color: #000;
+    }
+}
+
+/*End*/

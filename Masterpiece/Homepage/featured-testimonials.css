@@ -1,0 +1,41 @@
+/*START - Testimonial section theme (Local)*/
+svg path {
+    fill: #A62424;
+    fill-opacity: 1;
+}
+
+svg circle {
+    fill: #fff;
+    fill-opacity: 1;
+}
+
+div.arrows-container button.lp-arrow {
+    border: solid 2px #fff;
+
+    &:before {
+        border-color: #fff;
+    }
+
+    &:hover {
+        border: solid 2px #fff;
+        background-color: #fff;
+
+        &::before {
+            border-color: #fff;
+        }
+    }
+}
+
+div.bottom p.num-pages.js-num-pages {
+    color: #fff;
+}
+
+/*END - Testimonial section theme(Local)*/
+
+
+/*START- invert icon*/
+.testimonials-section .list-cell .avatar img {
+    filter: invert(1);
+}
+
+/*END - invert icon*/

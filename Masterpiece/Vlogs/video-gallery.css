@@ -1,0 +1,59 @@
+/*START - video gallery fix padding */
+div.video-gallery {
+    padding-top: 76px;
+    padding-bottom: 76px;
+
+    @media (max-width: 768px) {
+        padding-top: 45px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - fix play button hover state*/
+@media (hover: hover) and (pointer: fine) {
+
+    .lp-play:focus,
+    .lp-play {
+        background-color: #fff;
+        color: #042D49;
+        border-color: #fff;
+    }
+
+    .lp-play:focus,
+    .lp-play:hover {
+        background-color: #042D49;
+        color: #fff;
+        border-color: #042D49;
+    }
+}
+
+div.lp-play:after {
+    border-color: transparent transparent transparent #042D49;
+}
+
+/*END - fix play button hover state*/
+
+/*START - remove title letter spacing */
+.video-gallery__slide {
+    .video-card h6 {
+        text-transform: capitalize;
+        letter-spacing: 0px;
+    }
+}
+
+/*END - remove letter spacing*/
+
+/*START - page pagination*/
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
+    border-right: 2px solid #042D49;
+    border-top: 2px solid #042D49;
+}
+
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
+    border-right: 2px solid #1D425B;
+    border-top: 2px solid #1D425B;
+}
+
+/*END - page pagination*/

@@ -1,0 +1,151 @@
+/*START - schedule showing change theme color */
+div.redesign {
+    div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
+        border-color: #121270;
+        background-color: #121270;
+        color: #fff;
+
+        &:hover {
+            border-color: rgba(0, 0, 0, 0.25);
+            background-color: transparent;
+            color: #121270;
+        }
+    }
+
+    div.custom-select {
+        .custom-select-menu .custom-select-content {
+            color: #000;
+            background-color: #fff;
+
+            .custom-select-item {
+                color: #000;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #121270;
+                }
+            }
+        }
+
+        button.custom-select-toggle.is-placeholder {
+            border-color: rgba(0, 0, 0, 0.25);
+            color: #000;
+
+            &:after {
+                border-color: rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+
+    button.slick-arrow {
+        border-color: rgba(0, 0, 0, 0.25);
+        background-color: transparent;
+
+        &:before {
+            border-color: rgba(0, 0, 0, 0.25) !important;
+        }
+
+        &:hover {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.25);
+
+            &:before {
+                border-color: #121270 !important;
+            }
+        }
+    }
+
+    .calendar__slide.selected .calendar__item {
+        border-color: rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+        color: #121270;
+    }
+
+    button.lp-btn {
+        text-transform: uppercase;
+    }
+}
+
+/*choose a time*/
+.lp-input--dark {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+/*END- schedule showing change theme color*/
+
+/*START - center title and desc */
+div.lp-title-group {
+    text-align: center;
+}
+
+/*END*/
+
+h2,
+.lp-h2 {
+    font-size: 55px;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 28px;
+    }
+}
+
+/*START - change time link*/
+a.hyperlink-style-1 {
+    font-weight: 400;
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-transform: uppercase !important;
+
+    &:hover {
+        color: #C29B40 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: #999 !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #C29B40 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*START - sched a showing - 2nd page*/
+.lp-input--dark::placeholder {
+    opacity: 1 !important;
+}
+
+.input-container .lp-input~.input-icon {
+    filter: invert(1) !important;
+}
+
+/*END*/
+
+.redesign {
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}

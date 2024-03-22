@@ -1,0 +1,15 @@
+/*Start - Increased the font size of unaffected elements*/
+section {
+    div > p,
+    blockquote,
+    .agent-detail__description-body {
+        font-size: 18px;
+    }
+    
+    .item__hint.hint,
+    .tippy-content p {
+        font-size: 16px;
+    }
+}
+
+/*End*/

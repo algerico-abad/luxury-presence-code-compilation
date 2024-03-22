@@ -1,0 +1,82 @@
+/*START - footer link underline*/
+footer#global-footer {
+
+    a.hvr_animation,
+    .lp-link {
+        position: relative !important;
+        color: #fff !important;
+        transition: 0.4s;
+
+        &:hover {
+            color: #2a29a6 !important;
+        }
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: #666 !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #2a29a6 !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+    }
+}
+
+/*END - footer link underline*/
+
+/*START - reduce padding between phone and address  */
+@media (max-width: 768px){
+#global-footer .footer .info-wrap {
+    .type_user{
+        margin-bottom: 21px;
+         }
+    }
+}
+@media (min-width: 1201px){
+#global-footer .footer .info-wrap {
+    .type_user{
+        margin-bottom: 21px;
+         }
+    }  
+}
+/*END*/
+
+/*START - footer lp and privacy policy font weight */
+footer#global-footer .footer .info-privacy {
+    .copy_zone a, .powered_zone a {
+         font-weight: 400;
+    }
+}
+/*END*/
+
+/*START - footer lp and privacy policy font weight */
+footer#global-footer .footer .info-privacy {
+
+    .copy_zone a,
+    .powered_zone a {
+        font-weight: 400;
+    }
+    
+    img {
+        filter: invert(1);
+    }
+}
+
+/*END*/

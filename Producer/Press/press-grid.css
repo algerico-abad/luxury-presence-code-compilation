@@ -1,0 +1,15 @@
+/*Start - Theme Press Grid*/
+.press-grid__item-content {
+    background: #1C1B21;
+    
+    .press-grid__heading {
+        color: #FFF !important;
+        opacity: 0.6;
+    }
+    
+    .press-grid__description {
+        color: #FFF !important;
+    }
+}
+
+/*End*/

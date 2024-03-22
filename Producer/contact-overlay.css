@@ -1,0 +1,153 @@
+/*START - contact overlay space and mobile view -*/
+div#modal-global-contact-us .contact-form {
+    .info-zone {
+        .info-zone_contact_cell {
+            margin-bottom: 21px;
+        }
+
+        .type_user:nth-of-type(2) {
+            margin-bottom: 21px;
+        }
+
+        .type_user {
+            @media only screen and (max-width: 768px) {
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    .info-zone_contact {
+        margin-bottom: 14px;
+    }
+
+    .section-message h2 {
+        font-size: 38px;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 28px;
+        }
+    }
+
+    h2 {
+        font-size: 38px;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 28px;
+        }
+    }
+}
+
+/*END*/
+
+/*START - contact form theme and hyperlinks */
+#modal-global-contact-us .contact-form .section-message label {
+    text-transform: uppercase;
+    color: #fff !important;
+
+}
+
+#modal-global-contact-us .lp-input-group {
+    .lp-input {
+        border-color: #fff !important;
+    }
+}
+
+div#modal-global-contact-us a:not(.lp-socials__link):after {
+    background-color: #fff !important;
+}
+
+/*START - Contact Modal Hyperlink color*/
+.info-zone_contact_cell {
+    a {
+        &:hover {
+            color: #fff !important;
+        }
+
+        &:before {
+            background-color: rgba(255, 255, 255, 0.5) !important;
+            width: 100%;
+        }
+
+        &:after {
+            background-color: #fff !important;
+        }
+    }
+}
+
+/*END*/
+
+/* END */
+
+/*START - avoid title to put on next line & reduce font-size on mobile view*/
+div#modal-global-contact-us {
+    .contact-form {
+        .section-message form {
+            max-width: 490px;
+        }
+
+        h2 {
+            @media only screen and (max-width:1080px) {
+                font-size: 37px;
+            }
+
+            @media only screen and (max-width:925px) {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .close {
+        top: 4vh;
+    }
+}
+
+/*END - reduce font-size on mobile view*/
+
+/*START - Contact Modal - Disclaimer*/
+#modal-global-contact-us .lp-disclaimer a {
+    text-decoration: none !important;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+    &:after,
+    &:before {
+        content: "";
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    &:before {
+        background-color: #ccc;
+        width: 100%;
+    }
+
+    &:after {
+        width: 0%;
+        transition: 0.4s;
+    }
+
+    &:hover {
+        text-decoration: none !important;
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+/*END*/
+
+/*START - contact overlay - center bg image*/
+div#modal-global-contact-us {
+    .contact-form {
+        background-position: center;
+    }
+}
+
+/*END*/

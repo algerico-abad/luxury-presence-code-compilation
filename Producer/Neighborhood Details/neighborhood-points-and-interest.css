@@ -1,0 +1,182 @@
+/*START - neighb points theming*/
+.tag {
+    color: #fff !important;
+    background: #D4AF37 !important;
+    text-transform: uppercase !important;
+}
+
+div.scores:not(:empty) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.divider {
+    border-left: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+td,
+th {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/*END*/
+
+/*START - 1 line for element title*/
+.lp-container .title {
+    max-width: 100% !important;
+
+    h2 {
+        max-width: 100% !important;
+    }
+}
+
+/*END- 1 line for element title*/
+
+/*START - fix popup info*/
+div.score__help {
+    cursor: pointer;
+
+    svg path {
+        fill: #D4AF37 !important;
+    }
+
+    div.tippy-box {
+        background-color: #D4AF37;
+        color: #fff;
+
+        div.tippy-content {
+            background-color: #D4AF37 !important;
+        }
+
+        .tippy-arrow {
+            color: #D4AF37 !important;
+        }
+    }
+}
+
+.score__help [data-tippy-content] {
+    cursor: pointer;
+}
+
+/*END- fix popup info*/
+
+/*START - pop up link underline */
+.score__help-content a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    border-bottom: none;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.5) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END - link underline*/
+
+/*START - strs color*/
+.stars .star.is-filled {
+    background-color: #D4AF37 !important;
+}
+
+/*END - stars color*/
+
+/*START - capslock labels*/
+.score__title {
+    text-transform: uppercase;
+}
+
+/*END*/
+
+/*START - link underline */
+.poi-table__card-link {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-underline-offset: 4px !important;
+    text-decoration: none;
+
+    &:hover {
+        color: #D4AF37 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #D4AF37 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+.name-item__description {
+    opacity: 1 !important;
+}
+
+/*END - link underline*/
+
+/*START - Fix Points of interest scroll bar on mobile*/
+div.lp-container {
+    table tr {
+        &::-webkit-scrollbar {
+            height: 0;
+        }
+    }
+}
+
+/*END*/
+
+.score__help-content span {
+    text-transform: uppercase !important;
+}
+
+.score__chart:after {
+    background-image: conic-gradient( var(--color) var(--percentage), rgba(255, 255, 255, 0.25) var(--percentage)) !important;
+}

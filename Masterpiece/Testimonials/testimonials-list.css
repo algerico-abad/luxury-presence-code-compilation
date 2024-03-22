@@ -1,0 +1,58 @@
+/*START - Testimonials List theming */
+ul.collection li {
+    border-bottom: 1px solid #F9EFE2;
+}
+
+/*END - Testimonials List theming*/
+
+/*START - testimonial page icon*/
+div.testimonials ul.collection {
+    .avatar {
+        background-color: #121270;
+        height: 154px;
+
+        path {
+            fill: #fff;
+            fill-opacity: 1;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .avatar {
+            background-color: #121270;
+            height: 135px;
+
+            path {
+                fill: #fff;
+                fill-opacity: 1;
+            }
+        }
+    }
+}
+
+/*END - testimonial page icon*/
+
+/*START - read more change color*/
+.js-read-more {
+    &:hover {
+        color: #121270;
+
+        &:before {
+            background: #121270;
+        }
+
+        &:after {
+            background: #121270;
+        }
+    }
+    
+    &:before {
+        background: rgba(0, 0, 0, 0.25) !important;
+    }
+    
+    &:after {
+        background: #121270 !important;
+    }
+}
+
+/*END*/

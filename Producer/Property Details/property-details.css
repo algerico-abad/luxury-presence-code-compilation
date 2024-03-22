@@ -1,0 +1,47 @@
+/*Start - Hide the property thumbnail*/
+.property-intro-2-content {
+    .slick-track {
+        display: none;
+    }
+}
+
+/*End*/
+
+/*Start - Adjust SEE ALL PHOTOS position*/
+div.button-wrapper {
+    top: calc(100vh - 94px) !important;
+    
+    @media only screen and (max-width: 768px) {
+        top: calc(100vh - 184px) !important;
+    }
+}
+
+/*End*/
+
+/*Start - Change tag color*/
+div.property-intro-2 span.label{
+    background-color: #2A29A6;
+    color:#fff;
+}
+
+div.property-intro-2-info h5:before {
+    background-color: #666;
+}
+/*END - Change tag color*/
+
+/*START - pagination color*/
+.property-intro-2-content .property-intro-2-nav-slider button.slick-arrow{
+    background-color: #fff;
+    border-color:#fff;
+    color: #000!important;
+    &:hover{
+        background-color: transparent;
+        border-color:#fff;
+        color: #fff!important;
+    }
+}
+/*END - pagination color*/
+
+.arrow-down-icon.js-arrow-down svg path {
+    fill: #fff !important;
+}

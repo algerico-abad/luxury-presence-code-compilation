@@ -1,0 +1,73 @@
+/*START - change header nav color*/
+nav#global-navbar {
+    .header .navigation .sub-nav ul {
+        background-color: transparent;
+
+        li {
+            background-color: #fff;
+
+            &:hover {
+                background-color: #1A1A1A;
+            }
+        }
+
+        a {
+            color: #000;
+        }
+    }
+
+    &.scroll {
+        background-color: #2a505d !important;
+
+        li.navigation__item a.navigation__link {
+            color: #fff;
+
+            & span:after {
+                background-color: #fff;
+            }
+        }
+
+        button.hamburger-component.hamburger {
+            color: #fff;
+        }
+    }
+}
+
+/*submenu background*/
+nav#global-navbar .header .navigation .sub-nav ul a {
+    background-color: #2a505d;
+    color: #FFF;
+}
+
+/*submenu upon hover*/
+nav#global-navbar .header .navigation .sub-nav ul a:hover {
+    background-color: #e9f9f9;
+    color: #000 !important;
+}
+
+/*END - Change Header nav color*/
+
+/*START - header nav logo size adjustment*/
+nav#global-navbar .header{
+    padding-top:5px;
+    padding-bottom:5px;
+    height:auto;
+    .logo{
+        max-height: 100px;
+        a.logo__link img {
+            @media only screen and (min-width:768px){
+                max-height: 100px;
+            }
+        }
+    }
+}
+/*END- header nav logo size adjustment*/
+
+/*START - header nav dropdown padding */
+nav .header .navigation .sub-nav__link {
+    max-width: 400px !important;
+}
+nav .header .navigation .sub-nav ul {
+    max-width: 400px !important;
+}
+/*END*/

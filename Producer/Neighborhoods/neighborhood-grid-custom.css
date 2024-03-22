@@ -1,0 +1,9 @@
+/*Start - Hide a specific neighborhood without manually selecting*/
+/*Note: Edit the herf value to hide the specific neighborhood*/
+.items {
+    .grid-item:has(a[href="/neighborhoods/featured-properties-do-not-delete"]) {
+        display: none;
+    }
+}
+
+/*End*/

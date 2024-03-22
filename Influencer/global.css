@@ -1,0 +1,381 @@
+@font-face {
+    font-family: "CompassSans";
+    src: url('d1hqn9onx2xuha.cloudfront.net/fonts/compass/CompassSans/CompassSans-Regular.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Regular.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Regular.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "CompassSans";
+    src: url('d1hqn9onx2xuha.cloudfront.net/fonts/compass/CompassSans/CompassSans-Bold.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Bold.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Bold.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Kai';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://d1e1jt2fj4r8r.cloudfront.net/fonts/BebasKai-Regular.woff') format('woff');
+}
+
+/*START - font - makes global font uppercase*/
+h1 {
+    text-transform: uppercase !important;
+}
+
+.lp-h1 {
+    text-transform: uppercase !important;
+}
+
+h2 {
+    text-transform: uppercase !important;
+}
+
+.lp-h2 {
+    text-transform: uppercase !important;
+}
+
+h3 {
+    text-transform: uppercase !important;
+}
+
+.lp-h3 {
+    text-transform: uppercase !important;
+}
+
+h4 {
+    text-transform: uppercase !important;
+}
+
+.lp-h4 {
+    text-transform: uppercase !important;
+}
+
+h5 {
+    text-transform: uppercase !important;
+}
+
+.lp-h5 {
+    text-transform: uppercase !important;
+}
+
+/*START - Sidemenu & header nav font */
+div#global-sidemenu.sidemenu,
+nav#global-navbar {
+    & a {
+        text-transform: uppercase;
+    }
+
+    & button {
+        text-transform: uppercase;
+    }
+}
+
+/*END*/
+
+/*START - change nav background color*/
+nav#global-navbar header.header {
+    .navigation__item.sub-nav-container .sub-nav {
+        background-color: #fff;
+
+        ul li .nav-link {
+            color: #000 !important;
+
+            &:hover {
+                color: #fff !important;
+                background-color: #B19A55;
+            }
+        }
+    }
+
+    div.header__container {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.49);
+    }
+
+    &.scroll {
+        .navigation__link:after {
+            background-color: #000;
+        }
+
+        background-color:#000 !important;
+        color: #fff !important;
+
+        button.hamburger {
+
+            &:before,
+            &:after {
+                border-color: #B19A55;
+            }
+        }
+
+        div.header__container {
+            border-bottom: 2px solid #B19A55;
+        }
+    }
+}
+
+/*END - change nav background color*/
+
+/*START - header nav link underline*/
+nav#global-navbar {
+    a.navigation__link {
+        position: relative !important;
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(255, 255, 255, 0.25) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #B19A55 !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+
+        &:hover {
+            color: #B19A55;
+        }
+    }
+
+    header.scroll {
+        a.navigation__link {
+            &:before {
+                background-color: rgba(255, 255, 255, 0.25) !important;
+            }
+
+            &:hover:after {
+                background-color: #B19A55 !important;
+            }
+        }
+    }
+}
+
+/*END - header nav link underline */
+
+/*START - adjust width of submenu */
+nav .navigation__item.sub-nav-container .sub-nav {
+    width: 185px !important;
+}
+
+/*END*/
+
+/*START - contact overlay socmed margin*/
+#modal-global-contact-us .contact-popup__socials.socials>li {
+    margin: 0 5px 0 5px !important;
+}
+
+@media (max-width: 768px) {
+    #modal-global-contact-us .contact-popup__socials.socials {
+        justify-content: center !important;
+    }
+}
+
+/*END*/
+
+/*START - contact overlay title in mobile view*/
+@media (max-width: 767px) {
+    div#modal-global-contact-us .contact-popup__title {
+        font-size: 28px;
+    }
+}
+
+/*END*/
+
+.contact-popup__container {
+    background: #1a1a1a !important;
+    color: #fff;
+
+    h1 {
+        @media only screen and (min-width: 769px) {
+            font-size: 48px !important;
+        }
+    }
+
+    input,
+    textarea {
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0.25);
+
+        &:focus {
+            border-color: #fff !important;
+        }
+
+        &::placeholder {
+            color: #fff !important;
+        }
+    }
+
+    .contact-popup__col {
+        height: fit-content;
+
+        .socials {
+            padding-top: 100px;
+        }
+    }
+}
+
+/*Start - Update Close button color*/
+div#modal-global-contact-us {
+    .close {
+
+        &:before,
+        &:after {
+            background: #fff;
+        }
+    }
+}
+
+/*End*/
+
+/*START - link underline*/
+div#modal-global-contact-us {
+    div.contact-popup__info a {
+        position: relative !important;
+        color: #fff !important;
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(255, 255, 255, 0.25) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #B19A55 !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+
+        &:hover {
+            color: #B19A55 !important;
+        }
+    }
+}
+
+/*END - link underline*/
+
+/*realtor and housing logo to black*/
+#global-footer {
+    div.footer__disclaimer {
+        opacity: 1;
+
+        p {
+            color: #A8A8A8;
+        }
+    }
+}
+
+/*End*/
+
+/*START - footer logo*/
+footer#global-footer {
+    img.footer__logo {
+        @media only screen and (min-width:992px) {
+            max-width: 450px;
+        }
+
+        @media only screen and (max-width:767px) {
+            max-width: 245px;
+        }
+    }
+}
+
+/*END - footer logo*/
+
+/*START - footer link underline*/
+footer#global-footer {
+    a:not(.socials__item) {
+        text-decoration: none;
+        position: relative !important;
+        line-height: 1.7;
+        border-bottom: 0px;
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(255, 255, 255, 0.25) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #B19A55 !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+
+        &:hover {
+            color: #B19A55 !important;
+        }
+    }
+}
+
+/*END - footer link underline*/
+
+/*Start - Add letter spacing to the opening elements*/
+.opening-with-search,
+.simple-opening__content {
+    @media only screen and (min-width: 769px) {
+        letter-spacing: 6px !important;
+    }
+}
+
+/*End*/
+
+/*START - mobile contact button theme */
+body>div.mobile-contact-wrapper .mobile-contact a i {
+    color: #B19A55 !important;
+}
+
+body>div.mobile-contact-wrapper .mobile-contact a {
+    background-color: #B19A55 !important;
+    border: 1px solid #B19A55 !important;
+}
+
+body>div.mobile-contact-wrapper .mobile-contact .item svg {
+    fill: #fff !important;
+}
+
+/* END */

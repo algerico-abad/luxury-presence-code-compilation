@@ -1,0 +1,13 @@
+/*START - increase container width - */
+div.lp-title-group {
+    max-width: 1500px;
+}
+
+/*END*/
+
+/*START - fix button padding - */
+.lp-btn{
+    min-width: 250px;
+}
+
+/*END - fix button padding*/

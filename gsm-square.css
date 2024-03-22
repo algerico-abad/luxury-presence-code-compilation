@@ -1,0 +1,52 @@
+/*START - gsm - padding*/
+.gallery-component {
+    padding-top: 96px !important;
+    padding-bottom: 46px !important;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 44px !important;
+    }
+}
+
+/*END*/
+
+/*START - gsm - square*/
+div.gallery-component__col {
+    .gallery-card {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 350px;
+
+        &:before {
+            background-color: rgba(0, 0, 0, 0.3);
+            transition-duration: 0.5s;
+        }
+
+        &:hover:before {
+            background-color: rgba(0, 0, 0, 0.5);
+            transition-duration: 0.5s;
+        }
+    }
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    @media only screen and (max-width: 768px) {
+        .gallery-card {
+            height: 350px;
+        }
+
+        flex-basis: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+div.gallery-component__header {
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+/*END -  reduce height of gsm to square*/

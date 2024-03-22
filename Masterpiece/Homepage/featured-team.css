@@ -1,0 +1,21 @@
+/*Start - Update pagination theme*/
+.arrows .lp-arrow {
+    background: #fff;
+    border-color: #fff;
+    
+    &:before,
+    &:after {
+        border-color: #121270;
+    }
+    
+    &:hover {
+        background: transparent !important;
+        
+        &:before,
+        &:after {
+            border-color: #fff !important;
+        }
+    }
+}
+
+/*End*/

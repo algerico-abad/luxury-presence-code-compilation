@@ -1,0 +1,29 @@
+/*Start - Update font size of header navigation*/
+nav#global-navbar {
+    .lp-container {
+        max-width: 1600px;
+    }
+    
+    .navigation {
+        .navigation__link {
+            white-space: pre;
+            max-width: fit-content;
+            font-size: 19px;
+        }
+    }
+}
+
+/*End*/
+
+/*Start - Fix dropdown containers of header navigation*/
+nav#global-navbar {
+    .header__right ul.navigation {
+        .navigation__item.sub-nav-container {
+            a.sub-nav__link {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+/*End*/

@@ -1,0 +1,8 @@
+/*Start - Theme homepage search theme*/
+.search-lease-tabs {
+    .search-lease-tab:not(.active) {
+        background-color: #153E35 !important;
+    }
+}
+
+/*End*/
