@@ -17,20 +17,20 @@ div.video-gallery {
     .lp-play:focus,
     .lp-play {
         background-color: #fff;
-        color: #042D49;
+        color: #DFAF70;
         border-color: #fff;
     }
 
     .lp-play:focus,
     .lp-play:hover {
-        background-color: #042D49;
+        background-color: #DFAF70;
         color: #fff;
-        border-color: #042D49;
+        border-color: #DFAF70;
     }
 }
 
 div.lp-play:after {
-    border-color: transparent transparent transparent #042D49;
+    border-color: transparent transparent transparent #DFAF70;
 }
 
 /*END - fix play button hover state*/
@@ -47,13 +47,13 @@ div.lp-play:after {
 
 /*START - page pagination*/
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
-    border-right: 2px solid #042D49;
-    border-top: 2px solid #042D49;
+    border-right: 2px solid #DFAF70;
+    border-top: 2px solid #DFAF70;
 }
 
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
-    border-right: 2px solid #1D425B;
-    border-top: 2px solid #1D425B;
+    border-right: 2px solid #DFAF70;
+    border-top: 2px solid #DFAF70;
 }
 
 /*END - page pagination*/

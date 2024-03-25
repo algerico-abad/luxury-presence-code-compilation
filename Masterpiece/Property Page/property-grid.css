@@ -1,0 +1,52 @@
+/*START - properties theming */
+a.item {
+    background-color: #f1f1f1;
+    color: #000;
+
+    h5 {
+        padding: 20px 35px 0 35px;
+    }
+
+    p.bf1 {
+        padding: 0 35px;
+    }
+
+    ul.bf2 {
+        padding: 0 35px;
+
+    }
+
+    padding-bottom:35px;
+
+    p.bf1.label {
+        background-color: #A62424;
+        color: #fff;
+        padding: 5px 15px;
+    }
+}
+
+/*END- properties theming*/
+
+/*START - page pagination*/
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
+    border-right: 2px solid #A62424;
+    border-top: 2px solid #A62424;
+}
+
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
+    border-right: 2px solid #A62424;
+    border-top: 2px solid #A62424;
+}
+
+/*END - page pagination*/
+
+/*START - (no pagination) paddings*/
+.lp-vertical-paddings {
+    padding-bottom: 48px;
+
+    @media (max-width: 768px) {
+        padding-bottom: 40px;
+    }
+}
+
+/*END*/

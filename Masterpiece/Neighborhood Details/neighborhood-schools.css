@@ -28,14 +28,14 @@ div.lp-container {
 
 /*START - changing unselected button's border*/
 div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*END - changing unselected button's border*/
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #DFAF70 var(--percent), #ccc var(--percent));
+    background: linear-gradient(90deg, #A62424 var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -49,7 +49,7 @@ div.rate-item .star-row:before {
     transition: 0.4s;
 
     &:hover {
-        color: #DFAF70 !important;
+        color: #A62424 !important;
     }
 
     &:before,
@@ -66,12 +66,12 @@ div.rate-item .star-row:before {
 
     &:before {
         width: 100% !important;
-        background-color: #ccc !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #DFAF70 !important;
+        background-color: #A62424 !important;
     }
 
     &:hover:after {
@@ -88,19 +88,19 @@ div.rate-item .star-row:before {
 /*START - category and border theming */
 /*catergory label*/
 div.category-wrap {
-    background: #F9EFE2;
+    background: #f1f1f1;
     color: #000;
     text-transform: uppercase;
 }
 
 /*borders*/
 div.items-box__filters {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 div.items-box__content {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*END*/

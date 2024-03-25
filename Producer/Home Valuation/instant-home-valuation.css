@@ -1,12 +1,3 @@
-/* add margin bottom and top - new home value-martin*/
-@media only screen and (min-width:768px){
-    div.home-valuation .content {
-        padding: 324px 212px min(15vh, 80px) 112px;
-    }
-    
-}
-/*End*/
-
 /*add padding bottom to see the loading*/
 @media only screen and (max-width: 768px) {
     div.home-valuation .content {
@@ -15,7 +6,7 @@
 }
 
 div.loader .line {
-    background: #002349;
+    background: #a49b8e;
 }
 
 /*End*/

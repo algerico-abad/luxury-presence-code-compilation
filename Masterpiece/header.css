@@ -1,0 +1,184 @@
+/*START - Header Nav Links Fix compress*/
+nav#global-navbar {
+    .lp-container.header__container {
+        max-width: 1400px !important;
+    }
+}
+
+nav#global-navbar .navigation__item.navigation__item {
+    padding-left: 0px;
+}
+
+nav#global-navbar {
+    .navigation {
+        .navigation__link {
+            white-space: pre;
+            max-width: fit-content;
+        }
+    }
+}
+
+/*END*/
+
+/* START - header nav theme*/
+nav#global-navbar {
+
+    /* START - default state - homepage header nav*/
+    .header.theme-light {
+        .header__hamburger {
+            circle {
+                fill: #fff;
+            }
+
+            svg rect {
+                fill: #A62424 !important;
+            }
+        }
+
+        ul.navigation li.navigation__item {
+            color: #fff;
+
+            .sub-nav__link {
+                color: #000;
+                background-color: #fff;
+            }
+
+            .sub-nav__link:hover {
+                color: #FFF;
+                background-color: #A62424;
+            }
+
+            .navigation__link:after {
+                background: #fff;
+            }
+        }
+
+        .search__btn svg {
+            color: #fff;
+        }
+
+        a.header__btn-contact {
+            background: transparent;
+            color: #fff !important;
+            border-color: #fff !important;
+
+            &:hover {
+                background: #fff !important;
+                color: #000 !important;
+                border-color: #fff !important;
+            }
+        }
+    }
+
+    /* END- default state - homepage header nav*/
+
+    /* START- default state - other pages header nav(property details+home val)*/
+    .header {
+        .header__hamburger {
+            circle {
+                fill: #fff;
+            }
+
+            svg rect {
+                fill: #A62424 !important;
+            }
+        }
+
+        ul.navigation li.navigation__item {
+            color: #000;
+
+            .sub-nav__link {
+                color: #000;
+                background-color: #fff;
+            }
+
+            .sub-nav__link:hover {
+                color: #FFF;
+                background-color: #A62424;
+            }
+
+            .navigation__link:after {
+                background: #fff;
+            }
+        }
+
+        .search__btn svg {
+            color: #000;
+        }
+    }
+
+    /* END - default state - other pages header nav(property details+home val)*/
+
+    /* START - scrolled state header nav in all pages(including homepage)*/
+    &.scroll .header {
+        background-color: #A62424;
+
+        .header__hamburger {
+            circle {
+                fill: #fff;
+            }
+
+            svg rect {
+                fill: #A62424 !important;
+            }
+        }
+
+        ul.navigation li.navigation__item {
+            color: #fff;
+
+            .sub-nav__link {
+                color: #000;
+                background-color: #fff;
+            }
+
+            .sub-nav__link:hover {
+                color: #FFF;
+                background-color: #A62424;
+            }
+
+            .navigation__link:after {
+                background: #fff;
+            }
+        }
+
+        .search__btn svg {
+            color: #FFF;
+        }
+
+        a.header__btn-contact {
+            background: transparent;
+            color: #fff !important;
+            border-color: #fff !important;
+
+            &:hover {
+                background: #fff !important;
+                color: #000 !important;
+                border-color: #fff !important;
+            }
+        }
+    }
+
+    /* ENd - scrolled state header nav in all pages(including homepage)*/
+}
+
+/* END - header nav theme*/
+
+/*START - header nav dropdown*/
+nav#global-navbar .header.theme-light ul.navigation li.navigation__item .sub-nav__link {
+    color: #000;
+    background-color: #fff;
+
+    &:hover {
+        color: #fff;
+        background-color: #A62424;
+    }
+}
+
+/*END*/
+
+/*START - make submenu in one line*/
+nav .sub-nav__link {
+    max-width: 200px !important;
+}
+
+/*END*/

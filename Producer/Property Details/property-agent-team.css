@@ -1,0 +1,65 @@
+/*START -  fix paddings (team) */
+div.property-agent-cta {
+    padding: 32px 0 32px;
+    @media (max-width: 768px){
+        padding: 20px 0 0;
+    }
+}
+div.property-agent-cta-item {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    @media (max-width: 768px){
+        padding-bottom: 45px;
+    }
+}
+div.btn-container {
+    margin-top: 0;
+}
+div.redesign .btn {
+    margin-bottom: 64px;
+}
+/*END*/
+
+/*START - contact link underline */
+a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+.property-agent-cta-container {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}

@@ -1,0 +1,19 @@
+/*START - IG Element Padding Fix*/
+.ig-feed {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 59px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/*START - play icon*/
+.video-icon::before {
+    border-color: transparent transparent transparent #a49b8e !important;
+}
+
+/*END*/

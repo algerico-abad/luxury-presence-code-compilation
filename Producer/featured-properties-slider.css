@@ -27,7 +27,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         color: #000;
 
         &:hover:not(.slick-disabled) {
-            color: #2a505d;
+            color: #b88059;
         }
 
         &:before {
@@ -35,7 +35,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         }
 
         &:after {
-            background-color: #2a505d;
+            background-color: #b88059;
         }
     }
 }
@@ -52,13 +52,13 @@ div.redesign.featured-properties-section ul.featured-properties {
     }
 
     .featured-properties__item {
-        background-color: #2a505d !important;
+        background-color: #b88059 !important;
     }
 
     .featured-properties__text {
         padding-top: 35px;
         padding-bottom: 35px;
-        background-color: #2a505d !important;
+        background-color: #b88059 !important;
 
         p,
         h4,

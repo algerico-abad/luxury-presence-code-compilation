@@ -1,0 +1,36 @@
+/*START - text grid - remove white space*/
+div.lp-container {
+    ul.scenes li.scene {
+        min-height: auto !important;
+    }
+}
+
+/*END- remove white space*/
+
+/*START - text grid - used for testimonials padding*/
+.text-grid .button-wrapper {
+    padding-top: 20px !important;
+}
+
+@media (max-width: 768px) {
+    .text-grid .scene__item {
+        padding: 20px 10px !important;
+    }
+}
+
+/*END*/
+
+/*START - button padding */
+.lp-btn {
+    min-width: 250px;
+
+    @media (max-width: 768px) {
+        min-width: 325px;
+    }
+}
+
+/*END*/
+
+.lp-h2 {
+    margin-bottom: 0px !important;
+}

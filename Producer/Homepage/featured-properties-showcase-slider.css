@@ -1,0 +1,55 @@
+/*START - Padding*/
+div.f-properties {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - slick arrow*/
+.lp-arrow {
+    border: solid 2px #a49b8e;
+    background-color: #a49b8e;
+
+    &:before {
+        border-color: #000;
+    }
+
+    &:hover {
+        border: solid 2px #a49b8e;
+        background-color: transparent;
+
+        &::before {
+            border-color: #a49b8e;
+        }
+    }
+}
+
+.f-properties__arrows-container .lp-arrow--next {
+    margin-left: 10px !important;
+}
+
+/*END*/
+
+/*START - reduce font size in mobile view*/
+@media (max-width: 768px) {
+    .f-properties__title {
+        font-size: 32px !important;
+    }
+}
+
+/*END*/
+
+/*START - button padding */
+@media (max-width: 768px) {
+    .btn-all {
+        min-width: 325px;
+    }
+}
+
+/*END*/

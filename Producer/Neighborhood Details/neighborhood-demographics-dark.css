@@ -28,15 +28,15 @@ div.section {
 
 /*START - change button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #b88059 !important;
+    color: #a49b8e !important;
     background-color: transparent !important;
-    border-color: #b88059 !important;
+    border-color: rgba(237, 199, 98, 0.25) !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #b88059 !important;
-        border-color: #b88059 !important;
+        background-color: #a49b8e !important;
+        border-color: #a49b8e !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #b88059 !important;
+        background-color: #a49b8e !important;
     }
 
     span.hint {
-        background-color: #b88059;
+        background-color: #a49b8e;
         color: #fff;
 
         &:after {
-            background-color: #b88059;
+            background-color: #a49b8e;
         }
     }
 }
@@ -62,26 +62,30 @@ p.overview-item__name--hint {
 
 /*START - border theming*/
 .tab-section:not(:last-child) {
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
 
 .tab .overview-item {
-    border-right: 1px solid #ddd !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.25) !important;
 
     @media(max-width: 768px) {
-        border-right: 0 solid #ddd !important;
+        border-right: 0 solid rgba(0, 0, 0, 0.25) !important;
     }
 }
 
 .description {
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
 
 /*END*/
 
 /*START - population bar theming*/
 div.population-age__bar {
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.population-age__hint p {
+    color: #000 !important;
 }
 
 /*END*/

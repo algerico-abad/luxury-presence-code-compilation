@@ -1,0 +1,36 @@
+/*START - fix padding*/
+div.agent-properties {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 53px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - agent properties change card theme color*/
+.redesign {
+    span.label {
+        background: #EDC762;
+        color: #fff;
+    }
+
+    a.agent-properties-item {
+        background-color: #000;
+
+        .agent-properties-item-text {
+            background-color: #000;
+
+            p,
+            h4,
+            h5 {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/*END - Change Card Theme Color*/

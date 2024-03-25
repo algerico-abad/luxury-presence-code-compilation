@@ -1,6 +1,6 @@
 /*START - decrease bottom padding */
 div.section {
-    padding-bottom: 41px;
+    padding-bottom: 43px;
 
     @media (max-width: 1024px) {
         padding-bottom: 35px;
@@ -24,19 +24,19 @@ div.section {
     }
 }
 
-/*START - 1 line for element title*/
+/*END- 1 line for element title*/
 
 /*START - change button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #000 !important;
+    color: #a49b8e !important;
     background-color: transparent !important;
-    border-color: #000 !important;
+    border-color: rgba(237, 199, 98, 0.25) !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #000 !important;
-        border-color: #000 !important;
+        background-color: #a49b8e !important;
+        border-color: #a49b8e !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #A62424 !important;
+        background-color: #a49b8e !important;
     }
 
     span.hint {
-        background-color: #A62424;
+        background-color: #a49b8e;
         color: #fff;
 
         &:after {
-            background-color: #A62424;
+            background-color: #a49b8e;
         }
     }
 }
@@ -81,7 +81,11 @@ p.overview-item__name--hint {
 
 /*START - population bar theming*/
 div.population-age__bar {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.population-age__hint p {
+    color: #000 !important;
 }
 
 /*END*/

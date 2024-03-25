@@ -28,14 +28,14 @@ div.lp-container {
 
 /*START - changing unselected button's border*/
 div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #002349;
+    border: 1px solid #a49b8e;
 }
 
 /*END - changing unselected button's border*/
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #002349 var(--percent), rgba(255, 255, 255, 0.5) var(--percent));
+    background: linear-gradient(90deg, #a49b8e var(--percent), rgba(0, 0, 0, 0.5) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -44,15 +44,15 @@ div.rate-item .star-row:before {
 
 /*START - change button theme*/
 div.type-list div.type-list__item {
-    color: #002349 !important;
+    color: #000 !important;
     background-color: transparent !important;
-    border-color: #002349 !important;
+    border-color: rgba(0, 0, 0, 0.25) !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #002349 !important;
-        border-color: #002349 !important;
+        background-color: #a49b8e !important;
+        border-color: #a49b8e !important;
     }
 }
 
@@ -63,9 +63,10 @@ div.type-list div.type-list__item {
     position: relative !important;
     color: #000 !important;
     transition: 0.4s;
+    text-decoration: none !important;
 
     &:hover {
-        color: #002349 !important;
+        color: #a49b8e !important;
     }
 
     &:before,
@@ -82,12 +83,12 @@ div.type-list div.type-list__item {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.5) !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #002349 !important;
+        background-color: #a49b8e !important;
     }
 
     &:hover:after {
@@ -104,8 +105,8 @@ div.type-list div.type-list__item {
 /*START - category and border theming */
 /*catergory label*/
 div.category-wrap {
-    background: #002349;
-    color: #fff;
+    background: #f1f1f1;
+    color: #000;
     text-transform: uppercase;
 }
 

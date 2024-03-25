@@ -1,0 +1,11 @@
+/*Start - Padding and Border Color*/
+.property-description {
+    padding: 20px 20px 71px !important;
+}
+
+div.property-description__amenities {
+    border: 0 solid #a49b8e !important;
+    border-left-width: 1px !important;
+}
+
+/*END*/

@@ -1,0 +1,6 @@
+/*START - custom intro - make title in one line */
+div.custom-intro .container {
+    max-width: 1500px;
+}
+
+/*END*/

@@ -4,11 +4,11 @@ footer#global-footer {
     a.hvr_animation,
     .lp-link {
         position: relative !important;
-        color: #fff !important;
+        color: #000 !important;
         transition: 0.4s;
 
         &:hover {
-            color: #2a29a6 !important;
+            color: #EDC762 !important;
         }
 
         &:before,
@@ -25,12 +25,12 @@ footer#global-footer {
 
         &:before {
             width: 100% !important;
-            background-color: #666 !important;
+            background-color: rgba(0, 0, 0, 0.25) !important;
         }
 
         &:after {
             width: 0% !important;
-            background-color: #2a29a6 !important;
+            background-color: #EDC762 !important;
         }
 
         &:hover:after {
@@ -72,10 +72,6 @@ footer#global-footer .footer .info-privacy {
     .copy_zone a,
     .powered_zone a {
         font-weight: 400;
-    }
-    
-    img {
-        filter: invert(1);
     }
 }
 

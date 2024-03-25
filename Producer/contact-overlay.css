@@ -43,12 +43,17 @@ div#modal-global-contact-us .contact-form {
 #modal-global-contact-us .contact-form .section-message label {
     text-transform: uppercase;
     color: #fff !important;
-
 }
 
 #modal-global-contact-us .lp-input-group {
     .lp-input {
-        border-color: #fff !important;
+        border-color: rgba(255, 255, 255, 0.25) !important;
+    }
+}
+
+#modal-global-contact-us .lp-input-group {
+    .lp-input:focus {
+        border-color: rgba(255, 255, 255, 1) !important;
     }
 }
 
@@ -64,7 +69,7 @@ div#modal-global-contact-us a:not(.lp-socials__link):after {
         }
 
         &:before {
-            background-color: rgba(255, 255, 255, 0.5) !important;
+            background-color: rgba(255, 255, 255, 0.25) !important;
             width: 100%;
         }
 
@@ -123,7 +128,7 @@ div#modal-global-contact-us {
     }
 
     &:before {
-        background-color: #ccc;
+        background-color: rgba(255, 255, 255, 0.25);
         width: 100%;
     }
 

@@ -1,0 +1,61 @@
+/*START - Alternate Grid Padding Fix*/
+.blog-list-3 {
+    padding-top: 96px !important;
+    padding-bottom: 66px !important;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 39px !important;
+    }
+}
+
+/*END*/
+
+/*start - blog card theming*/
+.blog-list__container .blog-list__item {
+    background-color: #e3dfdb !important;
+    color: #000;
+}
+
+div.blog-list__item-content h4:after {
+    background-color: #a49b8e;
+}
+
+/*end*/
+
+/*START - blog grid link underline*/
+span:not(.date):not(.label):not(.featured-properties__label) {
+    position: relative !important;
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #a49b8e !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    &:hover {
+        color: #a49b8e;
+    }
+}
+
+/*END - Blog Grid link underline*/

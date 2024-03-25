@@ -17,7 +17,7 @@ nav#global-navbar {
     }
 
     &.scroll {
-        background-color: #2a505d !important;
+        background-color: #EDC762 !important;
 
         li.navigation__item a.navigation__link {
             color: #fff;
@@ -35,7 +35,7 @@ nav#global-navbar {
 
 /*submenu background*/
 nav#global-navbar .header .navigation .sub-nav ul a {
-    background-color: #2a505d;
+    background-color: #EDC762;
     color: #FFF;
 }
 

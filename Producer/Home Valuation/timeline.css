@@ -1,15 +1,11 @@
-.lp-title-group {
-    max-width: 1500px;
-}
-
-/*START - link underline */
+/*START - Theme link underline*/
 a {
     position: relative !important;
     color: #000 !important;
     transition: 0.4s;
 
     &:hover {
-        color: #A62424 !important;
+        color: #a49b8e !important;
     }
 
     &:before,
@@ -31,7 +27,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #A62424 !important;
+        background-color: #a49b8e !important;
     }
 
     &:hover:after {
@@ -39,4 +35,4 @@ a {
     }
 }
 
-/*END - link underline*/
+/*END*/

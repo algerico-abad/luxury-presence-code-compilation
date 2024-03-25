@@ -19,15 +19,15 @@ div.testimonials .data-container {
         color: #000;
 
         &:hover {
-            color: #2a505d !important;
+            color: #a49b8e !important;
         }
 
         &:before {
-            background: #ccc !important;
+            background: rgba(0, 0, 0, 0.25) !important;
         }
 
         &:hover:before {
-            background: #2a505d !important;
+            background: #a49b8e !important;
         }
     }
 

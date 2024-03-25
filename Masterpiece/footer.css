@@ -22,7 +22,7 @@ footer#global-footer {
         color: #000 !important;
 
         &:hover {
-            color: #121270 !important;
+            color: #A62424 !important;
             opacity: 1 !important;
         }
 
@@ -45,7 +45,7 @@ footer#global-footer {
 
         &:after {
             width: 0% !important;
-            background-color: #121270 !important;
+            background-color: #A62424 !important;
         }
 
         &:hover:after {

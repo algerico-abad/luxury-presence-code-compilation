@@ -1,37 +1,86 @@
-/*Start - Adjust dimensions of Lead Capture Element*/
-div.form-group {
-    .lp-title-group {
-        max-width: 100%;
-        margin-right: 0px;
-    }
-    
-    .form-inputs-wrap {
-        max-width: 100%;
+/*MLS Properties*/
+
+/*START - dropdown theme */
+div.lp-container {
+    div.custom-select-content {
+        background: #fff !important;
+
+        button.custom-select-item {
+            color: #000 !important;
+
+            &:hover {
+                color: #fff !important;
+                background: #394356 !important;
+            }
+        }
     }
 }
 
-/*End*/
+/*END - dropdown theme*/
+/*START - change filter button*/
+div#filtersModal button#filtersSubmit {
+    border: 2px solid #394356;
+    background: transparent !important;
+    color: #394356;
 
-/*Start - Add hover color to disclaimer link*/
-.lp-disclaimer {
-    a:hover {
+    &:hover {
+        border: 2px solid #394356;
+        background: #394356 !important;
         color: #fff;
     }
 }
 
-/*End*/
+/*END - change filter button*/
+/*START - range input theme color*/
+div.lp-container div.slider-content {
 
-/*Start - Fix Modal Padding*/
-.popup-modal {
-    min-height: auto !important;
-    
-    padding-top: 96px !important;
-    padding-bottom: 96px !important;
-    
-    @media only screen and (max-width: 768px) {
-        padding-top: 64px !important;
-        padding-bottom: 64px !important;
+    .irs--round .irs-handle.state_hover,
+    .irs--round .irs-handle {
+        background-color: #fff;
+        border: 1px solid #394356;
+        transition: .3s;
+
+        i {
+            background: #394356;
+        }
+
+        &:hover {
+            transition: .3s;
+            background-color: #394356;
+            border: 1px solid #394356;
+
+            i {
+                background: #fff;
+            }
+
+        }
     }
 }
 
-/*End*/
+/*END - range input theme color*/
+/*START - MLS Properties Change Card theme*/
+div.properties-grid.lp-vertical-paddings div.lp-container {
+    div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
+        background-color: #fff !important;
+        color: #000;
+        text-transform: uppercase;
+
+        .listing-card__logo {
+            margin-bottom: 10px;
+        }
+    }
+
+    div.listing-card__status>div {
+        text-transform: uppercase;
+        border-radius: 0px;
+        background-color: #DCBA82 !important;
+    }
+}
+
+@media(min-width:678px) {
+    .lp-vertical-paddings {
+        padding-bottom: 76px;
+    }
+}
+
+/*ENd- MLS Properties Change Card theme*/

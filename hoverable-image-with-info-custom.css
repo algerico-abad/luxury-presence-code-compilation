@@ -1,0 +1,8 @@
+/*Start - Set the width and height to the specific dimension of the image*/
+/*Go to https://andrew.hedges.name/experiments/aspect_ratio/ to determine the aspect ratio of the image*/
+/*Adjust if needed*/
+.hoverable-image__img-col {
+    aspect-ratio: 605/684;
+}
+
+/*End*/

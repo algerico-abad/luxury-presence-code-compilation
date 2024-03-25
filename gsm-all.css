@@ -1,0 +1,16 @@
+/*Start - Remove bottom margin*/
+div.gallery-component.redesign {
+    @media only screen and (min-width: 769px) {
+        .gallery-component__col {
+            margin-bottom: 0px !important;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .gallery-component__col:last-child {
+            margin-bottom: 0px !important;
+        }
+    }
+}
+
+/*End*/

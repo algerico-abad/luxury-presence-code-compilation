@@ -1,0 +1,35 @@
+.lp-input {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/*START - newsletter padding*/
+div.lp-title-group {
+    max-width: 1400px;
+}
+
+.lp-title-group .lp-h1,
+.lp-title-group .lp-h2,
+.lp-title-group .lp-h3 {
+    margin: 0 0 24px;
+}
+
+@media (max-width: 768px) {
+    div.newsletter-signup {
+        min-height: 60vh;
+    }
+
+    .lp-title-group {
+        padding: 0 0 !important;
+    }
+}
+
+.newsletter-signup__form-item.lp-btn {
+    font-weight: 600 !important;
+}
+
+/*input placeholder color*/
+input.lp-input--light::placeholder {
+    opacity: 0.75;
+}
+
+/* END */

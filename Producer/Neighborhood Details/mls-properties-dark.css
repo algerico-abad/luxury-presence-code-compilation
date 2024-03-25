@@ -20,14 +20,14 @@ div.lp-container {
             color: #000 !important;
 
             &:hover {
-                color: #fff !important;
-                background: #2a29a6 !important;
+                color: #000 !important;
+                background: #a49b8e !important;
             }
         }
     }
 
     .lp-input {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -50,8 +50,8 @@ div.lp-container div.slider-content {
         }
 
         &:hover {
-            background-color: #2a29a6;
-            border: 1px solid #2a29a6;
+            background-color: #a49b8e;
+            border: 1px solid #a49b8e;
 
             i {
                 background: #fff;
@@ -63,31 +63,31 @@ div.lp-container div.slider-content {
 
 /*input*/
 .lp-input {
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
 
 .range-slider .irs-from,
 .range-slider .irs-to,
 .range-slider .irs-single {
-    color: #000 !important;
+    color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .range-slider .irs--round .irs-bar {
-    background-color: #000 !important;
+    background-color: rgba(0, 0, 0, 0.25) !important;
 }
 
 /*END - range input theme color*/
 
 /*START - change filter button*/
 div#filtersModal button#filtersSubmit {
-    border: 2px solid #2a29a6;
-    background: #2a29a6 !important;
+    border: 2px solid #a49b8e;
+    background: #a49b8e !important;
     color: #fff;
 
     &:hover {
-        border: 2px solid #2a29a6;
+        border: 2px solid #a49b8e;
         background: transparent !important;
-        color: #2a29a6;
+        color: #a49b8e;
     }
 }
 
@@ -107,7 +107,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
     div.listing-card__status>div {
         text-transform: uppercase;
         font-weight: 700;
-        background-color: #2a29a6 !important;
+        background-color: #a49b8e !important;
     }
 }
 

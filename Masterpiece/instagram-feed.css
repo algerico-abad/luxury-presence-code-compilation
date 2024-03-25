@@ -1,0 +1,28 @@
+div.section {
+    h3 {
+        color: #fff;
+    }
+}
+
+svg path {
+    fill: #fff !important;
+}
+
+/*START - fix IG padding when active*/
+div.lp-container {
+    padding-bottom: 296px;
+}
+
+@media only screen and (max-width: 768px) {
+    .lp-vertical-paddings {
+        padding-top: 51px !important;
+        padding-bottom: 31px !important;
+    }
+}
+
+h3,
+.lp-h3 {
+    font-size: 25px !important;
+}
+
+/*END*/

@@ -12,14 +12,14 @@
 /*START - change pagination colors*/
 div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow{
     background-color: transparent;
-    border-color: #709159;
+    border-color: #2a29a6;
     &:before {
-        color: #709159;
+        color: #2a29a6;
         opacity: 1;
     }
     &:hover {
-        background-color: #709159;
-        border-color: #709159;
+        background-color: #2a29a6;
+        border-color: #2a29a6;
         &:before {
             color: #fff;
         }

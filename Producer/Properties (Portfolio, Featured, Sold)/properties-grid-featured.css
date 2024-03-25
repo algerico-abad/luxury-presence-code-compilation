@@ -1,12 +1,12 @@
 /*START - change card theme*/
 div.redesign.property-list-section span.property-list__label {
-    background: #002349;
-    color: #fff;
+    background: #a49b8e;
+    color: #000;
 }
 
 .property-list__text {
-    color: #000;
-    background-color: #f1f1f1 !important;
+    color: #fff;
+    background-color: #000 !important;
 }
 
 .property-list__item {

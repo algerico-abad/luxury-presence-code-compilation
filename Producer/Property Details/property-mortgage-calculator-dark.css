@@ -1,7 +1,7 @@
 /*START - fix reset link*/
 .lp-link--light:after,
 .lp-a--light a:after {
-    background-color: #002349;
+    background-color: #a49b8e;
 }
 
 .calc__footer .lp-link {
@@ -24,7 +24,7 @@
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #002349;
+        background-color: #a49b8e;
     }
 }
 
@@ -32,23 +32,23 @@
 
 /*START - mortgage change input text color and dropdown*/
 .lp-input--light {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.25);
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.25);
 
     &:after {
-        border-color: #fff;
+        border-color: #000;
     }
 
     &:hover {
-        color: #fff;
+        color: #000;
 
         &:after {
-            border-color: #fff;
+            border-color: #000;
         }
     }
 
     &:focus {
-        border-color: #fff;
+        border-color: #000;
     }
 }
 
@@ -62,13 +62,13 @@ div.custom-select {
 
             &:hover {
                 color: #fff;
-                background-color: #002349;
+                background-color: #a49b8e;
             }
         }
     }
 
     button.custom-select-toggle.is-placeholder {
-        border-color: rgba(255, 255, 255, 0.25);
+        border-color: rgba(0, 0, 0, 0.25);
 
         &:after {
             border-color: #fff;
@@ -117,7 +117,7 @@ li.legend__item.is-hovered {
     opacity: 1 !important;
 
     &:hover {
-        color: #002349 !important;
+        color: #a49b8e !important;
     }
 
     &:before,
@@ -139,7 +139,7 @@ li.legend__item.is-hovered {
 
     &:after {
         width: 0% !important;
-        background-color: #002349 !important;
+        background-color: #a49b8e !important;
     }
 
     &:hover:after {

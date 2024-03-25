@@ -1,14 +1,14 @@
 /*START - schedule showing change theme color */
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #121270;
-        background-color: #121270;
+        border-color: #A62424;
+        background-color: #A62424;
         color: #fff;
 
         &:hover {
-            border-color: rgba(0, 0, 0, 0.25);
+            border-color: rgba(0, 0, 0, 0.1);
             background-color: transparent;
-            color: #121270;
+            color: #A62424;
         }
     }
 
@@ -22,43 +22,43 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #121270;
+                    background-color: #A62424;
                 }
             }
         }
 
         button.custom-select-toggle.is-placeholder {
-            border-color: rgba(0, 0, 0, 0.25);
+            border-color: rgba(0, 0, 0, 0.1);
             color: #000;
 
             &:after {
-                border-color: rgba(0, 0, 0, 0.25);
+                border-color: rgba(0, 0, 0, 0.1);
             }
         }
     }
 
     button.slick-arrow {
-        border-color: rgba(0, 0, 0, 0.25);
+        border-color: rgba(0, 0, 0, 0.1);
         background-color: transparent;
 
         &:before {
-            border-color: rgba(0, 0, 0, 0.25) !important;
+            border-color: rgba(0, 0, 0, 0.1) !important;
         }
 
         &:hover {
             background-color: #fff;
-            border-color: rgba(0, 0, 0, 0.25);
+            border-color: rgba(0, 0, 0, 0.1);
 
             &:before {
-                border-color: #121270 !important;
+                border-color: #A62424 !important;
             }
         }
     }
 
     .calendar__slide.selected .calendar__item {
-        border-color: rgba(0, 0, 0, 0.25);
+        border-color: rgba(0, 0, 0, 0.1);
         background-color: #fff;
-        color: #121270;
+        color: #A62424;
     }
 
     button.lp-btn {
@@ -69,7 +69,7 @@ div.redesign {
 /*choose a time*/
 .lp-input--dark {
     color: #000;
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 /*END- schedule showing change theme color*/
@@ -100,7 +100,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #C29B40 !important;
+        color: #A62424 !important;
     }
 
     &:before,
@@ -117,12 +117,12 @@ a.hyperlink-style-1 {
 
     &:before {
         width: 100% !important;
-        background-color: #999 !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #C29B40 !important;
+        background-color: #A62424 !important;
     }
 
     &:hover:after {

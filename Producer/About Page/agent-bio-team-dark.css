@@ -1,15 +1,26 @@
-.lp-title-group {
-    max-width: 1500px;
+/*Start - Fix padding*/
+.agent-info {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
 }
 
-/*START - link underline */
-a {
+/*End*/
+
+/*START - contact link underline */
+.details-list a {
+    font-weight: 400;
     position: relative !important;
     color: #000 !important;
     transition: 0.4s;
+    opacity: 1 !important;
 
     &:hover {
-        color: #A62424 !important;
+        color: #EDC762 !important;
     }
 
     &:before,
@@ -31,7 +42,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #A62424 !important;
+        background-color: #EDC762 !important;
     }
 
     &:hover:after {
@@ -39,4 +50,4 @@ a {
     }
 }
 
-/*END - link underline*/
+/*END*/
