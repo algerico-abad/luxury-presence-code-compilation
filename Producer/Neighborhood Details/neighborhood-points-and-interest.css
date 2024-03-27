@@ -1,23 +1,23 @@
 /*START - neighb points theming*/
 .tag {
     color: #fff !important;
-    background: #a49b8e !important;
+    background: #FF8201 !important;
     text-transform: uppercase !important;
 }
 
 div.scores:not(:empty) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .divider {
-    border-left: 1px solid rgba(0, 0, 0, 0.25) !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
 td,
 th {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*END*/
@@ -38,19 +38,19 @@ div.score__help {
     cursor: pointer;
 
     svg path {
-        fill: #a49b8e !important;
+        fill: #FF8201 !important;
     }
 
     div.tippy-box {
-        background-color: #a49b8e;
+        background-color: #FF8201;
         color: #fff;
 
         div.tippy-content {
-            background-color: #a49b8e !important;
+            background-color: #FF8201 !important;
         }
 
         .tippy-arrow {
-            color: #a49b8e !important;
+            color: #FF8201 !important;
         }
     }
 }
@@ -104,7 +104,7 @@ div.score__help {
 
 /*START - strs color*/
 .stars .star.is-filled {
-    background-color: #a49b8e !important;
+    background-color: #FF8201 !important;
 }
 
 /*END - stars color*/
@@ -126,7 +126,7 @@ div.score__help {
     text-decoration: none;
 
     &:hover {
-        color: #a49b8e !important;
+        color: #FF8201 !important;
     }
 
     &:before,
@@ -143,12 +143,12 @@ div.score__help {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #a49b8e !important;
+        background-color: #FF8201 !important;
     }
 
     &:hover:after {
@@ -177,6 +177,9 @@ div.lp-container {
     text-transform: uppercase !important;
 }
 
+/*Start - Update Circular Chart background*/
 .score__chart:after {
-    background-image: conic-gradient( var(--color) var(--percentage), rgba(0, 0, 0, 0.25) var(--percentage)) !important;
+    background-image: conic-gradient( var(--color) var(--percentage), rgba(0, 0, 0, 0.1) var(--percentage)) !important;
 }
+
+/*End*/

@@ -1,0 +1,9 @@
+/*Start - Fix accordion dimensions*/
+.accordion.tabs {
+    .accordion-header,
+    .accordion-content.tab-body.is-active{
+        padding: 26px 40px !important;
+    }
+}
+
+/*End*/

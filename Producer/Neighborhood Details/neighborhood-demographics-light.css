@@ -28,15 +28,15 @@ div.section {
 
 /*START - change button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #a49b8e !important;
+    color: #fff !important;
     background-color: transparent !important;
-    border-color: rgba(237, 199, 98, 0.25) !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
 
     &.active,
     &:hover {
-        color: #fff !important;
-        background-color: #a49b8e !important;
-        border-color: #a49b8e !important;
+        color: #000 !important;
+        background-color: #FAD5BD !important;
+        border-color: #FAD5BD !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #a49b8e !important;
+        background-color: #FAD5BD !important;
     }
 
     span.hint {
-        background-color: #a49b8e;
+        background-color: #FAD5BD;
         color: #fff;
 
         &:after {
-            background-color: #a49b8e;
+            background-color: #FAD5BD;
         }
     }
 }
@@ -62,19 +62,19 @@ p.overview-item__name--hint {
 
 /*START - border theming*/
 .tab-section:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .tab .overview-item {
-    border-right: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
 
     @media(max-width: 768px) {
-        border-right: 0 solid rgba(255, 255, 255, 0.25) !important;
+        border-right: 0 solid rgba(255, 255, 255, 0.1) !important;
     }
 }
 
 .description {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 /*END*/

@@ -22,3 +22,36 @@
 } 
 
 /*End*/
+
+/*Start - Update the phone information into whatsapp*/
+#global-footer > div > div > div.info-wrap > div > div.info-wrap-contact_zone.type_user > div:nth-child(3) {
+    
+    i {
+        & > svg {
+            display: none;
+        }
+        
+        &:after {
+            content: '';
+            display: block;
+            font-size: 12px;
+            background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/rocfssvvqqmzivso3ucj/whatsapp-dark-1');
+            height: 30px;
+            aspect-ratio: 1/1;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    
+    p {
+        font-size: 0px !important;
+        
+        &:before {
+            content: 'Whatsapp';
+            font-size: 14px;
+        }
+    }
+}
+
+/*End*/

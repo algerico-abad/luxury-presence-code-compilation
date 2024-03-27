@@ -27,15 +27,15 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         color: #000;
 
         &:hover:not(.slick-disabled) {
-            color: #b88059;
+            color: #FF8201;
         }
 
         &:before {
-            background-color: #ccc !important;
+            background-color: rgba(0, 0, 0, 0.25) !important;
         }
 
         &:after {
-            background-color: #b88059;
+            background-color: #FF8201;
         }
     }
 }
@@ -46,19 +46,19 @@ div.redesign.featured-properties-section ul.slick-links-nav {
 div.redesign.featured-properties-section ul.featured-properties {
     div.slick-track li.featured-properties__item-cover {
         span.featured-properties__label {
-            background: #e9f9f9 !important;
-            color: #000;
+            background: #FF8201 !important;
+            color: #18243C;
         }
     }
 
     .featured-properties__item {
-        background-color: #b88059 !important;
+        background-color: #18243C !important;
     }
 
     .featured-properties__text {
         padding-top: 35px;
         padding-bottom: 35px;
-        background-color: #b88059 !important;
+        background-color: #18243C !important;
 
         p,
         h4,
@@ -66,7 +66,6 @@ div.redesign.featured-properties-section ul.featured-properties {
             color: #fff !important;
         }
     }
-
 }
 
 @media only screen and (max-width:1024px) {
@@ -76,3 +75,7 @@ div.redesign.featured-properties-section ul.featured-properties {
 }
 
 /*END - Card property theme*/
+
+.featured-properties-header {
+    margin-bottom: 20px !important;
+}

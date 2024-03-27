@@ -7,3 +7,9 @@ div.cta-block .text-block {
     }
 }
 /*End*/
+
+.lp-btn {
+    @media only screen and (max-width: 768px) {
+        padding: 20px !important;
+    }
+}

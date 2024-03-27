@@ -28,14 +28,14 @@ div.lp-container {
 
 /*START - changing unselected button's border*/
 div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #a49b8e;
+    border: 1px solid #FAD5BD;
 }
 
 /*END - changing unselected button's border*/
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #a49b8e var(--percent), rgba(0, 0, 0, 0.5) var(--percent));
+    background: linear-gradient(90deg, #FAD5BD var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -46,13 +46,13 @@ div.rate-item .star-row:before {
 div.type-list div.type-list__item {
     color: #000 !important;
     background-color: transparent !important;
-    border-color: rgba(0, 0, 0, 0.25) !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
 
     &.active,
     &:hover {
-        color: #fff !important;
-        background-color: #a49b8e !important;
-        border-color: #a49b8e !important;
+        color: #000 !important;
+        background-color: #FAD5BD !important;
+        border-color: #FAD5BD !important;
     }
 }
 
@@ -66,7 +66,7 @@ div.type-list div.type-list__item {
     text-decoration: none !important;
 
     &:hover {
-        color: #a49b8e !important;
+        color: #FAD5BD !important;
     }
 
     &:before,
@@ -83,12 +83,12 @@ div.type-list div.type-list__item {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #a49b8e !important;
+        background-color: #FAD5BD !important;
     }
 
     &:hover:after {
@@ -112,12 +112,31 @@ div.category-wrap {
 
 /*borders*/
 div.items-box__filters {
-    border-top: 1px solid rgba(0, 0, 0, 0.25);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 div.items-box__content {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*END*/
+
+/*School SVG arrows color adjust - Start*/
+div.filter-arrows {
+    svg {
+        path {
+            fill: #000 !important;
+        }
+    }
+}
+
+div.items-box__content {
+    svg {
+        path {
+            fill: #000 !important;
+        }
+    }
+}
+
+/*School SVG arrows color adjust - END*/

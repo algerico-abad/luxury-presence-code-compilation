@@ -1,0 +1,49 @@
+/*START- fix padding */
+div.f-video {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media (max-width: 992px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    .f-video-poster {
+        margin-top: 25px !important;
+    }
+}
+
+@media(max-width: 768px) {
+    h2 {
+        font-size: 32px !important;
+    }
+}
+
+/*END*/
+
+/*START-change button color*/
+div.f-video button.play-btn {
+    &:hover .play-btn-holder {
+        background-color: transparent;
+    }
+
+    div.icon-wrapper {
+        background-color: #fff;
+
+        .play-icon {
+            color: #a49b8e;
+        }
+
+        &:hover {
+            background-color: #a49b8e;
+
+            .play-icon {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/*END -change button color*/

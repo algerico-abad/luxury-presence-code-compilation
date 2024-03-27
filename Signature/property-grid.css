@@ -1,0 +1,58 @@
+/*START - change label color*/
+span.property-card__status{
+    color:#fff;
+    background: #4974F0;
+}
+/*ENd - change label color*/
+
+.pagination-container ul li.paginationjs-prev a::after{
+    background: #4974F0;
+}
+.pagination-container ul li.paginationjs-next a::after{
+    background: #4974F0;
+}
+.pagination-container ul li.paginationjs-prev a::before{
+    border: 1px solid #4974F0;
+}
+.pagination-container ul li.paginationjs-next a::before{
+    border: 1px solid #4974F0;
+}
+.pagination-container ul li.active a{
+    color: #4974F0;
+}
+.pagination-container ul li.active a::after{
+    background: #4974F0;
+}
+.pagination-container ul li a{
+    color: #4974F0; 
+    &:hover{
+       color: #4974F0; 
+    }
+    
+}
+
+div .filters__toggle {
+    color: #000;
+}
+svg path{
+    fill:#000!important;
+    opacity:0.5;
+}
+
+
+/*Mobile view for filter*/
+.filters__wrapper{
+    background-color: transparent!important;
+}
+
+.lp-btn, .lp-btn.lp-btn--filled {
+    background-color:#4974F0;
+    border-color: #4974F0;
+    color: #fff;
+}
+/*end*/
+
+/*fix padding - martin */
+div.featured-properties__inner{
+   padding:0px; 
+}

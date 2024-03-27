@@ -1,14 +1,24 @@
+/*START - press grid fix paddings -*/
+.div.press-grid {
+    padding: 96px 0 55px;
+
+    @media only screen and (max-width: 768px) {
+        padding: 96px 0 40px;
+    }
+}
+
+/*END*/
+
 /*Start - Theme Press Grid*/
 .press-grid__item-content {
-    background: #1C1B21;
-    
+    background: #f1f1f1;
+
     .press-grid__heading {
-        color: #FFF !important;
-        opacity: 0.6;
+        color: #000 !important;
     }
-    
+
     .press-grid__description {
-        color: #FFF !important;
+        color: #000 !important;
     }
 }
 

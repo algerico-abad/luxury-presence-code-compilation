@@ -47,3 +47,14 @@ a {
 }
 
 /*END*/
+
+/*Start - Fix image and button margin*/
+.property-agent-cta-avatar {
+    align-self: flex-start !important;
+}
+
+button {
+    margin-bottom: 0px !important;
+}
+
+/*End*/

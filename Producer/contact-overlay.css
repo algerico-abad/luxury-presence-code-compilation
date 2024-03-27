@@ -139,7 +139,7 @@ div#modal-global-contact-us {
 
     &:hover {
         text-decoration: none !important;
-
+        opacity: 1;
         &:after {
             width: 100%;
         }

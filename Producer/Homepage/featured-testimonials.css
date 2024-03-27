@@ -18,4 +18,16 @@
     background-color: #fff;
 }
 
+.redesign .link:hover {
+    color: #fff !important;
+}
+
 /*END*/
+
+/*Start - Remove scrolling on the element*/
+.redesign.featured-testimonials {
+    overflow: hidden;
+    max-height: fit-content;
+}
+
+/*End*/
