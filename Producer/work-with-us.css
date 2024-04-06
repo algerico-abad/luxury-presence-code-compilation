@@ -1,14 +1,14 @@
-/*Start - Add logo in WWU*/
+/*Start - Add logo image*/
+/*Note: Adjust height if needed*/
 h2:before {
-    content: '';
-    background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/j0ns3vbmlavddfmfdzcg/red-tree-real-estate-logo-light');
     display: block;
-    height: 70px;
+    content: '';
+    height: 100px;
+    background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/lscer2xb13gnd0pzh2ua/mask-group');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 30px;
-    filter: brightness(10);
+    margin-bottom: 20px;
 }
 
 /*End*/

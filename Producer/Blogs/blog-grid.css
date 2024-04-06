@@ -1,11 +1,11 @@
 /*START - Alternate Grid Padding Fix*/
-.blog-list-3 {
+.blog-list {
     padding-top: 96px !important;
-    padding-bottom: 66px !important;
+    padding-bottom: 50px !important;
 
     @media only screen and (max-width: 768px) {
         padding-top: 64px !important;
-        padding-bottom: 39px !important;
+        padding-bottom: 32px !important;
     }
 }
 

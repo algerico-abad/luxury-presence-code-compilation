@@ -28,45 +28,45 @@ div.lp-container {
 
 /*START - changing unselected button's border*/
 div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #FAD5BD;
+    border: 1px solid #fff;
 }
 
 /*END - changing unselected button's border*/
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #FAD5BD var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
+    background: linear-gradient(90deg, #fff var(--percent), rgba(255, 255, 255, 0.25) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 /*ENd - stars color*/
 
-/*START - change button theme*/
+/*START - change pill button theme*/
 div.type-list div.type-list__item {
-    color: #000 !important;
+    color: #fff !important;
     background-color: transparent !important;
-    border-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
 
     &.active,
     &:hover {
-        color: #000 !important;
-        background-color: #FAD5BD !important;
-        border-color: #FAD5BD !important;
+        color: #D91C4B !important;
+        background-color: #fff !important;
+        border-color: #fff !important;
     }
 }
 
-/*END - change button theme*/
+/*END - change pill button theme*/
 
 /*START - link underline */
 .lp-link {
     position: relative !important;
-    color: #000 !important;
+    color: #fff !important;
     transition: 0.4s;
     text-decoration: none !important;
 
     &:hover {
-        color: #FAD5BD !important;
+        color: #fff !important;
     }
 
     &:before,
@@ -83,12 +83,12 @@ div.type-list div.type-list__item {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #FAD5BD !important;
+        background-color: #fff !important;
     }
 
     &:hover:after {
@@ -102,36 +102,16 @@ div.type-list div.type-list__item {
 
 /*END - link underline*/
 
-/*START - category and border theming */
-/*catergory label*/
-div.category-wrap {
-    background: #f1f1f1;
-    color: #000;
-    text-transform: uppercase;
-}
-
-/*borders*/
-div.items-box__filters {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-div.items-box__content {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/*END*/
-
 /*School SVG arrows color adjust - Start*/
 div.filter-arrows {
     svg {
         path {
-            fill: #000 !important;
+            fill: #fff !important;
         }
     }
 }
 
-div.items-box__content {
+div.items-box__content .type-item__icon {
     svg {
         path {
             fill: #000 !important;
@@ -140,3 +120,38 @@ div.items-box__content {
 }
 
 /*School SVG arrows color adjust - END*/
+
+/*START - category and border theming */
+/*catergory label*/
+div.category-wrap {
+    background: #fff !important;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+/*borders*/
+div.items-box__filters {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+div.items-box__content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+/*END*/
+
+/*START - turn table text to white*/
+div.lp-container {
+
+    div.item-cell div:not(.category-wrap),
+    div.heading-cell {
+        color: #fff !important;
+        background: transparent;
+    }
+
+    svg path {
+        fill: #fff !important;
+    }
+}
+
+/*START - turn table text to white*/

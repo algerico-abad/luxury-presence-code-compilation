@@ -1,13 +1,13 @@
 /*Start - Theme homepage search theme*/
 .search-lease-tabs {
     .search-lease-tab:not(.active) {
-        background-color: #EDC762 !important;
+        background-color: #C5A95C !important;
         color: #000;
     }
 }
 
 .search-results {
-    background-color: rgba(237, 199, 98, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
     
     a {
         color: rgba(255, 255, 255, 0.75) !important;

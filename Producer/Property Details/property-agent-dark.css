@@ -1,33 +1,19 @@
-/*Start - Fix dimensions of the form*/
-.popup-modal {
-    min-height: 0px !important;
-
-    .form-group {
-
-        .lp-title-group,
-        .form-inputs-wrap {
-            max-width: 100%;
-        }
+/*START - fix paddings */
+div.property-agent-cta {
+    .property-agent-cta-item {
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
-/*End*/
+/*END*/
 
-/*Start - Theme input*/
-.form-group {
-    .lp-input {
-        border-color: rgba(0, 0, 0, 0.25);
-    }
-}
-
-/*End*/
-
-/*Start - Fix disclaimer link underline*/
-.lp-disclaimer a {
+/*START - contact link underline */
+a {
     position: relative !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: 0.4s;
-    text-decoration: none !important;
+    opacity: 1 !important;
 
     &:hover {
         color: #a3855f !important;
@@ -47,7 +33,7 @@
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
@@ -59,4 +45,16 @@
         width: 100% !important;
     }
 }
+
+/*END*/
+
+/*Start - Fix image and button margin*/
+.property-agent-cta-avatar {
+    align-self: flex-start !important;
+}
+
+button {
+    margin-bottom: 0px !important;
+}
+
 /*End*/

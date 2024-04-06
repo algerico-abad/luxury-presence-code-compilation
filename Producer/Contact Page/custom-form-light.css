@@ -51,11 +51,11 @@ overflow: hidden;
 
 /*Start - Theme disclaimer link*/
 .lp-disclaimer a:hover {
-    color: #a49b8e;
+    color: #FF8201;
 }
 
 /*End*/
 
 .lp-input {
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.1);
 }

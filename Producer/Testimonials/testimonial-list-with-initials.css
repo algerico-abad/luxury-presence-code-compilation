@@ -1,7 +1,7 @@
 /*START - fix padding*/
 .testimonials {
     padding-top: 48px !important;
-    padding-bottom: 44px !important;
+    padding-bottom: 48px !important;
 
     @media only screen and (max-width: 768px) {
         padding-top: 64px !important;
@@ -19,7 +19,7 @@ div.testimonials .data-container {
         color: #000;
 
         &:hover {
-            color: #FF8201 !important;
+            color: #C5A95C !important;
         }
 
         &:before {
@@ -27,7 +27,7 @@ div.testimonials .data-container {
         }
 
         &:hover:before {
-            background: #FF8201 !important;
+            background: #C5A95C !important;
         }
     }
 

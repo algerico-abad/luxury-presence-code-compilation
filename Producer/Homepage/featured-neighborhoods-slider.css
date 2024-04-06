@@ -1,0 +1,57 @@
+/*START - reduce bottom padding */
+.featured-neighborhoods-section {
+    padding-bottom: 88px !important;
+    padding-top: 96px !important;
+
+    @media (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/*START - fix slick arrow underline color*/
+.slick-links-nav {
+    .link--white {
+        color: #000 !important;
+    
+        &:before {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    
+        &:after {
+            background-color: #a3855f;
+        }
+        
+        &:hover {
+            color: #a3855f;
+        }
+    }
+
+    .spacer {
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+}
+
+/*START - make content center aligned*/
+@media(min-width: 768px) {
+    div.featured-neighborhoods-section {
+        div.container {
+            padding: 0px 50px !important;
+        }
+
+        div.featured-neighborhoods {
+            margin-right: 0px !important;
+        }
+    }
+}
+
+/*END - Make Content Center Aligned*/
+
+/*Start - Theme borders*/
+.featured-neighborhoods__title:before {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/*End*/

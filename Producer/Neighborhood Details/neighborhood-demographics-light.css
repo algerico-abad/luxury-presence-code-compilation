@@ -35,8 +35,8 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
     &.active,
     &:hover {
         color: #000 !important;
-        background-color: #FAD5BD !important;
-        border-color: #FAD5BD !important;
+        background-color: #b2a99c !important;
+        border-color: #b2a99c !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #FAD5BD !important;
+        background-color: #b2a99c !important;
     }
 
     span.hint {
-        background-color: #FAD5BD;
+        background-color: #b2a99c;
         color: #fff;
 
         &:after {
-            background-color: #FAD5BD;
+            background-color: #b2a99c;
         }
     }
 }
@@ -81,7 +81,7 @@ p.overview-item__name--hint {
 
 /*START - population bar theming*/
 div.population-age__bar {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .population-age__hint p {

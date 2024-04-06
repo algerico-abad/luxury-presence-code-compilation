@@ -1,0 +1,25 @@
+/*START - property quote fix of padding desktop and mobile */
+.redesign.property-quote {
+    padding-bottom: 96px;
+    padding-top: 96px;
+
+    @media only screen and (max-width:768px) {
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+/*END*/
+
+/*START - theming */
+/*name*/
+.property-quote-item blockquote strong {
+    color: #000 !important;
+}
+
+/*line*/
+.property-quote-item blockquote strong:before {
+    background-color: rgb(163, 133, 95, 0.25) !important;
+}
+
+/*END*/

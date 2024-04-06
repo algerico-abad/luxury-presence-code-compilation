@@ -33,11 +33,11 @@ div.f-video button.play-btn {
         background-color: #fff;
 
         .play-icon {
-            color: #2a505d;
+            color: #C5A95C;
         }
 
         &:hover {
-            background-color: #2a505d;
+            background-color: #C5A95C;
 
             .play-icon {
                 color: #fff;

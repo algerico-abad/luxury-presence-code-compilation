@@ -1,0 +1,21 @@
+/*START - fix paddings */
+div.team-grid {
+    padding-bottom: 46px;
+
+    @media (max-width: 768px) {
+        padding-bottom: 30px;
+    }
+}
+
+/*END*/
+
+/*START - border color when hover*/
+.team-member__hover {
+    border-color: #a3855f;
+}
+
+/*END - border color*/
+
+.team-member__name {
+    text-transform: uppercase;
+}

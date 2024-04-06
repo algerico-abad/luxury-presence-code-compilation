@@ -38,7 +38,7 @@ div.custom-form__header {
 
 div.custom-form__img-block img {
     object-fit: contain;
-    background-color: transparent;
+    background-color: #fff;
 }
 
 p {
@@ -51,11 +51,11 @@ overflow: hidden;
 
 /*Start - Theme disclaimer link*/
 .lp-disclaimer a:hover {
-    color: #FAD5BD;
+    color: #C5A95C;
 }
 
 /*End*/
 
 .lp-input {
-    border-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(0, 0, 0, 0.1);
 }

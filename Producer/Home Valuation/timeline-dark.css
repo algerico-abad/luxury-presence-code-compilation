@@ -3,9 +3,10 @@ a {
     position: relative !important;
     color: #000 !important;
     transition: 0.4s;
+    font-weight: 400;
 
     &:hover {
-        color: #a49b8e !important;
+        color: #C5A95C !important;
     }
 
     &:before,
@@ -27,7 +28,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #a49b8e !important;
+        background-color: #C5A95C !important;
     }
 
     &:hover:after {

@@ -14,23 +14,27 @@ div.agent-properties {
 /*START - agent properties change card theme color*/
 .redesign {
     span.label {
-        background: #EDC762;
+        background: #a3855f;
         color: #fff;
     }
 
     a.agent-properties-item {
-        background-color: #000;
+        background-color: #fef9eb;
 
         .agent-properties-item-text {
-            background-color: #000;
+            background-color: #fef9eb;
 
             p,
             h4,
             h5 {
-                color: #fff;
+                color: #000;
             }
         }
     }
 }
 
 /*END - Change Card Theme Color*/
+
+.agent-properties-headline {
+    margin-bottom: 20px !important;
+}

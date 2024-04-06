@@ -1,11 +1,11 @@
 /*START - mobile contact button theme  */
 body>div.mobile-contact-wrapper .mobile-contact a i {
-    color: #18243C !important;
+    color: #fff !important;
 }
 
 body>div.mobile-contact-wrapper .mobile-contact a {
-    background-color: #FF8201 !important;
-    border: 1px solid #FF8201 !important;
+    background-color: #C5A95C !important;
+    border: 1px solid #C5A95C !important;
 }
 
 /* END */

@@ -13,3 +13,10 @@
 }
 
 /*End*/
+
+/*Start - Fix dropdown color for dark background*/
+#global-sidemenu > div > div > ul > li.sidebar__nav-item.sub-nav-container > a {
+    color: #fff;
+}
+
+/*End*/

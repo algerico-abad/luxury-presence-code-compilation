@@ -1,0 +1,14 @@
+.close {
+    top: 4vh;
+}
+
+.custom-form__header {
+    max-width: 800px !important;
+}
+
+.redesign {
+    @media only screen and (max-width: 768px) {
+        padding-top: 96px !important;
+        padding-bottom: 96px !important;
+    }
+}

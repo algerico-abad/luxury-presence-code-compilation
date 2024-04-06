@@ -1,0 +1,11 @@
+.property-neighborhood .image {
+    box-shadow: -210px 0px 0px 50px #C5A95C !important;
+}
+
+div.property-neighborhood {
+    padding-bottom: 96px;
+
+    @media (max-width: 768px) {
+        padding-bottom: 20px;
+    }
+}

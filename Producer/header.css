@@ -4,70 +4,80 @@ nav#global-navbar {
         background-color: transparent;
 
         li {
-            background-color: #fff;
+            background-color: #C5A95C;
 
             &:hover {
-                background-color: #FF8201;
+                background-color: #C5A95C;
             }
         }
 
         a {
-            color: #18243C;
+            color: #fff;
         }
     }
 
     &.scroll {
-        background-color: #fff !important;
+        background-color: #C5A95C !important;
 
         li.navigation__item a.navigation__link {
-            color: #18243C;
+            color: #fff;
 
             & span:after {
-                background-color: #18243C;
+                background-color: #fff;
             }
         }
 
         button.hamburger-component.hamburger {
-            color: #18243C;
+            color: #fff;
         }
     }
 }
 
 /*submenu background*/
 nav#global-navbar .header .navigation .sub-nav ul a {
-    background-color: #FF8201;
-    color: #FFF;
+    background-color: #C5A95C;
+    color: #fff;
 }
 
 /*submenu upon hover*/
 nav#global-navbar .header .navigation .sub-nav ul a:hover {
-    background-color: #fff;
+    background-color: #C5A95C;
     color: #000 !important;
+}
+
+nav#global-navbar .header .navigation .sub-nav ul a span:after {
+    background-color: #000 !important;
+    transition: 0.4s;
 }
 
 /*END - Change Header nav color*/
 
 /*START - header nav logo size adjustment*/
-nav#global-navbar .header{
-    padding-top:5px;
-    padding-bottom:5px;
-    height:auto;
-    .logo{
-        max-height: 100px;
+nav#global-navbar .header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+
+    .logo {
         a.logo__link img {
-            @media only screen and (min-width:768px){
-                max-height: 100px;
+            max-height: 100px !important;
+            
+            @media only screen and (max-width:768px) {
+                max-height: 70px !important;
             }
         }
     }
 }
+
 /*END- header nav logo size adjustment*/
 
 /*START - header nav dropdown padding */
 nav .header .navigation .sub-nav__link {
     max-width: 400px !important;
 }
+
 nav .header .navigation .sub-nav ul {
     max-width: 400px !important;
 }
+
 /*END*/

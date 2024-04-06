@@ -28,15 +28,15 @@ div.section {
 
 /*START - change button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #FF8201 !important;
+    color: #000 !important;
     background-color: transparent !important;
-    border-color: rgba(237, 199, 98, 0.25) !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #FF8201 !important;
-        border-color: #FF8201 !important;
+        background-color: #C5A95C !important;
+        border-color: #C5A95C !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #FF8201 !important;
+        background-color: #C5A95C !important;
     }
 
     span.hint {
-        background-color: #FF8201;
+        background-color: #C5A95C;
         color: #fff;
 
         &:after {
-            background-color: #FF8201;
+            background-color: #C5A95C;
         }
     }
 }

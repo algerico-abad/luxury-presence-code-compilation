@@ -25,14 +25,14 @@ input.lp-input--light::placeholder {
 /*START - add theming*/
 input.lp-input--light {
     color: #000 !important;
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.1);
 
     &::placeholder {
         color: #000 !important;
     }
 
     &:-webkit-autofill {
-        border: 1px solid rgba(0, 0, 0, 0.25);
+        border: 1px solid rgba(0, 0, 0, 0.1);
         -webkit-text-fill-color: #000 !important;
     }
 }

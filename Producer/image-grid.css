@@ -1,0 +1,17 @@
+/*Start - Make title in one-line*/
+.gallery-component__header {
+    max-width: 1300px !important;
+}
+
+/*End*/
+
+/*START - img grid - paddings*/
+.lp-vertical-paddings {
+    padding-bottom: 56px;
+
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 44px;
+    }
+}
+
+/*END*/

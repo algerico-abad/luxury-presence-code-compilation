@@ -24,18 +24,22 @@ div.redesign.featured-properties-section ul.slick-links-nav {
     }
 
     li span.link {
-        color: #000;
+        color: #fff;
 
         &:hover:not(.slick-disabled) {
-            color: #FF8201;
+            color: #C5A95C;
         }
 
         &:before {
-            background-color: rgba(0, 0, 0, 0.25) !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
         }
 
         &:after {
-            background-color: #FF8201;
+            background-color: #C5A95C !important;
+        }
+        
+        &:hover:after {
+            width: 100%;
         }
     }
 }
@@ -46,24 +50,24 @@ div.redesign.featured-properties-section ul.slick-links-nav {
 div.redesign.featured-properties-section ul.featured-properties {
     div.slick-track li.featured-properties__item-cover {
         span.featured-properties__label {
-            background: #FF8201 !important;
-            color: #18243C;
+            background: #C5A95C !important;
+            color: #fff;
         }
     }
 
     .featured-properties__item {
-        background-color: #18243C !important;
+        background-color: #fef9eb !important;
     }
 
     .featured-properties__text {
         padding-top: 35px;
         padding-bottom: 35px;
-        background-color: #18243C !important;
+        background-color: #fef9eb !important;
 
         p,
         h4,
         h5 {
-            color: #fff !important;
+            color: #000 !important;
         }
     }
 }

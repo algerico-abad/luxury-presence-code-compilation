@@ -16,6 +16,17 @@ div.text-grid .scene__item--with-border div.border {
 
 /*END - Text grid mobile view fix*/
 
+/*Start - Make the titles in two line*/
+.lp-h4 {
+    font-size: 26px !important;
+    text-align: center;
+}
+
+/*End*/
+
+/*Start - Hide the button wrapper that causes the large padding*/
 .button-wrapper {
     display: none !important;
 }
+
+/*End*/

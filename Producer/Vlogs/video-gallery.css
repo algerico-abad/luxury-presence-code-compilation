@@ -1,0 +1,50 @@
+/*START -  video gallery padding */
+.video-card h6 {
+    letter-spacing: 1px !important;
+}
+
+div.video-gallery {
+    padding-top: 76px;
+    padding-bottom: 76px;
+
+    @media (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .paginationjs .paginationjs-pages li:first-child,
+    .paginationjs .paginationjs-pages li:first-child>a {
+        border-radius: 0 0 0 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .paginationjs .paginationjs-pages li:last-child>a {
+        border-radius: 0 0 0 0 !important;
+    }
+}
+
+/* END */
+
+/*START - fix play button hover state - WB*/
+@media (hover: hover) and (pointer: fine) {
+
+    .lp-play:focus,
+    .lp-play:hover {
+        background-color: #fff;
+        color: #fff;
+
+        .lp-play:after {
+            border-color: transparent transparent transparent #fff;
+        }
+    }
+}
+
+.lp-play:after {
+    border-color: transparent transparent transparent #C5A95C;
+}
+
+/*END - fix play button hover state*/

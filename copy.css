@@ -1,155 +1,179 @@
-/*START - schedule showing change theme color */
-div.redesign {
-    div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #A62424;
-        background-color: #A62424;
-        color: #fff;
+/* START - header nav theme*/
+nav#global-navbar {
 
-        &:hover {
-            border-color: rgba(255, 255, 255, 0.25);
-            background-color: transparent;
-            color: #A62424;
+    /* START - default state - homepage header nav*/
+    .header.theme-light {
+        .header__hamburger {
+            circle {
+                fill: #0c653a;
+            }
+
+            svg rect {
+                fill: #fff !important;
+            }
         }
-    }
 
-    div.custom-select {
-        .custom-select-menu .custom-select-content {
-            color: #000;
-            background-color: #fff;
+        ul.navigation li.navigation__item {
+            color: #fff;
 
-            .custom-select-item {
+            .sub-nav__link {
                 color: #000;
+                background-color: #fff;
+            }
 
-                &:hover {
-                    color: #fff;
-                    background-color: #A62424;
-                }
+            .sub-nav__link:hover {
+                color: #FFF;
+                background-color: #0c653a;
+            }
+
+            .navigation__link:after {
+                background: #fff;
             }
         }
 
-        button.custom-select-toggle.is-placeholder {
-            border-color: rgba(255, 255, 255, 0.25);
+        .search__btn svg {
+            color: #fff;
+        }
+
+        a.header__btn-contact {
+            background: transparent;
+            color: #fff !important;
+            border-color: #fff !important;
+
+            &:hover {
+                background: #fff !important;
+                color: #000 !important;
+                border-color: #fff !important;
+            }
+        }
+    }
+
+    /* END- default state - homepage header nav*/
+
+    /* START- default state - other pages header nav(property details+home val)*/
+    .header {
+        .header__hamburger {
+            circle {
+                fill: #0c653a;
+            }
+
+            svg rect {
+                fill: #fff !important;
+            }
+        }
+
+        ul.navigation li.navigation__item {
             color: #000;
 
-            &:after {
-                border-color: rgba(255, 255, 255, 0.25);
+            .sub-nav__link {
+                color: #000;
+                background-color: #fff;
             }
+
+            .sub-nav__link:hover {
+                color: #FFF;
+                background-color: #0c653a;
+            }
+
+            .navigation__link:after {
+                background: #fff;
+            }
+        }
+
+        .search__btn svg {
+            color: #000;
         }
     }
 
-    button.slick-arrow {
-        border-color: #A62424;
-        background-color: #A62424;
+    /* END - default state - other pages header nav(property details+home val)*/
 
-        &:before {
+    /* START - scrolled state header nav in all pages(including homepage)*/
+    &.scroll .header {
+        background-color: #0c653a;
+
+        .header__hamburger {
+            circle {
+                fill: #fff;
+            }
+
+            svg rect {
+                fill: #0c653a !important;
+            }
+        }
+
+        ul.navigation li.navigation__item {
+            color: #fff;
+
+            .sub-nav__link {
+                color: #000;
+                background-color: #fff;
+            }
+
+            .sub-nav__link:hover {
+                color: #FFF;
+                background-color: #0c653a;
+            }
+
+            .navigation__link:after {
+                background: #fff;
+            }
+        }
+
+        .search__btn svg {
+            color: #FFF;
+        }
+
+        a.header__btn-contact {
+            background: transparent;
+            color: #fff !important;
             border-color: #fff !important;
-        }
 
-        &:hover {
-            background-color: transparent;
-            border-color: #A62424;
-
-            &:before {
-                border-color: #A62424 !important;
+            &:hover {
+                background: #fff !important;
+                color: #000 !important;
+                border-color: #fff !important;
             }
         }
     }
-    
-    .calendar__slide .calendar__item {
-        border-color: rgba(255, 255, 255, 0.25);
-    }
 
-    .calendar__slide.selected .calendar__item {
-        border-color: rgba(255, 255, 255, 0.25);
-        background-color: #A62424;
-        color: #fff;
-    }
-
-    button.lp-btn {
-        text-transform: uppercase;
-    }
+    /* ENd - scrolled state header nav in all pages(including homepage)*/
 }
 
-/*choose a time*/
-.lp-input--dark {
+/* END - header nav theme*/
+
+/*START - header nav dropdown*/
+nav#global-navbar .header.theme-light ul.navigation li.navigation__item .sub-nav__link {
     color: #000;
-    border-color: rgba(255, 255, 255, 0.25);
-}
-
-/*END- schedule showing change theme color*/
-
-/*START - center title and desc */
-div.lp-title-group {
-    text-align: center;
-}
-
-/*END*/
-
-h2,
-.lp-h2 {
-    font-size: 55px;
-
-    @media only screen and (max-width: 768px) {
-        font-size: 28px;
-    }
-}
-
-/*START - change time link*/
-a.hyperlink-style-1 {
-    font-weight: 400;
-    position: relative !important;
-    color: #000 !important;
-    transition: 0.4s;
-    opacity: 1 !important;
-    text-transform: uppercase !important;
+    background-color: #fff;
 
     &:hover {
-        color: #A62424 !important;
-    }
-
-    &:before,
-    &:after {
-        transition: 0.4s;
-        text-decoration: none !important;
-        line-height: 1;
-        content: "" "";
-        height: 1px;
-        position: absolute !important;
-        bottom: 0;
-        left: 0;
-    }
-
-    &:before {
-        width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.25) !important;
-    }
-
-    &:after {
-        width: 0% !important;
-        background-color: #A62424 !important;
-    }
-
-    &:hover:after {
-        width: 100% !important;
+        color: #fff;
+        background-color: #0c653a;
     }
 }
 
 /*END*/
 
-/*START - sched a showing - 2nd page*/
-.lp-input--dark::placeholder {
-    opacity: 1 !important;
-}
-
-.input-container .lp-input~.input-icon {
-    filter: invert(1) !important;
+/*START - make submenu in one line*/
+nav .sub-nav__link {
+    max-width: 200px !important;
 }
 
 /*END*/
 
-.redesign {
-    @media only screen and (max-width: 768px) {
-        padding-top: 64px;
-        padding-bottom: 64px;
+/*START - display dark logo on scrolled state */
+nav#global-navbar.scroll {
+    .header.theme-light .logo__img.light {
+        display: none;
+    }
+    .header.theme-light .logo__img.dark {
+        display: block;
+    }
+    .header.theme-auto .logo__img.light {
+        display: none;
+    }
+    .header.theme-auto .logo__img.dark {
+        display: block;
     }
 }
+/*END - display dark logo on scrolled state */

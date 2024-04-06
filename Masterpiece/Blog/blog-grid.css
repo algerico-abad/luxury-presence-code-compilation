@@ -1,0 +1,10 @@
+/*START - (blog grid) padding */
+.lp-vertical-paddings {
+    padding: 96px 0 48px !important;
+
+    @media(max-width: 768px) {
+        padding: 64px 0 40px !important;
+    }
+}
+
+/*END*/

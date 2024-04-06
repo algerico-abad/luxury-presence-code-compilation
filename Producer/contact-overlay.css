@@ -156,3 +156,7 @@ div#modal-global-contact-us {
 }
 
 /*END*/
+
+.lp-disclaimer .lp-tcr-message {
+    font-weight: 400 !important;
+}

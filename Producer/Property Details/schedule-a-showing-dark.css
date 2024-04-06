@@ -1,17 +1,18 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #2A29A6;
-        background-color: #2A29A6;
+        border-color: #C5A95C;
+        background-color: #C5A95C;
         color: #fff;
 
         &:hover {
-            border-color: #2A29A6;
-            background-color: #2A29A6;
-            color: #fff;
+            border-color: #C5A95C;
+            background-color: transparent;
+            color: #C5A95C;
         }
     }
 
+    /*Start - Theme dropdown*/
     div.custom-select {
         .custom-select-menu .custom-select-content {
             color: #000;
@@ -22,13 +23,13 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #2A29A6;
+                    background-color: #C5A95C;
                 }
             }
         }
 
         button.custom-select-toggle.is-placeholder {
-            border-color: rgba(0, 0, 0, 0.25);
+            border-color: rgba(0, 0, 0, 0.1);
 
             &:after {
                 border-color: #000;
@@ -36,9 +37,10 @@ div.redesign {
         }
     }
 
+    /*Theme pagination*/
     button.slick-arrow {
-        border-color: #2A29A6;
-        background-color: #2A29A6;
+        border-color: #C5A95C;
+        background-color: #C5A95C;
 
         &:before {
             border-color: #fff !important;
@@ -46,17 +48,18 @@ div.redesign {
 
         &:hover {
             background-color: transparent;
-            border-color: #2A29A6;
+            border-color: #C5A95C;
 
             &:before {
-                border-color: #2A29A6 !important;
+                border-color: #C5A95C !important;
             }
         }
     }
 
+    /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #2A29A6;
-        background-color: #2A29A6;
+        border-color: #C5A95C;
+        background-color: #C5A95C;
         color: #fff;
     }
 
@@ -67,7 +70,7 @@ div.redesign {
 
 /*END- schedule showing change theme color*/
 
-/*START - center title and desc */
+/*START - center title and description */
 div.lp-title-group {
     text-align: center;
 }
@@ -91,7 +94,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #2A29A6 !important;
+        color: #C5A95C !important;
     }
 
     &:before,
@@ -113,7 +116,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #2A29A6 !important;
+        background-color: #C5A95C !important;
     }
 
     &:hover:after {
@@ -154,7 +157,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #2A29A6 !important;
+        color: #C5A95C !important;
     }
 
     &:before,
@@ -176,7 +179,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #2A29A6 !important;
+        background-color: #C5A95C !important;
     }
 
     &:hover:after {
@@ -186,9 +189,64 @@ a.hyperlink-style-1 {
 
 /*END*/
 
-.redesign {
+/*Start - Fix padding on mobile*/
+.redesign .schedule__content {
     @media only screen and (max-width: 768px) {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
     }
 }
+
+/*End*/
+
+/*Start - Theme form inputs*/
+.lp-input {
+    border-color: rgba(0, 0, 0, 0.1);
+
+    &:focus {
+        border-color: #000;
+    }
+}
+
+/*End*/
+
+/*Start - Theme disclaimer link*/
+.lp-disclaimer a {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #C5A95C !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #C5A95C !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*End*/

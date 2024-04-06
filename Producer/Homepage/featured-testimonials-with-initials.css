@@ -1,32 +1,45 @@
 /*START - fix padding*/
 .testimonials {
-    padding-top: 96px!important;
-    padding-bottom: 93px!important;
+    padding-top: 96px !important;
+    padding-bottom: 93px !important;
+
     @media (max-width: 768px) {
         padding-top: 64px !important;
         padding-bottom: 64px !important;
     }
 }
+
 /*END*/
 
 /*START - change pagination colors*/
-div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow{
-    background-color: transparent;
-    border-color: #2a29a6;
+div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow {
+    background-color: #fff;
+    border-color: #fff;
+
     &:before {
-        color: #2a29a6;
+        color: #C5A95C;
         opacity: 1;
     }
+
     &:hover {
-        background-color: #2a29a6;
-        border-color: #2a29a6;
+        background-color: transparent;
+        border-color: #fff;
+
         &:before {
             color: #fff;
         }
     }
 }
 
-.testimonials .userpic img {
-    background-color: #fff;
-}
 /*END  - change pagination colors*/
+
+.testimonials {
+    .userpic {
+        background-color: #fff !important;
+
+        /*Invert logo if needed*/
+        img {
+            filter: invert(1);
+        }
+    }
+}

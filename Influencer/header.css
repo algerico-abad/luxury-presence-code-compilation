@@ -1,0 +1,6 @@
+/*START - adjust width of submenu */
+nav .navigation__item.sub-nav-container .sub-nav {
+    width: fit-content;
+}
+
+/*END*/
