@@ -1,15 +1,15 @@
 /*START - fixed popup info*/
 .item__copy .item__name--hint {
     &:after {
-        background-color: #C5A95C;
+        background-color: #FFE4E3;
     }
 
     span.item__hint.hint {
-        background-color: #C5A95C;
+        background-color: #FFE4E3;
         color: #fff;
 
         &:after {
-            background-color: #C5A95C;
+            background-color: #FFE4E3;
         }
     }
 }

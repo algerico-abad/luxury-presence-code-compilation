@@ -26,7 +26,7 @@ div.section {
 
 /*END- 1 line for element title*/
 
-/*START - change button theme*/
+/*START - change pill button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
     color: #fff !important;
     background-color: transparent !important;
@@ -35,8 +35,8 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
     &.active,
     &:hover {
         color: #000 !important;
-        background-color: #b2a99c !important;
-        border-color: #b2a99c !important;
+        background-color: #FFC8C3 !important;
+        border-color: #FFC8C3 !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #b2a99c !important;
+        background-color: #FFC8C3 !important;
     }
 
     span.hint {
-        background-color: #b2a99c;
+        background-color: #FFC8C3;
         color: #fff;
 
         &:after {
-            background-color: #b2a99c;
+            background-color: #FFC8C3;
         }
     }
 }
@@ -81,7 +81,7 @@ p.overview-item__name--hint {
 
 /*START - population bar theming*/
 div.population-age__bar {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .population-age__hint p {

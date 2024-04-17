@@ -45,17 +45,19 @@ p {
     margin-bottom: 0 !important;
 }
 
-overflow: hidden;
-
 /*END*/
 
 /*Start - Theme disclaimer link*/
 .lp-disclaimer a:hover {
-    color: #C5A95C;
+    color: #B19A55;
 }
 
 /*End*/
 
 .lp-input {
     border-color: rgba(0, 0, 0, 0.1);
+
+    &:focus {
+        border-color: rgba(0, 0, 0, 0.75);
+    }
 }

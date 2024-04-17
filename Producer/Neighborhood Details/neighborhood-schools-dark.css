@@ -28,14 +28,14 @@ div.lp-container {
 
 /*START - changing unselected button's border*/
 div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #C5A95C;
+    border: 1px solid #B19A55;
 }
 
 /*END - changing unselected button's border*/
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #C5A95C var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
+    background: linear-gradient(90deg, #B19A55 var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -51,8 +51,8 @@ div.type-list div.type-list__item {
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #C5A95C !important;
-        border-color: #C5A95C !important;
+        background-color: #B19A55 !important;
+        border-color: #B19A55 !important;
     }
 }
 
@@ -66,7 +66,7 @@ div.type-list div.type-list__item {
     text-decoration: none !important;
 
     &:hover {
-        color: #C5A95C !important;
+        color: #B19A55 !important;
     }
 
     &:before,
@@ -88,7 +88,7 @@ div.type-list div.type-list__item {
 
     &:after {
         width: 0% !important;
-        background-color: #C5A95C !important;
+        background-color: #B19A55 !important;
     }
 
     &:hover:after {

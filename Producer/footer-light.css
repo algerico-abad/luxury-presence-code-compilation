@@ -4,11 +4,11 @@ footer#global-footer {
     a.hvr_animation,
     .lp-link {
         position: relative !important;
-        color: #000 !important;
+        color: #fff !important;
         transition: 0.4s;
 
         &:hover {
-            color: #C5A95C !important;
+            color: #fff !important;
         }
 
         &:before,
@@ -25,12 +25,12 @@ footer#global-footer {
 
         &:before {
             width: 100% !important;
-            background-color: rgba(0, 0, 0, 0.25) !important;
+            background-color: rgba(255, 255, 255, 0.25) !important;
         }
 
         &:after {
             width: 0% !important;
-            background-color: #C5A95C !important;
+            background-color: #fff !important;
         }
 
         &:hover:after {

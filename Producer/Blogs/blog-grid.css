@@ -13,12 +13,12 @@
 
 /*start - blog card theming*/
 .blog-list__container .blog-list__item {
-    background-color: #f1f1f1 !important;
-    color: #000;
+    background-color: #000 !important;
+    color: #fff;
 }
 
 div.blog-list__item-content h4:after {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /*end*/
@@ -46,7 +46,7 @@ span:not(.date):not(.label):not(.featured-properties__label) {
 
     &:after {
         width: 0% !important;
-        background-color: #2A29A6 !important;
+        background-color: #B19A55 !important;
     }
 
     &:hover:after {
@@ -54,7 +54,7 @@ span:not(.date):not(.label):not(.featured-properties__label) {
     }
 
     &:hover {
-        color: #2A29A6;
+        color: #B19A55;
     }
 }
 

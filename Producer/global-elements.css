@@ -1,56 +1,11 @@
 /*Producer Global Elements*/
 
-/*Contact Form*/
-/*Start - Change Phone Number Labels*/
-div.contact-form.redesign {
-    /*Phone Number Selector*/
-    div.info-zone_contact.type_user:nth-child(1) {
-        div.info-zone_contact_cell {
-            p.contact_title {
-                font-size: 0px;
-                
-                &:before {
-                    font-size: 14px;
-                    content: 'Phone Number';
-                }
-            }
-        }
-    }
-    
-    /*Office Number Selector*/
-    div.info-zone_contact.type_user:nth-child(2) {
-        div.info-zone_contact_cell:first-child {
-            p.contact_title {
-                font-size: 0px;
-                
-                &:before {
-                    font-size: 14px;
-                    content: 'Office Number';
-                }
-            }
-        }
-    }
-}
-
-/*End*/
-
-/*Start - Hide Address Label*/
-div.contact-form.redesign {
-    div.info-zone div.info-zone_contact:not(.type_user) {
-        .info-wrap-contact_title {
-            display: none;
-        }
-    }
-}
-
-/*End*/
-
 /*Properties Slider*/
 /*Start - Align elements to center*/
 .properties-grid__header {
     @media only screen and (max-width: 768px) {
         align-items: center !important;
-        
+
         .lp-h2 {
             text-align: center;
         }

@@ -1,7 +1,7 @@
 /*START - neighb points theming*/
 .tag {
     color: #fff !important;
-    background: #C5A95C !important;
+    background: #000 !important;
     text-transform: uppercase !important;
 }
 
@@ -38,19 +38,19 @@ div.score__help {
     cursor: pointer;
 
     svg path {
-        fill: #C5A95C !important;
+        fill: #000 !important;
     }
 
     div.tippy-box {
-        background-color: #C5A95C;
+        background-color: #000;
         color: #fff;
 
         div.tippy-content {
-            background-color: #C5A95C !important;
+            background-color: #000 !important;
         }
 
         .tippy-arrow {
-            color: #C5A95C !important;
+            color: #000 !important;
         }
     }
 }
@@ -104,7 +104,7 @@ div.score__help {
 
 /*START - strs color*/
 .stars .star.is-filled {
-    background-color: #C5A95C !important;
+    background-color: #000 !important;
 }
 
 /*END - stars color*/
@@ -126,7 +126,7 @@ div.score__help {
     text-decoration: none;
 
     &:hover {
-        color: #C5A95C !important;
+        color: #000 !important;
     }
 
     &:before,
@@ -148,7 +148,7 @@ div.score__help {
 
     &:after {
         width: 0% !important;
-        background-color: #C5A95C !important;
+        background-color: #000 !important;
     }
 
     &:hover:after {

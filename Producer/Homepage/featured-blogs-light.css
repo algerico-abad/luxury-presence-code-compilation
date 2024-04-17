@@ -1,0 +1,51 @@
+/*START - fix paddings */
+div.featured-press-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - add hover effect*/
+ul.featured-press h4 span.link {
+    text-decoration-color: #fff;
+
+    &:hover {
+        text-decoration-color: #B19A55;
+    }
+}
+
+/*END - add hover effect*/
+
+/*START - make title in one line*/
+@media (max-width: 767px) {
+    .redesign .container {
+        padding-left: 21px !important;
+        padding-right: 21px !important;
+    }
+}
+
+/*END*/
+
+/*START - button padding */
+.redesign .btn {
+    min-width: 250px;
+}
+
+/*END*/
+
+/*START - fix title*/
+div.featured-press-section header {
+    max-width: 1200px;
+}
+
+.featured-press-section header h2 {
+    margin: 0 0 0 !important;
+}
+
+/*END*/

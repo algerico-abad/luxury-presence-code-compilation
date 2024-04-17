@@ -20,14 +20,14 @@ div.featured-properties-section {
 /*START - change prev and next link color */
 div.redesign.featured-properties-section ul.slick-links-nav {
     span.spacer {
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.1);
     }
 
     li span.link {
-        color: #fff;
+        color: #000;
 
         &:hover:not(.slick-disabled) {
-            color: #C5A95C;
+            color: #1A4262;
         }
 
         &:before {
@@ -35,7 +35,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         }
 
         &:after {
-            background-color: #C5A95C !important;
+            background-color: #1A4262 !important;
         }
         
         &:hover:after {
@@ -50,24 +50,24 @@ div.redesign.featured-properties-section ul.slick-links-nav {
 div.redesign.featured-properties-section ul.featured-properties {
     div.slick-track li.featured-properties__item-cover {
         span.featured-properties__label {
-            background: #C5A95C !important;
+            background: #1A4262 !important;
             color: #fff;
         }
     }
 
     .featured-properties__item {
-        background-color: #fef9eb !important;
+        background-color: #1A4262 !important;
     }
 
     .featured-properties__text {
         padding-top: 35px;
         padding-bottom: 35px;
-        background-color: #fef9eb !important;
+        background-color: #1A4262 !important;
 
         p,
         h4,
         h5 {
-            color: #000 !important;
+            color: #fff !important;
         }
     }
 }

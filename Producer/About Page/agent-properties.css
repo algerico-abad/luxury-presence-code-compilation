@@ -14,20 +14,20 @@ div.agent-properties {
 /*START - agent properties change card theme color*/
 .redesign {
     span.label {
-        background: #a3855f;
+        background: #B19A55;
         color: #fff;
     }
 
     a.agent-properties-item {
-        background-color: #fef9eb;
+        background-color: #000;
 
         .agent-properties-item-text {
-            background-color: #fef9eb;
+            background-color: #000;
 
             p,
             h4,
             h5 {
-                color: #000;
+                color: #fff;
             }
         }
     }

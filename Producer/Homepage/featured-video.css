@@ -23,27 +23,29 @@ div.f-video {
 
 /*END*/
 
-/*START-change button color*/
-div.f-video button.play-btn {
-    &:hover .play-btn-holder {
-        background-color: transparent;
-    }
+/*START - add play button and title - theming */
+h2 {
+    color: #000;
 
-    div.icon-wrapper {
-        background-color: #fff;
-
-        .play-icon {
-            color: #C5A95C;
-        }
-
-        &:hover {
-            background-color: #C5A95C;
-
-            .play-icon {
-                color: #fff;
-            }
-        }
+    &.lp-h2 {
+        color: #000;
     }
 }
 
-/*END -change button color*/
+.lp-play--light {
+    border-color: #FFC8C3;
+    color: #fff;
+    background-color: #FFC8C3;
+
+    &:hover {
+        border-color: #FFC8C3;
+        color: #fff;
+        background-color: #FFC8C3;
+    }
+}
+
+/*END - add play button and title - theming*/
+
+.section-video__btn-wrap {
+    display: none !important;
+}

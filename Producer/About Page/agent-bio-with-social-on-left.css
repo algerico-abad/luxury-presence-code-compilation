@@ -1,0 +1,109 @@
+.lp-link.contact {
+    font-weight: 400;
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #1A4262 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #1A4262 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+.js-social-link {
+    font-weight: 400;
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+.agent-content__right--desktop {
+    ul > li:nth-child(3) {
+        p {
+            white-space: normal !important;
+        }
+    }
+}
+
+.agent-content__right--mobile svg {
+    border-color: #1A4262;
+    border-radius: 50%;
+    border-width: 2px;
+    
+    path {
+        fill: #1A4262;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .agent-content__social-media {
+        .lp-h3 {
+            margin-top: 0px;
+        }
+        
+        .agent-content__social-media__icons {
+            gap: 20px;
+            li {
+                padding-right: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

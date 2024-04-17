@@ -1,0 +1,133 @@
+& {
+    .video-wrapper {
+      z-index: 1;
+    }
+    
+    .overlay-component {
+      z-index: 2;
+    }
+  }
+  .custom-content {
+    z-index:   3;
+    position: relative;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 1.6666rem;
+  }
+  
+  .lp-container {
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  #customForm {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .quick_form_8_css {
+          border: none !important;
+          width: 100% !important;
+          padding-top: 96px;
+          padding-bottom: 96px;
+          background: #2A29A6 !important;
+          
+          & > div {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              gap: 10px;
+              
+              @media only screen and (max-width: 768px) {
+                  padding: 64px 25px !important;
+              }
+              
+              #SIGNUP_HEADING {
+                  padding: 0px !important;
+                  text-align: center !important;
+                  font-size: 43px !important;
+                  color: #fff !important;
+                  font-family: 'Antic Didone' !important;
+                  font-weight: 400 !important;
+                  
+                  @media only screen and (max-width: 768px) {
+                      font-size: 32px !important;
+                  }
+              }
+              
+              #zcampaignOptinForm {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  gap: 20px;
+                  height: fit-content !important;
+                  
+                  @media only screen and (max-width: 768px) {
+                      flex-direction: column !important;
+                  }
+                  
+                  .SIGNUP_FLD {
+                      margin: 0px !important;
+                      max-width: fit-content;
+                      width: auto !important;
+                      height: auto !important;
+                      
+                      @media only screen and (max-width: 768px) {
+                          width: 100% !important;
+                          max-width: 100% !important;
+                      }
+                      
+                      input[type="text"] {
+                          background: transparent !important;
+                          border: 1px solid rgba(255, 255, 255, 0.25) !important;
+                          color: #fff !important;
+                          padding: 0px 20px !important;
+                          width: 250px !important;
+                          height: 50px !important;
+                          font-size: 16px !important;
+                          
+                          &::placeholder {
+                              color: #fff;
+                          }
+                          
+                          @media only screen and (max-width: 768px) {
+                              border-radius: 0px !important;
+                              width: 100% !important;
+                          }
+                      }
+                      
+                      input[type="button"] {
+                          background: #fff !important;
+                          color: #2A29A6 !important;
+                          width: auto !important;
+                          padding: 0px 22px !important;
+                          min-width: 200px;
+                          border-radius: 0px !important;
+                          box-sizing: border-box !important;
+                          font-weight: bold;
+                          margin: 0px !important;
+                          font-size: 16px !important;
+                          border: 2px solid #fff !important;
+                          transition: 0.4s;
+                          
+                          &:hover {
+                              background: transparent !important;
+                              border: 2px solid #fff !important;
+                              color: #fff !important;
+                              width: 100% !important;
+                              height: 50px !important;
+                              transition: 0.4s;
+                          }
+                          
+                          @media only screen and (max-width: 768px) {
+                              width: 100% !important;
+                              height: 50px !important;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }

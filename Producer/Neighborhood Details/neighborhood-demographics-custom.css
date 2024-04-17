@@ -1,0 +1,6 @@
+.population-age__bar.bar {
+    &:after {
+        width: calc(var(--valuePerc) * 0.01) !important;
+        max-width: 100%;
+    }
+}

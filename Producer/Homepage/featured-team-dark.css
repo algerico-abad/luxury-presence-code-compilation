@@ -1,0 +1,29 @@
+.featured-team-header {
+    margin-bottom: 20px !important;
+}
+
+.slick-links-nav {
+    span.spacer {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    li span.link {
+        color: #000;
+
+        &:hover:not(.slick-disabled) {
+            color: #B19A55;
+        }
+
+        &:before {
+            background-color: rgba(0, 0, 0, 0.1) !important;
+        }
+
+        &:after {
+            background-color: #B19A55 !important;
+        }
+        
+        &:hover:after {
+            width: 100%;
+        }
+    }
+}

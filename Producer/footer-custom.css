@@ -55,3 +55,29 @@
 }
 
 /*End*/
+
+/*Start - CSS for whatsapp number*/
+#global-footer > div > div > div.info-wrap > div > div:nth-child(2) > div.info-wrap-contact_cell {
+    width: 100%;
+    
+    div {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        
+        img {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 0px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            position: relative;
+            margin-top: 21px;
+            margin-left: -50px;
+        }
+    }
+}
+
+/*End*/

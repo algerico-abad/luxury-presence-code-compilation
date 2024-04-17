@@ -1,15 +1,19 @@
-/*START - fix paddings */
-div.property-agent-cta {
-    .property-agent-cta-item {
-        padding-top: 0px;
-        padding-bottom: 0px;
+/*Start - Fix padding*/
+.agent-info {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
     }
 }
 
-/*END*/
+/*End*/
 
 /*START - contact link underline */
-a {
+.details-list a {
+    font-weight: 400;
     position: relative !important;
     color: #fff !important;
     transition: 0.4s;
@@ -47,21 +51,3 @@ a {
 }
 
 /*END*/
-
-/*Start - Fix image and button margin*/
-.property-agent-cta-avatar {
-    align-self: flex-start !important;
-    
-    @media only screen and (max-width: 768px) {
-        align-self: center !important;
-        width: 100% !important;
-        height: auto !important;
-        aspect-ratio: 1/1 !important;
-    }
-}
-
-button {
-    margin-bottom: 0px !important;
-}
-
-/*End*/

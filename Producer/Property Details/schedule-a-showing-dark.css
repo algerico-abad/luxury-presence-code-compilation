@@ -1,14 +1,14 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #C5A95C;
-        background-color: #C5A95C;
+        border-color: #DFD6C6;
+        background-color: #DFD6C6;
         color: #fff;
 
         &:hover {
-            border-color: #C5A95C;
+            border-color: #DFD6C6;
             background-color: transparent;
-            color: #C5A95C;
+            color: #DFD6C6;
         }
     }
 
@@ -23,7 +23,7 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #C5A95C;
+                    background-color: #DFD6C6;
                 }
             }
         }
@@ -39,8 +39,8 @@ div.redesign {
 
     /*Theme pagination*/
     button.slick-arrow {
-        border-color: #C5A95C;
-        background-color: #C5A95C;
+        border-color: #DFD6C6;
+        background-color: #DFD6C6;
 
         &:before {
             border-color: #fff !important;
@@ -48,18 +48,18 @@ div.redesign {
 
         &:hover {
             background-color: transparent;
-            border-color: #C5A95C;
+            border-color: #DFD6C6;
 
             &:before {
-                border-color: #C5A95C !important;
+                border-color: #DFD6C6 !important;
             }
         }
     }
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #C5A95C;
-        background-color: #C5A95C;
+        border-color: #DFD6C6;
+        background-color: #DFD6C6;
         color: #fff;
     }
 
@@ -94,7 +94,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #C5A95C !important;
+        color: #DFD6C6 !important;
     }
 
     &:before,
@@ -116,7 +116,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #C5A95C !important;
+        background-color: #DFD6C6 !important;
     }
 
     &:hover:after {
@@ -157,7 +157,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #C5A95C !important;
+        color: #DFD6C6 !important;
     }
 
     &:before,
@@ -179,7 +179,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #C5A95C !important;
+        background-color: #DFD6C6 !important;
     }
 
     &:hover:after {
@@ -219,7 +219,7 @@ a.hyperlink-style-1 {
     text-decoration: none !important;
 
     &:hover {
-        color: #C5A95C !important;
+        color: #DFD6C6 !important;
     }
 
     &:before,
@@ -241,7 +241,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #C5A95C !important;
+        background-color: #DFD6C6 !important;
     }
 
     &:hover:after {

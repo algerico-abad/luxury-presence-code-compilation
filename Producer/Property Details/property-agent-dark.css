@@ -16,7 +16,7 @@ a {
     opacity: 1 !important;
 
     &:hover {
-        color: #a3855f !important;
+        color: #B19A55 !important;
     }
 
     &:before,
@@ -38,7 +38,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #a3855f !important;
+        background-color: #B19A55 !important;
     }
 
     &:hover:after {
@@ -51,6 +51,13 @@ a {
 /*Start - Fix image and button margin*/
 .property-agent-cta-avatar {
     align-self: flex-start !important;
+    
+    @media only screen and (max-width: 768px) {
+        align-self: center !important;
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1/1 !important;
+    }
 }
 
 button {

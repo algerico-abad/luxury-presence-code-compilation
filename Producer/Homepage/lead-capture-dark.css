@@ -25,12 +25,12 @@
 /*Start - Fix disclaimer link underline*/
 .lp-disclaimer a {
     position: relative !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: 0.4s;
     text-decoration: none !important;
 
     &:hover {
-        color: #a3855f !important;
+        color: #DFD6C6 !important;
     }
 
     &:before,
@@ -52,7 +52,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #a3855f !important;
+        background-color: #DFD6C6 !important;
     }
 
     &:hover:after {

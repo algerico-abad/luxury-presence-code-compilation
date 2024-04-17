@@ -1,0 +1,34 @@
+.team-member__link[href="/agent/kualanee-davis"] {
+    & .team-member__image {
+        position: relative;
+        
+        &:after {
+            content: '';
+            height: 100%;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0px;
+            background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/anvcckjk3bkdmmxlowlu/headshot-cropped');
+            background-size: contain;
+        }
+    }
+}
+
+.team-member__link[href="/agent/kualanee-davis"]:active {
+    & .team-member__image:hover,
+    & .team-member__image:has(+ .team-member__hover ) {
+        position: relative;
+        
+        &:after {
+            content: '';
+            height: 100%;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0px;
+            background-image: url('https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/qfb0dmkz2y6httqt0im8/hn-at-the-oaks-144-1');
+            background-size: cover;
+        }
+    }
+}
