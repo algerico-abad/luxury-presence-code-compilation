@@ -1,0 +1,78 @@
+/*Start - Theme pagination*/
+.paginationjs-next a,
+.paginationjs-prev a {
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.4s;
+    -webkit-tap-highlight-color: transparent;
+
+    &:before {
+        border: 1px solid transparent;
+    }
+
+    &:after {
+        background-color: #F51010 !important;
+    }
+
+    &:hover {
+        background: transparent;
+
+        &:before {
+            border-color: #fff;
+        }
+
+        &:after {
+            background-color: #fff !important;
+        }
+    }
+}
+
+/*End*/
+
+/*Start - Theme the underline pagination*/
+.J-paginationjs-page.active {
+    a {
+        color: #F51010;
+    }
+
+    a:after {
+        background-color: #F51010 !important;
+    }
+}
+
+/*End*/
+
+/*START - (neighb grid) change hyperlink color*/
+a.item {
+    .link-icon {
+        &:after {
+            background-color: #F51010;
+            border: 1px solid #F51010;
+        }
+
+        &:before {
+            background-color: #fff !important;
+        }
+    }
+
+    &:hover .link-icon {
+        color: #fff !important;
+
+        &:after {
+            background-color: transparent;
+            border-color: #fff;
+        }
+
+        &:before {
+            background-color: #fff !important;
+        }
+    }
+
+    .link-icon {
+        &:before {
+            background-color: #F51010;
+        }
+    }
+}
+
+/*END -change hyperlink color*/

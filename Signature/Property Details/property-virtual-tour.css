@@ -1,0 +1,14 @@
+/*START - fix play button hover state - WB*/
+.lp-play:after {
+    border-color: transparent transparent transparent #F51010;
+}
+
+.lp-play:hover:before {
+    background-color: #F51010 !important;
+}
+
+.lp-play:hover:after {
+    border-color: transparent transparent transparent #fff;
+}
+
+/*END - fix play button hover state*/

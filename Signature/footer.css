@@ -1,0 +1,145 @@
+/*START - adjust footer logo size*/
+footer#global-footer .logo-holder img {
+    max-height: 80px;
+    width: 253px;
+    object-position: left;
+}
+
+/*END - adjust footer logo*/
+
+/*START - fix social media hover state on footer(if you are using solid button)*/
+footer#global-footer div.info ul.lp-socials li a.lp-socials__link {
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+
+    &:before {
+        border: 2px;
+    }
+}
+
+/*END - fix social media hover state on footer(if you are using solid button)*/
+
+/*START - footer sitemap hyperlink*/
+footer .nav a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    font-weight: 400;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*START - footer contact details hyperlink*/
+.lp-a .link,
+.lp-a a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    font-weight: 400;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*START - footer lp hyperlink*/
+.hyperlink-style-1,
+.lp-link {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    font-weight: 400;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/

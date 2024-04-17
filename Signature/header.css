@@ -1,0 +1,133 @@
+/*START - header nav theming */
+nav#global-navbar {
+
+    /*START - light scroll background*/
+    header.theme-light {
+        button.hamburger-component span.hamburger__bars {
+            background-color: #F51010;
+
+            &:after {
+                background-color: #F51010;
+            }
+
+            &:before {
+                background-color: #F51010;
+            }
+        }
+
+        div.search-block div.search-wrapper .search-toggle {
+            color: #fff;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        ul.navigation {
+            li.navigation__item a.navigation__link {
+                color: #fff;
+
+                &:hover {
+                    color: #F51010;
+                }
+
+                &:after {
+                    background-color: #F51010;
+                }
+            }
+
+            div.sub-nav {
+                background-color: #fff;
+
+                .sub-nav__link {
+                    color: #000;
+
+                    &:hover {
+                        color: #F51010 !important;
+                    }
+                }
+            }
+        }
+
+        a.phone-link {
+            border-color: #fff;
+            background: transparent;
+            color: #fff;
+
+            &:hover {
+                border-color: #fff;
+                background: #fff;
+                color: #F51010;
+            }
+        }
+    }
+
+    /*END - dark background*/
+
+    /* START - scroll*/
+    header.scroll {
+        background-color: #20201F !important;
+
+        .header__container ul.navigation {
+            li.navigation__item a.navigation__link {
+                color: #fff;
+
+                &:hover {
+                    color: #fff;
+                }
+
+                &:after {
+                    background-color: #F51010;
+                }
+            }
+        }
+
+        button.hamburger-component span.hamburger__bars {
+            background-color: #F51010;
+
+            &:after {
+                background-color: #F51010;
+            }
+
+            &:before {
+                background-color: #F51010;
+            }
+        }
+
+        div.search-block div.search-wrapper {
+            input.search-input {
+                color: #20201F;
+            }
+
+            .search-results {
+                background-color: #fff;
+                border-color: #fff;
+                color: #000;
+            }
+
+            .search-toggle {
+                color: #20201F;
+
+                &:hover {
+                    color: #20201F;
+                }
+            }
+        }
+
+        a.phone-link {
+            border-color: #fff;
+            background: transparent;
+            color: #fff;
+
+            &:hover {
+                border-color: #F51010;
+                background: #F51010;
+                color: #fff;
+            }
+        }
+    }
+
+    /* END - scroll*/
+}
+
+/*END - header nav theming*/

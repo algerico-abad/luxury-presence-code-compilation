@@ -1,0 +1,85 @@
+/*remove agent image*/
+.slick-slide img {
+    display: none;
+}
+
+/*END*/
+
+/*START - change hyperlink arrow color*/
+div.lp-container span.link-icon {
+    &:after {
+        border: 1px solid #fff;
+        background-color: transparent !important;
+    }
+
+    &:before {
+        background-color: #fff !important;
+    }
+
+    &:hover {
+        &:after {
+            background-color: #fff !important;
+        }
+
+        &:before {
+            background-color: #F51010 !important;
+        }
+    }
+
+}
+
+/*END - change hyperlink color*/
+
+/*START - change slick arrow color*/
+.lp-arrow {
+    &:before {
+        border: 1px solid #fff;
+        background: transparent;
+    }
+
+    &:after {
+        background-color: #fff !important;
+    }
+
+    &:hover {
+        &:before {
+            border: 1px solid #fff;
+            background: transparent;
+            transition: 0.3s;
+        }
+
+        &:after {
+            background-color: #fff !important;
+        }
+    }
+
+    &:focus {
+        &:before {
+            border: 1px solid #fff;
+            background: transparent;
+        }
+
+        &:after {
+            background-color: #fff !important;
+        }
+    }
+}
+
+.top-row {
+    border-bottom: solid 1px #fff !important;
+}
+
+/*END - change slick arrow color*/
+
+/*START - Featured Testi Line*/
+div.top-row {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+}
+
+/*END*/
+
+.feature {
+    .initials {
+        color: #000;
+    }
+}

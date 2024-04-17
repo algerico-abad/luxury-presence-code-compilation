@@ -1,0 +1,91 @@
+/*START - change label color*/
+span.property-card__status {
+    color: #FFFFFF;
+    background: #000;
+}
+
+/*ENd - change label color*/
+
+/*START - theming*/
+.irs-from {
+    color: #000 !important;
+}
+
+.irs-to {
+    color: #000 !important;
+}
+
+/*END*/
+
+/*START - (prop grid) prop title*/
+.text-color-gray-300 {
+    color: #000;
+}
+
+/*END*/
+
+/*START - (prop grid) dropdown color*/
+.custom-select .lp-input--light+.custom-select-menu .custom-select-content {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.custom-select-item:hover {
+    color: #F51010 !important;
+}
+
+.custom-select-item.is-selected {
+    color: #F51010 !important;
+}
+
+/*END - dropdown color*/
+
+/*Start - Theme input border*/
+.lp-input {
+    border-color: rgba(0, 0, 0, 0.1);
+    
+    &:focus {
+        border-color: rgba(0, 0, 0, 1);
+    }
+}
+/*End*/
+
+/*Start - Theme pagination*/
+.paginationjs-next a,
+.paginationjs-prev a {
+    background: #F51010;
+    border-radius: 50%;
+    transition: 0.4s;
+    -webkit-tap-highlight-color: transparent;
+    
+    &:before {
+        border: 1px solid transparent;
+    }
+    
+    &:after {
+        background-color: #FFFFFF !important;
+    }
+    
+    &:hover {
+        background: transparent;
+        
+        &:before {
+            border-color: #F51010;
+        }
+        
+        &:after {
+            background-color: #F51010 !important;
+        }
+    }
+}
+
+/*End*/
+
+/*Start - Theme the underline pagination*/
+.J-paginationjs-page.active {
+    a:after {
+        background-color: #F51010 !important;
+    }
+}
+
+/*End*/

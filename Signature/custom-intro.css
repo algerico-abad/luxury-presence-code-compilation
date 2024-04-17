@@ -1,0 +1,8 @@
+/*Start - Update the theme of the arrows*/
+.button-down {
+    svg path {
+        stroke: #F51010 !important;
+    }
+}
+
+/*End*/

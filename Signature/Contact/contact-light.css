@@ -1,0 +1,28 @@
+/*Start - Theme input border*/
+.lp-input {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+    
+    &:focus {
+        border-color: rgba(255, 255, 255, 1) !important;
+    }
+}
+
+/*End*/
+
+/*Start - Theme title border*/
+.heading {
+    &:before,
+    &:after {
+        background-color: #F51010 !important;
+    }
+}
+
+/*End*/
+
+/*Start - Remove unnecessary vertical padding*/
+.lp-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*End*/

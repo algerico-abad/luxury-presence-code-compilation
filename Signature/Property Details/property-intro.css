@@ -1,0 +1,18 @@
+/*Start - Theme the navigation icons*/
+.link-icon {
+    cursor: pointer;
+    
+    &:before {
+        background-color: #F51010 !important;
+    }
+    
+    &:hover {
+        color: #F51010 !important;
+        
+        &:before {
+            background-color: #F51010 !important;
+        }
+    }
+}
+
+/*End*/

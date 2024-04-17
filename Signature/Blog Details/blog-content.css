@@ -1,0 +1,26 @@
+/*Start - Theme share button*/
+.link-icon.link-icon--secondary-accent {
+    &:before {
+        background-color: #ffffff;
+    }
+    
+    &:hover {
+        color: #F51010;
+    
+        &:before {
+            background-color: #F51010;
+        }
+    }
+}
+
+.social-button-dropdown__list {
+    a {
+        color: #000 !important;
+        
+        i:before {
+            background-color: #000 !important;
+        }
+    }
+}
+
+/*End*/

@@ -1,0 +1,153 @@
+/*START - fix paddings */
+div.lp-vertical-paddings {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media (max-width: 1024px) {
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+/* END */
+
+/*START - dropdown theme */
+div.lp-container {
+    div.custom-select-content {
+        background: #fff !important;
+
+        button.custom-select-item {
+            color: #000 !important;
+
+            &:hover {
+                color: #fff !important;
+                background: #F51010 !important;
+            }
+        }
+    }
+
+    .lp-input {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+.lp-input-group--search .lp-input {
+    color: #fff !important;
+    
+    &:before {
+        filter: invert(1);
+    }
+}
+
+.lp-input-group--search:before {
+    filter: invert(1);
+}
+
+/*END - dropdown theme*/
+
+/*START - range input theme color*/
+div.lp-container div.slider-content {
+
+    .irs--round .irs-handle.state_hover,
+    .irs--round .irs-handle {
+        background-color: #343432;
+        border: 1px solid #fff;
+
+        i {
+            background: #fff;
+        }
+
+        &:hover {
+            background-color: #F51010;
+            border: 1px solid #F51010;
+
+            i {
+                background: #fff;
+            }
+
+        }
+    }
+}
+
+/*input*/
+.lp-input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.range-slider .irs-from,
+.range-slider .irs-to,
+.range-slider .irs-single {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.range-slider .irs--round .irs-bar {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/*END - range input theme color*/
+
+/*START - change filter button*/
+div#filtersModal button#filtersSubmit {
+    border: 2px solid #F51010;
+    background: #F51010 !important;
+    color: #fff;
+
+    &:hover {
+        border: 2px solid #F51010;
+        background: transparent !important;
+        color: #F51010;
+    }
+}
+
+/*END - change filter button*/
+
+/*START - MLS properties change card theme*/
+div.properties-grid.lp-vertical-paddings div.lp-container {
+    div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
+        background-color: #fff !important;
+        color: #000;
+
+        .listing-card__logo {
+            margin-bottom: 10px;
+        }
+    }
+
+    div.listing-card__status>div {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+        background-color: #F51010 !important;
+    }
+}
+
+/*END - MLS properties change card theme*/
+
+.filters__toggle[aria-expanded="false"] {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.filters__wrapper[aria-expanded="true"] {
+    background: #20201F !important;
+    /*input*/
+    .lp-input {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    .range-slider .irs-handle.from,
+    .range-slider .irs-handle.to,
+    .range-slider .irs-single {
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+    
+    .range-slider .irs--round .irs-bar {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    /*END - range input theme color*/
+}
+
+.filters__close {
+    svg path {
+        fill: #FFF !important;
+    }
+}
