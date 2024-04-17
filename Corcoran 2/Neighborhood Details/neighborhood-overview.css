@@ -1,0 +1,28 @@
+/*START - fixed popup info*/
+.item__copy .item__name--hint {
+    &:after {
+        background-color: #B19A55;
+    }
+
+    span.item__hint.hint {
+        background-color: #B19A55;
+        color: #fff;
+
+        &:after {
+            background-color: #B19A55;
+        }
+    }
+}
+
+/*END- fixed popup info*/
+
+/*START - 1 line for element title*/
+.lp-container .title {
+    max-width: 100% !important;
+
+    h2 {
+        max-width: 100% !important;
+    }
+}
+
+/*END- 1 line for element title*/

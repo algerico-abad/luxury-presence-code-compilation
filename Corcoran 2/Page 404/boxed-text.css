@@ -1,0 +1,19 @@
+/*START - adjust paddings*/
+.lp-vertical-paddings {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/* Start - Set the min-width for the buttons */
+.lp-btn {
+    min-width: 150px;
+}
+
+/* End */

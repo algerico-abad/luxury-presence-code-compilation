@@ -1,0 +1,5 @@
+.features-amenities__item-list {
+    li {
+        border-color: rgba(0, 0, 0, 0.1) !important;
+    }
+}

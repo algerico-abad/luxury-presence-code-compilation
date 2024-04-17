@@ -1,0 +1,9 @@
+/* Start - Workaround for the demographics bar */
+.population-age__bar.bar {
+    &:after {
+        width: calc(var(--valuePerc) / 100) !important;
+        max-width: 100%;
+    }
+}
+
+/* End */
