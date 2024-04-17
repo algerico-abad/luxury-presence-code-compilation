@@ -28,19 +28,19 @@ div.basic-margins {
 /*START - change slick arrow theme */
 div.slick-arrow span.arrow-in-circle {
     border: 2px solid #DFD6C6;
-    background-color: transparent;
+    background-color: #DFD6C6;
 
     &:after {
-        border: solid #DFD6C6;
+        border: solid #fff;
         border-width: 0 2px 2px 0;
     }
 
     &:hover {
-        border: 2px solid #fff;
-        background-color: #fff;
+        border: 2px solid #DFD6C6;
+        background-color: #DFD6C6;
 
         &:after {
-            border: solid #DFD6C6;
+            border: solid #fff;
             border-width: 0 2px 2px 0;
         }
     }

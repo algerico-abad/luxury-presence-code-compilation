@@ -38,19 +38,19 @@ div.score__help {
     cursor: pointer;
 
     svg path {
-        fill: #000 !important;
+        fill: #DFD6C6 !important;
     }
 
     div.tippy-box {
-        background-color: #000;
+        background-color: #DFD6C6;
         color: #fff;
 
         div.tippy-content {
-            background-color: #000 !important;
+            background-color: #DFD6C6 !important;
         }
 
         .tippy-arrow {
-            color: #000 !important;
+            color: #DFD6C6 !important;
         }
     }
 }
@@ -126,7 +126,7 @@ div.score__help {
     text-decoration: none;
 
     &:hover {
-        color: #000 !important;
+        color: #DFD6C6 !important;
     }
 
     &:before,
@@ -148,7 +148,7 @@ div.score__help {
 
     &:after {
         width: 0% !important;
-        background-color: #000 !important;
+        background-color: #DFD6C6 !important;
     }
 
     &:hover:after {

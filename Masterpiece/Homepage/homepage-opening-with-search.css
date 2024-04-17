@@ -1,7 +1,7 @@
 /*Start - Theme homepage search theme*/
 .search-lease-tabs {
     .search-lease-tab:not(.active) {
-        background-color: #B19A55 !important;
+        background-color: #FFC8C3 !important;
         color: #000;
     }
 }

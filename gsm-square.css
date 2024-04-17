@@ -50,3 +50,10 @@ div.gallery-component__header {
 }
 
 /*END -  reduce height of gsm to square*/
+
+/*Start - Fix title bottom margin*/
+.gallery-component__header {
+    margin-bottom: 40px !important;
+}
+
+/*End*/

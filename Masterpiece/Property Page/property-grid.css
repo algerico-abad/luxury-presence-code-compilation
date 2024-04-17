@@ -19,7 +19,7 @@ a.item {
     padding-bottom:35px;
 
     p.bf1.label {
-        background-color: #A62424;
+        background-color: #FFC8C3;
         color: #fff;
         padding: 5px 15px;
     }
@@ -29,13 +29,13 @@ a.item {
 
 /*START - page pagination*/
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
-    border-right: 2px solid #A62424;
-    border-top: 2px solid #A62424;
+    border-right: 2px solid #FFC8C3;
+    border-top: 2px solid #FFC8C3;
 }
 
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
-    border-right: 2px solid #A62424;
-    border-top: 2px solid #A62424;
+    border-right: 2px solid #FFC8C3;
+    border-top: 2px solid #FFC8C3;
 }
 
 /*END - page pagination*/

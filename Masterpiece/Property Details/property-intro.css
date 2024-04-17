@@ -1,33 +1,40 @@
 /*START - slick arrow theme*/
-div.arrows .lp-arrow.slick-arrow{
+div.arrows .lp-arrow.slick-arrow {
     background-color: transparent;
     border: solid 2px #fff;
-    &:before{
-        border-color:#fff;
+
+    &:before {
+        border-color: #fff;
     }
-    &:hover{
+
+    &:hover {
         border: solid 2px #fff;
-        background-color:#fff;
-        &:before{
-            border-color:#FFC8C3;
+        background-color: #fff;
+
+        &:before {
+            border-color: #FFC8C3;
         }
     }
 }
 
-@media (max-width: 768px){
-div.arrows .lp-arrow.slick-arrow{
-    background-color: transparent;
-    border: solid 2px #FFC8C3;
-    &:before{
-        border-color:#FFC8C3;
-    }
-    &:hover{
+@media (max-width: 768px) {
+    div.arrows .lp-arrow.slick-arrow {
+        background-color: transparent;
         border: solid 2px #FFC8C3;
-        background-color:#FFC8C3;
-        &:before{
-            border-color:#fff;
+
+        &:before {
+            border-color: #FFC8C3;
+        }
+
+        &:hover {
+            border: solid 2px #FFC8C3;
+            background-color: #FFC8C3;
+
+            &:before {
+                border-color: #fff;
+            }
         }
     }
 }
-}
+
 /*END - slick arrow theme*/
