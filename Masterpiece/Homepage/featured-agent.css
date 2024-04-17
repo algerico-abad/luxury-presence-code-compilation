@@ -5,7 +5,7 @@
     text-decoration: none !important;
 
     &:hover {
-        color: #A62424 !important;
+        color: #FFC8C3 !important;
         opacity: 1 !important;
     }
 
@@ -23,12 +23,12 @@
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #A62424 !important;
+        background-color: #FFC8C3 !important;
     }
 
     &:hover:after {
@@ -56,3 +56,20 @@
 }
 
 /*End*/
+
+/* Start - 1 line social icons on mobile */
+.socials {
+    @media only screen and (max-width: 768px) {
+        .lp-socials {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            
+            li {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+/* End */

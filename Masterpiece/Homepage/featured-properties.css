@@ -2,11 +2,11 @@
 div.lp-container a.item {
     p.status.bf1 {
         color: #fff !important;
-        background: #A62424 !important;
+        background: #FFC8C3 !important;
     }
 
     div.item__text {
-        background-color: #CECACA;
+        background-color: #f1f1f1;
         padding: 40px 30px 0px 30px;
         min-height: 175px;
 
@@ -22,19 +22,19 @@ div.lp-container a.item {
 
 /*START - slick arrow theme (local)*/
 div.arrows .lp-arrow.lp-arrow--dark {
-    background-color: #A62424;
-    border: solid 2px #A62424;
+    background-color: transparent;
+    border: solid 2px #FFC8C3;
 
     &:before {
-        border-color: #FFF;
+        border-color: #FFC8C3 !important;
     }
 
     &:hover {
-        background-color: transparent;
-        border: solid 2px #A62424;
+        background-color: #FFC8C3;
+        border: solid 2px #FFC8C3;
 
         &:before {
-            border-color: #A62424;
+            border-color: #fff !important;
         }
     }
 }
@@ -43,11 +43,11 @@ div.arrows .lp-arrow.lp-arrow--dark {
 
 /*START - padding*/
 .lp-vertical-paddings {
-    padding-top: 96 !important;
+    padding-top: 96px !important;
     padding-bottom: 96px !important;
 
-    @media (max-width: 768px) {
-        padding-top: 64 !important;
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
         padding-bottom: 64px !important;
     }
 }

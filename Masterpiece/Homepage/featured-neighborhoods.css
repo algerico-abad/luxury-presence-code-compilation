@@ -1,0 +1,31 @@
+/*START - make title in one line*/
+@media (max-width: 768px) {
+
+    h2,
+    .lp-h2 {
+        font-size: 31px !important;
+    }
+}
+
+/*END*/
+
+/*START - slick arrow*/
+.js-arrows .lp-arrow {
+    border: solid 2px #FFC8C3;
+    background-color: transparent;
+
+    &:before {
+        border-color: #FFC8C3;
+    }
+
+    &:hover {
+        border: solid 2px #FFC8C3;
+        background-color: #FFC8C3;
+
+        &::before {
+            border-color: #fff;
+        }
+    }
+}
+
+/*END*/

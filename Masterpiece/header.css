@@ -31,7 +31,7 @@ nav#global-navbar {
             }
 
             svg rect {
-                fill: #A62424 !important;
+                fill: #FFC8C3 !important;
             }
         }
 
@@ -45,7 +45,7 @@ nav#global-navbar {
 
             .sub-nav__link:hover {
                 color: #FFF;
-                background-color: #A62424;
+                background-color: #FFC8C3;
             }
 
             .navigation__link:after {
@@ -80,12 +80,12 @@ nav#global-navbar {
             }
 
             svg rect {
-                fill: #A62424 !important;
+                fill: #FFC8C3 !important;
             }
         }
 
         ul.navigation li.navigation__item {
-            color: #000;
+            color: #fff;
 
             .sub-nav__link {
                 color: #000;
@@ -93,8 +93,8 @@ nav#global-navbar {
             }
 
             .sub-nav__link:hover {
-                color: #FFF;
-                background-color: #A62424;
+                color: #fff;
+                background-color: #FFC8C3;
             }
 
             .navigation__link:after {
@@ -103,7 +103,7 @@ nav#global-navbar {
         }
 
         .search__btn svg {
-            color: #000;
+            color: #fff;
         }
     }
 
@@ -111,7 +111,7 @@ nav#global-navbar {
 
     /* START - scrolled state header nav in all pages(including homepage)*/
     &.scroll .header {
-        background-color: #A62424;
+        background-color: #FFC8C3;
 
         .header__hamburger {
             circle {
@@ -119,7 +119,7 @@ nav#global-navbar {
             }
 
             svg rect {
-                fill: #A62424 !important;
+                fill: #FFC8C3 !important;
             }
         }
 
@@ -133,7 +133,7 @@ nav#global-navbar {
 
             .sub-nav__link:hover {
                 color: #FFF;
-                background-color: #A62424;
+                background-color: #FFC8C3;
             }
 
             .navigation__link:after {
@@ -170,7 +170,7 @@ nav#global-navbar .header.theme-light ul.navigation li.navigation__item .sub-nav
 
     &:hover {
         color: #fff;
-        background-color: #A62424;
+        background-color: #FFC8C3;
     }
 }
 
@@ -181,4 +181,13 @@ nav .sub-nav__link {
     max-width: 200px !important;
 }
 
+/*END*/
+
+/*START - Logo Resize*/
+nav#global-navbar .logo {
+    height: 80px;
+    @media (max-width: 768px){
+        height: 60px;
+    }
+}
 /*END*/
