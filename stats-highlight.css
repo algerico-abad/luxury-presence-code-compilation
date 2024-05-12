@@ -1,0 +1,41 @@
+/* Start - Fix dimensions */
+.lp-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .lp-title-group {
+        margin-bottom: unset;
+
+        .lp-text--subtitle {
+            margin-bottom: unset;
+        }
+    }
+
+    .company-stats__row {
+        @media only screen and (max-width: 768px) {
+            gap: 40px;
+        }
+        
+        .company-stats__col {
+            .stat-card {
+                padding-bottom: 0px;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Theme Element */
+.lp-container {
+    .company-stats__row {
+        margin-bottom: unset;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+}
+
+/* End */

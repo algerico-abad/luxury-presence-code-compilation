@@ -30,11 +30,11 @@ div.section {
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
     color: #fff !important;
     background-color: transparent !important;
-    border-color: rgba(255, 255, 255, 0.25) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
 
     &.active,
     &:hover {
-        color: #000 !important;
+        color: #fff !important;
         background-color: #F51010 !important;
         border-color: #F51010 !important;
     }
@@ -62,14 +62,14 @@ p.overview-item__name--hint {
 
 /*START - border theming*/
 .tab-section:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255. 0.1) !important;
 }
 
 .tab .overview-item {
-    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 1px solid rgba(255, 255, 255. 0.1) !important;
 
     @media(max-width: 768px) {
-        border-right: 0 solid rgba(255, 255, 255, 0.1) !important;
+        border-right: 0 solid rgba(255, 255, 255. 0.1) !important;
     }
 }
 

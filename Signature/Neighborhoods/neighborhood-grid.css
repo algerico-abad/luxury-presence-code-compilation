@@ -1,7 +1,7 @@
 /*Start - Theme pagination*/
 .paginationjs-next a,
 .paginationjs-prev a {
-    background: #fff;
+    background: #F51010 !important;
     border-radius: 50%;
     transition: 0.4s;
     -webkit-tap-highlight-color: transparent;
@@ -11,18 +11,18 @@
     }
 
     &:after {
-        background-color: #F51010 !important;
+        background-color: #fff !important;
     }
 
     &:hover {
-        background: transparent;
+        background: transparent !important;
 
         &:before {
-            border-color: #fff;
+            border-color: #F51010;
         }
 
         &:after {
-            background-color: #fff !important;
+            background-color: #F51010 !important;
         }
     }
 }
@@ -45,6 +45,8 @@
 /*START - (neighb grid) change hyperlink color*/
 a.item {
     .link-icon {
+        color: #fff;
+        
         &:after {
             background-color: #F51010;
             border: 1px solid #F51010;
@@ -56,21 +58,15 @@ a.item {
     }
 
     &:hover .link-icon {
-        color: #fff !important;
+        color: #F51010 !important;
 
         &:after {
             background-color: transparent;
-            border-color: #fff;
+            border-color: #F51010;
         }
 
         &:before {
-            background-color: #fff !important;
-        }
-    }
-
-    .link-icon {
-        &:before {
-            background-color: #F51010;
+            background-color: #F51010 !important;
         }
     }
 }

@@ -1,62 +1,98 @@
-/*Start - Fix dimensions of the form*/
-.popup-modal {
-    min-height: 0px !important;
+/*START- fix padding */
+div.f-video {
+    padding-top: 96px;
+    padding-bottom: 96px;
 
-    .form-group {
+    @media (max-width: 992px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
 
-        .lp-title-group,
-        .form-inputs-wrap {
-            max-width: 100%;
+@media (max-width: 768px) {
+    .f-video-poster {
+        margin-top: 25px !important;
+    }
+}
+
+@media(max-width: 768px) {
+    h2 {
+        font-size: 32px !important;
+    }
+}
+
+/*END*/
+
+/*START - add play button and title - theming */
+h2 {
+    color: #000;
+
+    &.lp-h2 {
+        color: #000;
+    }
+}
+
+.lp-play--light {
+    border-color: #294F4A;
+    color: #fff;
+    background-color: #294F4A;
+
+    &:hover {
+        border-color: #294F4A;
+        color: #fff;
+        background-color: #294F4A;
+    }
+}
+
+/*END - add play button and title - theming*/
+
+.section-video__btn-wrap {
+    display: none !important;
+}
+
+/*START - title padding*/
+.section-video .col-1-3 .section-video__content {
+    padding-right: 0 !important;
+}
+
+/*END*/
+
+/*START - link underline*/
+.section-video__btn-wrap {
+    a {
+        position: relative !important;
+        color: #000;
+
+        &:hover {
+            color: #294F4A;
+        }
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #294F4A !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
         }
     }
 }
 
-/*End*/
-
-/*Start - Theme input*/
-.form-group {
-    .lp-input {
-        border-color: rgba(0, 0, 0, 0.1);
-    }
-}
-
-/*End*/
-
-/*Start - Fix disclaimer link underline*/
-.lp-disclaimer a {
-    position: relative !important;
-    color: #000 !important;
-    transition: 0.4s;
-    text-decoration: none !important;
-
-    &:hover {
-        color: #FFC8C3 !important;
-    }
-
-    &:before,
-    &:after {
-        transition: 0.4s;
-        text-decoration: none !important;
-        line-height: 1;
-        content: "" "";
-        height: 1px;
-        position: absolute !important;
-        bottom: 0;
-        left: 0;
-    }
-
-    &:before {
-        width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.1) !important;
-    }
-
-    &:after {
-        width: 0% !important;
-        background-color: #FFC8C3 !important;
-    }
-
-    &:hover:after {
-        width: 100% !important;
-    }
-}
-/*End*/
+/*END - link underline*/

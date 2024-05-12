@@ -1,0 +1,73 @@
+/* Start - Set paddings */
+.redesign {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    /* Breakpoint for mobile */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* Start - Fix the property element dimensions */
+.property-list-section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &>.container:is(.title-container) {
+        padding-top: 0px !important;
+    }
+
+    &>.container:not(.title-container) {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .property-list {
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+
+            .property-list__item {
+                .property-list__img {
+                    aspect-ratio: 16/9;
+                    height: auto !important;
+
+                    img {
+                        aspect-ratio: 16/9;
+                    }
+                }
+            }
+
+            @media only screen and (max-width: 768px) {
+                .property-list__item {
+                    max-width: initial !important;
+                }
+            }
+        }
+    }
+}
+
+/* End */
+
+/*START - change card theme*/
+div.redesign.property-list-section span.property-list__label {
+    background: #FFD140;
+    color: #fff;
+}
+
+.property-list__text {
+    color: #000;
+    background-color: #CEF7F6 !important;
+}
+
+.property-list__item {
+    background-color: transparent !important;
+}
+
+div.container>ul.property-list .property-list__text {
+    padding: 40px;
+}
+
+/*END - Change Card Theme*/

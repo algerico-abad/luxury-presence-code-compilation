@@ -6,7 +6,7 @@
 /*END*/
 
 /*START - change hyperlink arrow color*/
-div.lp-container span.link-icon {
+span.link-icon {
     &:after {
         border: 1px solid #fff;
         background-color: transparent !important;
@@ -34,7 +34,7 @@ div.lp-container span.link-icon {
 .lp-arrow {
     &:before {
         border: 1px solid #fff;
-        background: transparent;
+        background: transparent !important;
     }
 
     &:after {
@@ -79,7 +79,6 @@ div.top-row {
 /*END*/
 
 .feature {
-    .initials {
-        color: #000;
-    }
+    color: #000;
+    background: #fff;
 }

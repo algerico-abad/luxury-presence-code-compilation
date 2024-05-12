@@ -19,7 +19,7 @@
 
 /*line*/
 .property-quote-item blockquote strong:before {
-    background-color: rgb(163, 133, 95, 0.25) !important;
+    background-color: rgb(0, 0, 0, 0.1) !important;
 }
 
 /*END*/

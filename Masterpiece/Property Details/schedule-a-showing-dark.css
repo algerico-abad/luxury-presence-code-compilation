@@ -1,14 +1,14 @@
 /*START - schedule showing change theme color */
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #A62424;
-        background-color: #A62424;
+        border-color: #435352;
+        background-color: #435352;
         color: #fff;
 
         &:hover {
             border-color: rgba(0, 0, 0, 0.1);
             background-color: transparent;
-            color: #A62424;
+            color: #435352;
         }
     }
 
@@ -22,7 +22,7 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #A62424;
+                    background-color: #435352;
                 }
             }
         }
@@ -38,27 +38,31 @@ div.redesign {
     }
 
     button.slick-arrow {
-        border-color: rgba(0, 0, 0, 0.1);
-        background-color: transparent;
+        border-color: #435352;
+        background-color: #435352;
 
         &:before {
-            border-color: rgba(0, 0, 0, 0.1) !important;
+            border-color: #fff !important;
         }
 
         &:hover {
-            background-color: #fff;
-            border-color: rgba(0, 0, 0, 0.1);
+            background-color: transparent;
+            border-color: #435352;
 
             &:before {
-                border-color: #A62424 !important;
+                border-color: #435352 !important;
             }
         }
     }
 
+    .calendar__slide .calendar__item {
+        border-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
     .calendar__slide.selected .calendar__item {
-        border-color: rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-        color: #A62424;
+        border-color: #435352;
+        background-color: #435352;
+        color: #fff;
     }
 
     button.lp-btn {
@@ -100,7 +104,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #A62424 !important;
+        color: #435352 !important;
     }
 
     &:before,
@@ -122,7 +126,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #A62424 !important;
+        background-color: #435352 !important;
     }
 
     &:hover:after {

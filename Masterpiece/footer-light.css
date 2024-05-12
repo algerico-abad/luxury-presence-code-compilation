@@ -1,15 +1,27 @@
+/*START - dark bg footer invert */
+footer .site-footer__copy-lp img,
+footer .site-footer__disclaimer img {
+    filter: invert(1) !important;
+}
+
+/*END*/
+
 /* start - make EHO and Realtor logo black */
 #global-footer .site-footer__disclaimer {
     opacity: 1;
-    color: #929395;
+    color: #fff;
 
     &:after {
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
         opacity: 1;
     }
 }
 
 /*end*/
+
+footer .site-footer__col-content {
+    opacity: 1 !important;
+}
 
 /*START - footer link theme and underline*/
 footer#global-footer {
@@ -19,10 +31,10 @@ footer#global-footer {
     .footer-navigation__link {
         text-decoration: none;
         position: relative !important;
-        color: #000 !important;
+        color: #fff !important;
 
         &:hover {
-            color: #FFC8C3 !important;
+            color: #fff !important;
             opacity: 1 !important;
         }
 
@@ -36,16 +48,17 @@ footer#global-footer {
             position: absolute !important;
             bottom: 0;
             left: 0;
+            opacity: 1;
         }
 
         &:before {
             width: 100% !important;
-            background-color: rgba(0, 0, 0, 0.1) !important;
+            background-color: rgba(255, 255, 255, 0.1) !important;
         }
 
         &:after {
             width: 0% !important;
-            background-color: #FFC8C3 !important;
+            background-color: #fff !important;
         }
 
         &:hover:after {

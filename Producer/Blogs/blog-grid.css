@@ -13,8 +13,8 @@
 
 /*start - blog card theming*/
 .blog-list__container .blog-list__item {
-    background-color: #000 !important;
-    color: #fff;
+    background-color: #fff !important;
+    color: #000;
 }
 
 div.blog-list__item-content h4:after {
@@ -41,12 +41,12 @@ span:not(.date):not(.label):not(.featured-properties__label) {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #B19A55 !important;
+        background-color: #414042 !important;
     }
 
     &:hover:after {
@@ -54,7 +54,7 @@ span:not(.date):not(.label):not(.featured-properties__label) {
     }
 
     &:hover {
-        color: #B19A55;
+        color: #414042;
     }
 }
 

@@ -1,0 +1,86 @@
+/* start - make EHO and Realtor logo black */
+#global-footer .site-footer__disclaimer {
+    opacity: 1;
+    color: #000;
+
+    &:after {
+        background-color: rgba(0, 0, 0, 0.1);
+        opacity: 1;
+    }
+}
+
+/*end*/
+
+footer .site-footer__col-content {
+    opacity: 1 !important;
+}
+
+/*START - footer link theme and underline*/
+footer#global-footer {
+
+    a:not(.socials__item),
+    .link,
+    .footer-navigation__link {
+        text-decoration: none;
+        position: relative !important;
+        color: #000 !important;
+
+        &:hover {
+            color: #435352 !important;
+            opacity: 1 !important;
+        }
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+            opacity: 1;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #435352 !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+
+        @media only screen and (max-width: 1280px) {
+            overflow-wrap: anywhere;
+            text-decoration: underline !important;
+            white-space: normal !important;
+
+            &:before {
+                background-color: transparent;
+                width: 0% !important;
+            }
+
+            &:after {
+                background-color: transparent;
+            }
+
+            &:hover:after {
+                width: 0% !important;
+            }
+        }
+    }
+
+    div.site-footer__copy div:nth-child(2) a,
+    .footer-navigation__link {
+        padding-bottom: 5px !important;
+    }
+}
+
+/*END - footer link theme and underline*/

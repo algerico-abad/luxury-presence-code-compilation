@@ -14,180 +14,158 @@ nav#global-navbar {
         .navigation__link {
             white-space: pre;
             max-width: fit-content;
+            font-size: 16px;
         }
     }
 }
 
 /*END*/
 
-/* START - header nav theme*/
-nav#global-navbar {
+/* Start - Default navigation bar theme */
+#global-navbar:not(.scroll) {
 
-    /* START - default state - homepage header nav*/
-    .header.theme-light {
-        .header__hamburger {
+    /*Header theme for full bleed image opening*/
+    .header.theme-light,
+    .header.theme-auto.theme-light {
+        .header__hamburger svg {
             circle {
                 fill: #fff;
             }
 
-            svg rect {
-                fill: #FFC8C3 !important;
+            rect {
+                fill: #435352;
             }
         }
 
-        ul.navigation li.navigation__item {
+        /*Navigation Links theme*/
+        .navigation__link {
             color: #fff;
 
-            .sub-nav__link {
-                color: #000;
-                background-color: #fff;
-            }
-
-            .sub-nav__link:hover {
-                color: #FFF;
-                background-color: #FFC8C3;
-            }
-
-            .navigation__link:after {
-                background: #fff;
-            }
-        }
-
-        .search__btn svg {
-            color: #fff;
-        }
-
-        a.header__btn-contact {
-            background: transparent;
-            color: #fff !important;
-            border-color: #fff !important;
-
-            &:hover {
+            &:after {
                 background: #fff !important;
-                color: #000 !important;
+            }
+        }
+
+        /*Theme dropdown arrow*/
+        .navigation__item {
+            &:after {
                 border-color: #fff !important;
             }
         }
     }
 
-    /* END- default state - homepage header nav*/
+    /*Header theme for non-fullbleed image opening*/
+    .header.theme-auto,
+    .header:not(.theme-auto):not(.theme-dark):not(.theme-light) {
+        .header__hamburger svg {
+            circle {
+                fill: #435352;
+            }
 
-    /* START- default state - other pages header nav(property details+home val)*/
+            rect {
+                fill: #fff;
+            }
+        }
+
+        /*Navigation Links theme*/
+        .navigation__link {
+            color: #435352;
+
+            &:after {
+                background: #435352 !important;
+            }
+        }
+
+        /*Theme dropdown arrow*/
+        .navigation__item {
+            &:after {
+                border-color: #435352 !important;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Scrolled navigation bar theme */
+#global-navbar:is(.scroll) {
     .header {
-        .header__hamburger {
+        background: #435352;
+
+        .header__hamburger svg {
             circle {
+                fill: #435352;
+            }
+
+            rect {
                 fill: #fff;
             }
+        }
 
-            svg rect {
-                fill: #FFC8C3 !important;
+        /*Navigation Links theme*/
+        .navigation__link {
+            color: #435352;
+
+            &:after {
+                background: #435352 !important;
             }
         }
 
-        ul.navigation li.navigation__item {
-            color: #fff;
-
-            .sub-nav__link {
-                color: #000;
-                background-color: #fff;
+        /*Theme dropdown arrow*/
+        .navigation__item {
+            &:after {
+                border-color: #435352 !important;
             }
-
-            .sub-nav__link:hover {
-                color: #fff;
-                background-color: #FFC8C3;
-            }
-
-            .navigation__link:after {
-                background: #fff;
-            }
-        }
-
-        .search__btn svg {
-            color: #fff;
         }
     }
 
-    /* END - default state - other pages header nav(property details+home val)*/
+    /* Set which logo to be displayed on scrolled */
+    .logo__img.light {
+        display: block;
+    }
 
-    /* START - scrolled state header nav in all pages(including homepage)*/
-    &.scroll .header {
-        background-color: #FFC8C3;
+    .logo__img.dark {
+        display: none;
+    }
 
-        .header__hamburger {
-            circle {
-                fill: #fff;
-            }
+    .logo__img.light {
+        display: block;
+    }
 
-            svg rect {
-                fill: #FFC8C3 !important;
-            }
-        }
+    .logo__img.dark {
+        display: none;
+    }
+}
 
-        ul.navigation li.navigation__item {
-            color: #fff;
+/* End */
 
-            .sub-nav__link {
-                color: #000;
-                background-color: #fff;
-            }
+/* Start - Theme navigation dropdown menu */
+#global-navbar {
 
-            .sub-nav__link:hover {
-                color: #FFF;
-                background-color: #FFC8C3;
-            }
-
-            .navigation__link:after {
-                background: #fff;
-            }
-        }
-
-        .search__btn svg {
-            color: #FFF;
-        }
-
-        a.header__btn-contact {
-            background: transparent;
-            color: #fff !important;
-            border-color: #fff !important;
+    /*Sub menu theme*/
+    .sub-nav {
+        .sub-nav__link {
+            background: #E6F2FF;
+            color: #435352;
+            max-width: 300px !important;
 
             &:hover {
-                background: #fff !important;
-                color: #000 !important;
-                border-color: #fff !important;
+                background: #435352;
+                color: #fff;
             }
         }
     }
-
-    /* ENd - scrolled state header nav in all pages(including homepage)*/
 }
 
-/* END - header nav theme*/
-
-/*START - header nav dropdown*/
-nav#global-navbar .header.theme-light ul.navigation li.navigation__item .sub-nav__link {
-    color: #000;
-    background-color: #fff;
-
-    &:hover {
-        color: #fff;
-        background-color: #FFC8C3;
-    }
-}
-
-/*END*/
-
-/*START - make submenu in one line*/
-nav .sub-nav__link {
-    max-width: 200px !important;
-}
-
-/*END*/
+/*End*/
 
 /*START - Logo Resize*/
 nav#global-navbar .logo {
-    height: 80px;
-    @media (max-width: 768px){
-        height: 60px;
+    max-width: 200px;
+
+    @media (max-width: 768px) {
+        width: 200px;
     }
 }
+
 /*END*/

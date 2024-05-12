@@ -1,6 +1,6 @@
 /*START - Testimonial section theme (Local)*/
 svg path {
-    fill: #FFC8C3;
+    fill: #435352;
     fill-opacity: 1;
 }
 
@@ -34,8 +34,8 @@ div.bottom p.num-pages.js-num-pages {
 
 
 /*START- invert icon*/
-.testimonials-section .list-cell .avatar img {
-    filter: invert(1);
+.avatar img {
+    filter: invert(1) !important;
 }
 
 /*END - invert icon*/

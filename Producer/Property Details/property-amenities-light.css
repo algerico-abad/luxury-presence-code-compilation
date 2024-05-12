@@ -1,0 +1,13 @@
+div.redesign {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+.features-amenities-title {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}

@@ -44,7 +44,62 @@ div.video-gallery {
 }
 
 .lp-play:after {
-    border-color: transparent transparent transparent #DFD6C6;
+    border-color: transparent transparent transparent #1B569B;
 }
 
 /*END - fix play button hover state*/
+
+/* Start - Fix dimensions */
+.slick-list {
+    height: auto !important;
+    
+    .slick-slide {
+        display: flex;
+        flex-direction: row;
+        row-gap: 50px;
+        
+        & > div {
+            margin-bottom: 0px !important;
+            flex-wrap: wrap;
+            
+            @media only screen and (max-width: 768px) {
+                &:first-child {
+                    .video-gallery__slide {
+                        padding-top: 0px;
+                    }
+                }
+                
+                &:last-child {
+                    .video-gallery__slide {
+                        padding-bottom: 0px;
+                    }
+                }
+            }
+        }
+        
+        & > div:empty {
+            display: none !important;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            row-gap: 0px;
+            flex-direction: column;
+        }
+    }
+}
+
+/* End */
+
+/* Start - Fix preview dimensions */
+.video-gallery__slide {
+    .video-card__preview {
+        aspect-ratio: 16/9;
+        height: auto;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        width: 100% !important;
+    }
+}
+
+/* End */

@@ -16,7 +16,12 @@
 /*Start - Theme input*/
 .form-group {
     .lp-input {
+        color: #000;
         border-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .input-icon {
+        filter: invert(1);
     }
 }
 
@@ -30,7 +35,7 @@
     text-decoration: none !important;
 
     &:hover {
-        color: #DFD6C6 !important;
+        color: #414042 !important;
     }
 
     &:before,
@@ -52,11 +57,20 @@
 
     &:after {
         width: 0% !important;
-        background-color: #DFD6C6 !important;
+        background-color: #414042 !important;
     }
 
     &:hover:after {
         width: 100% !important;
+    }
+
+    @media only screen and (max-wdith: 768px) {
+        text-decoration: underline !important;
+        
+        &:before,
+        &:after {
+            display: none;
+        }
     }
 }
 /*End*/

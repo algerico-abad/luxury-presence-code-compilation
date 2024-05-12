@@ -1,0 +1,87 @@
+/*START - properties theming */
+a.item {
+    background-color: #f1f1f1;
+    color: #000;
+
+    h5 {
+        padding: 20px 35px 0 35px;
+    }
+
+    p.bf1 {
+        padding: 0 35px;
+    }
+
+    ul.bf2 {
+        padding: 0 35px;
+
+    }
+
+    padding-bottom:35px;
+
+    p.bf1.label {
+        background-color: #435352;
+        color: #fff;
+        padding: 5px 15px;
+    }
+}
+
+/*END- properties theming*/
+
+/*START - page pagination*/
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
+    border-right: 2px solid #435352;
+    border-top: 2px solid #435352;
+}
+
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
+    border-right: 2px solid #435352;
+    border-top: 2px solid #435352;
+}
+
+/*END - page pagination*/
+
+/* Start - Set paddings */
+.lp-vertical-paddings {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    /* Breakpoint for mobile */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+/* End */
+
+/* Start - Fix dimensions */
+.lp-vertical-paddings {
+    .lp-container {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+
+        .data-container {
+            column-gap: 20px;
+            row-gap: 48px;
+            justify-content: center;
+            margin-left: 0px;
+            margin-right: 0px;
+
+            .item {
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .lp-pagination {
+            margin-top: 0px;
+        }
+    }
+}
+
+/* End */

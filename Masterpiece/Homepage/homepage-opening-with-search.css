@@ -1,8 +1,8 @@
 /*Start - Theme homepage search theme*/
 .search-lease-tabs {
     .search-lease-tab:not(.active) {
-        background-color: #FFC8C3 !important;
-        color: #000;
+        background-color: #435352 !important;
+        color: #fff;
     }
 }
 
@@ -19,3 +19,13 @@
 }
 
 /*End*/
+
+.opening-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    p {
+        margin-bottom: 0px;
+    }
+}

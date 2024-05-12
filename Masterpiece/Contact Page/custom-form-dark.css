@@ -26,15 +26,25 @@ div.custom-form__header {
 .uf-cus-sel-item {
     background: #fff !important;
     color: #000 !important;
-
+    
     &:hover {
-        background: #FFC8C3 !important;
+        background: #435352 !important;
         color: #fff !important;
     }
 }
 
+.uf-cus-sel-toggle:is(.is-placeholder) {
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.5);
+}
+
 .lp-input--dark {
-    border-color: rgba(0, 0, 0, 0.25) !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    color: #000;
+    -webkit-text-fill-color: #000;
+    
+    &:focus {
+        border-color: rgba(0, 0, 0, 1) !important;
+    }
 }
 
 /* END */
@@ -70,7 +80,7 @@ p {
     opacity: 1 !important;
 
     &:hover {
-        color: #FFC8C3 !important;
+        color: #435352 !important;
     }
 
     &:before,
@@ -87,16 +97,25 @@ p {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #FFC8C3 !important;
+        background-color: #435352 !important;
     }
 
     &:hover:after {
         width: 100% !important;
+    }
+
+    @media only screen and (max-widt: 768px) {
+        text-decoration: underline;
+        
+        &:before,
+        &:after {
+            display: none;
+        }
     }
 }
 

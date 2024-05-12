@@ -6,7 +6,7 @@ a {
     font-weight: 400;
 
     &:hover {
-        color: #FFC8C3 !important;
+        color: #435352 !important;
     }
 
     &:before,
@@ -28,11 +28,20 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #FFC8C3 !important;
+        background-color: #435352 !important;
     }
 
     &:hover:after {
         width: 100% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        text-decoration: underline;
+
+        &:before,
+        &:after {
+            display: none;
+        }
     }
 }
 

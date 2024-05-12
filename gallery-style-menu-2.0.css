@@ -1,0 +1,102 @@
+/* Start - Set paddings */
+.redesign {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    /* Breakpoint for mobile */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* End */
+
+/* Start - Remove large bottom margin on title */
+.gallery-component__header {
+    max-width: 800px !important;
+    margin-bottom: 40px !important;
+    
+    p {
+        font-size: 16px;
+    }
+}
+
+/* End */
+
+/* Start - Fix dimensions */
+.gallery-component__row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+    /* Remove unnecessary dimensions from childrens (tiles) */
+    .gallery-component__col {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px !important;
+    }
+
+    /* Breakpoint for tablet and desktop */
+    @media only screen and (min-width: 768px) {
+        column-gap: 14px;
+        row-gap: 50px;
+    }
+
+    /* Breakpoint for mobile view */
+    @media only screen and (max-width: 768px) {
+        gap: 20px;
+    }
+}
+
+/* End */
+
+/* Start - Adjust spacings per column */
+.gallery-component__row {
+
+    /* Spacings for 2 column grid */
+    &.cols-2 {
+
+        /* Breakpoint for tablet and desktop */
+        @media only screen and (min-width: 768px) {
+            .gallery-component__col {
+                max-width: calc(50% - 14px) !important;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Adjust spacings per column */
+.gallery-component__row {
+
+    /* Spacings for 3 column grid */
+    &.cols-3 {
+
+        /* Breakpoint for tablet and desktop */
+        @media only screen and (min-width: 768px) {
+            .gallery-component__col {
+                max-width: calc(33.33% - 14px) !important;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Adjust spacings per column */
+.gallery-component__row {
+
+    /* Spacings for 3 column grid */
+    &.cols-4 {
+
+        /* Breakpoint for tablet and desktop */
+        @media only screen and (min-width: 768px) {
+            .gallery-component__col {
+                max-width: calc(25% - 14px) !important;
+            }
+        }
+    }
+}
+
+/* End */

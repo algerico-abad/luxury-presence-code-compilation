@@ -1,7 +1,7 @@
 /*START - neighb points theming*/
 .tag {
     color: #fff !important;
-    background: #A72BA7 !important;
+    background: #32403C !important;
     text-transform: uppercase !important;
 }
 
@@ -104,7 +104,7 @@ div.score__help {
 
 /*START - strs color*/
 .stars .star.is-filled {
-    background-color: #D91C4B !important;
+    background-color: #32403C !important;
 }
 
 /*END - stars color*/

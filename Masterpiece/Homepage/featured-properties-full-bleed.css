@@ -1,0 +1,47 @@
+/*START - fix padding */
+div.redesign {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media (max-width: 560px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - slick arrow*/
+.js-arrows .lp-arrow {
+    border: solid 2px #fff;
+    background: #fff;
+
+    &:before {
+        border-color: #E00083;
+    }
+
+    &:hover {
+        border: solid 2px #fff;
+        background-color: transparent;
+
+        &::before {
+            border-color: #fff;
+        }
+    }
+}
+
+/*END*/
+
+.status {
+    background: #FFD700 !important;
+    color: #fff !important;
+}
+
+/*START - button padding */
+@media (max-width: 768px) {
+    .lp-btn {
+        min-width: 325px;
+    }
+}
+
+/*END*/

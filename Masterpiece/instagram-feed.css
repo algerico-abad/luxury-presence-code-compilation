@@ -20,7 +20,7 @@ h3,
 div.lp-container {
     svg:not(:root) {
         path {
-            fill: #FFC8C3 !important;
+            fill: #fff !important;
         }
     }
 }

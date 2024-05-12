@@ -36,7 +36,19 @@
 .lp-disclaimer {
     a {
         &:hover {
-            color: #DFD6C6;
+            color: #C3B19E;
         }
     }
+}
+
+.custom-form__header {
+    max-width: 1000px !important;
+}
+
+.lp-text--subtitle p {
+    text-transform: lowercase;
+}
+
+.lp-text--subtitle p:first-letter {
+    text-transform: uppercase;
 }

@@ -1,0 +1,38 @@
+#modal-global-contact-us {
+    .lp-pre-line.pre-title {
+        &:after {
+            background: rgba(0, 0, 0, 0.1);
+        }
+    }
+    
+    .lp-disclaimer {
+        a {
+            &:hover {
+                color: #435352;
+            }
+        }
+    }
+    
+    .top-holder {
+        .agent {
+            & > p:first-child {
+                font-weight: bold;
+            }
+            
+            .lp-link {
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+/* START - fix x button in contact overlay*/
+#modal-global-contact-us {
+    @media only screen and (max-width: 768px) {
+        .close.lp-close {
+            top: 20px;
+        }
+    }
+}
+
+/* END - fix x button in contact overlay*/

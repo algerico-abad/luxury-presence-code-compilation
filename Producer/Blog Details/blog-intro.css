@@ -1,0 +1,6 @@
+/*START - Blog Intro Image Opacity*/
+div.blog-details-intro__img:after {
+    background: rgba(0, 0, 0, .5);
+}
+
+/*END*/

@@ -22,7 +22,7 @@
 }
 
 .custom-select-toggle:after {
-    border-color: #fff;
+    border-color: #000;
 }
 
 /*END*/
@@ -66,7 +66,7 @@
         text-decoration: none !important;
 
         &:hover {
-            color: #000 !important;
+            color: #B4A599 !important;
         }
 
         &:before,
@@ -88,7 +88,7 @@
 
         &:after {
             width: 0% !important;
-            background-color: #000 !important;
+            background-color: #B4A599 !important;
         }
 
         &:hover:after {

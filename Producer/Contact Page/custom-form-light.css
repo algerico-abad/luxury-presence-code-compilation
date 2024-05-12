@@ -38,7 +38,7 @@ div.custom-form__header {
 
 div.custom-form__img-block img {
     object-fit: contain;
-    background-color: transparent;
+    background-color: #000;
 }
 
 p {
@@ -48,8 +48,52 @@ p {
 /*END*/
 
 /*Start - Theme disclaimer link*/
-.lp-disclaimer a:hover {
-    color: #B19A55;
+.lp-disclaimer a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-underline-offset: 4px !important;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #ffd140 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #ffd140 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        text-decoration: underline !important;
+        
+        &:before,
+        &:after {
+            display: none;
+        }
+    }
 }
 
 /*End*/

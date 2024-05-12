@@ -50,7 +50,7 @@ div.type-list div.type-list__item {
 
     &.active,
     &:hover {
-        color: #D91C4B !important;
+        color: #FFD140 !important;
         background-color: #fff !important;
         border-color: #fff !important;
     }
@@ -104,6 +104,14 @@ div.type-list div.type-list__item {
 
 /*School SVG arrows color adjust - Start*/
 div.filter-arrows {
+    svg {
+        path {
+            fill: #fff !important;
+        }
+    }
+}
+
+div.website-link {
     svg {
         path {
             fill: #fff !important;

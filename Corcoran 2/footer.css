@@ -79,3 +79,16 @@ footer#global-footer .footer-container .logo img {
         filter: invert(1);
     }
 }
+
+#global-footer {
+    div.top.without-newsletter .top__left__lower {
+        .title {
+            font-size: 0px;
+            
+            &:after {
+                font-size: 14px;
+                content: 'FOLLOW ME';
+            }
+        }
+    }
+}

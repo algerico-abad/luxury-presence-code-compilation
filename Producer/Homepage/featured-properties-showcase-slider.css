@@ -13,19 +13,19 @@ div.f-properties {
 
 /*START - slick arrow*/
 .lp-arrow {
-    border: solid 2px #B19A55;
-    background-color: #B19A55;
+    border: solid 2px #414042;
+    background-color: #414042;
 
     &:before {
         border-color: #fff;
     }
 
     &:hover {
-        border: solid 2px #B19A55;
+        border: solid 2px #414042;
         background-color: transparent;
 
         &::before {
-            border-color: #B19A55;
+            border-color: #414042;
         }
     }
 }

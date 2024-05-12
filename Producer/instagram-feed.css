@@ -13,7 +13,20 @@
 
 /*START - play icon*/
 .video-icon::before {
-    border-color: transparent transparent transparent #000 !important;
+    border-color: transparent transparent transparent #ffd140 !important;
+}
+
+/*END*/
+
+/*START - fix ig pagination */
+.nav-button {
+    border: 2px solid #ffd140 !important;
+}
+
+@media (max-width: 768px) {
+    .bottom-nav-button {
+        border: 2px solid #ffd140 !important;
+    }
 }
 
 /*END*/

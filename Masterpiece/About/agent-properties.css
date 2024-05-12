@@ -1,0 +1,28 @@
+/*START - agent properties */
+a.item {
+    background-color: #042D49;
+    color: #fff;
+
+    h5 {
+        padding: 10px 25px 0 35px;
+    }
+
+    p.bf1 {
+        padding: 0px 25px 0 35px;
+    }
+
+    ul.bf2 {
+        padding: 0 25px 20px 35px;
+
+    }
+
+    padding-bottom:15px;
+
+    p.bf1.label {
+        background-color: #003057;
+        color: #fff;
+        padding: 10px 15px;
+    }
+}
+
+/*END - Agent Properties*/

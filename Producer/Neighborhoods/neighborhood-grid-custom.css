@@ -1,8 +1,28 @@
 /*Start - Hide a specific neighborhood without manually selecting*/
-/*Note: Edit the herf value to hide the specific neighborhood*/
+/*Note: Edit the href value to hide the specific neighborhood*/
 .items {
     .grid-item:has(a[href="/neighborhoods/featured-properties-do-not-delete"]) {
         display: none;
+    }
+}
+
+/*End*/
+
+/*Start - Center the tile if only have 1 neighborhood*/
+.items {
+    display: flex !important;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    
+    .grid-item {
+        min-height: auto !important;
+        max-width: 33.33% !important;
+        
+        @media only screen and (max-width: 768px) {
+            max-width: 100% !important;
+        }
     }
 }
 

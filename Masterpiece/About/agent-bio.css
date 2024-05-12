@@ -24,7 +24,7 @@
     opacity: 1 !important;
 
     &:hover {
-        color: #DFD6C6 !important;
+        color: #435352 !important;
     }
 
     &:before,
@@ -37,6 +37,7 @@
         position: absolute !important;
         bottom: 0;
         left: 0;
+        opacity: 1;
     }
 
     &:before {
@@ -46,7 +47,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #DFD6C6 !important;
+        background-color: #435352 !important;
     }
 
     &:hover:after {
@@ -112,3 +113,7 @@ div.agent-bio.redesign div.bottom-container {
 }
 
 /* End */
+
+.custom-form__header {
+    max-width: 1000px !important;
+}

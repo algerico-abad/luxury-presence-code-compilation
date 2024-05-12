@@ -4,3 +4,11 @@
 }
 
 /*End*/
+
+.lp-title-group {
+    margin-bottom: 0px;
+
+    .lp-h2 {
+        margin-bottom: 0px;
+    }
+}

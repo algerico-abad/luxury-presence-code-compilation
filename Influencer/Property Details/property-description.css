@@ -1,0 +1,32 @@
+/*2 agent to the right - martin */
+div.property-description__agent {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/*START - fix paddings*/
+div.property-description {
+    padding: 96px 0 64px;
+
+    @media (max-width: 767px) {
+        padding-top: 64px;
+        padding-bottom: 55px;
+    }
+}
+
+/*END*/
+
+/*START - button*/
+div.property-description__agent .btn {
+    text-transform: uppercase;
+}
+
+/*END*/
+
+img {
+    float: none !important;
+    padding: 0px !important;
+    width: 100% !important;
+    max-width: 100%;
+}

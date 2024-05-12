@@ -1,0 +1,10 @@
+.featured-team-header {
+    display: none !important;
+}
+
+/*START - border color when hover*/
+.featured-team__hover {
+    border-color: #414042;
+}
+
+/*END - border color*/

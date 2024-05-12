@@ -1,0 +1,5 @@
+/*START Move Background Image*/
+.opening-with-search:before {
+    background-position: left 20% bottom 10%!important;
+}
+/*END*/

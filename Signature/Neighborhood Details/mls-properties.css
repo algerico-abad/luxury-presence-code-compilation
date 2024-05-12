@@ -33,7 +33,7 @@ div.lp-container {
 
 .lp-input-group--search .lp-input {
     color: #fff !important;
-    
+
     &:before {
         filter: invert(1);
     }
@@ -104,8 +104,8 @@ div#filtersModal button#filtersSubmit {
 /*START - MLS properties change card theme*/
 div.properties-grid.lp-vertical-paddings div.lp-container {
     div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
-        background-color: #fff !important;
-        color: #000;
+        background-color: #2A2A28 !important;
+        color: #fff;
 
         .listing-card__logo {
             margin-bottom: 10px;
@@ -122,27 +122,39 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
 
 /*END - MLS properties change card theme*/
 
+/*IDX logo*/
+.listing-card__logo img {
+    filter: invert(1);
+}
+
+.custom-select-toggle {
+    text-transform: capitalize !important;
+}
+
+/*END - MLS properties change card theme*/
+
 .filters__toggle[aria-expanded="false"] {
     color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .filters__wrapper[aria-expanded="true"] {
     background: #20201F !important;
+
     /*input*/
     .lp-input {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     }
-    
+
     .range-slider .irs-handle.from,
     .range-slider .irs-handle.to,
     .range-slider .irs-single {
         color: rgba(255, 255, 255, 0.5) !important;
     }
-    
+
     .range-slider .irs--round .irs-bar {
         background-color: rgba(255, 255, 255, 0.1) !important;
     }
-    
+
     /*END - range input theme color*/
 }
 

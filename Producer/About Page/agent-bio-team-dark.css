@@ -20,7 +20,7 @@
     opacity: 1 !important;
 
     &:hover {
-        color: #B19A55 !important;
+        color: #414042 !important;
     }
 
     &:before,
@@ -42,7 +42,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #B19A55 !important;
+        background-color: #414042 !important;
     }
 
     &:hover:after {

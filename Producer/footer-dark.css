@@ -8,7 +8,7 @@ footer#global-footer {
         transition: 0.4s;
 
         &:hover {
-            color: #C5A95C !important;
+            color: #14CAEB !important;
         }
 
         &:before,
@@ -30,7 +30,7 @@ footer#global-footer {
 
         &:after {
             width: 0% !important;
-            background-color: #C5A95C !important;
+            background-color: #14CAEB !important;
         }
 
         &:hover:after {

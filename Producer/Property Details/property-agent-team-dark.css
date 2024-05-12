@@ -1,0 +1,142 @@
+/*START -  fix paddings (team) */
+div.property-agent-cta {
+    padding: 32px 0 32px;
+    @media (max-width: 768px){
+        padding: 20px 0 0;
+    }
+}
+div.property-agent-cta-item {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    @media (max-width: 768px){
+        padding-bottom: 45px;
+    }
+}
+div.btn-container {
+    margin-top: 0;
+}
+div.redesign .btn {
+    margin-bottom: 64px;
+}
+/*END*/
+
+/* START - contact link underline */
+a {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #414042 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #414042 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/* END */
+
+.property-agent-cta-container {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/*Start - Fix image and button margin*/
+.property-agent-cta-avatar {
+    align-self: flex-start !important;
+}
+
+button {
+    margin-bottom: 0px !important;
+}
+
+/*End*/
+
+/* Revised CSS */
+/* Start - Fix vertical padding */
+.redesign {
+    padding-top: 74px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* End */
+
+/* START - contact link underline */
+a {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #414042 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #414042 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/* END */
+
+.property-agent-cta-container {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.property-agent-cta-avatar {
+    @media only screen and (max-width: 768px) {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1/1 !important;
+    }
+}

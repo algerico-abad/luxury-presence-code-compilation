@@ -1,0 +1,121 @@
+/*START - fix paddings */
+div.lp-vertical-paddings {
+    padding-top: 88px;
+    padding-bottom: 76px;
+
+    @media (max-width: 1024px) {
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+/* END */
+
+/*START - dropdown theme */
+div.lp-container {
+    div.custom-select-content {
+        background: #fff !important;
+
+        button.custom-select-item {
+            color: #fff !important;
+
+            &:hover {
+                color: #fff !important;
+                background: #FFD140 !important;
+            }
+        }
+    }
+
+    .lp-input {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+}
+
+.lp-input-group--search {
+    &:before {
+        filter: invert(1);
+    }
+    
+    .lp-input {
+        color: #fff !important;
+    }
+}
+
+/*END - dropdown theme*/
+
+/*START - range input theme color*/
+div.lp-container div.slider-content {
+
+    .irs--round .irs-handle.state_hover,
+    .irs--round .irs-handle {
+        background-color: #000;
+        border: 1px solid #fff;
+
+        i {
+            background: #fff;
+        }
+
+        &:hover {
+            background-color: #FFD140;
+            border: 1px solid #FFD140;
+
+            i {
+                background: #fff;
+            }
+
+        }
+    }
+}
+
+/*input*/
+.lp-input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.range-slider .irs-from,
+.range-slider .irs-to,
+.range-slider .irs-single {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.range-slider .irs--round .irs-bar {
+    background-color: #444 !important;
+}
+
+/*END - range input theme color*/
+
+/*START - change filter button*/
+div#filtersModal button#filtersSubmit {
+    border: 2px solid #FFD140;
+    background: #FFD140 !important;
+    color: #000;
+
+    &:hover {
+        border: 2px solid #FFD140;
+        background: transparent !important;
+        color: #FFD140;
+    }
+}
+
+/*END - change filter button*/
+
+/*START - MLS properties change card theme*/
+div.properties-grid.lp-vertical-paddings div.lp-container {
+    div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
+        background-color: #1a1a1a !important;
+        color: #fff;
+
+        .listing-card__logo {
+            margin-bottom: 10px;
+        }
+    }
+
+    div.listing-card__status>div {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000;
+        background-color: #FFD140 !important;
+    }
+}
+
+/*END - MLS properties change card theme*/

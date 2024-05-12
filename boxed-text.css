@@ -1,0 +1,10 @@
+/*Start - Make title in one-line*/
+.lp-container {
+    max-width: 860px !important;
+}
+
+/*End*/
+
+.boxed-text__description {
+    margin-bottom: 0px !important;
+}

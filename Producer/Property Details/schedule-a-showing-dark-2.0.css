@@ -1,78 +1,124 @@
+/* Start - Fix element padding */
+.schedule.section.redesign {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    /* breakpoint for larger desktop */
+    @media only screen and (min-width: 1201px) {
+        .schedule__content  {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+    }
+    /* breakpoint for desktop */
+    @media only screen and (max-width: 1200px) {
+        padding-top: 96px !important;
+        padding-bottom: 0px !important;
+        gap: 96px
+    }
+    /* breakpoint for tablet */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 0px !important;
+        gap: 64px;
+    }
+    /* breakpoint for mobile */
+    @media only screen and (max-width: 580px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* End */
+
+/* Start - Fix image preview dimensions */
+.schedule.section.redesign {
+    .schedule__image {
+        height: auto !important;
+        
+        img {
+            aspect-ratio: 16/9;
+        }
+        
+        /* Breakpoint for larger desktop */
+        @media only screen and (min-width: 1201px) {
+            aspect-ratio: 1/1 !important;
+        }
+        /* Breakpoint for small desktop and below */
+        @media only screen and (max-width: 1200px) {
+            aspect-ratio: 16/1 !important;
+        }
+    }
+}
+
+/* End */
+
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #F51010;
-        background-color: #F51010;
+        border-color: #333333;
+        background-color: #333333;
         color: #fff;
 
         &:hover {
-            border-color: #F51010;
+            border-color: #333333;
             background-color: transparent;
-            color: #F51010;
+            color: #333333;
         }
     }
 
     /*Start - Theme dropdown*/
-    .custom-select {
-        // Theme dropdown toggle
-        .custom-select-toggle {
-            color: #000 !important;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-            
-            &:after {
-                background-color: #F51010;
+    div.custom-select {
+        .custom-select-menu .custom-select-content {
+            color: #000;
+            background-color: #fff;
+
+            .custom-select-item {
+                color: #000;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #333333;
+                }
             }
         }
-        // Theme dropdown background
-        .custom-select-content {
-            background-color: #fff !important;
-            color: #000;
-            // Do not display ugly scrollbar
-            &::-webkit-scrollbar {
-                display: none;
-            }
-            // Theme selected option
-            .custom-select-item:hover,
-            .custom-select-item.is-selected {
-                color: #F51010;
+
+        button.custom-select-toggle {
+            padding: 10px 20px !important;
+            text-transform: none !important;
+        }
+
+        button.custom-select-toggle.is-placeholder {
+            border-color: rgba(0, 0, 0, 0.1);
+
+            &:after {
+                border-color: #000;
             }
         }
     }
 
     /*Theme pagination*/
-    .lp-arrow {
-        background: #F51010;
-        border-radius: 50%;
-        transition: 0.4s;
-        -webkit-tap-highlight-color: transparent;
-        
+    button.slick-arrow {
+        border-color: #333333;
+        background-color: #333333;
+
         &:before {
-            border: 1px solid transparent;
+            border-color: #fff !important;
         }
-        
-        &:after {
-            background-color: #FFFFFF !important;
-        }
-        
+
         &:hover {
-            background: transparent;
-            
+            background-color: transparent;
+            border-color: #333333;
+
             &:before {
-                border-color: #F51010;
-            }
-            
-            &:after {
-                background-color: #F51010 !important;
+                border-color: #333333 !important;
             }
         }
     }
-    
-    /*End*/
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #F51010;
-        background-color: #F51010;
+        border-color: #333333;
+        background-color: #333333;
         color: #fff;
     }
 
@@ -104,11 +150,10 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     color: #000 !important;
     transition: 0.4s;
     opacity: 1 !important;
-    text-decoration: none !important;
     text-transform: uppercase !important;
 
     &:hover {
-        color: #F51010 !important;
+        color: #14CAEB !important;
     }
 
     &:before,
@@ -130,12 +175,20 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #F51010 !important;
+        background-color: #14CAEB !important;
     }
 
     &:hover:after {
         width: 100% !important;
     }
+}
+
+/*END*/
+
+/*START - Button fix*/
+.lp-btn,
+.redesign .lp-btn {
+    font-size: 12px;
 }
 
 /*END*/
@@ -163,7 +216,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #F51010 !important;
+        color: #14CAEB !important;
     }
 
     &:before,
@@ -185,7 +238,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #F51010 !important;
+        background-color: #14CAEB !important;
     }
 
     &:hover:after {
@@ -194,16 +247,6 @@ a.hyperlink-style-1 {
 }
 
 /*END*/
-
-/*Start - Fix padding on mobile*/
-.redesign .schedule__content {
-    @media only screen and (max-width: 768px) {
-        padding-top: 64px !important;
-        padding-bottom: 64px !important;
-    }
-}
-
-/*End*/
 
 /*Start - Theme form inputs*/
 .lp-input {
@@ -225,7 +268,7 @@ a.hyperlink-style-1 {
     text-decoration: none !important;
 
     &:hover {
-        color: #F51010 !important;
+        color: #14CAEB !important;
     }
 
     &:before,
@@ -247,7 +290,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #F51010 !important;
+        background-color: #14CAEB !important;
     }
 
     &:hover:after {

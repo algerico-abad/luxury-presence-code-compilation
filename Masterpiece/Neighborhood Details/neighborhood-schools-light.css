@@ -111,6 +111,14 @@ div.filter-arrows {
     }
 }
 
+div.website-link {
+    svg {
+        path {
+            fill: #fff !important;
+        }
+    }
+}
+
 div.items-box__content .type-item__icon {
     svg {
         path {

@@ -1,6 +1,6 @@
 /*START - Testimonials List theming */
 ul.collection li {
-    border-bottom: 1px solid #F9EFE2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*END - Testimonials List theming*/
@@ -8,8 +8,12 @@ ul.collection li {
 /*START - testimonial page icon*/
 div.testimonials ul.collection {
     .avatar {
-        background-color: #FFC8C3;
+        background-color: #435352;
         height: 154px;
+
+        circle {
+            fill-opacity: 0;
+        }
 
         path {
             fill: #fff;
@@ -19,8 +23,12 @@ div.testimonials ul.collection {
 
     @media only screen and (max-width: 768px) {
         .avatar {
-            background-color: #FFC8C3;
+            background-color: #435352;
             height: 135px;
+
+            circle {
+                fill-opacity: 0;
+            }
 
             path {
                 fill: #fff;
@@ -35,23 +43,25 @@ div.testimonials ul.collection {
 /*START - read more change color*/
 .js-read-more {
     &:hover {
-        color: #FFC8C3;
+        color: #435352;
 
         &:before {
-            background: #FFC8C3;
+            background: #435352;
         }
 
         &:after {
-            background: #FFC8C3;
+            background: #435352;
         }
     }
 
     &:before {
         background: rgba(0, 0, 0, 0.1) !important;
+        opacity: 1;
     }
 
     &:after {
-        background: #FFC8C3 !important;
+        background: #435352 !important;
+        opacity: 1;
     }
 }
 
@@ -59,13 +69,13 @@ div.testimonials ul.collection {
 
 /*START - page pagination */
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
-    border-right: 2px solid #FFC8C3;
-    border-top: 2px solid #FFC8C3;
+    border-right: 2px solid #435352;
+    border-top: 2px solid #435352;
 }
 
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
-    border-right: 2px solid #FFC8C3;
-    border-top: 2px solid #FFC8C3;
+    border-right: 2px solid #435352;
+    border-top: 2px solid #435352;
 }
 
 /*END - page pagination*/

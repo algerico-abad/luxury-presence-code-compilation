@@ -27,14 +27,14 @@
 /*START - mortgage calcu arrow -*/
 @media (max-width: 768px) {
     .results__expand svg {
-        stroke: #fff !important;
+        stroke: #000 !important;
     }
 }
 
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #DFD6C6;
+        background-color: #FFD140;
     }
 }
 
@@ -64,15 +64,15 @@
 
 div.custom-select {
     .custom-select-menu .custom-select-content {
-        color: #000;
-        background-color: #fff;
+        color: #fff;
+        background-color: #1a1a1a;
 
         .custom-select-item {
-            color: #000;
+            color: #fff;
 
             &:hover {
                 color: #fff;
-                background-color: #DFD6C6;
+                background-color: #FFD140;
             }
         }
     }
@@ -122,12 +122,12 @@ li.legend__item.is-hovered {
 /*START - fix chart link upon hover */
 .lp-link.lp-link--dark {
     position: relative !important;
-    color: #000 !important;
+    color: #fff !important;
     transition: 0.4s;
     opacity: 1 !important;
 
     &:hover {
-        color: #DFD6C6 !important;
+        color: #fff !important;
     }
 
     &:before,
@@ -144,12 +144,12 @@ li.legend__item.is-hovered {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #DFD6C6 !important;
+        background-color: #fff !important;
     }
 
     &:hover:after {

@@ -1,0 +1,16 @@
+/*Start - Padding and Border Color*/
+.property-description {
+    padding: 20px 20px 71px !important;
+}
+
+div.property-description__amenities {
+    border: 0 solid rgba(255, 255, 255, 0.25) !important;
+    border-left-width: 1px !important;
+    
+    /*Hide the border lines in mobile*/
+    @media only screen and (max-width: 768px) {
+        border: none !important;
+    }
+}
+
+/*END*/

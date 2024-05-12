@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    .media-text__content {
+        padding-bottom: 0px !important;
+    }
+    
+    /* Update Image to HD in mobile view */
+    .media-text > img {
+        content: url('https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/ipzhyjgnzgseaim39gdf/wwu');
+    }
+}

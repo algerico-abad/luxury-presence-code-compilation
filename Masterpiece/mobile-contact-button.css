@@ -2,12 +2,15 @@
 body>div.mobile-contact-wrapper .mobile-contact a i {
     color: #fff !important;
 }
+
 body>div.mobile-contact-wrapper .mobile-contact a {
-    background-color: #FFC8C3 !important;
-    border: 2px solid #FFC8C3 !important;
+    background-color: #435352 !important;
+    border: 2px solid #435352 !important;
 }
+
 body>div.mobile-contact-wrapper .mobile-contact.dark .item {
-    background-color: #FFC8C3 !important;
+    background-color: #435352 !important;
     color: #fff;
 }
+
 /* END */

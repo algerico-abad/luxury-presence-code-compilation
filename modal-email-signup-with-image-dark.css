@@ -1,0 +1,12 @@
+.lp-input input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.close {
+    opacity: 1 !important;
+    
+    &:before,
+    &:after {
+        background-color: #fff !important;
+    }
+}

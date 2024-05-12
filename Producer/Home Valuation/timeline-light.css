@@ -34,6 +34,19 @@ a {
     &:hover:after {
         width: 100% !important;
     }
+
+    @media only screen and (max-width: 768px) {
+        text-decoration: underline;
+
+        &:before,
+        &:after {
+            display: none;
+        }
+
+        &:hover {
+            color: #000;
+        }
+    }
 }
 
 /*END*/

@@ -4,6 +4,10 @@
     .accordion-content.tab-body.is-active{
         padding: 26px 40px !important;
     }
+    
+    .accordion-content.tab-body.is-active{
+        padding-top: 0px !important;
+    }
 }
 
 /*End*/

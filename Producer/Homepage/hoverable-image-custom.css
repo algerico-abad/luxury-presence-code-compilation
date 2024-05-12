@@ -1,5 +1,6 @@
 /*Start - Style the hoverable image*/
-.hoverable-image.hoverable-image--straight {
+.hoverable-image--straight,
+.hoverable-image--reverse {
 
     /*Maintain the aspect ratio of the image*/
     .hoverable-image__img-col {
@@ -29,7 +30,7 @@
         @media only screen and (max-width: 768px) {
             padding-left: 30px !important;
             padding-right: 30px !important;
-            margin-top: 0px;
+            margin-top: 0px !important;
             text-align: center;
 
             img {
@@ -40,3 +41,84 @@
 }
 
 /*End*/
+
+/* Start - CSS for custom social icons */
+.social-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    .social {
+        border: 1px solid #000;
+        border-radius: 50%;
+        color: #000;
+        position: relative;
+        height: 40px;
+        width: 40px;
+        transition: 0.25s;
+        overflow: hidden;
+
+        &:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        a {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            cursor: pointer;
+            font-size: 0px;
+            z-index: 2;
+        }
+
+        div {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+
+            &:before {
+                font-size: 14px;
+                display: block;
+                position: absolute;
+                left: 0px;
+                right: 0px;
+                top: 0px;
+                bottom: 0px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+/*<div class="social-wrapper">
+    <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100064134577624" target="_blank">_</a>
+        <div class="lp-i lp-i--facebook" aria-hidden="true"></div>
+    </div>
+    <div class="social">
+        <a href="https://www.instagram.com/alemann_associates/" target="_blank">_</a>
+        <div class="lp-i lp-i--instagram" aria-hidden="true"></div>
+    </div>
+    <div class="social">
+        <a href="https://www.google.co.ve/search?q=Alemann+%26+Associates+%09&amp;sca_esv=562779362&amp;sxsrf=AB5stBjHNCxHvBS1IFJIe_Y3UDEJ-6U1LQ%3A1693933946749&amp;source=hp&amp;ei=emH3ZKjzKsTA0PEP77ODsAo&amp;iflsig=AD69kcEAAAAAZPdviu5bhsp5Uspharv0vnhI6wNxNfeH&amp;ved=0ahUKEwiomKrZ-5OBAxVEIDQIHe_ZAKYQ4dUDCAk&amp;uact=5&amp;oq=Alemann+%26+Associates+%09&amp;gs_lp=Egdnd3Mtd2l6GgIYAiIWQWxlbWFubiAmIEFzc29jaWF0ZXMgCTIJEAAYDRgTGIAEMggQABgeGA0YEzIIEAAYFhgeGBMyChAAGAgYHhgNGBNI_whQiwdYiwdwAXgAkAEAmAHhAaAB4QGqAQMyLTG4AQPIAQD4AQL4AQGoAgrCAgcQIxjqAhgnwgIKECMY6gIYJxiLAw&amp;sclient=gws-wiz#lrd=0x80e91440f4a10593:0x498621bd334d4f1c,1,,,," target="_blank">_</a>
+        <div class="lp-i lp-i--google" aria-hidden="true"></div>
+    </div>
+    <div class="social">
+        <a href="https://www.yelp.com/biz/alemann-and-associates-santa-barbara" target="_blank">_</a>
+        <div class="lp-i lp-i--yelp" aria-hidden="true"></div>
+    </div>
+</div>*/
+/* End */
+
+/* The image used */
+background-image: url("https://res.cloudinary.com/luxuryp/images/w_320,c_limit,f_auto,q_auto/uykvbtqjmtremrtft2mk/jrb-logo-black-1-1");
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: 96%;
+background-repeat: no-repeat;
+background-size: 320px;

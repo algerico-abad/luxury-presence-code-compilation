@@ -1,0 +1,42 @@
+/*remove agent image*/
+.slick-slide img {
+    display: none;
+}
+/*END*/
+
+/*START - change hyperlink arrow color*/
+div.lp-container span.link-icon{
+    color: #fff !important;
+    
+    &:after {
+        border: 1px solid #F51010;
+        background-color: #F51010 !important;
+    }
+    
+    &:before {
+        background-color: #fff !important;
+    }
+    
+    &:hover{
+        color: #F51010 !important;
+        
+        &:after {
+            border-color: #F51010;
+            background-color: transparent !important;
+        }
+        
+        &:before {
+            background-color: #F51010 !important;
+        }
+    }
+    
+}
+/*END - change hyperlink color*/
+
+/*Start - Theme the initials of the reviews*/
+.feature {
+    background-color: #F51010 !important;
+    color: #fff !important;
+}
+
+/*End*/

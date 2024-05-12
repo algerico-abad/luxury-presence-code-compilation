@@ -58,5 +58,14 @@
     &:hover:after {
         width: 100% !important;
     }
+
+    @media only screen and (max-width: 768px) {
+        &:before,
+        &:after {
+            display: none;
+        }
+        
+        text-decoration: underline !important;
+    }
 }
 /*End*/

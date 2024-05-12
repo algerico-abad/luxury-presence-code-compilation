@@ -26,16 +26,9 @@ div.lp-container {
 
 /*END- 1 line for element title*/
 
-/*START - changing unselected button's border*/
-div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #B19A55;
-}
-
-/*END - changing unselected button's border*/
-
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #B19A55 var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
+    background: linear-gradient(90deg, #14CAEB var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -44,15 +37,15 @@ div.rate-item .star-row:before {
 
 /*START - change pill button theme*/
 div.type-list div.type-list__item {
-    color: #000 !important;
+    color: #333333 !important;
     background-color: transparent !important;
     border-color: rgba(0, 0, 0, 0.1) !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #B19A55 !important;
-        border-color: #B19A55 !important;
+        background-color: #333333 !important;
+        border-color: #333333 !important;
     }
 }
 
@@ -66,7 +59,7 @@ div.type-list div.type-list__item {
     text-decoration: none !important;
 
     &:hover {
-        color: #B19A55 !important;
+        color: #14CAEB !important;
     }
 
     &:before,
@@ -88,7 +81,7 @@ div.type-list div.type-list__item {
 
     &:after {
         width: 0% !important;
-        background-color: #B19A55 !important;
+        background-color: #14CAEB !important;
     }
 
     &:hover:after {
@@ -124,6 +117,14 @@ div.items-box__content {
 
 /*School SVG arrows color adjust - Start*/
 div.filter-arrows {
+    svg {
+        path {
+            fill: #000 !important;
+        }
+    }
+}
+
+div.website-link {
     svg {
         path {
             fill: #000 !important;

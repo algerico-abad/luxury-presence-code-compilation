@@ -1,0 +1,32 @@
+.custom-form__footer {
+    justify-content: center;
+}
+
+.close.lp-close {
+    @media only screen and (max-width: 768px) {
+        top: 30px;
+    }
+    
+    &:before {
+        background-color: #fff !important;
+    }
+}
+
+.custom-form__header {
+    margin-bottom: 0px;
+}
+
+.form-row {
+    .lp-input-group {
+        input,
+        textarea {
+            border-color: rgba(255, 255, 255, 0.25);
+            color: #fff;
+        }
+
+        .lp-input:-webkit-autofill,
+        .lp-input--dark:-webkit-autofill {
+            -webkit-text-fill-color: #fff;
+        }
+    }
+}

@@ -1,0 +1,122 @@
+/*START - fix paddings */
+.custom-form {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media (max-width: 767px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/*START - adjust title width - */
+div.custom-form__header {
+    max-width: 1500px;
+    
+    @media only screen and (max-width: 768px) {
+        margin-bottom: 20px !important;
+    }
+}
+
+/*END*/
+
+/*START - dropdown theming  */
+.uf-cus-sel-item {
+    background: #fff !important;
+    color: #000 !important;
+
+    &:hover {
+        background: #44423e !important;
+        color: #fff !important;
+    }
+}
+
+.uf-cus-sel-toggle:is(.is-placeholder) {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.5);
+}
+
+.lp-input--dark {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+/* END */
+
+/*START - contain photo*/
+.custom-form__img-col {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .custom-form__header {
+        margin-bottom: 0 !important;
+    }
+}
+
+div.custom-form__img-block img {
+    object-position: top;
+    object-fit: contain;
+    background-color: #44423e;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+/*END*/
+
+.lp-disclaimer a {
+    text-decoration: none !important;
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "" "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-widt: 768px) {
+        text-decoration: underline;
+        
+        &:before,
+        &:after {
+            display: none;
+        }
+    }
+}
+
+/*END*/
+
+.elem-col.custom-form__img-col {
+    aspect-ratio: 1/1;
+}

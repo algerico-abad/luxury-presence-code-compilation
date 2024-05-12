@@ -1,0 +1,71 @@
+/*START - updating step two hover effects */
+.custom-select .lp-input--dark+.custom-select-menu .custom-select-content {
+    color: #000;
+    background-color: #fff;
+}
+
+.custom-select .lp-input--dark+.custom-select-menu .custom-select-item:hover {
+    background-color: #003057;
+    color: #fff;
+}
+
+/*END*/
+
+/*START - home val steps(Local)*/
+div.section {
+    ol.steps-nav {
+        .active {
+            background-color: #003057;
+            opacity: 1;
+        }
+
+        li {
+            background-color: #003057;
+            color: #fff;
+            opacity: 0.5;
+        }
+    }
+}
+
+/*END - home val steps(Local)*/
+
+/*START - form padding */
+div.section.section--full-height {
+    padding-top: 124px;
+
+    .home-valuation__step {
+        max-width: 600px;
+
+        h3.lp-h3 {
+            font-size: 30px;
+        }
+    }
+}
+
+/*ENd - form padding */
+
+.input-container {
+    .lp-input {
+        border-color: rgba(0, 0, 0, 0.1);
+        color: #000;
+
+        &:focus {
+            border-color: rgba(0, 0, 0, 1);
+        }
+    }
+
+    .lp-input:-webkit-autofill,
+    .lp-input--dark:-webkit-autofill {
+        -webkit-text-fill-color: #000;
+    }
+    
+    .input-icon {
+        filter: invert(0);
+    }
+}
+
+.section {
+    .box {
+        justify-content: center;
+    }
+}
