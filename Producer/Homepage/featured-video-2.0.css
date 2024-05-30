@@ -1,0 +1,19 @@
+.play-btn-holder {
+    .icon-wrapper {
+        .play-icon {
+            color: #baae7d !important;
+        }
+    }
+    
+    &:hover {
+        .icon-wrapper {
+            background-color: #baae7d !important;
+            
+            .play-icon {
+                color: #fff !important;
+            }
+        }
+        
+        border-color: #baae7d !important;
+    }
+}

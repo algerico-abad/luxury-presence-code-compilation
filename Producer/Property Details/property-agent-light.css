@@ -9,7 +9,7 @@ div.property-agent-cta {
 /*END*/
 
 /*START - contact link underline */
-a {
+a.lp-link {
     position: relative !important;
     color: #fff !important;
     transition: 0.4s;
@@ -51,7 +51,7 @@ a {
 /*Start - Fix image and button margin*/
 .property-agent-cta-avatar {
     align-self: flex-start !important;
-    
+
     @media only screen and (max-width: 768px) {
         align-self: center !important;
         width: 100% !important;

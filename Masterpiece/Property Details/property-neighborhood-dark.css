@@ -1,13 +1,13 @@
 /*START - pop up link underline */
 a {
     position: relative !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: 0.4s;
     opacity: 1 !important;
     border-bottom: none;
 
     &:hover {
-        color: #fff !important;
+        color: #E00083 !important;
     }
 
     &:before,
@@ -24,12 +24,12 @@ a {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #fff !important;
+        background-color: #E00083 !important;
     }
 
     &:hover:after {

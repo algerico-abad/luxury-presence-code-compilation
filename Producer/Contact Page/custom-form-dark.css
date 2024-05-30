@@ -57,7 +57,7 @@ p {
     text-decoration: none !important;
 
     &:hover {
-        color: #a59d95 !important;
+        color: #ED2127 !important;
     }
 
     &:before,
@@ -79,7 +79,7 @@ p {
 
     &:after {
         width: 0% !important;
-        background-color: #a59d95 !important;
+        background-color: #ED2127 !important;
     }
 
     &:hover:after {
@@ -112,7 +112,9 @@ p {
     color: #000 !important;
     
     &:hover {
-        background: #a59d95 !important;
+        background: #ED2127 !important;
         color: #fff !important;
     }
 }
+
+/* End */

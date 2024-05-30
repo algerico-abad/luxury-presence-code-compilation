@@ -1,71 +1,45 @@
-/*START- fix padding */
-div.f-video {
-    padding-top: 96px;
-    padding-bottom: 96px;
+@font-face {
+    font-family: "CompassSans";
+    src: url('d1hqn9onx2xuha.cloudfront.net/fonts/compass/CompassSans/CompassSans-Regular.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Regular.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Regular.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
-    @media (max-width: 992px) {
-        padding-top: 64px;
-        padding-bottom: 64px;
+@font-face {
+    font-family: "CompassSans";
+    src: url('d1hqn9onx2xuha.cloudfront.net/fonts/compass/CompassSans/CompassSans-Bold.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Bold.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Bold.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/static-lp/fonts/compass/CompassSans/CompassSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Kai';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://d1e1jt2fj4r8r.cloudfront.net/fonts/BebasKai-Regular.woff') format('woff');
+}
+
+/*Global Contact Us Padding Fix*/
+
+#modal-global-contact-us.modal.visible div.modal-content div.contact-popup {
+    padding: 0;
+}
+
+/*Start - black input line color on modal*/
+.modal-content .inp {
+    border-color: #2A505D;
+
+    &::placeholder {
+        text-transform: uppercase;
     }
 }
 
-@media (max-width: 768px) {
-    .f-video-poster {
-        margin-top: 25px !important;
-    }
-}
-
-@media(max-width: 768px) {
-    h2 {
-        font-size: 32px !important;
-    }
-}
-
-/*END*/
-
-/*START - add play button and title - theming */
-h2 {
-    color: #000;
-
-    &.lp-h2 {
-        color: #000;
-    }
-}
-
-.lp-play--light {
-    border-color: #294F4A;
-    color: #fff;
-    background-color: #294F4A;
-
-    &:hover {
-        border-color: #294F4A;
-        color: #fff;
-        background-color: #294F4A;
-    }
-}
-
-/*END - add play button and title - theming*/
-
-.section-video__btn-wrap {
-    display: none !important;
-}
-
-/*START - title padding*/
-.section-video .col-1-3 .section-video__content {
-    padding-right: 0 !important;
-}
-
-/*END*/
+/*End*/
 
 /*START - link underline*/
-.section-video__btn-wrap {
-    a {
+div#modal-global-contact-us {
+    div.contact-popup__info a {
         position: relative !important;
-        color: #000;
-
-        &:hover {
-            color: #294F4A;
-        }
 
         &:before,
         &:after {
@@ -81,12 +55,12 @@ h2 {
 
         &:before {
             width: 100% !important;
-            background-color: rgba(0, 0, 0, 0.1) !important;
+            background-color: #ddd !important;
         }
 
         &:after {
             width: 0% !important;
-            background-color: #294F4A !important;
+            background-color: #2A505D !important;
         }
 
         &:hover:after {
@@ -96,3 +70,151 @@ h2 {
 }
 
 /*END - link underline*/
+.lp-btn,
+.btn {
+    border-width: 2px !important;
+}
+
+/*START - footer link underline*/
+footer#global-footer {
+    a:not(.socials__item) {
+        text-decoration: none;
+        position: relative !important;
+        line-height: 1.7;
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: #777 !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #fff !important;
+        }
+
+        &:hover {
+            color: #ccc !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+    }
+}
+
+/*END - footer link underline*/
+
+/*realtor and housing logo to black*/
+#global-footer {
+    div.footer__disclaimer {
+        opacity: 1;
+
+        p {
+            color: #A8A8A8;
+        }
+    }
+}
+
+/*End*/
+
+/* START - Makes Global Font uppercase */
+h1,
+h2,
+h3,
+h4,
+h5,
+.lp-h1,
+.lp-h2,
+.lp-h3,
+.lp-h4,
+.lp-h5,
+.footer__menu-item {
+    font-weight: 500;
+    text-transform: uppercase !important;
+}
+
+/*START - Sidemenu & header nav font */
+div#global-sidemenu.sidemenu,
+nav#global-navbar {
+
+    & a,
+    & button,
+    .title {
+        text-transform: uppercase;
+    }
+}
+
+/*END - Sidemenu & header nav font*/
+
+footer .footer__contact-input {
+    border-color: #fff !important;
+    opacity: 1 !important;
+}
+
+/*Global Contact Us Padding Fix*/
+
+/*max width title opening */
+.simple-opening__content {
+    max-width: 100% !important;
+}
+
+/*color link header - martin */
+nav#global-navbar .navigation__item.sub-nav-container .sub-nav {
+    background-color: #fff;
+
+    a {
+        color: #000;
+    }
+}
+
+nav#global-navbar .header:not(.scroll) {
+    margin-top: 20px;
+}
+
+nav .navigation__item.sub-nav-container .sub-nav ul li .nav-link:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/*icon width menu - martin */
+
+nav#global-navbar .hamburger:before,
+nav#global-navbar .hamburger:after {
+    height: 8px;
+    border-left: 8px solid #fff;
+    border-right: 8px solid #fff;
+}
+
+nav#global-navbar header.scroll .hamburger:before,
+nav#global-navbar header.scroll .hamburger:after {
+    height: 8px;
+    border-left: 8px solid #000;
+    border-right: 8px solid #000;
+}
+
+nav#global-navbar .hamburger {
+    width: 32px;
+    height: 32px;
+}
+
+/*max width title opening - martin */
+.simple-opening .container {
+    max-width: 1400px;
+}
+
+/*increase header font */
+nav#global-navbar .navigation__link {
+    font-size: 16px;
+}

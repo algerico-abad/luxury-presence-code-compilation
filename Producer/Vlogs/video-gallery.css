@@ -44,7 +44,7 @@ div.video-gallery {
 }
 
 .lp-play:after {
-    border-color: transparent transparent transparent #1B569B;
+    border-color: transparent transparent transparent #DEA2A2;
 }
 
 /*END - fix play button hover state*/
@@ -56,6 +56,7 @@ div.video-gallery {
     .slick-slide {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         row-gap: 50px;
         
         & > div {

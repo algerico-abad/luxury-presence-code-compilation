@@ -1,0 +1,54 @@
+/*START - font - makes global font uppercase*/
+h1 {
+    text-transform: uppercase !important;
+}
+
+.lp-h1 {
+    text-transform: uppercase !important;
+}
+
+h2 {
+    text-transform: uppercase !important;
+}
+
+.lp-h2 {
+    text-transform: uppercase !important;
+}
+
+h3 {
+    text-transform: uppercase !important;
+}
+
+.lp-h3 {
+    text-transform: uppercase !important;
+}
+
+h4 {
+    text-transform: uppercase !important;
+}
+
+.lp-h4 {
+    text-transform: uppercase !important;
+}
+
+h5 {
+    text-transform: uppercase !important;
+}
+
+.lp-h5 {
+    text-transform: uppercase !important;
+}
+
+/*START - Sidemenu & header nav font */
+div#global-sidemenu.sidemenu,
+nav#global-navbar {
+    & a {
+        text-transform: uppercase;
+    }
+
+    & button {
+        text-transform: uppercase;
+    }
+}
+
+/*END*/

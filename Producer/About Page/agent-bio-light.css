@@ -16,7 +16,7 @@
 /*END*/
 
 /*START - contact link underline */
-.details-list li a {
+a.lp-link {
     font-weight: 400;
     position: relative !important;
     color: #fff !important;
@@ -55,7 +55,7 @@
 
     @media only screen and (max-width: 768px) {
         text-decoration: underline;
-        
+
         &:before,
         &:after {
             display: none;

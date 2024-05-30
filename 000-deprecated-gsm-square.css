@@ -11,7 +11,7 @@
 
 /*END*/
 
-/*START - gsm - square*/
+/* START - gsm - square */
 div.gallery-component__col {
     .gallery-card {
         width: 100%;
@@ -49,7 +49,7 @@ div.gallery-component__header {
     margin-bottom: 40px;
 }
 
-/*END -  reduce height of gsm to square*/
+/* END -  reduce height of gsm to square */
 
 /*Start - Fix title bottom margin*/
 .gallery-component__header {

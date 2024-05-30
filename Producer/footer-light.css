@@ -70,3 +70,15 @@ footer#global-footer .footer .info-privacy {
 }
 
 /*END*/
+
+/* Start - Updated official images into white */
+#global-footer {
+    .text_footer.first_text_footer .luxury-text,
+    .info-privacy {
+        img {
+           filter: invert(1); 
+        }
+    }
+}
+
+/* End */

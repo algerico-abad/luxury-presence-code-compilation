@@ -1,0 +1,16 @@
+/* Start - Make table scrollable on mobile */
+.neighborhood-content {
+    .advanced-editor {
+        & > div:has(table) {
+            @media only screen and (max-width: 768px) {
+                overflow-x: scroll;
+            
+                table {
+                    min-width: 800px;
+                }
+            }
+        }
+    }
+}
+
+/* End */

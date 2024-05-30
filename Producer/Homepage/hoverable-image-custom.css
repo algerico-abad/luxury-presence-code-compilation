@@ -94,6 +94,8 @@
     }
 }
 
+/* End */
+
 /*<div class="social-wrapper">
     <div class="social">
         <a href="https://www.facebook.com/profile.php?id=100064134577624" target="_blank">_</a>
@@ -114,11 +116,13 @@
 </div>*/
 /* End */
 
-/* The image used */
-background-image: url("https://res.cloudinary.com/luxuryp/images/w_320,c_limit,f_auto,q_auto/uykvbtqjmtremrtft2mk/jrb-logo-black-1-1");
+& {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/luxuryp/images/w_320,c_limit,f_auto,q_auto/uykvbtqjmtremrtft2mk/jrb-logo-black-1-1");
 
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: 96%;
-background-repeat: no-repeat;
-background-size: 320px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 96%;
+    background-repeat: no-repeat;
+    background-size: 320px;
+}

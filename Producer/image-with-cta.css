@@ -1,0 +1,13 @@
+& {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    
+    @media only screen and (max-width: 768px) {
+        margin-top: 64px;
+        margin-bottom: 0px;
+        
+        .media-text__content {
+            padding-bottom: 0px !important;
+        }
+    }
+}

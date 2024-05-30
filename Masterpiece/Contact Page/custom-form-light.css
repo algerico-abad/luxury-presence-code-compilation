@@ -24,12 +24,12 @@ div.custom-form__header {
 
 /*START - dropdown theming  */
 .uf-cus-sel-item {
-    background: #fff !important;
-    color: #000 !important;
+    background: #1a1a1a !important;
+    color: #fff !important;
 
     &:hover {
-        background: #44423e !important;
-        color: #fff !important;
+        background: #D9D9D9 !important;
+        color: #000 !important;
     }
 }
 
@@ -59,7 +59,7 @@ div.custom-form__header {
 div.custom-form__img-block img {
     object-position: top;
     object-fit: contain;
-    background-color: #44423e;
+    background-color: #D9D9D9;
 }
 
 p {

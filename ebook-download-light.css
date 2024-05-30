@@ -1,0 +1,115 @@
+/*START - ebook - padding*/
+.ebook-download {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - dropdown ebook*/
+.ebook-download .custom-select-item {
+    color: #fff !important;
+
+    &:hover {
+        color: #fff !important;
+        background-color: #000 !important;
+    }
+}
+
+.custom-select-toggle:after {
+    border-color: #fff;
+}
+
+/*END*/
+
+.ebook-download__image-block {
+    @media only screen and (min-width: 768px) {
+        aspect-ratio: 376/501;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        aspect-ratio: 376/501;
+        height: auto !important;
+    }
+}
+
+.ebook-download__col--img {
+    @media only screen and (max-width: 1060px) {
+        max-width: fit-content !important;
+    }
+}
+
+/*Start - Reduce the spacing of the form and image*/
+.ebook-download__col.ebook-download__col--form {
+    @media only screen and (min-width: 769px) {
+        max-width: fit-content !important;
+    }
+}
+
+/*End*/
+
+/*Start - Fix Ebook Modal not scrolling*/
+.modal.visible:has(.ebook-download) {
+    overflow-y: scroll !important;
+
+    @media only screen and (max-width: 768px) {
+
+        /*Adjust close button position for mobile view*/
+        .close.lp-close {
+            top: 30px;
+            right: 20px;
+        }
+
+        /*End*/
+    }
+}
+
+/*End*/
+
+.lp-input {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.lp-disclaimer {
+    a {
+        position: relative !important;
+        color: #fff !important;
+        transition: 0.4s;
+        text-decoration: none !important;
+
+        &:hover {
+            color: #fff !important;
+        }
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(255, 255, 255, 0.25) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #fff !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+    }
+}

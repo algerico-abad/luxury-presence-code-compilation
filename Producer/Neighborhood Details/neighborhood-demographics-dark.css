@@ -9,6 +9,10 @@ div.section {
 
 /*END*/
 
+.tab-section__content {
+    padding-bottom: 0px !important;
+}
+
 /*START - 1 line for element title*/
 .lp-container .title {
     max-width: 85% !important;
@@ -35,8 +39,8 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #14CAEB !important;
-        border-color: #14CAEB !important;
+        background-color: #7c7a61 !important;
+        border-color: #7c7a61 !important;
     }
 }
 
@@ -45,15 +49,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #14CAEB !important;
+        background-color: #7c7a61 !important;
     }
 
     span.hint {
-        background-color: #14CAEB;
+        background-color: #7c7a61;
         color: #fff;
 
         &:after {
-            background-color: #14CAEB;
+            background-color: #7c7a61;
         }
     }
 }

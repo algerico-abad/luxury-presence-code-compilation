@@ -9,8 +9,8 @@ div.lp-container span.link-icon{
     color: #fff !important;
     
     &:after {
-        border: 1px solid #F51010;
-        background-color: #F51010 !important;
+        border: 1px solid #D9D9D9;
+        background-color: #D9D9D9 !important;
     }
     
     &:before {
@@ -18,15 +18,15 @@ div.lp-container span.link-icon{
     }
     
     &:hover{
-        color: #F51010 !important;
+        color: #D9D9D9 !important;
         
         &:after {
-            border-color: #F51010;
+            border-color: #D9D9D9;
             background-color: transparent !important;
         }
         
         &:before {
-            background-color: #F51010 !important;
+            background-color: #D9D9D9 !important;
         }
     }
     
@@ -35,7 +35,7 @@ div.lp-container span.link-icon{
 
 /*Start - Theme the initials of the reviews*/
 .feature {
-    background-color: #F51010 !important;
+    background-color: #D9D9D9 !important;
     color: #fff !important;
 }
 

@@ -1,0 +1,81 @@
+/*START - Testimonials List theming */
+ul.collection li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/*END - Testimonials List theming*/
+
+/*START - testimonial page icon*/
+div.testimonials ul.collection {
+    .avatar {
+        background-color: #D9D9D9;
+        height: 154px;
+
+        circle {
+            fill-opacity: 0;
+        }
+
+        path {
+            fill: #fff;
+            fill-opacity: 1;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .avatar {
+            background-color: #D9D9D9;
+            height: 135px;
+
+            circle {
+                fill-opacity: 0;
+            }
+
+            path {
+                fill: #fff;
+                fill-opacity: 1;
+            }
+        }
+    }
+}
+
+/*END - testimonial page icon*/
+
+/*START - read more change color*/
+.js-read-more {
+    &:hover {
+        color: #D9D9D9;
+
+        &:before {
+            background: #D9D9D9;
+        }
+
+        &:after {
+            background: #D9D9D9;
+        }
+    }
+
+    &:before {
+        background: rgba(255, 255, 255, 0.25) !important;
+        opacity: 1;
+    }
+
+    &:after {
+        background: #D9D9D9 !important;
+        opacity: 1;
+    }
+}
+
+/*END*/
+
+/*START - page pagination */
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
+    border-right: 2px solid #D9D9D9;
+    border-top: 2px solid #D9D9D9;
+}
+
+.lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
+    border-right: 2px solid #D9D9D9;
+    border-top: 2px solid #D9D9D9;
+}
+
+/*END - page pagination*/

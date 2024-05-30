@@ -21,11 +21,11 @@
         }
     
         &:after {
-            background-color: #a3855f;
+            background-color: #101e5f;
         }
         
         &:hover {
-            color: #a3855f;
+            color: #101e5f;
         }
     }
 

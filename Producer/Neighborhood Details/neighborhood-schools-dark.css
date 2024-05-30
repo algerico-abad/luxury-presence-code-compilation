@@ -1,5 +1,17 @@
+/* Start - Fix dimension */
+.lp-container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    
+    .btn-wrap:has(button[style="display: none;"]) {
+        display: none;
+    }
+}
+
+/* End */
+
 /*START - fix padding*/
-div.lp-container {
+& > .section {
     padding-top: 96px;
     padding-bottom: 96px;
 
@@ -28,7 +40,7 @@ div.lp-container {
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #14CAEB var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
+    background: linear-gradient(90deg, #2C251C var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -37,15 +49,15 @@ div.rate-item .star-row:before {
 
 /*START - change pill button theme*/
 div.type-list div.type-list__item {
-    color: #333333 !important;
+    color: #2C251C !important;
     background-color: transparent !important;
-    border-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #2C251C !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #333333 !important;
-        border-color: #333333 !important;
+        background-color: #2C251C !important;
+        border-color: #2C251C !important;
     }
 }
 
@@ -59,7 +71,7 @@ div.type-list div.type-list__item {
     text-decoration: none !important;
 
     &:hover {
-        color: #14CAEB !important;
+        color: #2C251C !important;
     }
 
     &:before,
@@ -81,7 +93,7 @@ div.type-list div.type-list__item {
 
     &:after {
         width: 0% !important;
-        background-color: #14CAEB !important;
+        background-color: #2C251C !important;
     }
 
     &:hover:after {
@@ -124,18 +136,18 @@ div.filter-arrows {
     }
 }
 
-div.website-link {
+div.type-item__icon {
     svg {
         path {
-            fill: #000 !important;
+            fill: #fff !important;
         }
     }
 }
 
-div.items-box__content {
+div.name-item__heading {
     svg {
         path {
-            fill: #fff !important;
+            fill: #20201F !important;
         }
     }
 }

@@ -4,10 +4,10 @@ nav#global-navbar {
         background-color: transparent;
 
         li {
-            background-color: #333333;
+            background-color: #20201F;
 
             &:hover {
-                background-color: #333333;
+                background-color: #20201F;
             }
         }
 
@@ -17,7 +17,7 @@ nav#global-navbar {
     }
 
     &.scroll {
-        background-color: #333333 !important;
+        background-color: #20201F !important;
 
         li.navigation__item a.navigation__link {
             color: #fff;
@@ -35,13 +35,13 @@ nav#global-navbar {
 
 /*submenu background*/
 nav#global-navbar .header .navigation .sub-nav ul a {
-    background-color: #333333;
+    background-color: #20201F;
     color: #fff;
 }
 
 /*submenu upon hover*/
 nav#global-navbar .header .navigation .sub-nav ul a:hover {
-    background-color: #333333;
+    background-color: #20201F;
     color: #fff !important;
 }
 

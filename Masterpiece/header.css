@@ -33,7 +33,7 @@ nav#global-navbar {
             }
 
             rect {
-                fill: #435352;
+                fill: #325E76;
             }
         }
 
@@ -59,7 +59,7 @@ nav#global-navbar {
     .header:not(.theme-auto):not(.theme-dark):not(.theme-light) {
         .header__hamburger svg {
             circle {
-                fill: #435352;
+                fill: #325E76;
             }
 
             rect {
@@ -69,17 +69,17 @@ nav#global-navbar {
 
         /*Navigation Links theme*/
         .navigation__link {
-            color: #435352;
+            color: #000;
 
             &:after {
-                background: #435352 !important;
+                background: #000 !important;
             }
         }
 
         /*Theme dropdown arrow*/
         .navigation__item {
             &:after {
-                border-color: #435352 !important;
+                border-color: #000 !important;
             }
         }
     }
@@ -90,31 +90,31 @@ nav#global-navbar {
 /* Start - Scrolled navigation bar theme */
 #global-navbar:is(.scroll) {
     .header {
-        background: #435352;
+        background: #325E76;
 
         .header__hamburger svg {
             circle {
-                fill: #435352;
+                fill: #fff;
             }
 
             rect {
-                fill: #fff;
+                fill: #325E76;
             }
         }
 
         /*Navigation Links theme*/
         .navigation__link {
-            color: #435352;
+            color: #fff;
 
             &:after {
-                background: #435352 !important;
+                background: #fff !important;
             }
         }
 
         /*Theme dropdown arrow*/
         .navigation__item {
             &:after {
-                border-color: #435352 !important;
+                border-color: #fff !important;
             }
         }
     }
@@ -145,12 +145,12 @@ nav#global-navbar {
     /*Sub menu theme*/
     .sub-nav {
         .sub-nav__link {
-            background: #E6F2FF;
-            color: #435352;
+            background: #fff;
+            color: #000;
             max-width: 300px !important;
 
             &:hover {
-                background: #435352;
+                background: #152E2F;
                 color: #fff;
             }
         }

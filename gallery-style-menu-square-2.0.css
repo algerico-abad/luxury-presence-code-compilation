@@ -1,0 +1,10 @@
+/* Start - Change dimensions of tiles to 1 by 1 */
+a.gallery-card {
+    aspect-ratio: 1/1;
+    
+    .lp-h3.gallery-card__title {
+        text-transform: uppercase;
+    }
+}
+
+/* End */

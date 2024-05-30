@@ -1,0 +1,29 @@
+/* Start - Add hover effect */
+#global-sidemenu {
+    .sidebar__nav-item a {
+        &:hover {
+            color: #FFD140 !important;
+        
+            &:after {
+                border-color: #FFD140 !important;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Increase opacity of sub-menu */
+#global-sidemenu {
+    .sub-nav-container {
+        a {
+            color: #fff !important;
+        }
+        
+        .sidebar__subnav-item a {
+            opacity: 1 !important;
+        }
+    }
+}
+
+/* End */

@@ -14,14 +14,14 @@ div.lp-vertical-paddings {
 /*START - dropdown theme */
 div.lp-container {
     div.custom-select-content {
-        background: #fff !important;
+        background: #1a1a1a !important;
 
         button.custom-select-item {
             color: #fff !important;
 
             &:hover {
-                color: #fff !important;
-                background: #FFD140 !important;
+                color: #000 !important;
+                background: #D9D9D9 !important;
             }
         }
     }
@@ -56,8 +56,8 @@ div.lp-container div.slider-content {
         }
 
         &:hover {
-            background-color: #FFD140;
-            border: 1px solid #FFD140;
+            background-color: #D9D9D9;
+            border: 1px solid #D9D9D9;
 
             i {
                 background: #fff;
@@ -86,14 +86,14 @@ div.lp-container div.slider-content {
 
 /*START - change filter button*/
 div#filtersModal button#filtersSubmit {
-    border: 2px solid #FFD140;
-    background: #FFD140 !important;
+    border: 2px solid #D9D9D9;
+    background: #D9D9D9 !important;
     color: #000;
 
     &:hover {
-        border: 2px solid #FFD140;
+        border: 2px solid #D9D9D9;
         background: transparent !important;
-        color: #FFD140;
+        color: #D9D9D9;
     }
 }
 
@@ -114,7 +114,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         text-transform: uppercase;
         font-weight: 700;
         color: #000;
-        background-color: #FFD140 !important;
+        background-color: #D9D9D9 !important;
     }
 }
 

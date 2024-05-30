@@ -1,6 +1,10 @@
 /*START - adjust width of submenu */
 nav .navigation__item.sub-nav-container .sub-nav {
     width: fit-content;
+    max-width: 400px !important;
+    
+    a {
+        white-space: nowrap;
+    }
 }
-
 /*END*/

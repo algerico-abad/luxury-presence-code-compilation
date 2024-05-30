@@ -30,3 +30,7 @@
         }
     }
 }
+
+.form-col:has(textarea) {
+    flex: 1 1 800px;
+}

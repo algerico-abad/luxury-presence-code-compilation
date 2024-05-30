@@ -5,7 +5,17 @@
     gap: 40px;
 
     .lp-title-group {
-        margin-bottom: unset;
+        margin-top: unset !important;
+        margin-bottom: unset !important;
+        max-width: 1000px;
+        
+        &:has(h2:empty) {
+            display: none;
+        }
+        
+        &:has(p) {
+            display: block !important;
+        }
 
         .lp-text--subtitle {
             margin-bottom: unset;

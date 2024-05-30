@@ -11,3 +11,19 @@
 }
 
 /*End*/
+
+.lp-title-group {
+    max-width: 1400px;
+    margin-bottom: 40px;
+}
+
+/* Start - Theme arrows */
+.accordion-opener {
+    border-color: #737373 !important;
+    
+    &:before {
+        border-color: #737373 !important;
+    }
+}
+
+/* End */

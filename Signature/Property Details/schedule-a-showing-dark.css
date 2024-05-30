@@ -206,11 +206,18 @@ a.hyperlink-style-1 {
 /*End*/
 
 /*Start - Theme form inputs*/
-.lp-input {
-    border-color: rgba(0, 0, 0, 0.1);
+.lp-input-group {
+    .lp-input {
+        border-color: rgba(0, 0, 0, 0.1) !important;
+        color: #000 !important;
 
-    &:focus {
-        border-color: #000;
+        &:focus {
+            border-color: #000 !important;
+        }
+    }
+
+    .lp-label {
+        color: rgba(0, 0, 0, 0.25) !important;
     }
 }
 

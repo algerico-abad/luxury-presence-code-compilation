@@ -41,3 +41,14 @@ div.contact-form.redesign {
 }
 
 /*End*/
+
+/* Start - Remove bold weight in the contact overlay disclaimer */
+#modal-global-contact-us {
+    .lp-disclaimer {
+        .lp-tcr-message {
+            font-weight: normal;
+        }
+    }
+}
+
+/* End */

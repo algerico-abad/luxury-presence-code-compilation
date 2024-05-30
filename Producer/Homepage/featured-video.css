@@ -33,14 +33,14 @@ h2 {
 }
 
 .lp-play--light {
-    border-color: #FFC8C3;
+    border-color: #7c7a61;
     color: #fff;
-    background-color: #FFC8C3;
+    background-color: #7c7a61;
 
     &:hover {
-        border-color: #FFC8C3;
+        border-color: #7c7a61;
         color: #fff;
-        background-color: #FFC8C3;
+        background-color: #7c7a61;
     }
 }
 
@@ -48,4 +48,10 @@ h2 {
 
 .section-video__btn-wrap {
     display: none !important;
+}
+
+.play-icon {
+    &:before {
+        color: #7c7a61;
+    }
 }

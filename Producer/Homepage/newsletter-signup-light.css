@@ -36,8 +36,13 @@ input.lp-input--light {
     }
 
     &:-webkit-autofill {
-        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
         -webkit-text-fill-color: #fff !important;
+    }
+    
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover {
+        -webkit-box-shadow: none !important;
     }
 }
 
@@ -53,7 +58,7 @@ input.lp-input--light {
     text-decoration: none !important;
 
     &:hover {
-        color: #ffd140 !important;
+        color: #fff !important;
     }
 
     &:before,
@@ -76,7 +81,7 @@ input.lp-input--light {
 
     &:after {
         width: 0% !important;
-        background-color: #ffd140 !important;
+        background-color: #fff !important;
     }
 
     &:hover:after {

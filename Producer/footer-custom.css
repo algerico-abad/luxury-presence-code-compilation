@@ -1,3 +1,14 @@
+/* Start - Resize footer logo */
+#global-footer {
+    .images_box {
+        .img_size {
+            height: 104px;
+        }
+    }
+}
+
+/* End */
+
 /*Start - Change footer logo on mobile version (For two logo on footer)*/
 .text_footer {
     .images_box {

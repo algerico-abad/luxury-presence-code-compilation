@@ -1,10 +1,27 @@
 /*Start - Make title in one-line*/
-.lp-container {
-    max-width: 860px !important;
+.lp-title-group {
+    max-width: 100%;
 }
 
 /*End*/
 
+/* Start - Reduce the vertical spacings */
+.lp-title-group {
+    .lp-h2 {
+        margin-bottom: 0px;
+    }
+}
+
+/* End */
+
+.lp-container {
+    max-width: 1200px;
+}
+
 .boxed-text__description {
     margin-bottom: 0px !important;
+    
+    & > p:last-child {
+        margin-bottom: 0px !important;
+    }
 }

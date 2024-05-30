@@ -27,22 +27,22 @@
     textarea {
         &:-webkit-autofill {
             &:focus {
-                color: #000;
+                color: #fff;
             }
 
-            -webkit-text-fill-color: #000;
+            -webkit-text-fill-color: #fff;
         }
 
-        color: #000;
-        border-color: rgba(0, 0, 0, 0.1);
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0.25);
 
         &:focus {
-            border-color: rgba(0, 0, 0, 0.75);
+            border-color: rgba(255, 255, 255, 0.75);
         }
     }
 
     span.input-icon {
-        filter: invert(1);
+        filter: invert(0);
     }
 }
 
@@ -83,7 +83,7 @@
     opacity: 1 !important;
 
     &:hover {
-        color: #9F8151 !important;
+        color: #325E76 !important;
     }
 
     &:before,
@@ -106,7 +106,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #9F8151 !important;
+        background-color: #325E76 !important;
     }
 
     &:hover:after {
@@ -124,6 +124,7 @@
             position: relative;
             display: inline-block;
             vertical-align: top;
+            color: #fff !important;
 
             &:after,
             &:before {
@@ -138,18 +139,19 @@
             }
 
             &:before {
-                background-color: rgba(0, 0, 0, 0.1);
+                background-color: rgba(255, 255, 255, 0.25);
                 width: 100%;
             }
 
             &:after {
                 width: 0%;
-                background-color: #9F8151;
+                background-color: #fff;
                 transition: 0.4s;
             }
 
             &:hover {
                 text-decoration: none !important;
+                color: #fff !important;
 
                 &:after {
                     width: 100%;

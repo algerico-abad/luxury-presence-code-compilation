@@ -1,5 +1,17 @@
+/* Start - Fix dimension */
+.lp-container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    
+    .btn-wrap:has(button[style="display: none;"]) {
+        display: none;
+    }
+}
+
+/* End */
+
 /*START - fix padding*/
-div.lp-container {
+& > .section {
     padding-top: 96px;
     padding-bottom: 96px;
 
@@ -50,7 +62,7 @@ div.type-list div.type-list__item {
 
     &.active,
     &:hover {
-        color: #FFD140 !important;
+        color: #000 !important;
         background-color: #fff !important;
         border-color: #fff !important;
     }
@@ -106,12 +118,12 @@ div.type-list div.type-list__item {
 div.filter-arrows {
     svg {
         path {
-            fill: #fff !important;
+            fill: #D9D9D9 !important;
         }
     }
 }
 
-div.website-link {
+div.type-item__icon {
     svg {
         path {
             fill: #fff !important;
@@ -119,10 +131,10 @@ div.website-link {
     }
 }
 
-div.items-box__content .type-item__icon {
+div.name-item__heading {
     svg {
         path {
-            fill: #000 !important;
+            fill: #D9D9D9 !important;
         }
     }
 }
@@ -133,7 +145,7 @@ div.items-box__content .type-item__icon {
 /*catergory label*/
 div.category-wrap {
     background: #fff !important;
-    color: #000 !important;
+    color: #D9D9D9 !important;
     text-transform: uppercase;
 }
 

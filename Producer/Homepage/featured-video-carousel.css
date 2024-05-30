@@ -1,0 +1,5 @@
+.v-carousel__button {
+    &:after {
+        border-left: 7px solid #ED2127 !important;
+    }
+}

@@ -53,13 +53,13 @@
 
 /*START - change card theme*/
 div.redesign.property-list-section span.property-list__label {
-    background: #FFD140;
+    background: #ED2127;
     color: #fff;
 }
 
 .property-list__text {
     color: #000;
-    background-color: #CEF7F6 !important;
+    background-color: #fff !important;
 }
 
 .property-list__item {

@@ -84,6 +84,7 @@ div.redesign {
 
         button.custom-select-toggle.is-placeholder {
             border-color: rgba(255, 255, 255, 0.25);
+            color: #fff;
 
             &:after {
                 border-color: #fff;

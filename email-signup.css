@@ -1,0 +1,19 @@
+.lp-title-group.popup-modal__title-group {
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.lp-disclaimer,
+.popup-modal__form-field {
+    max-width: unset !important;
+}
+
+.close {
+    opacity: 1 !important;
+    
+    &:before,
+    &:after {
+        background-color: #000 !important;
+    }
+}
