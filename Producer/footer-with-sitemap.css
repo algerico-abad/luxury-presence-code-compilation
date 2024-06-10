@@ -1,5 +1,5 @@
 /* Start - Fix footer dimensions */
-#global-footer {
+footer#global-footer {
     .footer {
         .contact-information {
             padding-top: 96px;
@@ -66,7 +66,7 @@
 /* End */
 
 /* Start - Fix contact info title color */
-#global-footer {
+footer#global-footer {
     .contact-row {
         .contact-title {
             opacity: 1;
@@ -77,7 +77,7 @@
 /* End */
 
 /* Start - Fix footer underline links */
-#global-footer {
+footer#global-footer {
     .fnav a,
     .contact-row a,
     .copyright-container a.lp-link {
@@ -134,7 +134,7 @@
 /* End */
 
 /* Start - Add Realtor and Equal Housing Logo */
-#global-footer {
+footer#global-footer {
     .disclaimer {
         &:after {
             display: block;
@@ -159,7 +159,7 @@
 /* End */
 
 /* Start - Fix direction of flex direction for sitemap, copyright, and social icons */
-#global-footer {
+footer#global-footer {
     .bottom-row {
         .lp-container {
             flex-direction: column;
@@ -170,7 +170,7 @@
 /* End */
 
 /* Start - Fix layout on mobile */
-#global-footer {
+footer#global-footer {
     .contact-information {
         @media only screen and (max-width: 768px) {
             .lp-container {

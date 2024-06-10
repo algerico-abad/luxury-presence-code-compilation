@@ -1,5 +1,5 @@
 /*START - pop up link underline */
-a {
+a.link {
     position: relative !important;
     color: #000 !important;
     transition: 0.4s;
@@ -7,7 +7,7 @@ a {
     border-bottom: none;
 
     &:hover {
-        color: #E00083 !important;
+        color: #325E76 !important;
     }
 
     &:before,
@@ -29,7 +29,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #E00083 !important;
+        background-color: #325E76 !important;
     }
 
     &:hover:after {

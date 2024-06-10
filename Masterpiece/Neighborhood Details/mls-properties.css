@@ -21,7 +21,7 @@ div.lp-container {
 
             &:hover {
                 color: #fff !important;
-                background: #435352 !important;
+                background: #FAA755 !important;
             }
         }
     }
@@ -50,8 +50,8 @@ div.lp-container div.slider-content {
         }
 
         &:hover {
-            background-color: #435352;
-            border: 1px solid #435352;
+            background-color: #FAA755;
+            border: 1px solid #FAA755;
 
             i {
                 background: #fff;
@@ -80,14 +80,14 @@ div.lp-container div.slider-content {
 
 /*START - change filter button*/
 div#filtersModal button#filtersSubmit {
-    border: 2px solid #435352;
-    background: #435352 !important;
+    border: 2px solid #FAA755;
+    background: #FAA755 !important;
     color: #fff;
 
     &:hover {
-        border: 2px solid #435352;
+        border: 2px solid #FAA755;
         background: transparent !important;
-        color: #435352;
+        color: #FAA755;
     }
 }
 
@@ -108,7 +108,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        background-color: #435352 !important;
+        background-color: #FAA755 !important;
     }
 }
 
@@ -116,5 +116,4 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
 .listing-card__logo img {
     filter: invert(1);
 }
-/*END - MLS properties change card theme*/
 /*END - MLS properties change card theme*/

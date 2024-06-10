@@ -1,9 +1,23 @@
-/*START - Theme link underline*/
-a {
+/*Start - Fix padding*/
+.agent-detail-section {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*End*/
+
+/*START - contact link underline */
+a.lp-link {
+    font-weight: 400;
     position: relative !important;
     color: #000 !important;
     transition: 0.4s;
-    font-weight: 400;
+    opacity: 1 !important;
 
     &:hover {
         color: #D8CDBA !important;
@@ -34,19 +48,10 @@ a {
     &:hover:after {
         width: 100% !important;
     }
-
-    @media only screen and (max-width: 768px) {
-        text-decoration: underline;
-
-        &:before,
-        &:after {
-            display: none;
-        }
-
-        &:hover {
-            color: #D8CDBA;
-        }
-    }
 }
 
 /*END*/
+
+.lp-socials {
+    margin-bottom: 0px;
+}

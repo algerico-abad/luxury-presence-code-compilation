@@ -34,7 +34,7 @@
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #CBB091;
+        background-color: #FAA755;
     }
 }
 
@@ -64,15 +64,15 @@
 
 div.custom-select {
     .custom-select-menu .custom-select-content {
-        color: #fff;
-        background-color: #ED2127;
+        color: #000;
+        background-color: #fff;
 
         .custom-select-item {
-            color: #fff;
+            color: #000;
 
             &:hover {
                 color: #fff;
-                background-color: #CBB091;
+                background-color: #FAA755;
             }
         }
     }

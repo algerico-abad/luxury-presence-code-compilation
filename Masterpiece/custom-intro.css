@@ -1,3 +1,6 @@
-.lp-title-group {
+/*START - custom intro - make title in one line */
+div.lp-title-group {
     max-width: 1500px;
 }
+
+/*END*/

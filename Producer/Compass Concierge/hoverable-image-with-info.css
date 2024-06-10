@@ -28,7 +28,7 @@ div.hoverable-section.lp-vertical-paddings {
     text-decoration: none !important;
 
     &:hover {
-        color: #44423e !important;
+        color: #7C7A61 !important;
     }
 
     &:before,
@@ -41,6 +41,7 @@ div.hoverable-section.lp-vertical-paddings {
         position: absolute !important;
         bottom: 0;
         left: 0;
+        opacity: 1;
     }
 
     &:before {
@@ -50,7 +51,7 @@ div.hoverable-section.lp-vertical-paddings {
 
     &:after {
         width: 0% !important;
-        background-color: #44423e !important;
+        background-color: #7C7A61 !important;
     }
 
     &:hover:after {
@@ -63,3 +64,19 @@ div.hoverable-section.lp-vertical-paddings {
 }
 
 /*END - link underline*/
+
+/*Start - Style the hoverable image*/
+.hoverable-image--straight,
+.hoverable-image--reverse {
+
+    /*Maintain the aspect ratio of the image*/
+    .hoverable-image__img-col {
+        aspect-ratio: 1/1;
+
+        @media only screen and (max-width: 768px) {
+            &>div {
+                min-height: auto !important;
+            }
+        }
+    }
+}

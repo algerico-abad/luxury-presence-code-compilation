@@ -40,7 +40,7 @@ div.lp-container {
 }
 
 .scene__item {
-    background: #18243C;
+    background: #002349;
     color: #fff;
     
     .border {
@@ -51,4 +51,99 @@ div.lp-container {
 
 .scene__item img {
     filter: grayscale(100) invert(1);
+}
+
+/* Start - Make the text grid a testimonial element */
+
+/* Fix large margins */
+.text-grid {
+    .lp-h2 {
+        margin-bottom: 20px;
+    }
+    
+    .button-wrapper {
+        padding-top: 40px;
+    }
+}
+
+/* Add background to text grid contents */
+.text-grid {
+    .scenes {
+        gap: 32px;
+        
+        .scene {
+            flex-basis: calc(33.33% - 32px);
+            
+            .scene__item {
+                padding: 0px;
+                
+                .border {
+                    display: none;
+                }
+                
+                .scene__content {
+                    background: #fff;
+                    padding: 32px;
+                    
+                    p {
+                        color: #000;
+                        
+                        &:last-child {
+                            margin-bottom: 0px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Fix large margins */
+.text-grid {
+    .lp-h2 {
+        margin-bottom: 40px !important;
+    }
+    
+    .button-wrapper {
+        padding-top: 0px !important;
+    }
+}
+
+/* Add background to text grid contents */
+.text-grid {
+    .scenes {
+        gap: 32px;
+        
+        .scene {
+            flex-basis: calc(33.33% - 32px);
+            
+            @media only screen and (max-width: 768px) {
+                flex-basis: 100%;
+                
+                &:not(:first-child) {
+                    display: none;
+                }
+            }
+            
+            .scene__item {
+                padding: 0px;
+                
+                .border {
+                    display: none;
+                }
+                
+                .scene__content {
+                    p {
+                        color: #fff;
+                        
+                        &:last-child {
+                           margin-bottom: 0px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

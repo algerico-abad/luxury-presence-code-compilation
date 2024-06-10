@@ -83,7 +83,7 @@
     opacity: 1 !important;
 
     &:hover {
-        color: #325E76 !important;
+        color: #10a3c2 !important;
     }
 
     &:before,
@@ -106,7 +106,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #325E76 !important;
+        background-color: #10a3c2 !important;
     }
 
     &:hover:after {
@@ -124,6 +124,7 @@
             position: relative;
             display: inline-block;
             vertical-align: top;
+            opacity: 1;
             color: #fff !important;
 
             &:after,

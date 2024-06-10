@@ -1,0 +1,19 @@
+/*START - reset link*/
+.hyperlink-style-1 {
+    text-transform: uppercase;
+}
+
+/*END*/
+
+/*START - padding*/
+.lp-vertical-paddings {
+    padding-top: 96px;
+    padding-bottom: 48px;
+
+    @media (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 40px;
+    }
+}
+
+/*END*/

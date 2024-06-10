@@ -52,3 +52,62 @@ div.contact-form.redesign {
 }
 
 /* End */
+
+/* Start - Arrange the Contact Overlay arrangement for the 3rd phone number */
+#modal-global-contact-us {
+    .info-zone {
+        display: flex;
+        flex-direction: column;
+        
+        .info-zone_contact {
+            margin-bottom: 0px !important;
+        }
+
+        .info-zone_contact:nth-child(1) {
+            order: 1;
+        }
+
+        .info-zone_contact:nth-child(2) {
+            order: 3;
+            
+            .info-zone_contact_cell:nth-child(1) {
+                .contact_title {
+                    &:before {
+                        content: 'OFFICE NUMBER 2';
+                    }
+                }
+            }
+        }
+
+        .info-zone_contact:nth-child(3) {
+            order: 4;
+        }
+
+        .info-zone_contact:nth-child(4) {
+            order: 2;
+            position: relative;
+            
+            .info-zone_contact_cell {
+                position: unset;
+                
+                .contact_title {
+                    &:before {
+                        content: 'OFFICE NUMBER 1';
+                    }
+                }
+                
+                i {
+                    @media only screen and (min-width: 768px) {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+        
+        .lp-socials {
+            order: 5;
+        }
+    }
+}
+
+/* End */

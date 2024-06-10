@@ -1,0 +1,7 @@
+/* Start - Add spacing in the header nav for padded websites */
+nav .header .container {
+    padding: 0px 12px !important;
+    width: calc(100% - 24px) !important;
+}
+
+/* End */

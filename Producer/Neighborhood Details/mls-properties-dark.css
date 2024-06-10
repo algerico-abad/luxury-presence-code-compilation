@@ -21,7 +21,7 @@ div.lp-container {
 
             &:hover {
                 color: #fff !important;
-                background: #ED2127 !important;
+                background: #D8CDBA !important;
             }
         }
     }
@@ -50,8 +50,8 @@ div.lp-container div.slider-content {
         }
 
         &:hover {
-            background-color: #ED2127;
-            border: 1px solid #ED2127;
+            background-color: #D8CDBA;
+            border: 1px solid #D8CDBA;
 
             i {
                 background: #fff;
@@ -80,14 +80,14 @@ div.lp-container div.slider-content {
 
 /*START - change filter button*/
 div#filtersModal button#filtersSubmit {
-    border: 2px solid #ED2127;
-    background: #ED2127 !important;
+    border: 2px solid #D8CDBA;
+    background: #D8CDBA !important;
     color: #fff;
 
     &:hover {
-        border: 2px solid #ED2127;
+        border: 2px solid #D8CDBA;
         background: transparent !important;
-        color: #ED2127;
+        color: #D8CDBA;
     }
 }
 
@@ -108,7 +108,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        background-color: #ED2127 !important;
+        background-color: #D8CDBA !important;
     }
 }
 

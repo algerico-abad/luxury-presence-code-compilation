@@ -4,13 +4,14 @@ body>div.mobile-contact-wrapper .mobile-contact a i {
 }
 
 body>div.mobile-contact-wrapper .mobile-contact a {
-    background-color: #435352 !important;
-    border: 2px solid #435352 !important;
+    background-color: #7C7A61 !important;
+    border: 2px solid #fff !important;
 }
 
 body>div.mobile-contact-wrapper .mobile-contact.dark .item {
-    background-color: #435352 !important;
+    background-color: #7C7A61 !important;
     color: #fff;
+    border: 2px solid #fff !important;
 }
 
 /* END */

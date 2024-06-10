@@ -5,7 +5,7 @@
 }
 
 .custom-select .lp-input--dark+.custom-select-menu .custom-select-item:hover {
-    background-color: #003057;
+    background-color: #FAA755;
     color: #fff;
 }
 
@@ -15,12 +15,12 @@
 div.section {
     ol.steps-nav {
         .active {
-            background-color: #003057;
+            background-color: #FAA755;
             opacity: 1;
         }
 
         li {
-            background-color: #003057;
+            background-color: #FAA755;
             color: #fff;
             opacity: 0.5;
         }

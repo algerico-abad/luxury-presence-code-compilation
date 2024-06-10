@@ -15,7 +15,7 @@ div.section {
 
 /*START - 1 line for element title*/
 .lp-container .title {
-    max-width: 85% !important;
+    max-width: 100% !important;
 
     h2 {
         max-width: 100% !important;
@@ -32,15 +32,15 @@ div.section {
 
 /*START - change pill button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #F0EDE5 !important;
+    color: #fff !important;
     background-color: transparent !important;
-    border-color: #F0EDE5 !important;
+    border-color: #fff !important;
 
     &.active,
     &:hover {
-        color: #252B41 !important;
-        background-color: #F0EDE5 !important;
-        border-color: #F0EDE5 !important;
+        color: #000 !important;
+        background-color: #fff !important;
+        border-color: #fff !important;
     }
 }
 
@@ -49,15 +49,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #F0EDE5 !important;
+        background-color: #D8CDBA !important;
     }
 
     span.hint {
-        background-color: #F0EDE5;
-        color: #252B41;
+        background-color: #D8CDBA;
+        color: #fff;
 
         &:after {
-            background-color: #F0EDE5;
+            background-color: #D8CDBA;
         }
     }
 }
@@ -89,7 +89,7 @@ div.population-age__bar {
 }
 
 .population-age__hint p {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 /*END*/

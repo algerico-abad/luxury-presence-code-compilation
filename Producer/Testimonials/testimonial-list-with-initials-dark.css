@@ -19,7 +19,7 @@ div.testimonials .data-container {
         color: #000;
 
         &:hover {
-            color: #ED2127 !important;
+            color: #EBE7E0 !important;
         }
 
         &:before {
@@ -27,7 +27,7 @@ div.testimonials .data-container {
         }
 
         &:hover:before {
-            background: #ED2127 !important;
+            background: #EBE7E0 !important;
         }
     }
 

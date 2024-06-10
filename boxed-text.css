@@ -1,3 +1,10 @@
+/*START - fix button padding */
+.lp-btn {
+    min-width: 250px;
+}
+
+/*END - fix button padding*/
+
 /*Start - Make title in one-line*/
 .lp-title-group {
     max-width: 100%;
@@ -20,8 +27,8 @@
 
 .boxed-text__description {
     margin-bottom: 0px !important;
-    
-    & > p:last-child {
+
+    &>p:last-child {
         margin-bottom: 0px !important;
     }
 }

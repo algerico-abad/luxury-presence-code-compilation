@@ -20,7 +20,7 @@ div.lp-vertical-paddings {
     text-decoration: none !important;
 
     &:hover {
-        color: #325E76 !important;
+        color: #FAA755 !important;
     }
 
     &:before,
@@ -42,7 +42,7 @@ div.lp-vertical-paddings {
 
     &:after {
         width: 0% !important;
-        background-color: #325E76 !important;
+        background-color: #FAA755 !important;
     }
 
     &:hover:after {
@@ -58,7 +58,7 @@ div.lp-vertical-paddings {
         }
 
         &:hover {
-            color: #325E76;
+            color: #FAA755;
         }
     }
 }

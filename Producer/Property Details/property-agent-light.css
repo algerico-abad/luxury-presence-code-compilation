@@ -14,6 +14,7 @@ a.lp-link {
     color: #fff !important;
     transition: 0.4s;
     opacity: 1 !important;
+    text-decoration: none !important;
 
     &:hover {
         color: #fff !important;

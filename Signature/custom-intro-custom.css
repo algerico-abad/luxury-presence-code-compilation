@@ -15,3 +15,20 @@
 }
 
 /*End*/
+
+/* Start - Fix inconsitent intro description font size */
+div.text-group {
+    @media only screen and (min-width: 768px) {
+        .text-group__box {
+            h1 {
+                font-size: 80px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* End */

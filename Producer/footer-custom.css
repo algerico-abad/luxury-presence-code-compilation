@@ -9,6 +9,22 @@
 
 /* End */
 
+/*make align the phone number in right side*/
+footer#global-footer .info-wrap-contact_zone {
+    &:nth-child(2) {
+        justify-content: flex-end;
+    }
+    &:nth-child(3) {
+        margin-top: -70px;
+    }
+    @media only screen and (max-width: 768px) {
+        &:nth-child(3) {
+        margin-top: 0;
+        }
+    }
+}
+/*end*/
+
 /*Start - Change footer logo on mobile version (For two logo on footer)*/
 .text_footer {
     .images_box {

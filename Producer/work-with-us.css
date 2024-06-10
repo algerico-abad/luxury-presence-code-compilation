@@ -12,3 +12,27 @@ h2:before {
 }
 
 /*End*/
+
+/* Start - Align contents to the left */
+.container {
+    align-items: start !important;
+    margin-left: 0px;
+
+    /* Align the title to the left */
+    .serif {
+        width: 100%;
+        text-align: left;
+        
+        &:after {
+            left: 0% !important;
+            margin-left: 0px !important
+        }
+    }
+    
+    /* Align the description to the left */
+    & > p {
+        text-align: left;
+    }
+}
+
+/* End */

@@ -3,3 +3,11 @@
     background-position: left 20% bottom 10%!important;
 }
 /*END*/
+
+/*START - make title in one line */
+div.lp-title-group,
+h1.opening-title {
+    max-width: 1500px !important;
+}
+
+/*END*/

@@ -1,16 +1,5 @@
-/*START - make title in one line*/
-@media (max-width: 768px) {
-
-    h2,
-    .lp-h2 {
-        font-size: 31px !important;
-    }
-}
-
-/*END*/
-
-/*START - slick arrow*/
-.js-arrows .lp-arrow {
+/*START - slick arrow theme (local)*/
+div.arrows .lp-arrow.lp-arrow--dark {
     border: solid 2px #FAA755;
     background-color: #FAA755;
 
@@ -22,10 +11,10 @@
         border: solid 2px #FAA755;
         background-color: transparent;
 
-        &::before {
+        &:before {
             border-color: #FAA755;
         }
     }
 }
 
-/*END*/
+/*END - slick arrow theme(Local)*/
