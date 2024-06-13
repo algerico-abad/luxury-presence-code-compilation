@@ -26,16 +26,9 @@ div.lp-container {
 
 /*END- 1 line for element title*/
 
-/*START - changing unselected button's border*/
-div.lp-container div.type-list div.type-list__item {
-    border: 1px solid #fff;
-}
-
-/*END - changing unselected button's border*/
-
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #fff var(--percent), rgba(255, 255, 255, 0.25) var(--percent));
+    background: linear-gradient(90deg, #185770 var(--percent), rgba(255, 255, 255, 0.25) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -44,15 +37,15 @@ div.rate-item .star-row:before {
 
 /*START - change pill button theme*/
 div.type-list div.type-list__item {
-    color: #fff !important;
+    color: #185770 !important;
     background-color: transparent !important;
-    border-color: rgba(255, 255, 255, 0.25) !important;
+    border-color: #185770 !important;
 
     &.active,
     &:hover {
-        color: #F51010 !important;
-        background-color: #fff !important;
-        border-color: #fff !important;
+        color: #fff !important;
+        background-color: #185770 !important;
+        border-color: #185770 !important;
     }
 }
 
@@ -61,12 +54,12 @@ div.type-list div.type-list__item {
 /*START - link underline */
 .lp-link {
     position: relative !important;
-    color: #fff !important;
+    color: #000 !important;
     transition: 0.4s;
     text-decoration: none !important;
 
     &:hover {
-        color: #fff !important;
+        color: #185770 !important;
     }
 
     &:before,
@@ -83,12 +76,12 @@ div.type-list div.type-list__item {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #fff !important;
+        background-color: #185770 !important;
     }
 
     &:hover:after {
@@ -114,7 +107,7 @@ div.filter-arrows {
 div.items-box__content .type-item__icon {
     svg {
         path {
-            fill: #000 !important;
+            fill: #fff !important;
         }
     }
 }
@@ -124,19 +117,19 @@ div.items-box__content .type-item__icon {
 /*START - category and border theming */
 /*catergory label*/
 div.category-wrap {
-    background: #fff !important;
-    color: #000 !important;
+    background: #185770 !important;
+    color: #fff !important;
     text-transform: uppercase;
 }
 
 /*borders*/
 div.items-box__filters {
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 div.items-box__content {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 /*END*/
 
@@ -145,12 +138,12 @@ div.lp-container {
 
     div.item-cell div:not(.category-wrap),
     div.heading-cell {
-        color: #fff !important;
+        color: #000 !important;
         background: transparent;
     }
 
     svg path {
-        fill: #fff !important;
+        fill: #000 !important;
     }
 }
 

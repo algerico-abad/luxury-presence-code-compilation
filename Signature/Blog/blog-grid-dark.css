@@ -2,13 +2,13 @@
 .list__category {
     .category-cell {
         background-color: transparent;
-        color: #000;
-        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        color: #185770;
+        border: 1px solid #185770 !important;
         
         &.active {
-            background-color: #F51010;
+            background-color: #185770;
             color: #fff;
-            border-color: #F51010;
+            border-color: #185770;
         }
     }
 }
@@ -17,28 +17,26 @@
 /*Start - Theme the read more button*/
 .list__item {
     .link-icon {
+        color: #000;
+        
         &:before {
-            background-color: #F51010 !important;
+            background-color: #fff !important;
         }
-        
-        &:hover:before {
-            background: #ffffff !important;
-        }
-        
-        &:hover:after {
-            background: #F51010 !important;
+
+        &:after {
+            background-color: #185770 !important;
         }
     }
     
     &:hover {
         .link-icon {
-            color: #F51010 !important;
             &:before {
-                background: #ffffff !important;
+                background-color: #185770 !important;
             }
-            
+    
             &:after {
-                background: #F51010 !important;
+                background-color: transparent !important;
+                border: 1px solid #185770;
             }
         }
     }

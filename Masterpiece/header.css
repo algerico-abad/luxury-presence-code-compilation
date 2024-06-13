@@ -33,7 +33,7 @@ nav#global-navbar {
             }
 
             rect {
-                fill: #08202c;
+                fill: #7C7A61;
             }
         }
 
@@ -59,7 +59,7 @@ nav#global-navbar {
     .header:not(.theme-auto):not(.theme-dark):not(.theme-light) {
         .header__hamburger svg {
             circle {
-                fill: #08202c;
+                fill: #7C7A61;
             }
 
             rect {
@@ -90,7 +90,7 @@ nav#global-navbar {
 /* Start - Scrolled navigation bar theme */
 #global-navbar:is(.scroll) {
     .header {
-        background: #08202c;
+        background: #7C7A61;
 
         .header__hamburger svg {
             circle {
@@ -98,7 +98,7 @@ nav#global-navbar {
             }
 
             rect {
-                fill: #08202c;
+                fill: #7C7A61;
             }
         }
 
@@ -150,7 +150,7 @@ nav#global-navbar {
             max-width: 300px !important;
 
             &:hover {
-                background: #08202c;
+                background: #7C7A61;
                 color: #fff;
             }
         }

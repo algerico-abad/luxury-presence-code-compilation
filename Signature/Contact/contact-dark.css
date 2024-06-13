@@ -1,0 +1,85 @@
+/*Start - Theme input border*/
+.lp-input {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    
+    &:focus {
+        border-color: rgba(0, 0, 0, 0.75) !important;
+    }
+}
+
+/*End*/
+
+@media only screen and (max-width: 1440px) {
+    .form-inputs-wrap {
+        column-gap: 24px !important;
+    }
+    
+    .lp-input-group {
+        min-width: calc(50% - 12px) !important;
+        width: auto;
+        flex: 1;
+        
+        &.my-textarea-container {
+            min-width: calc(100% - 12px) !important;
+        }
+    }
+}
+
+/*Start - Theme title border*/
+.heading {
+    &:before,
+    &:after {
+        background-color: #185770 !important;
+    }
+}
+
+/*End*/
+
+/*Start - Remove unnecessary vertical padding*/
+.lp-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*End*/
+
+.lp-disclaimer {
+    position: relative;
+    
+    a {
+        color: #000 !important;
+        text-decoration: none !important;
+        position: relative;
+    
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+            opacity: 1;
+        }
+        
+        &:before {
+            background-color: rgba(0, 0, 0, 0.1) !important;
+            width: 100%;
+        }
+        
+        &:after {
+            width: 0px;
+            background: #185770;
+        }
+        
+        &:hover {
+            color: #185770 !important;
+            
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -3,14 +3,14 @@
     cursor: pointer;
     
     &:before {
-        background-color: #F51010 !important;
+        background-color: #185770 !important;
     }
     
     &:hover {
-        color: #F51010 !important;
+        color: #185770 !important;
         
         &:before {
-            background-color: #F51010 !important;
+            background-color: #185770 !important;
         }
     }
 }

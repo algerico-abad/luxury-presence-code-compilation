@@ -4,7 +4,7 @@
     padding-bottom: 96px !important;
 
     @media only screen and (max-width: 768px) {
-        padding-top: 59px !important;
+        padding-top: 64px !important;
         padding-bottom: 64px !important;
     }
 }
@@ -13,7 +13,7 @@
 
 /*START - play icon*/
 .video-icon::before {
-    border-color: transparent transparent transparent #EBE7E0 !important;
+    border-color: transparent transparent transparent #7C7A61 !important;
 }
 
 /*END*/

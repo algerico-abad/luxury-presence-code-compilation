@@ -1,0 +1,11 @@
+/*START - mobile contact icons */
+body>div.mobile-contact-wrapper .mobile-contact .item svg {
+    fill: #fff !important;
+}
+
+body>div.mobile-contact-wrapper .mobile-contact .item {
+    background-color: #185770 !important;
+    border: 1px solid #185770 !important;
+}
+
+/*END*/

@@ -21,7 +21,7 @@ div.lp-container {
 
             &:hover {
                 color: #fff !important;
-                background: #F51010 !important;
+                background: #185770 !important;
             }
         }
     }
@@ -50,16 +50,16 @@ div.lp-container div.slider-content {
 
     .irs--round .irs-handle.state_hover,
     .irs--round .irs-handle {
-        background-color: #343432;
-        border: 1px solid #fff;
+        background-color: #F9F9F9;
+        border: 1px solid rgba(0, 0, 0, 0.25);
 
         i {
-            background: #fff;
+            background: #000;
         }
 
         &:hover {
-            background-color: #F51010;
-            border: 1px solid #F51010;
+            background-color: #185770;
+            border: 1px solid #185770;
 
             i {
                 background: #fff;
@@ -88,14 +88,14 @@ div.lp-container div.slider-content {
 
 /*START - change filter button*/
 div#filtersModal button#filtersSubmit {
-    border: 2px solid #F51010;
-    background: #F51010 !important;
+    border: 2px solid #185770;
+    background: #185770 !important;
     color: #fff;
 
     &:hover {
-        border: 2px solid #F51010;
+        border: 2px solid #185770;
         background: transparent !important;
-        color: #F51010;
+        color: #185770;
     }
 }
 
@@ -104,8 +104,8 @@ div#filtersModal button#filtersSubmit {
 /*START - MLS properties change card theme*/
 div.properties-grid.lp-vertical-paddings div.lp-container {
     div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
-        background-color: #2A2A28 !important;
-        color: #fff;
+        background-color: #EFEFEF !important;
+        color: #000;
 
         .listing-card__logo {
             margin-bottom: 10px;
@@ -116,7 +116,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        background-color: #F51010 !important;
+        background-color: #185770 !important;
     }
 }
 

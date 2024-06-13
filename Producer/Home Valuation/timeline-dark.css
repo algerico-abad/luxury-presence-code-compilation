@@ -6,7 +6,7 @@ a {
     font-weight: 400;
 
     &:hover {
-        color: #D8CDBA !important;
+        color: #706A67 !important;
     }
 
     &:before,
@@ -28,7 +28,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #D8CDBA !important;
+        background-color: #706A67 !important;
     }
 
     &:hover:after {
@@ -44,7 +44,7 @@ a {
         }
 
         &:hover {
-            color: #D8CDBA;
+            color: #706A67;
         }
     }
 }

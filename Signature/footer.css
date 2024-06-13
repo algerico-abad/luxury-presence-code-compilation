@@ -62,7 +62,8 @@ footer .nav a {
 
 /*START - footer contact details hyperlink*/
 .lp-a .link,
-.lp-a a {
+.lp-a a,
+.bottom-row a {
     position: relative !important;
     color: #fff !important;
     transition: 0.4s;

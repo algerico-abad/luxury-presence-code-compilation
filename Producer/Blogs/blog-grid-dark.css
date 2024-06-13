@@ -46,7 +46,7 @@ span:not(.date):not(.label):not(.featured-properties__label) {
 
     &:after {
         width: 0% !important;
-        background-color: #9E9796 !important;
+        background-color: #2F343A !important;
     }
 
     &:hover:after {
@@ -54,7 +54,7 @@ span:not(.date):not(.label):not(.featured-properties__label) {
     }
 
     &:hover {
-        color: #9E9796;
+        color: #2F343A;
     }
 }
 

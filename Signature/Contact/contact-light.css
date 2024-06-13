@@ -13,7 +13,7 @@
 .heading {
     &:before,
     &:after {
-        background-color: #F51010 !important;
+        background-color: #185770 !important;
     }
 }
 

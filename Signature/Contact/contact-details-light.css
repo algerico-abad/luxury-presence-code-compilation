@@ -1,7 +1,7 @@
 /*Start - Theme title border*/
 .heading {
     &:after {
-        background-color: #F51010 !important;
+        background-color: #fff !important;
     }
 }
 
@@ -42,6 +42,7 @@
 
 /*Start - Remove extra border in the social icons*/
 .lp-socials__link {
+    transition: 0.4s;
     &:before {
         display: none;
     }

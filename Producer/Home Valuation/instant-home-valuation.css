@@ -6,7 +6,7 @@
 }
 
 div.loader .line {
-    background: #D8CDBA;
+    background: #7C7A61;
 }
 
 /*End*/
@@ -21,7 +21,7 @@ div.home-valuation {
 
             @media (max-width: 768px) {
                 border: 2px solid #fff !important;
-                color: #D8CDBA !important;
+                color: #7C7A61 !important;
                 background-color: #fff !important;
 
                 &:hover {

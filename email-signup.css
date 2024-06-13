@@ -2,6 +2,10 @@
     h2 {
         font-size: 40px;
     }
+    
+    .lp-h4 {
+        font-size: 20px;
+    }
 }
 
 .lp-disclaimer,
@@ -15,5 +19,65 @@
     &:before,
     &:after {
         background-color: #000 !important;
+    }
+}
+
+/*START - Theme link underline*/
+a {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    font-weight: 400;
+
+    &:hover {
+        color: #7C7A61 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #7C7A61 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        text-decoration: underline;
+
+        &:before,
+        &:after {
+            display: none;
+        }
+
+        &:hover {
+            color: #7C7A61;
+        }
+    }
+}
+
+/*END*/
+
+.popup-modal__form-group {
+    @media only screen and (min-width: 768px) {
+        padding-left: 75px !important;
+        padding-right: 75px !important;
     }
 }

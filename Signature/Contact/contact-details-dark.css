@@ -1,7 +1,7 @@
 /*Start - Theme title border*/
 .heading {
     &:after {
-        background-color: #F51010 !important;
+        background-color: #185770 !important;
     }
 }
 
@@ -30,7 +30,7 @@
     
     &:after {
         width: 0px;
-        background: #F51010;
+        background: #185770;
     }
     
     &:hover:after {

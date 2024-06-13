@@ -1,0 +1,88 @@
+/*START - change pagination color*/
+.lp-arrow {
+    background-color: #185770;
+    border-radius: 35px;
+    border: 2px solid #185770;
+    transition: 0.4s;
+
+    &:before {
+        display: none;
+    }
+
+    &:after {
+        background-color: #fff;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: 2px solid #185770;
+
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            background-color: #185770;
+        }
+    }
+}
+
+/*END - change pagination color*/
+
+/*START - change label color*/
+div.properties-slider {
+    .slider-item__pill {
+        color: #fff;
+    }
+
+    .slider-item__image .status {
+        background: #185770;
+        color: #fff;
+    }
+
+}
+
+/*END - change label color*/
+
+/*START - change hyperlink color*/
+.link-icon {
+    color: #000;
+    
+    &:hover {
+        &:before {
+            background-color: #185770;
+        }
+        
+        &:after {
+            background-color: transparent;
+            border: 1px solid #185770;
+        }
+    }
+
+    &:before {
+        background-color: #fff;
+    }
+    
+    &:after {
+        background-color: #185770;
+    }
+
+    &:focus {
+        &:after {
+            background-color: #185770;
+        }
+
+        &:before {
+            background-color: #000;
+        }
+    }
+}
+
+/*END - change hyperlink color*/
+
+/*START Item Address Opacity*/
+div.properties-slider .slider-item__address {
+    opacity: 1;
+}
+
+/*END*/

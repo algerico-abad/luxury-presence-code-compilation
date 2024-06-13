@@ -8,7 +8,7 @@ ul.collection li {
 /*START - testimonial page icon*/
 div.testimonials ul.collection {
     .avatar {
-        background-color: #10a3c2;
+        background-color: #7C7A61;
         height: 154px;
 
         circle {
@@ -23,7 +23,7 @@ div.testimonials ul.collection {
 
     @media only screen and (max-width: 768px) {
         .avatar {
-            background-color: #10a3c2;
+            background-color: #7C7A61;
             height: 135px;
 
             circle {
@@ -43,14 +43,14 @@ div.testimonials ul.collection {
 /*START - read more change color*/
 .js-read-more {
     &:hover {
-        color: #10a3c2;
+        color: #7C7A61;
 
         &:before {
-            background: #10a3c2;
+            background: #7C7A61;
         }
 
         &:after {
-            background: #10a3c2;
+            background: #7C7A61;
         }
     }
 
@@ -60,7 +60,7 @@ div.testimonials ul.collection {
     }
 
     &:after {
-        background: #10a3c2 !important;
+        background: #7C7A61 !important;
         opacity: 1;
     }
 }
@@ -69,13 +69,13 @@ div.testimonials ul.collection {
 
 /*START - page pagination */
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
-    border-right: 2px solid #10a3c2;
-    border-top: 2px solid #10a3c2;
+    border-right: 2px solid #7C7A61;
+    border-top: 2px solid #7C7A61;
 }
 
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
-    border-right: 2px solid #10a3c2;
-    border-top: 2px solid #10a3c2;
+    border-right: 2px solid #7C7A61;
+    border-top: 2px solid #7C7A61;
 }
 
 /*END - page pagination*/

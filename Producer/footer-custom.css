@@ -14,16 +14,68 @@ footer#global-footer .info-wrap-contact_zone {
     &:nth-child(2) {
         justify-content: flex-end;
     }
+
     &:nth-child(3) {
         margin-top: -70px;
     }
+
     @media only screen and (max-width: 768px) {
         &:nth-child(3) {
-        margin-top: 0;
+            margin-top: 0;
         }
     }
 }
+
 /*end*/
+
+/*START Change Phone Number Footer with Office number*/
+#global-footer .type_user {
+    .info-wrap-contact_cell:nth-child(3):last-child .contact_title {
+        font-size: 0px;
+
+        @media (max-width: 768px) {
+            width: 140px;
+        }
+
+        &::before {
+            font-size: 14px;
+            content: "Phone Number" !important;
+            height: auto;
+            background: 0;
+            width: 100%;
+            padding-bottom: 1px;
+            bottom: -3px;
+        }
+
+        &::after {
+            bottom: -3px;
+        }
+    }
+
+    .info-wrap-contact_cell:nth-child(1):first-child .contact_title {
+        font-size: 0px;
+
+        @media (max-width: 768px) {
+            width: 140px;
+        }
+
+        &::before {
+            font-size: 14px;
+            content: "Office Number" !important;
+            height: auto;
+            background: 0;
+            width: 100%;
+            padding-bottom: 1px;
+            bottom: -3px;
+        }
+
+        &::after {
+            bottom: -3px;
+        }
+    }
+}
+
+/*END*/
 
 /*Start - Change footer logo on mobile version (For two logo on footer)*/
 .text_footer {
@@ -39,25 +91,25 @@ footer#global-footer .info-wrap-contact_zone {
             background-repeat: no-repeat;
             background-position: center;
         }
-        
+
         .img_size {
             @media only screen and (max-width: 768px) {
                 display: none;
             }
         }
     }
-} 
+}
 
 /*End*/
 
 /*Start - Update the phone information into whatsapp*/
-#global-footer > div > div > div.info-wrap > div > div.info-wrap-contact_zone.type_user > div:nth-child(3) {
-    
+#global-footer>div>div>div.info-wrap>div>div.info-wrap-contact_zone.type_user>div:nth-child(3) {
+
     i {
-        & > svg {
+        &>svg {
             display: none;
         }
-        
+
         &:after {
             content: '';
             display: block;
@@ -70,10 +122,10 @@ footer#global-footer .info-wrap-contact_zone {
             background-size: contain;
         }
     }
-    
+
     p {
         font-size: 0px !important;
-        
+
         &:before {
             content: 'Whatsapp';
             font-size: 14px;
@@ -84,21 +136,21 @@ footer#global-footer .info-wrap-contact_zone {
 /*End*/
 
 /*Start - CSS for whatsapp number*/
-#global-footer > div > div > div.info-wrap > div > div:nth-child(2) > div.info-wrap-contact_cell {
+#global-footer>div>div>div.info-wrap>div>div:nth-child(2)>div.info-wrap-contact_cell {
     width: 100%;
-    
+
     div {
         position: absolute;
         top: 0px;
         right: 0px;
-        
+
         img {
             width: 30px;
             height: 30px;
             position: absolute;
             left: 0px;
         }
-        
+
         @media only screen and (max-width: 768px) {
             position: relative;
             margin-top: 21px;

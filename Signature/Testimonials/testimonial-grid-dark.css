@@ -6,9 +6,11 @@
 
 /*START - change hyperlink arrow color*/
 div.lp-container span.link-icon{
+    color: #000;
+    
     &:after {
-        border: 1px solid #F51010;
-        background-color: #F51010 !important;
+        border: 1px solid #185770;
+        background-color: #185770 !important;
     }
     
     &:before {
@@ -17,12 +19,12 @@ div.lp-container span.link-icon{
     
     &:hover{
         &:after {
-            border-color: #F51010;
+            border-color: #185770;
             background-color: transparent !important;
         }
         
         &:before {
-            background-color: #F51010 !important;
+            background-color: #185770 !important;
         }
     }
     
@@ -31,8 +33,8 @@ div.lp-container span.link-icon{
 
 /*Start - Theme the initials of the reviews*/
 .feature {
-    background-color: #F51010 !important;
-    color: #fff !important;
+    background-color: #EFEFEF !important;
+    color: #185770 !important;
 }
 
 /*End*/

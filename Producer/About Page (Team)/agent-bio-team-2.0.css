@@ -20,7 +20,7 @@ a.lp-link {
     opacity: 1 !important;
 
     &:hover {
-        color: #D8CDBA !important;
+        color: #8f8773 !important;
     }
 
     &:before,
@@ -42,7 +42,7 @@ a.lp-link {
 
     &:after {
         width: 0% !important;
-        background-color: #D8CDBA !important;
+        background-color: #8f8773 !important;
     }
 
     &:hover:after {
