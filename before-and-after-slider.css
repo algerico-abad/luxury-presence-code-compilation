@@ -1,0 +1,11 @@
+/*Start - Make title in one-line*/
+.lp-title-group {
+    max-width: 100%;
+    
+    h2,
+    p {
+        text-align: center;
+    }
+}
+
+/*End*/

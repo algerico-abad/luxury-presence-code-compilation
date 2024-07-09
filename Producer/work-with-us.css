@@ -15,23 +15,30 @@ h2:before {
 
 /* Start - Align contents to the left */
 .container {
-    align-items: start !important;
-    margin-left: 0px;
-
-    /* Align the title to the left */
-    .serif {
-        width: 100%;
-        text-align: left;
-        
-        &:after {
-            left: 0% !important;
-            margin-left: 0px !important
-        }
-    }
+    @media only screen and (min-width: 768px) {
+        align-items: start !important;
+        margin: auto;
+        max-width: 1400px !important;
     
-    /* Align the description to the left */
-    & > p {
-        text-align: left;
+        /* Align the title to the left */
+        .serif {
+            width: 100%;
+            text-align: left;
+            
+            &:after {
+                left: 0% !important;
+                margin-left: 0px !important
+            }
+            
+            & + p {
+                max-width: 750px;
+            }
+        }
+        
+        /* Align the description to the left */
+        & > p {
+            text-align: left;
+        }
     }
 }
 

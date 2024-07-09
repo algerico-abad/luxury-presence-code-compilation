@@ -1,14 +1,14 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #F51010;
-        background-color: #F51010;
+        border-color: #BA960C;
+        background-color: #BA960C;
         color: #fff;
 
         &:hover {
-            border-color: #F51010;
+            border-color: #BA960C;
             background-color: transparent;
-            color: #F51010;
+            color: #BA960C;
         }
     }
 
@@ -20,7 +20,7 @@ div.redesign {
             border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
             
             &:after {
-                background-color: #F51010;
+                background-color: #BA960C;
             }
         }
         /* Theme dropdown background */
@@ -34,14 +34,14 @@ div.redesign {
             /* Theme selected option */
             .custom-select-item:hover,
             .custom-select-item.is-selected {
-                color: #F51010;
+                color: #BA960C;
             }
         }
     }
 
     /*Theme pagination*/
     .lp-arrow {
-        background: #F51010;
+        background: #BA960C;
         border-radius: 50%;
         transition: 0.4s;
         -webkit-tap-highlight-color: transparent;
@@ -58,11 +58,11 @@ div.redesign {
             background: transparent;
             
             &:before {
-                border-color: #F51010;
+                border-color: #BA960C;
             }
             
             &:after {
-                background-color: #F51010 !important;
+                background-color: #BA960C !important;
             }
         }
     }
@@ -71,8 +71,8 @@ div.redesign {
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #F51010;
-        background-color: #F51010;
+        border-color: #BA960C;
+        background-color: #BA960C;
         color: #fff;
     }
 
@@ -108,7 +108,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #F51010 !important;
+        color: #BA960C !important;
     }
 
     &:before,
@@ -130,7 +130,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #F51010 !important;
+        background-color: #BA960C !important;
     }
 
     &:hover:after {
@@ -163,7 +163,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #F51010 !important;
+        color: #BA960C !important;
     }
 
     &:before,
@@ -185,7 +185,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #F51010 !important;
+        background-color: #BA960C !important;
     }
 
     &:hover:after {
@@ -232,7 +232,7 @@ a.hyperlink-style-1 {
     text-decoration: none !important;
 
     &:hover {
-        color: #F51010 !important;
+        color: #BA960C !important;
     }
 
     &:before,
@@ -254,7 +254,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #F51010 !important;
+        background-color: #BA960C !important;
     }
 
     &:hover:after {

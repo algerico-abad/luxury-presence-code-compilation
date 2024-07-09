@@ -57,7 +57,7 @@
 
             /* Theme selected option */
             .custom-select-item.is-selected {
-                color: #185770;
+                color: #BA960C;
             }
         }
     }
@@ -92,7 +92,7 @@ a.bf-s,
     text-decoration: none !important;
 
     &:hover {
-        color: #185770 !important;
+        color: #BA960C !important;
     }
 
     &:before,
@@ -114,7 +114,7 @@ a.bf-s,
 
     &:after {
         width: 0% !important;
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
     }
 
     &:hover:after {
@@ -216,7 +216,7 @@ a.bf-s,
     color: #000;
 
     &:after {
-        background-color: #185770;
+        background-color: #BA960C;
     }
 
     &:before {
@@ -226,11 +226,11 @@ a.bf-s,
     &:hover {
         &:after {
             background-color: transparent;
-            border: 1px solid #185770;
+            border: 1px solid #BA960C;
         }
 
         &:before {
-            background-color: #185770;
+            background-color: #BA960C;
         }
     }
 }

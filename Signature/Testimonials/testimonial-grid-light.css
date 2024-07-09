@@ -40,3 +40,11 @@ div.lp-container span.link-icon{
 }
 
 /*End*/
+
+.btn-holder:has(button[style="display: none;"]) {
+    display: none;
+}
+
+.lp-title-group {
+    margin-bottom: 20px !important;
+}

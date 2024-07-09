@@ -11,6 +11,10 @@
 
 /*END*/
 
+.featured-team-header {
+    margin-bottom: 20px !important;
+}
+
 /*START - fix slick arrow underline color*/
 .slick-links-nav {
     .link--white {

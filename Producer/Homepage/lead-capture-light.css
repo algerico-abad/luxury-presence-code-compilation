@@ -69,3 +69,8 @@
     }
 }
 /*End*/
+
+.popup-modal__form {
+    display: flex;
+    align-items: center;
+}

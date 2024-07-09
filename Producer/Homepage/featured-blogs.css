@@ -16,7 +16,7 @@ ul.featured-press h4 span.link {
     text-decoration-color: #000;
 
     &:hover {
-        text-decoration-color: #9E9796;
+        text-decoration-color: #C70C0C;
     }
 }
 
@@ -42,6 +42,7 @@ ul.featured-press h4 span.link {
 /*START - fix title*/
 div.featured-press-section header {
     max-width: 1200px;
+    margin-bottom: 20px;
 }
 
 .featured-press-section header h2 {

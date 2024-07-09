@@ -1,0 +1,48 @@
+.redesign {
+    height: unset;
+}
+
+.container {
+    padding: 96px 64px;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 768px) {
+        padding: 20px 20px;
+    }
+
+    .contact-us-form {
+        margin: 0px !important;
+
+        @media screen and (max-width: 768px) {
+            padding: 20px 0px;
+        }
+
+        .solid-subsection {
+            padding: 65px 70px;
+
+            @media screen and (max-width: 768px) {
+                padding: 32px;
+            }
+
+            .inp {
+                padding-right: 0px !important;
+                margin-top: 16px;
+                margin-bottom: 16px;
+
+                label {
+                    color: #000;
+                }
+
+                input {
+                    border-color: rgba(0, 0, 0, 0.1);
+                    color: #000;
+                    --webkit-fill-color: #000;
+                }
+            }
+
+            .lp-disclaimer {
+                max-width: unset;
+            }
+        }
+    }
+}

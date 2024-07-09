@@ -35,8 +35,8 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
     &.active,
     &:hover {
         color: #000 !important;
-        background-color: #32403C !important;
-        border-color: #32403C !important;
+        background-color: #D6AD5B !important;
+        border-color: #D6AD5B !important;
     }
 }
 
@@ -45,15 +45,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #32403C !important;
+        background-color: #D6AD5B !important;
     }
 
     span.hint {
-        background-color: #32403C;
+        background-color: #D6AD5B;
         color: #fff;
 
         &:after {
-            background-color: #32403C;
+            background-color: #D6AD5B;
         }
     }
 }

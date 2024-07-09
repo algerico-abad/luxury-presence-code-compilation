@@ -118,7 +118,7 @@ div.type-list div.type-list__item {
 div.filter-arrows {
     svg {
         path {
-            fill: #2F343A !important;
+            fill: #AFA7A7 !important;
         }
     }
 }
@@ -134,7 +134,7 @@ div.type-item__icon {
 div.name-item__heading {
     svg {
         path {
-            fill: #2F343A !important;
+            fill: #AFA7A7 !important;
         }
     }
 }
@@ -145,7 +145,7 @@ div.name-item__heading {
 /*catergory label*/
 div.category-wrap {
     background: #fff !important;
-    color: #2F343A !important;
+    color: #AFA7A7 !important;
     text-transform: uppercase;
 }
 

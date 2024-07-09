@@ -17,15 +17,6 @@ div.lp-container {
 /*End*/
 
 /*CTA Block*/
-/*Start - Fix Mobile Padding for View More Homes button*/
-.lp-btn {
-    @media only screen and (max-width: 768px) {
-        padding: 20px !important;
-    }
-}
-
-/*End*/
-
 /*Start - Fix the padding for horizontal alignment and adjust width of title*/
 div.cta-block .text-block {
     max-width: 1500px;
@@ -42,24 +33,6 @@ div.cta-block .text-block {
 .schedule__content {
     @media only screen and (max-width: 768px) {
         padding: 64px 24px;
-    }
-}
-
-/*End*/
-
-/*GSM*/
-/*Start - Remove bottom margin*/
-div.gallery-component.redesign {
-    @media only screen and (min-width: 769px) {
-        .gallery-component__col {
-            margin-bottom: 0px !important;
-        }
-    }
-
-    @media only screen and (max-width: 768px) {
-        .gallery-component__col:last-child {
-            margin-bottom: 0px !important;
-        }
     }
 }
 

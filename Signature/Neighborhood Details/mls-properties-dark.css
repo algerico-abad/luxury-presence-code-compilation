@@ -21,22 +21,22 @@ div.lp-container {
 
             &:hover {
                 color: #fff !important;
-                background: #185770 !important;
+                background: #BA960C !important;
             }
         }
     }
 
     .lp-input {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
     }
 }
 
 .lp-input-group--search .lp-input {
-    color: #fff !important;
+    color: #000 !important;
+}
 
-    &:before {
-        filter: invert(1);
-    }
+.lp-input {
+    border-color: rgba(0, 0, 0, 0.25) !important;
 }
 
 /*END - dropdown theme*/
@@ -46,16 +46,16 @@ div.lp-container div.slider-content {
 
     .irs--round .irs-handle.state_hover,
     .irs--round .irs-handle {
-        background-color: #343432;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: #F9F9F9;
+        border: 1px solid rgba(0, 0, 0, 0.25);
 
         i {
-            background: #fff;
+            background: #000;
         }
 
         &:hover {
-            background-color: #185770;
-            border: 1px solid #185770;
+            background-color: #BA960C;
+            border: 1px solid #BA960C;
 
             i {
                 background: #fff;
@@ -67,31 +67,31 @@ div.lp-container div.slider-content {
 
 /*input*/
 .lp-input {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
 
 .range-slider .irs-from,
 .range-slider .irs-to,
 .range-slider .irs-single {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .range-slider .irs--round .irs-bar {
-    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /*END - range input theme color*/
 
 /*START - change filter button*/
 div#filtersModal button#filtersSubmit {
-    border: 2px solid #185770;
-    background: #185770 !important;
+    border: 2px solid #BA960C;
+    background: #BA960C !important;
     color: #fff;
 
     &:hover {
-        border: 2px solid #185770;
+        border: 2px solid #BA960C;
         background: transparent !important;
-        color: #185770;
+        color: #BA960C;
     }
 }
 
@@ -112,13 +112,16 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
     }
 }
 
 /*END - MLS properties change card theme*/
 
 /*IDX logo*/
+.listing-card__logo img {
+    filter: invert(1);
+}
 
 .custom-select-toggle {
     text-transform: capitalize !important;
@@ -131,7 +134,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
 }
 
 .filters__wrapper[aria-expanded="true"] {
-    background: #EFEFEF !important;
+    background: #fff !important;
 
     /*input*/
     .lp-input {

@@ -5,3 +5,18 @@ nav .header .container {
 }
 
 /* End */
+
+#global-navbar {
+    .header__container {
+        @media only screen and (min-width: 768px) {
+            width: calc(100% - 50px);
+        }
+    }
+}
+
+/* Start - Do not hide the header when scrolling */
+nav#global-navbar.scroll {
+    transform: translateY(0) scaleY(1) !important;
+}
+
+/* End */

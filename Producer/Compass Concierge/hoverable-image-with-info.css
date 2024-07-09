@@ -28,7 +28,7 @@ div.hoverable-section.lp-vertical-paddings {
     text-decoration: none !important;
 
     &:hover {
-        color: #7C7A61 !important;
+        color: #E11A27 !important;
     }
 
     &:before,
@@ -51,7 +51,7 @@ div.hoverable-section.lp-vertical-paddings {
 
     &:after {
         width: 0% !important;
-        background-color: #7C7A61 !important;
+        background-color: #E11A27 !important;
     }
 
     &:hover:after {

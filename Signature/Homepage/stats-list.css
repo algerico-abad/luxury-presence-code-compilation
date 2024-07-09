@@ -1,3 +1,5 @@
 .stat-card__title {
-    font-size: 20px;
+    @media only screen and (min-width: 768px) {
+        font-size: 20px;
+    }
 }

@@ -1,0 +1,40 @@
+/* START - link underline */
+.link {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #000 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #000 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/* End */

@@ -1,0 +1,9 @@
+.services__item {
+    .services__item-icon {
+        background-color: #fff !important;
+    }
+}
+
+.services__description {
+    max-width: 800px;
+}

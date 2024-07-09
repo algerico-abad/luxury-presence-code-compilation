@@ -46,7 +46,7 @@
 
 /*START - contact overlay border*/
 #modal-global-contact-us .company {
-    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.25) !important;
 }
 
 /*END*/
@@ -54,17 +54,9 @@
 /* START - fix x button in contact overlay*/
 #modal-global-contact-us {
     div.contact-form {
-        &__container {
-            width: 100%;
-        }
-
-        &__close.close {
-            color: #000;
+        .contact-form__close.close {
+            color: #fff;
             opacity: 1;
-
-            @media(max-width: 768px) {
-                color: #fff;
-            }
         }
     }
 }
@@ -74,12 +66,12 @@
 /*START - fix link upon hover */
 #modal-global-contact-us .company .lp-a a {
     position: relative !important;
-    color: #000 !important;
+    color: #fff !important;
     transition: 0.4s;
     opacity: 1 !important;
 
     &:hover {
-        color: #d9d9d9 !important;
+        color: #fff !important;
     }
 
     &:before,
@@ -97,12 +89,12 @@
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #d9d9d9 !important;
+        background-color: #fff !important;
     }
 
     &:hover:after {
@@ -134,18 +126,20 @@
             }
 
             &:before {
-                background-color: rgba(0, 0, 0, 0.1);
+                background-color: rgba(255, 255, 255, 0.25);
                 width: 100%;
             }
 
             &:after {
                 width: 0%;
-                background-color: #d9d9d9;
+                background-color: #fff;
                 transition: 0.4s;
             }
 
             &:hover {
                 text-decoration: none !important;
+                color: #fff;
+                opacity: 1;
 
                 &:after {
                     width: 100%;
@@ -156,3 +150,18 @@
 }
 
 /*END*/
+
+#modal-global-contact-us .contact-form {
+    background: #000 !important;
+    
+    .contact-form__title2 {
+        color: #fff;
+    }
+    
+    .company_contact {
+        p,
+        div {
+            color: #fff;
+        }
+    }
+}

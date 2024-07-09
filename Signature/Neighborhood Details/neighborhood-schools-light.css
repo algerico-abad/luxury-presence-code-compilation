@@ -50,7 +50,7 @@ div.type-list div.type-list__item {
 
     &.active,
     &:hover {
-        color: #185770 !important;
+        color: #BA960C !important;
         background-color: #fff !important;
         border-color: #fff !important;
     }

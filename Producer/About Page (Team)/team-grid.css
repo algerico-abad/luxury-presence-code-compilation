@@ -11,11 +11,33 @@ div.team-grid {
 
 /*START - border color when hover*/
 .team-member__hover {
-    border-color: #2C251C;
+    border-color: #DFD9CD;
 }
 
 /*END - border color*/
 
+/* Start - Uppercase agent names */
 .team-member__name {
     text-transform: uppercase;
 }
+
+/* End */
+
+/* Start - Remove unnecessary dimensions */
+.team-grid__wrapper {
+    gap: 50px;
+    justify-content: center;
+
+    @media only screen and (max-width: 768px) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .team-member__container {
+        margin: unset;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* End */

@@ -1,0 +1,133 @@
+/* Start - Add paddings */
+.testimonials {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* End */
+
+/* Start - Fix dimensions */
+.container {
+    padding-bottom: 0px !important;
+    
+    & > div,
+    .data-container {
+        display: flex;
+        flex-direction: column;
+        gap: 96px;
+        
+        @media only screen and (max-width: 768px) {
+            gap: 48px;
+        }
+        
+        .testimonials__item {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+
+            .author__box {
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+    
+    .pagination-container {
+        margin-top: 40px;
+    }
+}
+
+/* End */
+
+/* Start - Fix alignment and background for image */
+.testimonials {
+    .author__image {
+        background: #fff !important;
+        
+        img {
+            object-position: left;
+            object-fit: contain;
+        }
+    }
+}
+
+/* End */
+
+/* START - Update ‘Read More’ button theme style*/
+div.testimonials {
+    & > div,
+    .data-container {
+        /* Button theme */
+
+        .expand-link-container .btn-more {
+            color: #000;
+
+            &:hover {
+                color: #C70C0C !important;
+            }
+
+            &:before {
+                background: rgba(0, 0, 0, 0.1) !important;
+            }
+
+            &:hover:before {
+                background: #C70C0C !important;
+            }
+        }
+
+        /* Transition animation */
+
+        .testimonials__item-outer {
+            &:not(.expanded) {
+                .btn-more.btn-expand {
+                    opacity: 1;
+                    z-index: 1;
+                }
+            }
+
+            &.expanding {
+                .btn-more.btn-expand {
+                    opacity: 0;
+                }
+            }
+
+            &.expanded {
+                .btn-more.btn-collapse {
+                    opacity: 1;
+                }
+            }
+
+            &:not(.expanded) {
+                .btn-more.btn-collapse {
+                    opacity: 0;
+                }
+            }
+
+            &.expanding {
+                .btn-more.btn-collapse {
+                    opacity: 1;
+                }
+            }
+
+            &.collapsing {
+                .btn-more.btn-collapse {
+                    opacity: 0;
+                }
+            }
+
+            &.expanded {
+                .btn-more.btn-collapse {
+                    opacity: 1;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+
+/* END */

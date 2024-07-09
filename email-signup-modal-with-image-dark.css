@@ -28,9 +28,11 @@ a {
     color: #000 !important;
     transition: 0.4s;
     font-weight: 400;
+    text-decoration: none !important;
+    display: inline-block;
 
     &:hover {
-        color: #7C7A61 !important;
+        color: #BA960C !important;
     }
 
     &:before,
@@ -52,7 +54,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #7C7A61 !important;
+        background-color: #BA960C !important;
     }
 
     &:hover:after {
@@ -68,7 +70,7 @@ a {
         }
 
         &:hover {
-            color: #7C7A61;
+            color: #BA960C;
         }
     }
 }
@@ -81,3 +83,4 @@ a {
         padding-right: 75px !important;
     }
 }
+

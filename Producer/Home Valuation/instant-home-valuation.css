@@ -1,12 +1,12 @@
 /*add padding bottom to see the loading*/
 @media only screen and (max-width: 768px) {
     div.home-valuation .content {
-        padding-bottom: 45px;
+        padding-bottom: 124px;
     }
 }
 
 div.loader .line {
-    background: #7C7A61;
+    background: #C70C0C;
 }
 
 /*End*/
@@ -21,7 +21,7 @@ div.home-valuation {
 
             @media (max-width: 768px) {
                 border: 2px solid #fff !important;
-                color: #7C7A61 !important;
+                color: #C70C0C !important;
                 background-color: #fff !important;
 
                 &:hover {
@@ -77,3 +77,10 @@ div.home-valuation .background:after {
 }
 
 /*END*/
+
+/* Start - Fix issue with fullscreen for Home Valuation form */
+& {
+    transform: unset;
+}
+
+/* End */

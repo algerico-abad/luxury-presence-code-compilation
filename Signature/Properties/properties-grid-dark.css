@@ -1,7 +1,7 @@
 /*START - change label color*/
 span.property-card__status {
     color: #FFFFFF;
-    background: #185770;
+    background: #BA960C;
 }
 
 /*ENd - change label color*/
@@ -32,11 +32,11 @@ span.property-card__status {
 
 .custom-select-item:focus,
 .custom-select-item:hover {
-    color: #185770 !important;
+    color: #BA960C !important;
 }
 
 .custom-select-item.is-selected {
-    color: #185770 !important;
+    color: #BA960C !important;
 }
 
 /*END - dropdown color*/
@@ -54,7 +54,7 @@ span.property-card__status {
 /*Start - Theme pagination*/
 .paginationjs-next a,
 .paginationjs-prev a {
-    background: #185770;
+    background: #BA960C;
     border-radius: 50%;
     transition: 0.4s;
     -webkit-tap-highlight-color: transparent;
@@ -71,11 +71,11 @@ span.property-card__status {
         background: transparent;
         
         &:before {
-            border-color: #185770;
+            border-color: #BA960C;
         }
         
         &:after {
-            background-color: #185770 !important;
+            background-color: #BA960C !important;
         }
     }
 }
@@ -85,7 +85,7 @@ span.property-card__status {
 /*Start - Theme the underline pagination*/
 .J-paginationjs-page.active {
     a:after {
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
     }
 }
 

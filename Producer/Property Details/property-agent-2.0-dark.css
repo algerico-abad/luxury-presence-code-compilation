@@ -1,0 +1,119 @@
+/*START - fix paddings */
+div.property-agent-cta {
+    .property-agent-cta-item {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+/*END*/
+
+/*START - contact link underline */
+a {
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-decoration: none;
+
+    &:hover {
+        color: #092F76 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #092F76 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*Start - Fix image and button margin*/
+.property-agent-cta-avatar {
+    align-self: flex-start !important;
+
+    @media only screen and (max-width: 1024px) {
+        align-self: center !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1/1 !important;
+    }
+}
+
+button {
+    margin-bottom: 0px !important;
+}
+
+/*End*/
+
+/* Start - Fix dimensions */
+.property-agent-cta-item {
+    @media only screen and (min-width: 1025px) {
+        gap: 60px;
+    }
+
+    .property-agent-cta-avatar {
+        margin-right: 0px !important;
+    }
+
+    .property-agent-cta-info {
+        gap: 13px;
+
+        .name {
+            margin-bottom: 0px !important;
+        }
+
+        .details {
+            column-gap: 64px;
+            row-gap: 24px;
+
+            .row-item {
+                margin-bottom: 0px !important;
+                padding-right: 0px !important;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Adjust dimensions if agent or team */
+.property-agents:not(:has(.property-agent-cta-container:only-child)) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .property-agent-cta-container:not(:last-child) {
+        padding-bottom: 24px;
+    }
+
+    .property-agent-cta-container {
+        border-color: rgba(0, 0, 0, 0.1) !important;
+    }
+}
+
+/* End */

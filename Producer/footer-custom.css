@@ -1,3 +1,72 @@
+/* Start - Update Phone Number Text (1st Row) */
+footer#global-footer div.info-wrap-contact_zone.type_user > div:nth-child(3) > p {
+    font-size: 0px;
+    
+    &:before {
+        content: 'Add Your Text Here...';
+        font-size: 14px;
+    }
+}
+
+/* End */
+
+/* Start - Add a custom footer row */
+footer#global-footer .info-wrap-contact > div:nth-child(2) > .info-wrap-contact_cell {
+    padding-left: 0px;
+    width: 100%;
+    
+    & > i {
+        display: none;
+    }
+    
+    & > .info-wrap-contact_title {
+        display: none;
+    }
+    
+    .info-wrap-contact_zone {
+        width: 100%;
+        
+        img {
+            position: absolute;
+            left: 0px;
+            display: block;
+        }
+    }
+}
+
+/* End */
+
+/* Start - Reverse custom row order in mobile */
+footer#global-footer .info-wrap-contact > div:nth-child(2) > .info-wrap-contact_cell {
+    .info-wrap-contact_zone {
+        @media only screen and (max-width: 768px) {
+            flex-direction: column-reverse;
+            
+            & > div:first-child {
+                margin-bottom: 0px;
+            }
+            
+            & > div:last-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+/* End */
+
+/*
+<div class="info-wrap-contact_zone type_user">
+    <div class="info-wrap-contact_cell"><img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/agqxng7jvkthgikqcjpf/frame" alt="" />
+    <p class="contact_title">Address</p>
+    1608 S LINDBERGH BLVD<br />ST. LOUIS, MO 63131
+</div>
+<div class="info-wrap-contact_cell"><img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/uwc4hdr9xvvadkzvaldx/frame-1" alt="" />
+    <p class="contact_title">Phone Number</p>
+    <a class="lp-link info-wrap-contact_link grey-text hyperlink-style-1" href="tel:(435) 979-7734">(435) 979-7734</a></div>
+</div>
+*/
+
 /* Start - Resize footer logo */
 #global-footer {
     .images_box {

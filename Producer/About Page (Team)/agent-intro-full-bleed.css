@@ -1,0 +1,5 @@
+.agent-intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://res.cloudinary.com/luxuryp/images/w_1920,c_limit,f_auto,q_auto/eb5y9cswbtfcg5v5rezg/team-page') !important;
+    background-position: center;
+    background-size: cover;
+}

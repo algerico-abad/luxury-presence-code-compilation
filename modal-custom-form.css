@@ -8,7 +8,7 @@
     }
     
     &:before {
-        background-color: #fff !important;
+        background-color: #000 !important;
     }
 }
 
@@ -20,13 +20,13 @@
     .lp-input-group {
         input,
         textarea {
-            border-color: rgba(255, 255, 255, 0.25);
-            color: #fff;
+            border-color: rgba(0, 0, 0, 0.1);
+            color: #000;
         }
 
         .lp-input:-webkit-autofill,
         .lp-input--dark:-webkit-autofill {
-            -webkit-text-fill-color: #fff;
+            -webkit-text-fill-color: #000;
         }
     }
 }
@@ -34,3 +34,20 @@
 .form-col:has(textarea) {
     flex: 1 1 800px;
 }
+
+.custom-form__header {
+    max-width: 1000px !important;
+}
+
+/*START - dropdown theming  */
+.uf-cus-sel-item {
+    background: #fff !important;
+    color: #000 !important;
+    
+    &:hover {
+        background: #C2B490 !important;
+        color: #fff !important;
+    }
+}
+
+/* End */

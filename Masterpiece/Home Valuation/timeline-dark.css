@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: #7C7A61 !important;
+        color: #D6AD5B !important;
     }
 
     &:before,
@@ -29,7 +29,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #7C7A61 !important;
+        background-color: #D6AD5B !important;
     }
 
     &:hover:after {

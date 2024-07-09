@@ -8,7 +8,7 @@ footer#global-footer {
         transition: 0.4s;
 
         &:hover {
-            color: #D8CDBA !important;
+            color: #C70C0C !important;
         }
 
         &:before,
@@ -30,7 +30,7 @@ footer#global-footer {
 
         &:after {
             width: 0% !important;
-            background-color: #D8CDBA !important;
+            background-color: #C70C0C !important;
         }
 
         &:hover:after {
@@ -70,3 +70,22 @@ footer#global-footer .footer .info-privacy {
 }
 
 /*END*/
+
+/* Start - Fix extra spacing on the right side of the copyright text */
+footer#global-footer  div.form-col.form-col--copyright > .copy_zone {
+    @media only screen and (min-width: 768px) {
+        text-align: right;
+    }
+}
+
+/* End */
+
+/* Start - Theme bottom border */
+footer#global-footer {
+    .info-privacy,
+    .form-col--copyright {
+        border-color: rgba(0, 0, 0, 0.1) !important;
+    }
+}
+
+/* End */

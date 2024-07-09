@@ -1,0 +1,124 @@
+/*HEADER*/
+/*START - header nav logo size adjustment*/
+nav#global-navbar .header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+
+    .logo {
+        max-height: 60px;
+
+        a.logo__link img {
+            @media only screen and (min-width:768px) {
+                max-height: 60px;
+            }
+        }
+    }
+}
+
+/*END- header nav logo size adjustment*/
+/*START - change header nav color*/
+nav#global-navbar {
+    .header {
+        background-color: transparent;
+
+        li {
+            background-color: transparent;
+
+            &:hover {
+                a {
+                    &:after {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+
+        .hamburger__lines {
+            background-color: #fff;
+
+            &:before,
+            &:after {
+                background-color: #fff;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .mobile-menu-label {
+                display: none;
+            }
+        }
+
+        a,
+        .navigation__link {
+            color: #fff;
+
+            &:after {
+                background-color: #fff;
+                left: 0px;
+                transform: none !important;
+            }
+        }
+
+        border-bottom: none;
+
+        a.logo img {
+            &:last-child {
+                display: none !important;
+            }
+
+            &:first-child {
+                display: block !important;
+            }
+        }
+    }
+
+    .header.scroll {
+        background-color: #2B039B !important;
+
+        li.navigation__item a.navigation__link {
+            color: #fff;
+
+            & span:after {
+                background-color: #fff;
+            }
+        }
+
+        button.hamburger-component.hamburger {
+            color: #fff;
+        }
+    }
+}
+
+/*submenu upon hover*/
+nav#global-navbar .header .navigation .navigation__item__sub-nav ul a {
+    color: #000 !important;
+}
+
+nav#global-navbar .header .navigation .navigation__item__sub-nav ul a:hover {
+    color: #fff !important;
+    background-color: #2b039b;
+}
+
+/*END - Change Header nav color*/
+/*START - header nav dropdown padding */
+nav .header .navigation .sub-nav__link {
+    max-width: 400px !important;
+}
+
+nav .header .navigation .sub-nav ul {
+    max-width: 400px !important;
+}
+
+/*END*/
+
+
+/*START - adjust header logo in mobile view*/
+@media (max-width: 768px) {
+    nav .header .logo img {
+        max-height: 60px !important;
+    }
+}
+
+/*END*/
+/*HEADER*/

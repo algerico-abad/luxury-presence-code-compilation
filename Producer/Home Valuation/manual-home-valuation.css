@@ -1,0 +1,35 @@
+/*START - change home valuation theme*/
+.redesign.home-valuation .home-valuation__steps li {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #fff !important;
+
+    &.active {
+        background-color: #C2B490 !important;
+        color: #fff !important;
+    }
+}
+
+/*END - change home valuation theme*/
+
+/*START - home valuation dropdown*/
+div.redesign .custom-select-content {
+    background-color: #fff !important;
+
+    .custom-select-item {
+        color: #000;
+
+        &:hover {
+            color: #fff;
+            background-color: #C2B490;
+        }
+    }
+}
+
+/*START - home valuation dropdown*/
+
+/*START - Home Valuation - OPTIONAL WORD UPPERCASE*/
+.redesign.home-valuation label {
+    text-transform: uppercase;
+}
+
+/*END*/

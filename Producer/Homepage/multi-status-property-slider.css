@@ -1,83 +1,69 @@
-/*START - fix paddings */
-div.lp-vertical-paddings {
-    padding-top: 88px;
-    padding-bottom: 76px;
-
-    @media (max-width: 1024px) {
-        padding-bottom: 64px;
-        padding-top: 64px;
-    }
+.properties-slider__tabs {
+    display: none !important;
 }
 
-/* END */
-
-/*START - MLS properties change card theme*/
-div.properties-grid.lp-vertical-paddings div.lp-container {
-    div.properties-grid__item a.lp-listing-card.listing-card .listing-card__info {
-        background-color: #fff !important;
-        color: #000;
-
-        .listing-card__logo {
-            margin-bottom: 10px;
-        }
-    }
-
-    div.listing-card__status>div {
+/*START - add theming*/
+div.lp-container {
+    .properties-slider__item-status {
+        color: #ffff !important;
+        background: #2b039b !important;
+        padding: 10px;
         text-transform: uppercase;
-        font-weight: 700;
-        background-color: #002349 !important;
+        font-size: 14px;
+        right: 12px;
     }
-}
 
-/*IDX logo*/
-.listing-card__logo img {
-    filter: invert(0);
-}
-
-/*END - MLS properties change card theme*/
-
-/*START - MLS Properties Slider Slick Arrow*/
-.lp-arrow {
-    background-color: transparent;
-    border: solid 2px #000;
-    color: #000;
-
-    &:hover {
-        background-color: #000;
-        color: #fff;
-    }
-}
-
-/*END*/
-
-.properties-grid__header {
-    @media only screen and (min-width: 769px) {
-        padding-bottom: 20px !important;
+    .properties-slider__item-container {
+        background-color: #fff;
         align-items: center !important;
-        .lp-h2 {
-            margin-top: 0px;
-            margin-bottom: 0px;
+
+        .properties-slider__item-info {
+            color: #000;
         }
     }
-    
+}
+
+/*END - add theming*/
+
+.content-box.lp-container {
     @media only screen and (max-width: 768px) {
-        .lp-title-group {
-            margin-right: 0px;
-            width: 100%;
-            
-            .lp-h2 {
-                text-align: center !important
-            }
-        }
-        
-        align-items: center !important;
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    
 }
 
-h2.lp-h2 {
-    @media only screen and (min-width: 768px) {
-        margin-top: 0px;
-        margin-bottom: 0px;
+.properties-slider-padding {
+    @media only screen and (max-width: 768px) {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
+
+.properties-slider__wrapper {
+    @media only screen and (max-width: 768px) {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+/*START - slick arrow theme(Local)*/
+div.slick-slider .lp-arrow {
+    background-color: transparent;
+    border-color: #2b039b;
+    
+    &:after,
+    &:before {
+        border-color: #2b039b;
+    }
+    
+    &:hover {
+        background-color: #2b039b;
+        
+        &:after,
+        &:before {
+            border-color: #fff;
+        }
+    }
+}
+
+/* End */

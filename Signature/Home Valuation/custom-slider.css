@@ -24,7 +24,7 @@
 /*Start - Theme the circle on the steps*/
 .scene-top {
     .scene-count {
-        background: #F51010;
+        background: #185770;
         color: #FFFFFF !important;
         border: none !important;
     }
@@ -53,7 +53,7 @@
         }
         
         &:after {
-            background-color: #F51010 !important;
+            background-color: #185770 !important;
         }
         
         &:hover {

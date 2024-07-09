@@ -11,6 +11,10 @@
 
 /*END*/
 
+.featured-team-header {
+    margin-bottom: 20px !important;
+}
+
 /*START - fix slick arrow underline color*/
 .slick-links-nav {
     .link--white {
@@ -21,11 +25,11 @@
         }
     
         &:after {
-            background-color: #ED2127;
+            background-color: #092F76;
         }
         
         &:hover {
-            color: #ED2127;
+            color: #092F76;
         }
     }
 
@@ -55,3 +59,15 @@
 }
 
 /*End*/
+
+.carousel-container {
+    @media only screen and (max-width: 768px) {
+        max-width: 405px;
+        padding: 0px !important;
+
+        .slick-slide {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    }
+}

@@ -1,24 +1,36 @@
 /*Start - Theme share button*/
-.link-icon {
-    &:before {
-        background-color: #185770;
-    }
-    
-    &:hover {
-        color: #185770;
-    
+.social-button-dropdown {
+    .link-icon {
+        color: #000 !important;
+
         &:before {
             background-color: #185770;
         }
-    }
-}
 
-.social-button-dropdown__list {
-    a {
-        color: #000 !important;
-        
-        i:before {
-            background-color: #000 !important;
+        &:hover {
+            color: #185770 !important;
+
+            &:before {
+                background-color: #185770;
+            }
+        }
+    }
+
+    .social-button-dropdown__list {
+        a {
+            color: #000 !important;
+
+            i:before {
+                background-color: #000 !important;
+            }
+            
+            &:hover {
+                color: #185770 !important;
+
+                i:before {
+                    background-color: #185770 !important;
+                }
+            }
         }
     }
 }

@@ -1,0 +1,90 @@
+.lp-title-group.popup-modal__title-group {
+    h2 {
+        font-size: 40px;
+    }
+    
+    .lp-h4 {
+        font-size: 20px;
+    }
+}
+
+.lp-input {
+    border-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+.lp-disclaimer,
+.popup-modal__form-field {
+    max-width: unset !important;
+}
+
+.close {
+    opacity: 1 !important;
+    
+    &:before,
+    &:after {
+        background-color: #fff !important;
+    }
+}
+
+/*START - Theme link underline*/
+a {
+    position: relative !important;
+    color: #fff !important;
+    transition: 0.4s;
+    font-weight: 400;
+
+    &:hover {
+        color: #fff !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #fff !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        text-decoration: underline;
+
+        &:before,
+        &:after {
+            display: none;
+        }
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+/*END*/
+
+.popup-modal__form-group {
+    @media only screen and (min-width: 768px) {
+        padding-left: 75px !important;
+        padding-right: 75px !important;
+    }
+}
+

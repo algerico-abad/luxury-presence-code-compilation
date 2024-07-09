@@ -1,7 +1,8 @@
 /*Start - Theme title border*/
 .heading {
+    &:before,
     &:after {
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
     }
 }
 
@@ -10,6 +11,7 @@
 /*Start - Theme underline links*/
 .lp-link {
     color: #000 !important;
+    display: inline-block;
     
     &:before,
     &:after {
@@ -30,11 +32,15 @@
     
     &:after {
         width: 0px;
-        background: #185770;
+        background: #BA960C;
     }
     
-    &:hover:after {
-        width: 100%;
+    &:hover {
+        color: #BA960C !important;
+        
+        &:after {
+            width: 100%;
+        }
     }
 }
 
@@ -42,9 +48,13 @@
 
 /*Start - Remove extra border in the social icons*/
 .lp-socials__link {
+    transition: 0.4s;
     &:before {
         display: none;
     }
 }
 
+p.image-text {
+    display: none;
+}
 /*End*/

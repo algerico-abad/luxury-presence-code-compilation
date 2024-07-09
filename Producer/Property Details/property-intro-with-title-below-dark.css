@@ -1,6 +1,6 @@
 /*Start - Change tag color*/
 div.property-intro-2 span.label {
-    background-color: #D8CDBA;
+    background-color: #C70C0C;
     color: #fff;
 }
 
@@ -10,7 +10,7 @@ div.property-intro-2 span.label {
 .property-intro-2-content .property-intro-2-nav-slider button.slick-arrow {
     background-color: #fff;
     border-color: #fff;
-    color: #D8CDBA !important;
+    color: #C70C0C !important;
 
     &:hover {
         background-color: transparent;

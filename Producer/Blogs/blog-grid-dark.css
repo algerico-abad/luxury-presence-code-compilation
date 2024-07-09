@@ -1,11 +1,11 @@
-/*START - Alternate Grid Padding Fix*/
+/*START - Fix paddings */
 .blog-list {
     padding-top: 96px !important;
-    padding-bottom: 50px !important;
+    padding-bottom: 96px !important;
 
     @media only screen and (max-width: 768px) {
         padding-top: 64px !important;
-        padding-bottom: 32px !important;
+        padding-bottom: 64px !important;
     }
 }
 
@@ -46,7 +46,7 @@ span:not(.date):not(.label):not(.featured-properties__label) {
 
     &:after {
         width: 0% !important;
-        background-color: #2F343A !important;
+        background-color: #C70C0C !important;
     }
 
     &:hover:after {
@@ -54,8 +54,19 @@ span:not(.date):not(.label):not(.featured-properties__label) {
     }
 
     &:hover {
-        color: #2F343A;
+        color: #C70C0C;
     }
 }
 
 /*END - Blog Grid link underline*/
+
+/* Start - Fix dimensions */
+.blog-list__container {
+    row-gap: 34px;
+    
+    .blog-list__item {
+        margin-bottom: 0px;
+    }
+}
+
+/* End */

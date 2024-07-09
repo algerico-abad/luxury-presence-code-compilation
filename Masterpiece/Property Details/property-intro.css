@@ -4,7 +4,7 @@ div.arrows .lp-arrow.slick-arrow {
     border: solid 2px #fff;
 
     &:before {
-        border-color: #7C7A61;
+        border-color: #D6AD5B;
     }
 
     &:hover {
@@ -19,19 +19,19 @@ div.arrows .lp-arrow.slick-arrow {
 
 @media (max-width: 768px) {
     div.arrows .lp-arrow.slick-arrow {
-        background-color: #7C7A61;
-        border: solid 2px #7C7A61;
+        background-color: #D6AD5B;
+        border: solid 2px #D6AD5B;
 
         &:before {
             border-color: #fff;
         }
 
         &:hover {
-            border: solid 2px #7C7A61;
+            border: solid 2px #D6AD5B;
             background-color: transparent;
 
             &:before {
-                border-color: #7C7A61;
+                border-color: #D6AD5B;
             }
         }
     }

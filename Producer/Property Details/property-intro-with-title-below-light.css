@@ -1,6 +1,6 @@
 /*Start - Change tag color*/
 div.property-intro-2 span.label {
-    background-color: #FFD140;
+    background-color: #092F76;
     color: #000;
 }
 
@@ -8,14 +8,14 @@ div.property-intro-2 span.label {
 
 /*START - pagination color*/
 .property-intro-2-content .property-intro-2-nav-slider button.slick-arrow {
-    background-color: #FFD140;
-    border-color: #FFD140;
-    color: #fff !important;
+    background-color: #fff;
+    border-color: #fff;
+    color: #092F76 !important;
 
     &:hover {
         background-color: transparent;
-        border-color: #FFD140;
-        color: #FFD140 !important;
+        border-color: #fff;
+        color: #fff !important;
     }
 }
 

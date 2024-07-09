@@ -1,16 +1,38 @@
-/*remove agent image*/
+/* Start - Reduce heading title margin */
+.lp-title-group {
+    margin-bottom: 20px !important;
+}
+
+/* End */
+
+/* Start - Hide view more button if hidden */
+.btn-holder:has(button[style="display: none;"]) {
+    display: none;
+}
+
+/* End */
+
+/* Start - Remove agent image */
 .slick-slide img {
     display: none;
 }
 /*END*/
 
-/*START - change hyperlink arrow color*/
+/*Start - Theme the name initials of the reviews*/
+.feature {
+    background-color: #EFEFEF !important;
+    color: #BA960C !important;
+}
+
+/*End*/
+
+/* Start - change hyperlink arrow color*/
 div.lp-container span.link-icon{
     color: #000;
     
     &:after {
-        border: 1px solid #185770;
-        background-color: #185770 !important;
+        border: 1px solid #BA960C;
+        background-color: #BA960C !important;
     }
     
     &:before {
@@ -19,22 +41,14 @@ div.lp-container span.link-icon{
     
     &:hover{
         &:after {
-            border-color: #185770;
+            border-color: #BA960C;
             background-color: transparent !important;
         }
         
         &:before {
-            background-color: #185770 !important;
+            background-color: #BA960C !important;
         }
     }
     
 }
-/*END - change hyperlink color*/
-
-/*Start - Theme the initials of the reviews*/
-.feature {
-    background-color: #EFEFEF !important;
-    color: #185770 !important;
-}
-
-/*End*/
+/* End */

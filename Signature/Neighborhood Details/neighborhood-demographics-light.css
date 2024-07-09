@@ -11,7 +11,7 @@ div.section {
 
 /*START - 1 line for element title*/
 .lp-container .title {
-    max-width: 85% !important;
+    max-width: 100% !important;
 
     h2 {
         max-width: 100% !important;

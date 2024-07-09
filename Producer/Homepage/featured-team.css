@@ -2,9 +2,20 @@
     display: none !important;
 }
 
+.featured-team-header {
+    .slick-links-nav {
+        display: none;
+    }
+    
+    .serif {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /*START - border color when hover*/
 .featured-team__hover {
-    border-color: #414042;
+    border-color: #961a2c;
 }
 
 /*END - border color*/

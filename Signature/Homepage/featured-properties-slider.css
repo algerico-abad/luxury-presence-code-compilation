@@ -1,8 +1,8 @@
 /*START - change pagination color*/
 .lp-arrow {
-    background-color: #185770;
+    background-color: #BA960C;
     border-radius: 35px;
-    border: 2px solid #185770;
+    border: 2px solid #BA960C;
     transition: 0.4s;
 
     &:before {
@@ -15,14 +15,14 @@
 
     &:hover {
         background-color: transparent;
-        border: 2px solid #185770;
+        border: 2px solid #BA960C;
 
         &:before {
             display: none;
         }
 
         &:after {
-            background-color: #185770;
+            background-color: #BA960C;
         }
     }
 }
@@ -36,7 +36,7 @@ div.properties-slider {
     }
 
     .slider-item__image .status {
-        background: #185770;
+        background: #BA960C;
         color: #fff;
     }
 
@@ -47,33 +47,25 @@ div.properties-slider {
 /*START - change hyperlink color*/
 .link-icon {
     color: #000;
-    
-    &:hover {
-        &:before {
-            background-color: #185770;
-        }
-        
-        &:after {
-            background-color: transparent;
-            border: 1px solid #185770;
-        }
-    }
 
     &:before {
         background-color: #fff;
     }
     
     &:after {
-        background-color: #185770;
+        background-color: #BA960C;
     }
-
-    &:focus {
-        &:after {
-            background-color: #185770;
-        }
-
+    
+    &:focus,
+    &:active,
+    &:hover {
         &:before {
-            background-color: #000;
+            background-color: #BA960C;
+        }
+        
+        &:after {
+            background-color: transparent;
+            border: 1px solid #BA960C;
         }
     }
 }

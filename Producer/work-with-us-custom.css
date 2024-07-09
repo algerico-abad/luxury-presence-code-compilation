@@ -18,3 +18,18 @@ h2 {
 }
 
 /*End*/
+
+/* Start - Display video background on mobile */
+.video-wrapper {
+    @media only screen and (max-width: 768px) {
+        .video-wrapper {
+            display: block;
+        }
+
+        .poster {
+            display: none;
+        }
+    }
+}
+
+/* End */

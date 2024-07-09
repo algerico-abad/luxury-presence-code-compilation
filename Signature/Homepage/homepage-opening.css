@@ -1,3 +1,8 @@
-.search-btn.jsSearchBtn svg path {
-    fill: #fff !important;
+.search-btn {
+    background: #BA960C !important;
+    color: #fff !important;
+    
+    svg path {
+        fill: #fff !important;
+    }
 }

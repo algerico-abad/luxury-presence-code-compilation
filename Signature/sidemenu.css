@@ -1,0 +1,6 @@
+/* Start - Reduce Side Menu Mobile Hover Font Size */
+body>div.sidemenu .nav .lp-h4:hover {
+    font-size: 39px !important;
+}
+
+/* End */

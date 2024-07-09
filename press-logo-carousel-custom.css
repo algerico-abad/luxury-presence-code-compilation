@@ -1,0 +1,17 @@
+/* Start - Make the image large for gallery style */
+.slick-list {
+    .carousel-entity {
+        height: 300px;
+        width: 300px;
+
+        .press-item-inner {
+            border: none;
+        }
+
+        img {
+            width: 90%;
+        }
+    }
+}
+
+/* End */

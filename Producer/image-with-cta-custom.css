@@ -1,0 +1,8 @@
+/* Start - Fix low resolution on mobile */
+img {
+    @media only screen and (max-width: 768px) {
+        content: url('https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/x1oilcmovd9yvk7gvfok/xtra')
+    }
+}
+
+/* End */

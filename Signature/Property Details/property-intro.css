@@ -3,14 +3,37 @@
     cursor: pointer;
     
     &:before {
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
     }
     
     &:hover {
-        color: #185770 !important;
+        color: #BA960C !important;
         
         &:before {
-            background-color: #185770 !important;
+            background-color: #BA960C !important;
+        }
+    }
+}
+
+/*End*/
+
+/*Start - Theme share button*/
+.box-share {
+    .box-share--list {
+        a {
+            color: #000 !important;
+
+            i:before {
+                background-color: #000 !important;
+            }
+            
+            &:hover {
+                color: #BA960C !important;
+
+                i:before {
+                    background-color: #BA960C !important;
+                }
+            }
         }
     }
 }

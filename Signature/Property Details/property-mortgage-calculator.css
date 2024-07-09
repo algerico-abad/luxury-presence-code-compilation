@@ -2,7 +2,7 @@
 div.lp-container div.mg-calc__wrap span.link-icon {
     &:hover {
         &:after {
-            background-color: #185770;
+            background-color: #BA960C;
         }
 
         &:before {
@@ -11,14 +11,14 @@ div.lp-container div.mg-calc__wrap span.link-icon {
     }
 
     &:before {
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
     }
 }
 
 /*END - change hyperlink icon color*/
 
 /*START - Mortgage link underline */
-a.lp-link {
+.legend__item a.lp-link {
     position: relative !important;
     color: #000;
 
@@ -39,7 +39,7 @@ a.lp-link {
     }
 
     &:after {
-        background-color: #185770 !important;
+        background-color: #BA960C !important;
         width: 0% !important;
     }
     
@@ -54,11 +54,11 @@ a.lp-link {
 .custom-select {
     .custom-select-toggle {
         &:after {
-            background-color: #185770;
+            background-color: #BA960C;
         }
 
         &:hover:after {
-            background-color: #185770 !important;
+            background-color: #BA960C !important;
         }
     }
 
@@ -69,7 +69,7 @@ a.lp-link {
         button.custom-select-item:hover,
         button.custom-select-item:focus,
         button.custom-select-item.is-selected {
-            color: #185770 !important;
+            color: #BA960C !important;
         }
     }
 }
@@ -82,14 +82,14 @@ a.lp-link {
     border-color: rgba(0, 0, 0, 0.1) !important;
 
     &:after {
-        background-color: #185770;
+        background-color: #BA960C;
     }
 
     &:hover {
         color: #000;
 
         &:after {
-            background-color: #185770;
+            background-color: #BA960C;
         }
     }
 
@@ -118,7 +118,7 @@ li.legend__item.is-hovered {
         color: #000;
         
         &:before {
-            background: #185770;
+            background: #BA960C;
         }
     }
 }
@@ -126,5 +126,23 @@ li.legend__item.is-hovered {
 .chart.jsResultChart {
     svg .chart-amount {
         font-size: 28px;
+    }
+}
+
+.calc-footer__share-dropdown {
+    a {
+        color: #000 !important;
+
+        i:before {
+            background-color: #000 !important;
+        }
+        
+        &:hover {
+            color: #BA960C !important;
+
+            i:before {
+                background-color: #BA960C !important;
+            }
+        }
     }
 }

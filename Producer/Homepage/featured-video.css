@@ -33,14 +33,14 @@ h2 {
 }
 
 .lp-play--light {
-    border-color: #7c7a61;
+    border-color: #C70C0C;
     color: #fff;
-    background-color: #7c7a61;
+    background-color: #C70C0C;
 
     &:hover {
-        border-color: #7c7a61;
+        border-color: #C70C0C;
         color: #fff;
-        background-color: #7c7a61;
+        background-color: #C70C0C;
     }
 }
 
@@ -52,6 +52,6 @@ h2 {
 
 .play-icon {
     &:before {
-        color: #7c7a61;
+        color: #C70C0C;
     }
 }

@@ -1,11 +1,11 @@
 /*START - link underline */
 a.data.link {
     position: relative !important;
-    color: #000 !important;
+    color: #fff !important;
     transition: 0.4s;
 
     &:hover {
-        color: #7C7A61 !important;
+        color: #fff !important;
     }
 
     &:before,
@@ -18,16 +18,17 @@ a.data.link {
         position: absolute !important;
         bottom: 0;
         left: 0;
+        opacity: 1;
     }
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.25) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #7C7A61 !important;
+        background-color: #fff !important;
     }
 
     &:hover:after {

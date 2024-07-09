@@ -4,14 +4,14 @@ nav#global-navbar {
     /*START - light scroll background*/
     header.theme-light {
         button.hamburger-component span.hamburger__bars {
-            background-color: #F51010;
+            background-color: #BA960C;
 
             &:after {
-                background-color: #F51010;
+                background-color: #BA960C;
             }
 
             &:before {
-                background-color: #F51010;
+                background-color: #BA960C;
             }
         }
 
@@ -28,11 +28,11 @@ nav#global-navbar {
                 color: #fff;
 
                 &:hover {
-                    color: #F51010;
+                    color: #BA960C;
                 }
 
                 &:after {
-                    background-color: #F51010;
+                    background-color: #BA960C;
                 }
             }
 
@@ -43,7 +43,7 @@ nav#global-navbar {
                     color: #000;
 
                     &:hover {
-                        color: #F51010 !important;
+                        color: #BA960C !important;
                     }
                 }
             }
@@ -57,7 +57,7 @@ nav#global-navbar {
             &:hover {
                 border-color: #fff;
                 background: #fff;
-                color: #F51010;
+                color: #BA960C;
             }
         }
     }
@@ -77,20 +77,20 @@ nav#global-navbar {
                 }
 
                 &:after {
-                    background-color: #F51010;
+                    background-color: #BA960C;
                 }
             }
         }
 
         button.hamburger-component span.hamburger__bars {
-            background-color: #F51010;
+            background-color: #BA960C;
 
             &:after {
-                background-color: #F51010;
+                background-color: #BA960C;
             }
 
             &:before {
-                background-color: #F51010;
+                background-color: #BA960C;
             }
         }
 
@@ -120,8 +120,8 @@ nav#global-navbar {
             color: #fff;
 
             &:hover {
-                border-color: #F51010;
-                background: #F51010;
+                border-color: #BA960C;
+                background: #BA960C;
                 color: #fff;
             }
         }
@@ -131,3 +131,13 @@ nav#global-navbar {
 }
 
 /*END - header nav theming*/
+
+/* Start - Prevent header nav from wrapping the navigation links in two lines*/
+nav#global-navbar {
+    .navigation {
+        max-height: 58px;
+        overflow: hidden;
+    }
+}
+
+/* End */

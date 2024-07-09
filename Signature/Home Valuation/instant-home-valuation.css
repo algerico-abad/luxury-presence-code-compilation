@@ -6,7 +6,7 @@
 }
 
 div.loader .line {
-    background: #185770;
+    background: #BA960C;
 }
 
 /*End*/
@@ -21,7 +21,7 @@ div.home-valuation {
 
             @media (max-width: 768px) {
                 border: 2px solid #fff !important;
-                color: #185770 !important;
+                color: #BA960C !important;
                 background-color: #fff !important;
 
                 &:hover {
@@ -77,3 +77,10 @@ div.home-valuation .background:after {
 }
 
 /*END*/
+
+/* Start - Title Case Footer */
+.hv-form__footer a {
+    text-transform: capitalize !important;
+}
+
+/* End */
