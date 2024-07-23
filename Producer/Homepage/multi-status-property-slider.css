@@ -25,27 +25,6 @@ div.lp-container {
 
 /*END - add theming*/
 
-.content-box.lp-container {
-    @media only screen and (max-width: 768px) {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
-
-.properties-slider-padding {
-    @media only screen and (max-width: 768px) {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-}
-
-.properties-slider__wrapper {
-    @media only screen and (max-width: 768px) {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-}
-
 /*START - slick arrow theme(Local)*/
 div.slick-slider .lp-arrow {
     background-color: transparent;
@@ -67,3 +46,40 @@ div.slick-slider .lp-arrow {
 }
 
 /* End */
+
+.properties-slider__tabs {
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .lp-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .properties-slider__wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.content-box.lp-container {
+    @media only screen and (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.properties-slider-padding {
+    @media only screen and (max-width: 768px) {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+.properties-slider__wrapper {
+    @media only screen and (max-width: 768px) {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

@@ -1,0 +1,23 @@
+/* Start - Theme the pagination buttons */
+.related-blog-articles_slider {
+    .slick-arrow {
+        background: transparent !important;
+        border-color: #fff;
+
+        &:before {
+            color: #fff;
+        }
+
+        &:hover {
+            background: #fff;
+            border: 2px solid #fff !important;
+
+            &:before {
+                opacity: 1;
+                color: #0B1423;
+            }
+        }
+    }
+}
+
+/* End */

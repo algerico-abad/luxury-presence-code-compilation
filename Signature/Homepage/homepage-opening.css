@@ -1,3 +1,4 @@
+/* Start - Theme Search Button */
 .search-btn {
     background: #BA960C !important;
     color: #fff !important;
@@ -6,3 +7,5 @@
         fill: #fff !important;
     }
 }
+
+/* End */

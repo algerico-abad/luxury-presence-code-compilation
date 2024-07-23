@@ -20,7 +20,7 @@
 
 /*START - adjust title width - */
 div.custom-form__header {
-    max-width: 1500px;
+    max-width: 1400px;
 }
 
 /*END*/
@@ -57,7 +57,7 @@ p {
     text-decoration: none !important;
 
     &:hover {
-        color: #C70C0C !important;
+        color: #101010 !important;
     }
 
     &:before,
@@ -79,7 +79,7 @@ p {
 
     &:after {
         width: 0% !important;
-        background-color: #C70C0C !important;
+        background-color: #101010 !important;
     }
 
     &:hover:after {
@@ -112,7 +112,7 @@ p {
     color: #000 !important;
     
     &:hover {
-        background: #C70C0C !important;
+        background: #101010 !important;
         color: #fff !important;
     }
 }

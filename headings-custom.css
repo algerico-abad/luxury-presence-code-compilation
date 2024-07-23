@@ -1,0 +1,47 @@
+/* Start - Add horizontal lines to title */
+.lp-title-group {
+    h1 {
+        &:after {
+            min-width: 100px;
+            max-width: 240px;
+            border-top: 2px solid #fff;
+            display: block;
+            content: '';
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8px;
+        }
+
+        @media screen and (max-width: 768px) {
+            &:after {
+                max-width: 140px;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Add horizontal lines to title */
+.lp-title-group {
+    h1 {
+        &:after {
+            min-width: 100px;
+            max-width: 240px;
+            border-top: 1px solid #fff;
+            display: block;
+            content: '';
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8px;
+        }
+
+        @media screen and (max-width: 768px) {
+            &:after {
+                max-width: 140px;
+            }
+        }
+    }
+}
+
+/* End */

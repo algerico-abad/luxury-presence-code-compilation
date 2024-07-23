@@ -1,0 +1,8 @@
+/* Start - Reduce padding of sibling element if no content display */
+&:not(:has(div)) + section {
+    .lp-vertical-paddings {
+        padding-top: 0px;
+    }
+}
+
+/* End */

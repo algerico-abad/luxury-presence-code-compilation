@@ -1,7 +1,7 @@
 /*START - neighb points theming*/
 .tag {
     color: #fff !important;
-    background: #092F76 !important;
+    background: #001A72 !important;
     text-transform: uppercase !important;
 }
 
@@ -70,7 +70,7 @@ div.score__help {
     border-bottom: none;
 
     &:hover {
-        color: #092F76 !important;
+        color: #001A72 !important;
     }
 
     &:before,
@@ -92,7 +92,7 @@ div.score__help {
 
     &:after {
         width: 0% !important;
-        background-color: #092F76 !important;
+        background-color: #001A72 !important;
     }
 
     &:hover:after {
@@ -104,7 +104,7 @@ div.score__help {
 
 /*START - strs color*/
 .stars .star.is-filled {
-    background-color: #092F76 !important;
+    background-color: #001A72 !important;
 }
 
 /*END - stars color*/

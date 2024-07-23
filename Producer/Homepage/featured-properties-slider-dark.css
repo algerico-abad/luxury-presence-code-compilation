@@ -27,7 +27,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         color: #000 !important;
 
         &:hover:not(.slick-disabled) {
-            color: #C70C0C !important;
+            color: #0B1423 !important;
         }
 
         &:before {
@@ -35,7 +35,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         }
 
         &:after {
-            background-color: #C70C0C !important;
+            background-color: #0B1423 !important;
         }
         
         &:hover:after {
@@ -50,24 +50,24 @@ div.redesign.featured-properties-section ul.slick-links-nav {
 div.redesign.featured-properties-section ul.featured-properties {
     div.slick-track li.featured-properties__item-cover {
         span.featured-properties__label {
-            background: #C70C0C !important;
+            background: #0B1423 !important;
             color: #fff;
         }
     }
 
     .featured-properties__item {
-        background-color: #fff !important;
+        background-color: #000 !important;
     }
 
     .featured-properties__text {
         padding-top: 35px;
         padding-bottom: 35px;
-        background-color: #fff !important;
+        background-color: #000 !important;
 
         p,
         h4,
         h5 {
-            color: #000 !important;
+            color: #fff !important;
         }
     }
 }

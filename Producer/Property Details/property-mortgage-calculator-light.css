@@ -34,7 +34,7 @@
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #C70C0C;
+        background-color: #0B1423;
     }
 }
 
@@ -72,7 +72,7 @@ div.custom-select {
 
             &:hover {
                 color: #fff;
-                background-color: #C70C0C;
+                background-color: #0B1423;
             }
         }
     }
@@ -128,7 +128,7 @@ li.legend__item.is-hovered {
     text-decoration: none;
 
     &:hover {
-        color: #C70C0C !important;
+        color: #0B1423 !important;
     }
 
     &:before,
@@ -150,7 +150,7 @@ li.legend__item.is-hovered {
 
     &:after {
         width: 0% !important;
-        background-color: #C70C0C !important;
+        background-color: #0B1423 !important;
     }
 
     &:hover:after {

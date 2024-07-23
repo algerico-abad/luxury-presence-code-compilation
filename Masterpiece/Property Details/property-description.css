@@ -1,0 +1,7 @@
+/*START - property info theming*/
+div.info__section:after {
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+/*END - property info theming*/

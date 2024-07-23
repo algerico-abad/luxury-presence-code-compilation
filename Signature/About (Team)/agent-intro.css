@@ -78,6 +78,7 @@
         }
         
         &:after {
+            display: none;
             bottom: unset;
             top: 0px;
             width: 100%;

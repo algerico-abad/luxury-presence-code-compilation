@@ -30,7 +30,7 @@ div.section {
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
     color: #000 !important;
     background-color: transparent !important;
-    border-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #000 !important;
 
     &.active,
     &:hover {

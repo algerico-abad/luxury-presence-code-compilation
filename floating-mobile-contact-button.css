@@ -1,13 +1,13 @@
 /*START - Floating Mobile Contact Buttons - Button Fix - Solid */
 .contact-form__content {
     .lp-btn {
-        background: #BA960C !important;
+        background: #101010 !important;
         color: #fff !important;
-        border-color: #BA960C !important;
+        border-color: #101010 !important;
 
         &:hover {
             background: transparent !important;
-            color: #BA960C !important;
+            color: #000 !important;
         }
     }
 }
@@ -26,7 +26,7 @@
             display: inline-block;
 
             &:hover {
-                color: #BA960C !important;
+                color: #101010 !important;
             }
 
             &:before,
@@ -48,7 +48,7 @@
 
             &:after {
                 width: 0% !important;
-                background-color: #BA960C !important;
+                background-color: #101010 !important;
             }
 
             &:hover:after {
@@ -64,7 +64,7 @@
                 }
 
                 &:hover {
-                    color: #BA960C;
+                    color: #101010;
                 }
             }
         }

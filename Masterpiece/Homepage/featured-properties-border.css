@@ -1,0 +1,55 @@
+/*START - add theming*/
+div.lp-container a.item {
+    p.status.bf1 {
+        color: #fff !important;
+        background: #5F8480 !important;
+    }
+
+    div.item__text {
+        background-color: #5F8480;
+        padding: 40px 30px 0px 30px;
+        min-height: 175px;
+
+        h5,
+        p,
+        ul {
+            color: #fff;
+        }
+    }
+}
+
+/*END - add theming*/
+
+/*START - slick arrow theme (local)*/
+div.arrows .lp-arrow.lp-arrow--dark {
+    background-color: transparent;
+    border: solid 2px #5F8480;
+
+    &:before {
+        border-color: #5F8480 !important;
+    }
+
+    &:hover {
+        background-color: #5F8480;
+        border: solid 2px #5F8480;
+
+        &:before {
+            border-color: #fff !important;
+        }
+    }
+}
+
+/*END - slick arrow theme(Local)*/
+
+/*START - padding*/
+.lp-vertical-paddings {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/

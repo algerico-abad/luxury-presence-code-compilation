@@ -44,7 +44,7 @@ div.video-gallery {
 }
 
 .lp-play:after {
-    border-color: transparent transparent transparent #C70C0C;
+    border-color: transparent transparent transparent #000;
 }
 
 /*END - fix play button hover state*/

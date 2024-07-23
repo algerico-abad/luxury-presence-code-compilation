@@ -7,7 +7,7 @@ a.link {
     border-bottom: none;
 
     &:hover {
-        color: #325E76 !important;
+        color: #5F8480 !important;
     }
 
     &:before,
@@ -29,7 +29,7 @@ a.link {
 
     &:after {
         width: 0% !important;
-        background-color: #325E76 !important;
+        background-color: #5F8480 !important;
     }
 
     &:hover:after {

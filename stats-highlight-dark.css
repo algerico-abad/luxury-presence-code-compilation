@@ -8,11 +8,11 @@
         margin-top: unset !important;
         margin-bottom: unset !important;
         max-width: 1000px;
-        
+
         &:has(h2:empty) {
             display: none;
         }
-        
+
         &:has(p) {
             display: block !important;
         }
@@ -26,7 +26,7 @@
         @media only screen and (max-width: 768px) {
             gap: 40px;
         }
-        
+
         .company-stats__col {
             .stat-card {
                 padding-bottom: 0px;

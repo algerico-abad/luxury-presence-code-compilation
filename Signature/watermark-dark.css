@@ -1,6 +1,10 @@
+/* Theme - Adjust elements watermark opacity */
+/* Note: Add per element if needed */
 .watermark {
     &:before {
         color: rgba(0, 0, 0, 0.1) !important;
         opacity: 1;
     }
 }
+
+/* End */

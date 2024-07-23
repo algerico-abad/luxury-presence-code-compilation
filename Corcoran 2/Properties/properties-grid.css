@@ -6,17 +6,6 @@ div.properties-list-item-status {
 
 /*END - change status label color*/
 
-/*START - adjust paddings (sold) */
-div.basic-margins {
-    margin-bottom: 96px;
-
-    @media only screen and (max-width: 768px) {
-        margin-bottom: 64px;
-    }
-}
-
-/*END*/
-
 /*START - change pagination color */
 .paginationjs .paginationjs-pages {
 
@@ -62,3 +51,11 @@ div.name-address h4 {
 }
 
 /*END*/
+
+.basic-margins {
+    margin-bottom: 0px !important;
+}
+
+.properties-list-content {
+    border-bottom: none !important;
+}

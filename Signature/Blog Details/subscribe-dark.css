@@ -42,6 +42,7 @@
 
 /* End */
 
+/* Start - Theme disclaimer link underline */
 .lp-disclaimer a {
     position: relative !important;
     color: #000 !important;
@@ -80,3 +81,5 @@
         width: 100% !important;
     }
 }
+
+/* End */

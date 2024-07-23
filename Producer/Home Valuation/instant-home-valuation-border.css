@@ -6,10 +6,23 @@
 }
 
 div.loader .line {
-    background: #C70C0C;
+    background: #001A72;
 }
 
 /*End*/
+
+/* Start - Adjust width of the search bar */
+.home-valuation .content {
+    @media only screen and (min-width: 768px) {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 24px !important;
+        padding-left: 24px !important;
+    }
+}
+
+/* End */
 
 /*START - fix button theme on mobile view*/
 div.home-valuation {
@@ -20,14 +33,14 @@ div.home-valuation {
             }
 
             @media (max-width: 768px) {
+                background-color: transparent !important;
+                color: #fff !important;
                 border: 2px solid #fff !important;
-                color: #C70C0C !important;
-                background-color: #fff !important;
 
                 &:hover {
-                    background-color: transparent !important;
-                    color: #fff !important;
                     border: 2px solid #fff !important;
+                    color: #001A72 !important;
+                    background-color: #fff !important;
                 }
             }
         }

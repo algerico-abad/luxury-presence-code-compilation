@@ -1,4 +1,4 @@
-/*Start - Style the hoverable image*/
+/*Start - Square Image */
 .hoverable-image--straight,
 .hoverable-image--reverse {
 
@@ -12,6 +12,12 @@
             }
         }
     }
+}
+
+/* End */
+
+.hoverable-image--straight,
+.hoverable-image--reverse {
 
     /*Add Spacing for the text container in desktop view*/
     .hoverable-image__text-wrap {

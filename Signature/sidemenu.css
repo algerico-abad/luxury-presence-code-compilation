@@ -1,6 +1,16 @@
 /* Start - Reduce Side Menu Mobile Hover Font Size */
+/* Note: Only add if needed */
 body>div.sidemenu .nav .lp-h4:hover {
-    font-size: 39px !important;
+    @media screen and (max-width: 768px) {
+        font-size: 39px !important;
+    }
 }
 
 /* End */
+
+/*START - side nav theming*/
+body>div.sidemenu .close {
+    border: solid 1px #D2A984 !important;
+}
+
+/*END*/

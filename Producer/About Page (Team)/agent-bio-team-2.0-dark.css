@@ -20,7 +20,7 @@ a.link {
     opacity: 1 !important;
 
     &:hover {
-        color: #C70C0C !important;
+        color: #FD0600 !important;
     }
 
     &:before,
@@ -42,7 +42,7 @@ a.link {
 
     &:after {
         width: 0% !important;
-        background-color: #C70C0C !important;
+        background-color: #FD0600 !important;
     }
 
     &:hover:after {

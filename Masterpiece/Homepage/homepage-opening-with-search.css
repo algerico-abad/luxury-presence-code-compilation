@@ -1,10 +1,12 @@
-/*Start - Theme homepage search theme*/
+/* Start - Theme homepage search theme */
 .search-lease-tabs {
     .search-lease-tab:not(.active) {
-        background-color: #AFA7A7 !important;
+        background-color: #5F8480 !important;
         color: #fff;
     }
 }
+
+/* End */
 
 .search-results {
     background-color: rgba(0, 0, 0, 0.8) !important;

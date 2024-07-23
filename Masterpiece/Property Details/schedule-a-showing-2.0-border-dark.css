@@ -1,0 +1,223 @@
+/* Start - Fix element padding */
+.schedule.section.redesign {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    /* breakpoint for larger desktop */
+    @media only screen and (min-width: 1201px) {
+        .schedule__content {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+    }
+
+    /* breakpoint for desktop */
+    @media only screen and (max-width: 1200px) {
+        padding-top: 96px !important;
+        padding-bottom: 0px !important;
+        gap: 96px
+    }
+
+    /* breakpoint for tablet */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 0px !important;
+        gap: 64px;
+    }
+
+    /* breakpoint for mobile */
+    @media only screen and (max-width: 580px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* End */
+
+/* Start - Fix image preview dimensions */
+.schedule.section.redesign {
+    .schedule__image {
+        height: auto !important;
+
+        img {
+            aspect-ratio: 16/9;
+        }
+
+        /* Breakpoint for larger desktop */
+        @media only screen and (min-width: 1201px) {
+            aspect-ratio: 1/1 !important;
+        }
+
+        /* Breakpoint for small desktop and below */
+        @media only screen and (max-width: 1200px) {
+            aspect-ratio: 16/1 !important;
+        }
+    }
+}
+
+/* End */
+
+/* Start - Theme the buttons */
+.schedule.section.redesign {
+    .type-selector .type-selector__group {
+        .type-selector__label.lp-btn {
+            border-color: #5F8480;
+            background-color: transparent;
+            color: #5F8480;
+
+            &:hover {
+                border-color: #5F8480;
+                background-color: #5F8480;
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* End */
+
+/*START - schedule showing change theme color*/
+div.redesign {
+    div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
+        border-color: #5F8480;
+        background-color: transparent;
+        color: #5F8480;
+
+        &:hover {
+            border-color: #5F8480;
+            background-color: #5F8480;
+            color: #fff;
+        }
+    }
+
+    /*Start - Theme dropdown*/
+    div.custom-select {
+        .custom-select-menu .custom-select-content {
+            color: #000;
+            background-color: #fff;
+
+            .custom-select-item {
+                color: #000;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #5F8480;
+                }
+            }
+        }
+
+        button.custom-select-toggle {
+            padding: 10px 20px !important;
+            text-transform: none !important;
+        }
+
+        button.custom-select-toggle.is-placeholder {
+            border-color: rgba(0, 0, 0, 0.1);
+
+            &:after {
+                border-color: #5F8480;
+            }
+        }
+    }
+
+    /*Theme pagination*/
+    button.slick-arrow {
+        background-color: transparent;
+        border-color: #5F8480;
+
+        &:before {
+            border-color: #5F8480 !important;
+        }
+
+        &:hover {
+            border-color: #5F8480;
+            background-color: #5F8480;
+
+            &:before {
+                border-color: #fff !important;
+            }
+        }
+    }
+
+    /*Theme selected date*/
+    .calendar__slide.selected .calendar__item {
+        border-color: #5F8480;
+        background-color: #5F8480;
+        color: #fff;
+    }
+
+    button.lp-btn {
+        text-transform: uppercase;
+    }
+}
+
+/*END- schedule showing change theme color*/
+
+/*START - center title and desc */
+div.lp-title-group {
+    text-align: center;
+}
+
+/*END*/
+
+h2,
+.lp-h2 {
+    font-size: 55px;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 28px;
+    }
+}
+
+/*START - change time link*/
+a.hyperlink-style-1 {
+    font-weight: 400;
+    position: relative !important;
+    color: #000 !important;
+    transition: 0.4s;
+    opacity: 1 !important;
+    text-transform: uppercase !important;
+
+    &:hover {
+        color: #5F8480 !important;
+    }
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:after {
+        width: 0% !important;
+        background-color: #5F8480 !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+}
+
+/*END*/
+
+/*START - sched a showing - 2nd page*/
+.lp-input--dark::placeholder {
+    opacity: 1 !important;
+}
+
+.input-container .lp-input~.input-icon {
+    filter: invert(1) !important;
+}
+
+/*END*/

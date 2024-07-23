@@ -114,38 +114,11 @@ div.type-list div.type-list__item {
 
 /*END - link underline*/
 
-/*School SVG arrows color adjust - Start*/
-div.filter-arrows {
-    svg {
-        path {
-            fill: #AFA7A7 !important;
-        }
-    }
-}
-
-div.type-item__icon {
-    svg {
-        path {
-            fill: #fff !important;
-        }
-    }
-}
-
-div.name-item__heading {
-    svg {
-        path {
-            fill: #AFA7A7 !important;
-        }
-    }
-}
-
-/*School SVG arrows color adjust - END*/
-
 /*START - category and border theming */
 /*catergory label*/
 div.category-wrap {
     background: #fff !important;
-    color: #AFA7A7 !important;
+    color: #000 !important;
     text-transform: uppercase;
 }
 
@@ -175,3 +148,7 @@ div.lp-container {
 }
 
 /*START - turn table text to white*/
+
+div.list div.item-cell.type-item svg > path {
+    fill: #000 !important;
+}

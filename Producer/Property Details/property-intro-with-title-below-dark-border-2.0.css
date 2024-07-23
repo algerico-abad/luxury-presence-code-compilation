@@ -1,0 +1,33 @@
+/*Start - Change tag color*/
+div.property-intro-2 span.label {
+    background-color: #0B1423;
+    color: #fff;
+}
+
+/*END - Change tag color*/
+
+/*START - pagination color*/
+.property-intro-2-content .property-intro-2-nav-slider button.slick-arrow {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff !important;
+
+    &:hover {
+        background-color: #fff;
+        border-color: #fff;
+        color: #0B1423 !important;
+    }
+}
+
+/*END - pagination color*/
+
+/*Start - Theme border line*/
+h5:before {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/*End*/
+
+.arrow-down-icon svg path {
+    fill: rgba(0, 0, 0, 0.5);
+}

@@ -24,23 +24,15 @@ div.f-video {
 /*END*/
 
 /*START - add play button and title - theming */
-h2 {
-    color: #000;
-
-    &.lp-h2 {
-        color: #000;
-    }
-}
-
 .lp-play--light {
-    border-color: #C70C0C;
+    border-color: #0B1423;
     color: #fff;
-    background-color: #C70C0C;
+    background-color: #0B1423;
 
     &:hover {
-        border-color: #C70C0C;
+        border-color: #0B1423;
         color: #fff;
-        background-color: #C70C0C;
+        background-color: #0B1423;
     }
 }
 
@@ -52,6 +44,6 @@ h2 {
 
 .play-icon {
     &:before {
-        color: #C70C0C;
+        color: #0B1423;
     }
 }

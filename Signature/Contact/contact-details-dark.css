@@ -46,7 +46,7 @@
 
 /*End*/
 
-/*Start - Remove extra border in the social icons*/
+/* Start - Remove extra border in the social icons*/
 .lp-socials__link {
     transition: 0.4s;
     &:before {
@@ -54,7 +54,11 @@
     }
 }
 
+/*End*/
+
+/* Start - Remove overlay text from image */
 p.image-text {
     display: none;
 }
-/*End*/
+
+/* End */

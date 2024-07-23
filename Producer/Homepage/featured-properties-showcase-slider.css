@@ -13,19 +13,19 @@ div.f-properties {
 
 /*START - slick arrow*/
 .lp-arrow {
-    border: solid 2px #092F76;
-    background-color: #092F76;
+    border: solid 2px #031425;
+    background-color: #031425;
 
     &:before {
         border-color: #fff;
     }
 
     &:hover {
-        border: solid 2px #092F76;
+        border: solid 2px #031425;
         background-color: transparent;
 
         &::before {
-            border-color: #092F76;
+            border-color: #031425;
         }
     }
 }
@@ -53,3 +53,29 @@ div.f-properties {
 }
 
 /*END*/
+
+/* Start - Fix dimensions */
+.slick-list {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.slick-track {
+    box-sizing: border-box;
+    max-width: 1400px !important;
+    width: 100%;
+
+    .slick-slide {
+        padding: 0px !important;
+        width: 100% !important;
+    }
+}
+
+.f-properties__action {
+    width: 100% !important;
+    max-width: 1400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* End */

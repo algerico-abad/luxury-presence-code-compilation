@@ -27,11 +27,15 @@
 @media (max-width: 768px) {
     .bottom-nav-button {
         border: 2px solid #BA960C !important;
+        border-radius: 4px;
     }
 }
 
 /*END*/
 
+/* Start - Theme instagram name */
 .instagram-name {
     color: #BA960C;
 }
+
+/* End */

@@ -28,7 +28,7 @@ div.custom-form__header {
     color: #000 !important;
     
     &:hover {
-        background: #D6AD5B !important;
+        background: #5F8480 !important;
         color: #fff !important;
     }
 }
@@ -79,9 +79,10 @@ p {
     transition: 0.4s;
     opacity: 1 !important;
     text-decoration: none !important;
+    display: inline-block;
 
     &:hover {
-        color: #D6AD5B !important;
+        color: #5F8480 !important;
     }
 
     &:before,
@@ -103,7 +104,7 @@ p {
 
     &:after {
         width: 0% !important;
-        background-color: #D6AD5B !important;
+        background-color: #5F8480 !important;
     }
 
     &:hover:after {
@@ -123,5 +124,7 @@ p {
 /*END*/
 
 .elem-col.custom-form__img-col {
-    aspect-ratio: 1/1;
+    @media screen and (max-width: 768px) {
+        aspect-ratio: 1/1;
+    }
 }

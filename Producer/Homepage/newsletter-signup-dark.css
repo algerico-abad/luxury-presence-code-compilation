@@ -49,7 +49,7 @@ input.lp-input--light {
     text-decoration: none !important;
 
     &:hover {
-        color: #961A2C !important;
+        color: #DFD9CD !important;
     }
 
     &:before,
@@ -72,7 +72,7 @@ input.lp-input--light {
 
     &:after {
         width: 0% !important;
-        background-color: #961A2C !important;
+        background-color: #DFD9CD !important;
     }
 
     &:hover:after {

@@ -60,14 +60,14 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #DFD9CD;
-        background-color: #DFD9CD;
+        border-color: #FD0600;
+        background-color: #FD0600;
         color: #fff;
 
         &:hover {
-            border-color: #DFD9CD;
+            border-color: #FD0600;
             background-color: transparent;
-            color: #DFD9CD;
+            color: #FD0600;
         }
     }
 
@@ -82,7 +82,7 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #DFD9CD;
+                    background-color: #FD0600;
                 }
             }
         }
@@ -98,8 +98,8 @@ div.redesign {
 
     /*Theme pagination*/
     button.slick-arrow {
-        border-color: #DFD9CD;
-        background-color: #DFD9CD;
+        border-color: #FD0600;
+        background-color: #FD0600;
 
         &:before {
             border-color: #fff !important;
@@ -107,18 +107,18 @@ div.redesign {
 
         &:hover {
             background-color: transparent;
-            border-color: #DFD9CD;
+            border-color: #FD0600;
 
             &:before {
-                border-color: #DFD9CD !important;
+                border-color: #FD0600 !important;
             }
         }
     }
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #DFD9CD;
-        background-color: #DFD9CD;
+        border-color: #FD0600;
+        background-color: #FD0600;
         color: #fff;
     }
 
@@ -153,7 +153,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #DFD9CD !important;
+        color: #FD0600 !important;
     }
 
     &:before,
@@ -175,7 +175,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #DFD9CD !important;
+        background-color: #FD0600 !important;
     }
 
     &:hover:after {
@@ -216,7 +216,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #DFD9CD !important;
+        color: #FD0600 !important;
     }
 
     &:before,
@@ -238,7 +238,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #DFD9CD !important;
+        background-color: #FD0600 !important;
     }
 
     &:hover:after {
@@ -268,7 +268,7 @@ a.hyperlink-style-1 {
     text-decoration: none !important;
 
     &:hover {
-        color: #DFD9CD !important;
+        color: #FD0600 !important;
     }
 
     &:before,
@@ -290,7 +290,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #DFD9CD !important;
+        background-color: #FD0600 !important;
     }
 
     &:hover:after {

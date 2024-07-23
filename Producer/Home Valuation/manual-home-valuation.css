@@ -4,8 +4,8 @@
     color: #fff !important;
 
     &.active {
-        background-color: #C2B490 !important;
-        color: #fff !important;
+        background-color: #fff !important;
+        color: #031425 !important;
     }
 }
 
@@ -20,7 +20,7 @@ div.redesign .custom-select-content {
 
         &:hover {
             color: #fff;
-            background-color: #C2B490;
+            background-color: #031425;
         }
     }
 }

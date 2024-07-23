@@ -113,6 +113,7 @@ li.legend__item.is-hovered {
 
 /*END - mortgage change input text color and dropdown*/
 
+/* Start - Theme Reset and Share Arrow Icon */
 .calc-footer__links-wrap {
     .link-icon {
         color: #000;
@@ -123,8 +124,13 @@ li.legend__item.is-hovered {
     }
 }
 
+/* End */
+
+/* Start - Resize Chart Text Value */
 .chart.jsResultChart {
     svg .chart-amount {
         font-size: 28px;
     }
 }
+
+/* End */

@@ -55,6 +55,18 @@ footer#global-footer .info-wrap-contact > div:nth-child(2) > .info-wrap-contact_
 
 /* End */
 
+h1 {
+    @media screen and (max-width: 768px) {
+        font-size: 36px;
+    }
+}
+
+h2 {
+    @media screen and (max-width: 768px) {
+        font-size: 34px;
+    }
+}
+
 /*
 <div class="info-wrap-contact_zone type_user">
     <div class="info-wrap-contact_cell"><img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/agqxng7jvkthgikqcjpf/frame" alt="" />
@@ -68,7 +80,7 @@ footer#global-footer .info-wrap-contact > div:nth-child(2) > .info-wrap-contact_
 */
 
 /* Start - Resize footer logo */
-#global-footer {
+footer#global-footer {
     .images_box {
         .img_size {
             height: 104px;
@@ -229,3 +241,68 @@ footer#global-footer .info-wrap-contact_zone {
 }
 
 /*End*/
+
+footer#global-footer {
+    .info-wrap-contact_cell:has(form) {
+        .input-component {
+            border-color: rgba(0, 0, 0, 0.1);
+
+            &:focus {
+                border-color: rgba(0, 0, 0, 0.75);
+            }
+        }
+        
+        .lp-disclaimer {
+            a {
+                position: relative !important;
+                color: #000 !important;
+                transition: 0.4s;
+                font-weight: 400;
+                text-decoration: none !important;
+
+                &:hover {
+                    color: #012169 !important;
+                }
+
+                &:before,
+                &:after {
+                    transition: 0.4s;
+                    text-decoration: none !important;
+                    line-height: 1;
+                    content: "" "";
+                    height: 1px;
+                    position: absolute !important;
+                    bottom: 0;
+                    left: 0;
+                }
+
+                &:before {
+                    width: 100% !important;
+                    background-color: rgba(0, 0, 0, 0.25) !important;
+                }
+
+                &:after {
+                    width: 0% !important;
+                    background-color: #012169 !important;
+                }
+
+                &:hover:after {
+                    width: 100% !important;
+                }
+
+                @media only screen and (max-width: 768px) {
+                    text-decoration: underline;
+
+                    &:before,
+                    &:after {
+                        display: none;
+                    }
+
+                    &:hover {
+                        color: #012169;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -173,13 +173,13 @@ div.lp-container {
 
 /*END*/
 
-.score__help-content span {
-    text-transform: uppercase !important;
-}
-
 /*Start - Update Circular Chart background*/
 .score__chart:after {
     background-image: conic-gradient( var(--color) var(--percentage), rgba(0, 0, 0, 0.1) var(--percentage)) !important;
 }
 
 /*End*/
+
+.score__help-content span {
+    text-transform: uppercase !important;
+}

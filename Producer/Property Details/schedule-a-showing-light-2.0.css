@@ -55,14 +55,14 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #AFA7A7;
-        background-color: #AFA7A7;
-        color: #fff;
+        border-color: #fff;
+        background-color: #fff;
+        color: #000;
 
         &:hover {
-            border-color: #AFA7A7;
+            border-color: #fff;
             background-color: transparent;
-            color: #AFA7A7;
+            color: #fff;
         }
     }
 
@@ -77,7 +77,7 @@ div.redesign {
 
                 &:hover {
                     color: #000;
-                    background-color: #AFA7A7;
+                    background-color: #fff;
                 }
             }
         }
@@ -94,27 +94,27 @@ div.redesign {
 
     /*Theme pagination*/
     button.slick-arrow {
-        border-color: #AFA7A7;
-        background-color: #AFA7A7;
+        border-color: #fff;
+        background-color: #fff;
 
         &:before {
-            border-color: #fff !important;
+            border-color: #000 !important;
         }
 
         &:hover {
             background-color: transparent;
-            border-color: #AFA7A7;
+            border-color: #fff;
 
             &:before {
-                border-color: #AFA7A7 !important;
+                border-color: #fff !important;
             }
         }
     }
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #AFA7A7;
-        background-color: #AFA7A7;
+        border-color: #fff;
+        background-color: #fff;
         color: #fff;
     }
     

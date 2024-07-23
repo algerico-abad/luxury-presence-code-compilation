@@ -129,6 +129,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
 
 /*END - MLS properties change card theme*/
 
+/* Start - Theme Mobile Filters Popup */
 .filters__toggle[aria-expanded="false"] {
     color: rgba(0, 0, 0, 0.4) !important;
 }
@@ -159,3 +160,5 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         fill: #000 !important;
     }
 }
+
+/* End */

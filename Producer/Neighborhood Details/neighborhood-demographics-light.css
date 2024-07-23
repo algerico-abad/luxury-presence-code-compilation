@@ -32,15 +32,15 @@ div.section {
 
 /*START - change pill button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #C70C0C !important;
+    color: #E3DFDB !important;
     background-color: transparent !important;
-    border-color: #C70C0C !important;
+    border-color: #E3DFDB !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #C70C0C !important;
-        border-color: #C70C0C !important;
+        background-color: #E3DFDB !important;
+        border-color: #E3DFDB !important;
     }
 }
 
@@ -49,15 +49,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #C70C0C !important;
+        background-color: #E3DFDB !important;
     }
 
     span.hint {
-        background-color: #C70C0C;
+        background-color: #E3DFDB;
         color: #fff;
 
         &:after {
-            background-color: #C70C0C;
+            background-color: #E3DFDB;
         }
     }
 }

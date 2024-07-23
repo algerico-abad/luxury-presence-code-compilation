@@ -40,7 +40,7 @@
 .heading {
     &:before,
     &:after {
-        background-color: #BA960C !important;
+        background-color: #012169 !important;
     }
     
     max-width: 800px !important;
@@ -78,11 +78,11 @@
         
         &:after {
             width: 0px;
-            background: #BA960C;
+            background: #012169;
         }
         
         &:hover {
-            color: #BA960C !important;
+            color: #012169 !important;
             
             &:after {
                 width: 100%;
