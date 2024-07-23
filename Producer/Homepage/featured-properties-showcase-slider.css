@@ -56,14 +56,15 @@ div.f-properties {
 
 /* Start - Fix dimensions */
 .slick-list {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding: 0px !important;
 }
 
 .slick-track {
     box-sizing: border-box;
     max-width: 1400px !important;
-    width: 100%;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    width: 100% !important;
 
     .slick-slide {
         padding: 0px !important;
