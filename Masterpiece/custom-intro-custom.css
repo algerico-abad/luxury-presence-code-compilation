@@ -1,0 +1,10 @@
+/* Start - Fix issue for H1 having H2 font size */
+h1 {
+    font-size: var(--global-h1-font-size, 56px);
+    
+    @media screen and (max-width: 768px) {
+        font-size: 36px;
+    }
+}
+
+/* End */

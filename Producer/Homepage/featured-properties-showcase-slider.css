@@ -13,19 +13,19 @@ div.f-properties {
 
 /*START - slick arrow*/
 .lp-arrow {
-    border: solid 2px #031425;
-    background-color: #031425;
+    border: solid 2px #043954;
+    background-color: #043954;
 
     &:before {
         border-color: #fff;
     }
 
     &:hover {
-        border: solid 2px #031425;
+        border: solid 2px #043954;
         background-color: transparent;
 
         &::before {
-            border-color: #031425;
+            border-color: #043954;
         }
     }
 }
@@ -56,27 +56,61 @@ div.f-properties {
 
 /* Start - Fix dimensions */
 .slick-list {
-    padding: 0px !important;
-}
-
-.slick-track {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1500px;
+    margin: auto;
+    overflow: visible;
     box-sizing: border-box;
-    max-width: 1400px !important;
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-    width: 100% !important;
-
-    .slick-slide {
-        padding: 0px !important;
-        width: 100% !important;
+    
+    .slick-track {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        
+        .slick-slide {
+            box-sizing: border-box;
+            padding-left: 50px;
+            padding-right: 50px;
+            aspect-ratio: 16/8;
+            height: auto;
+            
+            @media screen and (max-width: 768px) {
+                padding-left: 24px;
+                padding-right: 24px;
+                aspect-ratio: unset;
+                
+                .f-properties__item {
+                    img {
+                        aspect-ratio: 16/9;
+                        height: auto;
+                        position: relative;
+                    }
+                    
+                    .f-properties__item-info {
+                        position: relative;
+                    }
+                }
+            }
+        }
     }
 }
 
 .f-properties__action {
-    width: 100% !important;
-    max-width: 1400px;
+    max-width: 1500px;
+    box-sizing: border-box;
+    width: 100%;
     padding-left: 50px;
     padding-right: 50px;
+    
+    @media screen and (max-width: 768px) {
+        padding-left: 24px;
+        padding-right: 24px;
+        
+        .lp-btn {
+            width: 100%;
+        }
+    }
 }
 
 /* End */

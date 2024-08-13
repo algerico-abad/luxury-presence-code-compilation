@@ -1,0 +1,34 @@
+/*START - fix padding*/
+.testimonials {
+    padding-top: 96px !important;
+    padding-bottom: 93px !important;
+
+    @media (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/*END*/
+
+/*START - change pagination colors*/
+div.testimonials.redesign .custom-arrows--dark.arrows button.slick-arrow {
+    background-color: #0D2540;
+    border-color: #0D2540;
+
+    &:before {
+        color: #fff;
+        opacity: 1;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border-color: #0D2540;
+
+        &:before {
+            color: #0D2540;
+        }
+    }
+}
+
+/*END  - change pagination colors*/

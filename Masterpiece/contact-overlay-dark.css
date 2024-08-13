@@ -83,7 +83,7 @@
     opacity: 1 !important;
 
     &:hover {
-        color: #5F8480 !important;
+        color: #8A7E70 !important;
     }
 
     &:before,
@@ -106,7 +106,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #5F8480 !important;
+        background-color: #8A7E70 !important;
     }
 
     &:hover:after {

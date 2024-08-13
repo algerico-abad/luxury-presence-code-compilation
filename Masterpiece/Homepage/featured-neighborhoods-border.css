@@ -11,16 +11,16 @@
 
 /*START - slick arrow*/
 .js-arrows .lp-arrow {
-    border: solid 2px #5F8480;
+    border: solid 2px #8A7E70;
     background-color: transparent;
 
     &::before {
-        border-color: #5F8480;
+        border-color: #8A7E70;
     }
 
     &:hover {
-        border: solid 2px #5F8480;
-        background-color: #5F8480;
+        border: solid 2px #8A7E70;
+        background-color: #8A7E70;
 
         &:before {
             border-color: #fff;

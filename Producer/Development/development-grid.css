@@ -1,0 +1,13 @@
+/* Start - Fix dimensions */
+.development-list {
+    margin-bottom: 0px !important;
+    column-gap: 100px;
+    row-gap: 55px;
+    
+    li {
+        margin-left: 0px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+/* End */

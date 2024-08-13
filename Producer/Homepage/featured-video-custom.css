@@ -1,0 +1,45 @@
+.f-video .container {
+    flex-direction: column;
+}
+
+.f-video-content {
+    text-align: center;
+    width: 900px !important;
+
+    @media screen and (max-width: 768px) {
+        width: 100% !important;
+    }
+
+    & > p:not(:has(*)) {
+        display: none;
+    }
+
+    #i9tz,
+    #i9tz > * {
+        width: 100%;
+        max-width: unset !important;
+    }
+
+    .lp-socials {
+        gap: 14px;
+        justify-content: center;
+        margin-bottom: 36px;
+
+        li {
+            margin-bottom: 0px;
+            padding-right: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.f-video-poster {
+    width: 80% !important;
+
+    @media screen and (max-width: 768px) {
+        width: 100% !important;
+    }
+}

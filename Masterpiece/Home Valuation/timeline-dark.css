@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: #D6AD5B !important;
+        color: #101010 !important;
     }
 
     &:before,
@@ -24,12 +24,12 @@ a {
 
     &:before {
         width: 100% !important;
-        background-color: rgba(0, 0, 0, 0.25) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
     }
 
     &:after {
         width: 0% !important;
-        background-color: #D6AD5B !important;
+        background-color: #101010 !important;
     }
 
     &:hover:after {
@@ -49,5 +49,5 @@ a {
 /*END*/
 
 .lp-title-group {
-    max-width: 1500px;
+    max-width: 1400px;
 }

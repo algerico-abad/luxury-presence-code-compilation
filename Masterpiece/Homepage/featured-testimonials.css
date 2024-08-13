@@ -1,6 +1,6 @@
 /*START - Testimonial section theme (Local)*/
 svg path {
-    fill: #5F8480;
+    fill: #670038;
     fill-opacity: 1;
 }
 
@@ -21,7 +21,7 @@ div.arrows-container button.lp-arrow {
         background-color: #fff;
 
         &::before {
-            border-color: #fff;
+            border-color: #670038;
         }
     }
 }

@@ -1,16 +1,51 @@
 /*START - fix padding*/
 div.lp-vertical-paddings {
     padding-top: 96px;
-    padding-bottom: 32px;
+    padding-bottom: 96px;
 
     @media (max-width: 768px) {
         padding-top: 64px;
-        padding-bottom: 20px;
+        padding-bottom: 64px;
     }
 }
 
 /*END*/
 
+/* Start - Fix Dimensions */
+.data-container {
+    margin: 0px !important;
+
+    .item {
+        margin: 0px;
+    }
+}
+
+.collection,
+.collection--3 {
+    display: grid !important;
+    column-gap: 20px;
+    row-gap: 40px;
+
+    .item {
+        width: 100% !important;
+    }
+
+    &:is(.collection) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &:is(.collection--3) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* End */
+
+/* Start - Theme Links */
 .link {
     position: relative !important;
     color: #000 !important;
@@ -20,7 +55,7 @@ div.lp-vertical-paddings {
     text-decoration: none !important;
 
     &:hover {
-        color: #D6AD5B !important;
+        color: #101010 !important;
     }
 
     &:before,
@@ -42,7 +77,7 @@ div.lp-vertical-paddings {
 
     &:after {
         width: 0% !important;
-        background-color: #D6AD5B !important;
+        background-color: #101010 !important;
     }
 
     &:hover:after {
@@ -58,7 +93,9 @@ div.lp-vertical-paddings {
         }
 
         &:hover {
-            color: #D6AD5B;
+            color: #101010;
         }
     }
 }
+
+/* End */

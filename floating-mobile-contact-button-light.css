@@ -1,0 +1,117 @@
+/*START - Floating Mobile Contact Buttons - Button Fix - Solid */
+.contact-form__content {
+    .lp-btn {
+        background: #fff !important;
+        color: #38B6FF !important;
+        border-color: #fff !important;
+
+        &:hover {
+            background: transparent !important;
+            color: #fff !important;
+        }
+    }
+}
+
+/*END*/
+
+/* Start - Theme disclaimer link */
+#global-mobile-contact {
+    .pop-up {
+        .lp-disclaimer a {
+            position: relative !important;
+            color: #fff !important;
+            transition: 0.4s;
+            font-weight: 400;
+            text-decoration: none !important;
+            display: inline-block;
+
+            &:hover {
+                color: #fff !important;
+            }
+
+            &:before,
+            &:after {
+                transition: 0.4s;
+                text-decoration: none !important;
+                line-height: 1;
+                content: "" "";
+                height: 1px;
+                position: absolute !important;
+                bottom: 0;
+                left: 0;
+            }
+
+            &:before {
+                width: 100% !important;
+                background-color: rgba(255, 255, 255, 0.25) !important;
+            }
+
+            &:after {
+                width: 0% !important;
+                background-color: #fff !important;
+            }
+
+            &:hover:after {
+                width: 100% !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                text-decoration: underline;
+
+                &:before,
+                &:after {
+                    display: none;
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Floating Buton Theme input elements */
+#global-mobile-contact {
+    .pop-up {
+        input,
+        textarea {
+            border-color: rgba(255, 255, 255, 0.25);
+            -webkit-text-fill-color: #fff;
+
+            &:focus {
+                border-color: rgba(255, 255, 255, 0.75);
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Start - Theme close button */
+#global-mobile-contact {
+    .pop-up {
+        .close-btn {
+            color: #fff;
+        }
+    }
+}
+
+/* End */
+
+/* Start - Flaoting Button Adjust form padding */
+#global-mobile-contact {
+    .pop-up {
+        .lp-container {
+            padding: 64px;
+            
+            @media only screen and (max-width: 768px) {
+                padding: 24px 24px;
+            }
+        }
+    }
+}
+
+/* End */

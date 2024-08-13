@@ -28,7 +28,7 @@ div.custom-form__header {
     color: #000 !important;
     
     &:hover {
-        background: #5F8480 !important;
+        background: #670038 !important;
         color: #fff !important;
     }
 }
@@ -82,7 +82,7 @@ p {
     display: inline-block;
 
     &:hover {
-        color: #5F8480 !important;
+        color: #670038 !important;
     }
 
     &:before,
@@ -104,7 +104,7 @@ p {
 
     &:after {
         width: 0% !important;
-        background-color: #5F8480 !important;
+        background-color: #670038 !important;
     }
 
     &:hover:after {

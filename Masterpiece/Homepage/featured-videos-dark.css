@@ -24,23 +24,15 @@ div.f-video {
 /*END*/
 
 /*START - add play button and title - theming */
-h2 {
-    color: #000;
-
-    &.lp-h2 {
-        color: #000;
-    }
-}
-
 .lp-play--light {
-    border-color: #435352;
+    border-color: #670038;
     color: #fff;
-    background-color: #435352;
+    background-color: #670038;
 
     &:hover {
-        border-color: #435352;
+        border-color: #670038;
         color: #fff;
-        background-color: #435352;
+        background-color: #670038;
     }
 }
 
@@ -64,7 +56,7 @@ h2 {
         color: #000;
 
         &:hover {
-            color: #435352;
+            color: #670038;
         }
 
         &:before,
@@ -86,7 +78,7 @@ h2 {
 
         &:after {
             width: 0% !important;
-            background-color: #435352 !important;
+            background-color: #670038 !important;
         }
 
         &:hover:after {

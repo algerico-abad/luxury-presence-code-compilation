@@ -1,15 +1,28 @@
 /*add padding bottom to see the loading*/
 @media only screen and (max-width: 768px) {
     div.home-valuation .content {
-        padding-bottom: 45px;
+        padding-bottom: 124px;
     }
 }
 
 div.loader .line {
-    background: #5F8480;
+    background: #BEAF87;
 }
 
-/*end*/
+/*End*/
+
+/* Start - Adjust width of the search bar */
+.home-valuation .content {
+    @media only screen and (min-width: 768px) {
+        max-width: 1350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+}
+
+/* End */
 
 /*START - fix button theme on mobile view*/
 div.home-valuation {
@@ -21,12 +34,12 @@ div.home-valuation {
 
             @media (max-width: 768px) {
                 border: 2px solid #fff !important;
-                color: #fff !important;
-                background-color: transparent !important;
+                color: #BEAF87 !important;
+                background-color: #fff !important;
 
                 &:hover {
-                    background-color: #fff !important;
-                    color: #5F8480 !important;
+                    background-color: transparent !important;
+                    color: #fff !important;
                     border: 2px solid #fff !important;
                 }
             }
@@ -77,3 +90,10 @@ div.home-valuation .background:after {
 }
 
 /*END*/
+
+/* Start - Fix issue with fullscreen for Home Valuation form */
+& {
+    transform: unset;
+}
+
+/* End */

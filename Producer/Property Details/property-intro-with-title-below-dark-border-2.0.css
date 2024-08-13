@@ -1,6 +1,6 @@
 /*Start - Change tag color*/
 div.property-intro-2 span.label {
-    background-color: #0B1423;
+    background-color: #38B6FF;
     color: #fff;
 }
 
@@ -15,7 +15,7 @@ div.property-intro-2 span.label {
     &:hover {
         background-color: #fff;
         border-color: #fff;
-        color: #0B1423 !important;
+        color: #38B6FF !important;
     }
 }
 

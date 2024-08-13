@@ -19,10 +19,10 @@
 
 /* Start - Theme arrows */
 .accordion-opener {
-    border-color: #182C4E !important;
+    border-color: #670038 !important;
     
     &:before {
-        border-color: #182C4E !important;
+        border-color: #670038 !important;
     }
 }
 

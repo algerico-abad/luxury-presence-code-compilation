@@ -1,0 +1,116 @@
+/*START - Padding*/
+div.f-properties {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+/*END*/
+
+/*START - slick arrow*/
+.lp-arrow {
+    border: solid 2px #38B6FF;
+    background-color: transparent;
+
+    &::before {
+        border-color: #38B6FF;
+    }
+
+    &:hover {
+        border: solid 2px #38B6FF;
+        background-color: #38B6FF;
+
+        &:before {
+            border-color: #fff;
+        }
+    }
+}
+
+.f-properties__arrows-container .lp-arrow--next {
+    margin-left: 10px !important;
+}
+
+/*END*/
+
+/*START - reduce font size in mobile view*/
+@media (max-width: 768px) {
+    .f-properties__title {
+        font-size: 32px !important;
+    }
+}
+
+/*END*/
+
+/*START - button padding */
+@media (max-width: 768px) {
+    .btn-all {
+        min-width: 325px;
+    }
+}
+
+/*END*/
+
+/* Start - Fix dimensions */
+.slick-list {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1500px;
+    margin: auto;
+    overflow: visible;
+    box-sizing: border-box;
+    
+    .slick-track {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        
+        .slick-slide {
+            box-sizing: border-box;
+            padding-left: 50px;
+            padding-right: 50px;
+            aspect-ratio: 16/9;
+            height: auto;
+            
+            @media screen and (max-width: 768px) {
+                padding-left: 24px;
+                padding-right: 24px;
+                aspect-ratio: unset;
+                
+                .f-properties__item {
+                    img {
+                        aspect-ratio: 16/9;
+                        height: auto;
+                        position: relative;
+                    }
+                    
+                    .f-properties__item-info {
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.f-properties__action {
+    max-width: 1500px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    @media screen and (max-width: 768px) {
+        padding-left: 24px;
+        padding-right: 24px;
+        
+        .lp-btn {
+            width: 100%;
+        }
+    }
+}
+
+/* End */

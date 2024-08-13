@@ -1,8 +1,8 @@
 /* Start - Theme the pagination buttons */
 .related-blog-articles_slider {
     .slick-arrow {
-        background: #0B1423;
-        border: 2px solid #0B1423 !important;
+        background: #ADA191;
+        border: 2px solid #ADA191 !important;
         
         &:before {
             opacity: 1;
@@ -11,10 +11,10 @@
         
         &:hover {
             background: transparent !important;
-            border-color: #0B1423;
+            border-color: #ADA191;
             
             &:before {
-                color: #0B1423;
+                color: #ADA191;
             }
         }
     }

@@ -2,11 +2,11 @@
 div.lp-container a.item {
     p.status.bf1 {
         color: #fff !important;
-        background: #5F8480 !important;
+        background: #8A7E70 !important;
     }
 
     div.item__text {
-        background-color: #5F8480;
+        background-color: #8A7E70;
         padding: 40px 30px 0px 30px;
         min-height: 175px;
 
@@ -23,15 +23,15 @@ div.lp-container a.item {
 /*START - slick arrow theme (local)*/
 div.arrows .lp-arrow.lp-arrow--dark {
     background-color: transparent;
-    border: solid 2px #5F8480;
+    border: solid 2px #8A7E70;
 
     &:before {
-        border-color: #5F8480 !important;
+        border-color: #8A7E70 !important;
     }
 
     &:hover {
-        background-color: #5F8480;
-        border: solid 2px #5F8480;
+        background-color: #8A7E70;
+        border: solid 2px #8A7E70;
 
         &:before {
             border-color: #fff !important;

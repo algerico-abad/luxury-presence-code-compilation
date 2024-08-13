@@ -1,0 +1,46 @@
+/*START - slick arrow theme (local)*/
+div.arrows .lp-arrow.lp-arrow--dark {
+    border: solid 2px #8A7E70;
+    background-color: transparent;
+
+    &:before {
+        border-color: #8A7E70;
+    }
+
+    &:hover {
+        border: solid 2px #8A7E70;
+        background-color: #8A7E70;
+
+        &:before {
+            border-color: #fff;
+        }
+    }
+}
+
+/*END - slick arrow theme(Local)*/
+
+/*START - reduce font mobile view*/
+@media (max-width: 1024px) {
+
+    h2,
+    .lp-h2 {
+        font-size: 26px !important;
+    }
+}
+
+/*END*/
+
+/*START - featured blog - text color*/
+.lp-h5 {
+    color: #fff;
+}
+
+.bf1 {
+    color: #fff;
+}
+
+.item-text {
+    color: #fff;
+}
+
+/*End of blog text*/

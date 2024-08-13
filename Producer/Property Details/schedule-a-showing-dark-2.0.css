@@ -60,14 +60,14 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #FD0600;
-        background-color: #FD0600;
+        border-color: #38B6FF;
+        background-color: #38B6FF;
         color: #fff;
 
         &:hover {
-            border-color: #FD0600;
+            border-color: #38B6FF;
             background-color: transparent;
-            color: #FD0600;
+            color: #38B6FF;
         }
     }
 
@@ -82,7 +82,7 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #FD0600;
+                    background-color: #38B6FF;
                 }
             }
         }
@@ -98,8 +98,8 @@ div.redesign {
 
     /*Theme pagination*/
     button.slick-arrow {
-        border-color: #FD0600;
-        background-color: #FD0600;
+        border-color: #38B6FF;
+        background-color: #38B6FF;
 
         &:before {
             border-color: #fff !important;
@@ -107,18 +107,18 @@ div.redesign {
 
         &:hover {
             background-color: transparent;
-            border-color: #FD0600;
+            border-color: #38B6FF;
 
             &:before {
-                border-color: #FD0600 !important;
+                border-color: #38B6FF !important;
             }
         }
     }
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #FD0600;
-        background-color: #FD0600;
+        border-color: #38B6FF;
+        background-color: #38B6FF;
         color: #fff;
     }
 
@@ -153,7 +153,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #FD0600 !important;
+        color: #38B6FF !important;
     }
 
     &:before,
@@ -175,7 +175,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #FD0600 !important;
+        background-color: #38B6FF !important;
     }
 
     &:hover:after {
@@ -216,7 +216,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #FD0600 !important;
+        color: #38B6FF !important;
     }
 
     &:before,
@@ -238,7 +238,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #FD0600 !important;
+        background-color: #38B6FF !important;
     }
 
     &:hover:after {
@@ -268,7 +268,7 @@ a.hyperlink-style-1 {
     text-decoration: none !important;
 
     &:hover {
-        color: #FD0600 !important;
+        color: #38B6FF !important;
     }
 
     &:before,
@@ -290,7 +290,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #FD0600 !important;
+        background-color: #38B6FF !important;
     }
 
     &:hover:after {

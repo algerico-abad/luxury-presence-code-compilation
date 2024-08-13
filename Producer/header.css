@@ -4,10 +4,10 @@ nav#global-navbar {
         background-color: transparent;
 
         li {
-            background-color: #FD0600;
+            background-color: #C7C1BC;
 
             &:hover {
-                background-color: #FD0600;
+                background-color: #C7C1BC;
             }
         }
 
@@ -17,7 +17,7 @@ nav#global-navbar {
     }
 
     &.scroll {
-        background-color: #FD0600 !important;
+        background-color: #C7C1BC !important;
 
         li.navigation__item a.navigation__link {
             color: #fff;
@@ -41,7 +41,7 @@ nav#global-navbar .header .navigation .sub-nav ul a {
 
 /*submenu upon hover*/
 nav#global-navbar .header .navigation .sub-nav ul a:hover {
-    background-color: #FD0600;
+    background-color: #C7C1BC;
     color: #fff !important;
 }
 

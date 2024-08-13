@@ -4,9 +4,10 @@
     color: #000 !important;
     transition: 0.4s;
     text-decoration: none !important;
+    text-transform: uppercase;
 
     &:hover {
-        color: #5F8480 !important;
+        color: #670038 !important;
     }
 
     &:before,
@@ -29,7 +30,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #5F8480 !important;
+        background-color: #670038 !important;
     }
 
     &:hover:after {
@@ -47,3 +48,9 @@
 }
 
 /* End */
+
+.lp-container:has(.lp-pagination[style="display: none;"]) {
+    .collection {
+        margin-bottom: 0px;
+    }
+}

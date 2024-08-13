@@ -32,7 +32,7 @@ a {
     display: inline-block;
 
     &:hover {
-        color: #1c478b !important;
+        color: #670038 !important;
     }
 
     &:before,
@@ -54,7 +54,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #1c478b !important;
+        background-color: #670038 !important;
     }
 
     &:hover:after {
@@ -70,7 +70,7 @@ a {
         }
 
         &:hover {
-            color: #1c478b;
+            color: #670038;
         }
     }
 }

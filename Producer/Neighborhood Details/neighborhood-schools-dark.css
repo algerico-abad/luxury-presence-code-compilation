@@ -8,6 +8,12 @@
     }
 }
 
+.btn-wrap {
+    button {
+        margin-bottom: 0px;
+    }
+}
+
 /* End */
 
 /*START - fix padding*/
@@ -40,7 +46,7 @@
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #5F8480 var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
+    background: linear-gradient(90deg, #A62125 var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -49,15 +55,15 @@ div.rate-item .star-row:before {
 
 /*START - change pill button theme*/
 div.type-list div.type-list__item {
-    color: #5F8480 !important;
+    color: #A62125 !important;
     background-color: transparent !important;
-    border-color: #5F8480 !important;
+    border-color: #A62125 !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #5F8480 !important;
-        border-color: #5F8480 !important;
+        background-color: #A62125 !important;
+        border-color: #A62125 !important;
     }
 }
 
@@ -71,7 +77,7 @@ div.type-list div.type-list__item {
     text-decoration: none !important;
 
     &:hover {
-        color: #5F8480 !important;
+        color: #A62125 !important;
     }
 
     &:before,
@@ -93,7 +99,7 @@ div.type-list div.type-list__item {
 
     &:after {
         width: 0% !important;
-        background-color: #5F8480 !important;
+        background-color: #A62125 !important;
     }
 
     &:hover:after {
@@ -110,8 +116,8 @@ div.type-list div.type-list__item {
 /*START - category and border theming */
 /*catergory label*/
 div.category-wrap {
-    background: #fef9eb;
-    color: #000;
+    background: #A62125;
+    color: #fff;
     text-transform: uppercase;
 }
 

@@ -22,9 +22,10 @@
     color: #000 !important;
     transition: 0.4s;
     opacity: 1 !important;
+    text-decoration: none;
 
     &:hover {
-        color: #5F8480 !important;
+        color: #BEAF87 !important;
     }
 
     &:before,
@@ -47,7 +48,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #5F8480 !important;
+        background-color: #BEAF87 !important;
     }
 
     &:hover:after {

@@ -1,16 +1,6 @@
-/*START - fix button theme on mobile view(for dark bg only)*/
-@media only screen and (max-width: 768px) {
-    ul.property-list button.btn {
-        border: 2px solid #fff !important;
-        color: #000 !important;
-        background-color: #fff !important;
-
-        &:hover {
-            border: 2px solid #fff !important;
-            color: #fff !important;
-            background-color: transparent !important;
-        }
+div#global-loader {
+    img {
+        max-height: 240px;
+        max-width: 100%;
     }
 }
-
-/*END - fix button theme on mobile view(for dark bg only)*/

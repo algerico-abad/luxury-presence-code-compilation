@@ -61,13 +61,13 @@
 .schedule.section.redesign {
     .type-selector .type-selector__group {
         .type-selector__label.lp-btn {
-            border-color: #5F8480;
+            border-color: #8A7E70;
             background-color: transparent;
-            color: #5F8480;
+            color: #8A7E70;
 
             &:hover {
-                border-color: #5F8480;
-                background-color: #5F8480;
+                border-color: #8A7E70;
+                background-color: #8A7E70;
                 color: #fff;
             }
         }
@@ -79,13 +79,13 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #5F8480;
+        border-color: #8A7E70;
         background-color: transparent;
-        color: #5F8480;
+        color: #8A7E70;
 
         &:hover {
-            border-color: #5F8480;
-            background-color: #5F8480;
+            border-color: #8A7E70;
+            background-color: #8A7E70;
             color: #fff;
         }
     }
@@ -101,7 +101,7 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #5F8480;
+                    background-color: #8A7E70;
                 }
             }
         }
@@ -115,7 +115,7 @@ div.redesign {
             border-color: rgba(0, 0, 0, 0.1);
 
             &:after {
-                border-color: #5F8480;
+                border-color: #8A7E70;
             }
         }
     }
@@ -123,15 +123,15 @@ div.redesign {
     /*Theme pagination*/
     button.slick-arrow {
         background-color: transparent;
-        border-color: #5F8480;
+        border-color: #8A7E70;
 
         &:before {
-            border-color: #5F8480 !important;
+            border-color: #8A7E70 !important;
         }
 
         &:hover {
-            border-color: #5F8480;
-            background-color: #5F8480;
+            border-color: #8A7E70;
+            background-color: #8A7E70;
 
             &:before {
                 border-color: #fff !important;
@@ -141,8 +141,8 @@ div.redesign {
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #5F8480;
-        background-color: #5F8480;
+        border-color: #8A7E70;
+        background-color: #8A7E70;
         color: #fff;
     }
 
@@ -179,7 +179,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #5F8480 !important;
+        color: #8A7E70 !important;
     }
 
     &:before,
@@ -201,7 +201,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #5F8480 !important;
+        background-color: #8A7E70 !important;
     }
 
     &:hover:after {

@@ -1,0 +1,10 @@
+/* Start - Theme hover background */
+.property-list__item {
+    &:hover {
+        .property-list__hover {
+            background: rgba(0, 0, 0, 0.1) !important;
+        }
+    }
+}
+
+/* End */
