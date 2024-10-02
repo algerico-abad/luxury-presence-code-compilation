@@ -1,0 +1,114 @@
+/* START - Fix element padding */
+.schedule.section.redesign {
+    /* breakpoint for larger desktop */
+    @media only screen and (min-width: 1201px) {
+        .schedule__content {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+    }
+
+    /* breakpoint for desktop */
+    @media only screen and (max-width: 1200px) {
+        padding-top: 96px !important;
+        padding-bottom: 0px !important;
+        gap: 96px
+    }
+
+    /* breakpoint for tablet */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 0px !important;
+        gap: 64px;
+    }
+
+    /* breakpoint for mobile */
+    @media only screen and (max-width: 580px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* END */
+
+/* START - Fix image preview dimensions */
+.schedule.section.redesign {
+    .schedule__image {
+        height: auto !important;
+
+        img {
+            aspect-ratio: 16/9;
+        }
+
+        /* Breakpoint for larger desktop */
+        @media only screen and (min-width: 1201px) {
+            aspect-ratio: 1/1 !important;
+        }
+
+        /* Breakpoint for small desktop and below */
+        @media only screen and (max-width: 1200px) {
+            aspect-ratio: 16/1 !important;
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme schedule a showing */
+div.redesign {
+    /* Theme for buttons */
+    .lp-btn--dark {
+        border-color: #EC5639;
+        background-color: transparent;
+        color: #EC5639;
+        text-transform: uppercase;
+
+        &:hover {
+            border-color: #EC5639;
+            background-color: #EC5639;
+            color: #fff;
+        }
+    }
+    
+    /* Theme pagination */
+    button.slick-arrow {
+        background-color: transparent;
+        border-color: #EC5639;
+
+        &:before {
+            border-color: #EC5639 !important;
+        }
+
+        &:hover {
+            border-color: #EC5639;
+            background-color: #EC5639;
+
+            &:before {
+                border-color: #fff !important;
+            }
+        }
+    }
+    
+    /* Theme selected date */
+    .calendar__slide.selected .calendar__item {
+        border-color: #EC5639;
+        background-color: #EC5639;
+        color: #fff;
+    }
+}
+    
+/* END */
+    
+/* START - Center title and description */
+.lp-title-group {
+    text-align: center;
+}
+
+/* END */
+
+/* START - Choose a time capslock */
+.custom-select-toggle.is-placeholder {
+    text-transform: uppercase;
+}
+
+/* END */

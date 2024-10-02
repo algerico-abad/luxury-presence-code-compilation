@@ -36,9 +36,17 @@ div.custom-form__header {
     }
 }
 
-div.custom-form__img-block img {
-    object-fit: contain;
-    background-color: #fff;
+div.custom-form__img-block {
+    @media screen and (max-width: 768px) {
+        height: fit-content;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    img {
+        object-fit: contain;
+        background-color: #fff;
+    }
 }
 
 p {
@@ -57,7 +65,7 @@ p {
     text-decoration: none !important;
 
     &:hover {
-        color: #043954 !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -79,7 +87,7 @@ p {
 
     &:after {
         width: 0% !important;
-        background-color: #043954 !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {
@@ -98,6 +106,7 @@ p {
 
 /*End*/
 
+/* START - Theme input border */
 .lp-input {
     border-color: rgba(0, 0, 0, 0.1);
 
@@ -106,15 +115,30 @@ p {
     }
 }
 
+/* END */
+
 /*START - dropdown theming  */
 .uf-cus-sel-item {
     background: #fff !important;
     color: #000 !important;
-    
+
     &:hover {
-        background: #043954 !important;
+        background: #1E1E1E !important;
         color: #fff !important;
     }
 }
 
 /* End */
+
+/* START - Fullbleed textareas */
+.form-row {
+    .form-col:has(textarea) {
+        flex: 1 1 100%;
+    }
+}
+
+/* START - Center button on desktop */
+.custom-form__footer {
+    justify-content: center;
+}
+/* END */

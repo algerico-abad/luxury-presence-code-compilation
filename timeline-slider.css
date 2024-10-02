@@ -1,11 +1,11 @@
 .slick-current {
     .nav-slider__index {
         span {
-            background: #0D2540 !important;
+            background: #BEAF87 !important;
         }
 
         &:after {
-            background: #0D2540;
+            background: #BEAF87;
         }
     }
 }
@@ -50,7 +50,7 @@
     .content-slider__title {
         margin-bottom: 20px;
         font-size: 26px;
-        color: #0D2540;
+        color: #BEAF87;
     }
 
     .content-slider__image {
@@ -76,15 +76,15 @@
     bottom: 0px;
     margin: auto;
     border: 2px solid transparent;
-    background-color: #0D2540;
+    background-color: #BEAF87;
     transition: 0.25s;
 
     &:hover {
-        border-color: #0D2540;
+        border-color: #BEAF87;
         background: transparent;
 
         &:before {
-            border-color: #0D2540;
+            border-color: #BEAF87;
         }
     }
 

@@ -10,7 +10,7 @@
 
 .btn-wrap {
     button {
-        margin-bottom: 0px;
+        margin-bottom: 0px !important;
     }
 }
 
@@ -46,7 +46,7 @@
 
 /*START - stars color*/
 div.rate-item .star-row:before {
-    background: linear-gradient(90deg, #A62125 var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
+    background: linear-gradient(90deg, #1E1E1E var(--percent), rgba(0, 0, 0, 0.1) var(--percent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -55,15 +55,15 @@ div.rate-item .star-row:before {
 
 /*START - change pill button theme*/
 div.type-list div.type-list__item {
-    color: #A62125 !important;
+    color: #1E1E1E !important;
     background-color: transparent !important;
-    border-color: #A62125 !important;
+    border-color: #1E1E1E !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #A62125 !important;
-        border-color: #A62125 !important;
+        background-color: #1E1E1E !important;
+        border-color: #1E1E1E !important;
     }
 }
 
@@ -77,7 +77,7 @@ div.type-list div.type-list__item {
     text-decoration: none !important;
 
     &:hover {
-        color: #A62125 !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -99,7 +99,7 @@ div.type-list div.type-list__item {
 
     &:after {
         width: 0% !important;
-        background-color: #A62125 !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {
@@ -116,7 +116,7 @@ div.type-list div.type-list__item {
 /*START - category and border theming */
 /*catergory label*/
 div.category-wrap {
-    background: #A62125;
+    background: #1E1E1E;
     color: #fff;
     text-transform: uppercase;
 }

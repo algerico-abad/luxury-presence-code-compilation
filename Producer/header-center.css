@@ -3,14 +3,6 @@ nav#global-navbar {
     .header .navigation .sub-nav-container ul {
         background-color: transparent;
 
-        li {
-            background-color: #000;
-
-            &:hover {
-                background-color: #000;
-            }
-        }
-
         a {
             color: #fff;
         }
@@ -58,6 +50,11 @@ nav#global-navbar .header {
     padding-top: 16px;
     padding-bottom: 16px;
     height: auto;
+
+    @media screen and (max-width: 768px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 
     a.header__logo img {
         max-height: 100px !important;

@@ -5,7 +5,7 @@
     text-decoration: none !important;
 
     &:hover {
-        color: #670038 !important;
+        color: #257040 !important;
         opacity: 1 !important;
     }
 
@@ -28,7 +28,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #670038 !important;
+        background-color: #257040 !important;
     }
 
     &:hover:after {
@@ -67,7 +67,7 @@
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #670038;
+        background-color: #257040;
     }
 }
 
@@ -165,7 +165,7 @@
 
     &:hover {
         color: #fff !important;
-        background-color: #670038 !important;
+        background-color: #257040 !important;
     }
 }
 

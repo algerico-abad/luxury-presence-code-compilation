@@ -60,13 +60,13 @@
 /*START - schedule showing change theme color*/
 div.redesign {
     div.type-selector__group label.type-selector__label.lp-btn.lp-btn--outline.lp-btn--dark {
-        border-color: #38B6FF;
+        border-color: #0B090C;
         background-color: transparent;
-        color: #38B6FF;
+        color: #0B090C;
 
         &:hover {
-            border-color: #38B6FF;
-            background-color: #38B6FF;
+            border-color: #0B090C;
+            background-color: #0B090C;
             color: #fff;
         }
     }
@@ -82,7 +82,7 @@ div.redesign {
 
                 &:hover {
                     color: #fff;
-                    background-color: #38B6FF;
+                    background-color: #0B090C;
                 }
             }
         }
@@ -99,15 +99,15 @@ div.redesign {
     /*Theme pagination*/
     button.slick-arrow {
         background-color: transparent;
-        border-color: #38B6FF;
+        border-color: #0B090C;
 
         &:before {
-            border-color: #38B6FF !important;
+            border-color: #0B090C !important;
         }
 
         &:hover {
-            border-color: #38B6FF;
-            background-color: #38B6FF;
+            border-color: #0B090C;
+            background-color: #0B090C;
 
             &:before {
                 border-color: #fff !important;
@@ -117,8 +117,8 @@ div.redesign {
 
     /*Theme selected date*/
     .calendar__slide.selected .calendar__item {
-        border-color: #38B6FF;
-        background-color: #38B6FF;
+        border-color: #0B090C;
+        background-color: #0B090C;
         color: #fff;
     }
 
@@ -153,7 +153,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #38B6FF !important;
+        color: #0B090C !important;
     }
 
     &:before,
@@ -175,7 +175,7 @@ div.redesign div.custom-select button.custom-select-toggle.is-placeholder {
 
     &:after {
         width: 0% !important;
-        background-color: #38B6FF !important;
+        background-color: #0B090C !important;
     }
 
     &:hover:after {
@@ -216,7 +216,7 @@ a.hyperlink-style-1 {
     text-transform: uppercase !important;
 
     &:hover {
-        color: #38B6FF !important;
+        color: #0B090C !important;
     }
 
     &:before,
@@ -238,7 +238,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #38B6FF !important;
+        background-color: #0B090C !important;
     }
 
     &:hover:after {
@@ -268,7 +268,7 @@ a.hyperlink-style-1 {
     text-decoration: none !important;
 
     &:hover {
-        color: #38B6FF !important;
+        color: #0B090C !important;
     }
 
     &:before,
@@ -290,7 +290,7 @@ a.hyperlink-style-1 {
 
     &:after {
         width: 0% !important;
-        background-color: #38B6FF !important;
+        background-color: #0B090C !important;
     }
 
     &:hover:after {

@@ -27,7 +27,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         color: #000 !important;
 
         &:hover:not(.slick-disabled) {
-            color: #38B6FF !important;
+            color: #1E1E1E !important;
         }
 
         &:before {
@@ -35,7 +35,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
         }
 
         &:after {
-            background-color: #38B6FF !important;
+            background-color: #1E1E1E !important;
         }
         
         &:hover:after {
@@ -50,7 +50,7 @@ div.redesign.featured-properties-section ul.slick-links-nav {
 div.redesign.featured-properties-section ul.featured-properties {
     div.slick-track li.featured-properties__item-cover {
         span.featured-properties__label {
-            background: #38B6FF !important;
+            background: #1E1E1E !important;
             color: #fff;
         }
     }

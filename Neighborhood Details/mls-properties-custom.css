@@ -1,0 +1,13 @@
+/*dropdown bug workaround*/
+select {
+    display: none;
+}
+
+/*end*/
+
+/* START - Make the button white */
+.listing-card__logo img {
+    filter: invert(1) grayscale(100) brightness(200);
+}
+
+/* END */

@@ -1,0 +1,54 @@
+/* START - Theme and fix spacings */
+.featured-testimonials {
+    .featured-testimonials__container {
+        .featured-testimonials__header {
+            max-width: 100%;
+        }
+
+        .slick-track {
+            .featured-testimonials__slide {
+                &:is(.slick-active) {
+                    .testimonial-card {
+                        background: #151419;
+
+                        .testimonial-card__quote {
+                            &:before {
+                                color: #E97A2B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .featured-testimonials__footer {
+            .featured-testimonials__arrows {
+                gap: 8px;
+            }
+
+            .slick-arrow {
+                border: 2px solid #FFF;
+
+                &:before {
+                    border-color: #E97A2B;
+                }
+
+                &:hover {
+                    background: transparent;
+
+                    &:before {
+                        border-color: #FFF;
+                    }
+                }
+            }
+
+            @media (max-width: 768px) {
+                .featured-testimonials__arrows {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+/* END */

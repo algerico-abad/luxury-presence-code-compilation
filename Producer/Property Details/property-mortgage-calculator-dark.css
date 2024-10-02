@@ -1,7 +1,7 @@
 /*START - fix reset link*/
 .lp-link--light:after,
 .lp-a--light a:after {
-    background-color: #0D2540;
+    background-color: #1E1E1E;
 }
 
 .calc__footer .lp-link {
@@ -24,7 +24,7 @@
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #0D2540;
+        background-color: #1E1E1E;
     }
 }
 
@@ -62,7 +62,7 @@ div.custom-select {
 
             &:hover {
                 color: #fff;
-                background-color: #0D2540;
+                background-color: #1E1E1E;
             }
         }
     }
@@ -100,10 +100,17 @@ li.legend__item.is-hovered {
 }
 
 .mg-calc__col {
-    max-width: 55% !important;
-
-    @media (max-width: 767px) {
-        max-width: unset !important;
+    gap: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    .mg-calc__col {
+        padding: 0px !important;
+        
+        &:nth-child(2) {
+            flex: 1;
+            max-width: none !important;
+        }
     }
 }
 
@@ -117,7 +124,7 @@ li.legend__item.is-hovered {
     opacity: 1 !important;
 
     &:hover {
-        color: #0D2540 !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -139,7 +146,7 @@ li.legend__item.is-hovered {
 
     &:after {
         width: 0% !important;
-        background-color: #0D2540 !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {

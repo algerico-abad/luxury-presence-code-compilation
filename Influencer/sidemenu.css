@@ -1,0 +1,6 @@
+/* START - Uppercase sidemenu submenu title navigation links */
+#global-sidemenu div.sidemenu__nav div.title {
+    text-transform: uppercase;
+}
+
+/* END */

@@ -35,7 +35,7 @@
     text-decoration: none !important;
 
     &:hover {
-        color: #4C5EDA !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -57,7 +57,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #4C5EDA !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {

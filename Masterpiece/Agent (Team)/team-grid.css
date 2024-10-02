@@ -1,0 +1,47 @@
+/* START - Adjust title max width */
+.lp-container {
+    .lp-title-group {
+        max-width: 1200px;
+    }
+}
+
+/* END */
+
+/* START - Fix container dimensions */
+.lp-container {
+    .collection:is(.collection--3) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 48px;
+
+        .item {
+            width: 100%;
+            margin: 0px;
+
+            h3,
+            p {
+                text-align: center;
+            }
+        }
+    }
+    
+    .collection:is(:not(.collection--3)) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 48px;
+
+        .item {
+            width: 100%;
+            margin: 0px;
+
+            h3,
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+/* END */

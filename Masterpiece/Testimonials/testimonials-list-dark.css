@@ -8,7 +8,7 @@ ul.collection li {
 /*START - testimonial page icon*/
 div.testimonials ul.collection {
     .avatar {
-        background-color: #670038;
+        background-color: #5098A3;
         height: 154px;
 
         circle {
@@ -33,14 +33,14 @@ div.testimonials ul.collection {
 /*START - read more change color*/
 .js-read-more {
     &:hover {
-        color: #670038;
+        color: #5098A3;
 
         &:before {
-            background: #670038;
+            background: #5098A3;
         }
 
         &:after {
-            background: #670038;
+            background: #5098A3;
         }
     }
 
@@ -50,7 +50,7 @@ div.testimonials ul.collection {
     }
 
     &:after {
-        background: #670038 !important;
+        background: #5098A3 !important;
         opacity: 1;
     }
 }
@@ -59,13 +59,13 @@ div.testimonials ul.collection {
 
 /*START - page pagination */
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:after {
-    border-right: 2px solid #670038;
-    border-top: 2px solid #670038;
+    border-right: 2px solid #5098A3;
+    border-top: 2px solid #5098A3;
 }
 
 .lp-pagination.pagination-container .paginationjs .paginationjs-pages ul li a:hover::after {
-    border-right: 2px solid #670038;
-    border-top: 2px solid #670038;
+    border-right: 2px solid #5098A3;
+    border-top: 2px solid #5098A3;
 }
 
 /*END - page pagination*/

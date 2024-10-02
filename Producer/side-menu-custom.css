@@ -20,3 +20,150 @@
 }
 
 /*End*/
+
+/* Start - Add hover effect */
+#global-sidemenu {
+    .sidebar__nav-item a {
+        &:hover {
+            color: #FFD140 !important;
+        
+            &:after {
+                border-color: #FFD140 !important;
+            }
+        }
+    }
+}
+
+/* End */
+
+/* Increase opacity of sub-menu */
+#global-sidemenu {
+    .sub-nav-container {
+        a {
+            color: #fff !important;
+        }
+        
+        .sidebar__subnav-item a {
+            opacity: 1 !important;
+        }
+    }
+}
+
+/* End */
+
+/*START - side nav hover effect */
+div#global-sidemenu.sidemenu a {
+    &:hover {
+        color: #2C6A8E !important;
+    }
+}
+
+/*dropdown*/
+body>div.sidemenu .sub-nav.visible+.main-nav {
+    color: #000 !important;
+}
+
+body>div.sidemenu .sub-nav-container .main-nav::after {
+    border-bottom: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
+}
+
+body>div.sidemenu .sub-nav-container .main-nav:hover::after {
+    border-bottom: 1px solid #2C6A8E !important;
+    border-right: 1px solid #2C6A8E !important;
+}
+
+body>div.sidemenu .sidebar__nav-link {
+    font-size: 17px !important;
+}
+
+/*END*/
+
+/* START - Add image to sidemenu */
+#global-sidemenu {
+    .wrapper {
+        @media screen and (min-width: 768px) {
+            background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(255,255,255,0.8) 45%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%), url('https://res.cloudinary.com/luxuryp/images/w_1920,c_limit,f_auto,q_auto/nuevhkjtvfrub8q9z5vl/element-bg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            .option {
+                margin-bottom: 0px;
+                
+                @media (max-width: 768px) {
+                    .sub-nav-link {
+                        font-size: 20px !important;
+                    }
+                }
+            }
+        }
+
+        .option a {
+            font-size: 28px;
+        }
+    }
+
+    .toggle {
+        @media (max-width: 768px) {
+            right: 20px;
+            top: 20px;
+        }
+    }
+}
+
+/* END */
+
+/* START - Add image to sidemenu */
+#global-sidemenu {
+    .wrapper {
+        &:after {
+            height: 400px;
+            width: 450px;
+            max-width: 100%;
+            content: ' ';
+            background: url('https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/fo59uv4r01lguzws92ss/cgi-monogram-black');
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 32px;
+            bottom: 16px;
+            opacity: 0.1;
+            z-index: 1;
+        }
+        
+        @media (max-width: 768px) {
+            &:after {
+                right: 0px;
+            }
+            
+            li {
+                a {
+                    font-size: 30px;
+                }
+                
+                margin-bottom: 0px;
+                
+                .sub-nav {
+                    li {
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .holder {
+        z-index: 2;
+    }
+    
+    .toggle {
+        @media (max-width: 768px) {
+            right: 20px;
+            top: 20px;
+        }
+    }
+}
+
+/* END */

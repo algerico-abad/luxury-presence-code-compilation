@@ -26,7 +26,7 @@ footer#global-footer {
         color: #000 !important;
 
         &:hover {
-            color: #670038 !important;
+            color: #5098A3 !important;
             opacity: 1 !important;
         }
 
@@ -50,7 +50,7 @@ footer#global-footer {
 
         &:after {
             width: 0% !important;
-            background-color: #670038 !important;
+            background-color: #5098A3 !important;
         }
 
         &:hover:after {
@@ -84,3 +84,13 @@ footer#global-footer {
 }
 
 /*END - footer link theme and underline*/
+
+/*START - update disclaimer text*/
+.lp-tcr-message{
+    font-size: 0;
+    &:before{
+        content: "By providing your information to Live.Laugh.Denver. Real Estate Group, you agree to our Privacy Policy and consent to receive marketing via automated calls, texts, and emails, including artificial or prerecorded voices. This consent isn't required to purchase any products or services. You may opt out at any time: reply 'stop' to texts or click the unsubscribe link in emails. Message and data rates may apply.";
+        font-size: 12px;
+    }
+}
+/*End*/

@@ -68,7 +68,7 @@ div.testimonials {
             color: #000;
 
             &:hover {
-                color: #043954 !important;
+                color: #141948 !important;
             }
 
             &:before {
@@ -76,7 +76,7 @@ div.testimonials {
             }
 
             &:hover:before {
-                background: #043954 !important;
+                background: #141948 !important;
             }
         }
 

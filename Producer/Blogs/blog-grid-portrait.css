@@ -1,0 +1,61 @@
+/* START - Fix dimensions */
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* END */
+
+/* START - Portrait blog grid */
+.blog-list__container {
+    display: grid !important;
+    max-width: 1400px;
+
+    @media (min-width: 768px) {
+        gap: 8px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 768px) {
+        gap: 25px;
+        grid-template-columns: 1fr;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    a {
+        width: 100%;
+        position: relative;
+        margin-bottom: 0px;
+
+        &:after {
+            content: ' ';
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .blog-list__item-image {
+            aspect-ratio: 3/4;
+        }
+
+        .blog-list__item-content {
+            position: absolute;
+            bottom: 0px;
+            z-index: 2;
+            padding: 24px;
+
+            .serif {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* END */

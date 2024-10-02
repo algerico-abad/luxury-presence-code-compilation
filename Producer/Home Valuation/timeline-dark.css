@@ -4,9 +4,10 @@ a {
     color: #000 !important;
     transition: 0.4s;
     font-weight: 400;
+    text-decoration: none !important;
 
     &:hover {
-        color: #38B6FF !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -28,7 +29,7 @@ a {
 
     &:after {
         width: 0% !important;
-        background-color: #38B6FF !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {
@@ -44,9 +45,16 @@ a {
         }
 
         &:hover {
-            color: #38B6FF;
+            color: #1E1E1E;
         }
     }
 }
 
 /*END*/
+
+/* START - One line title */
+.lp-title-group {
+    max-width: 1400px;
+}
+
+/* END */

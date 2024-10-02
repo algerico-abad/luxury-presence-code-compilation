@@ -23,3 +23,33 @@
 }
 
 /*End*/
+
+/* START - Fix grid dimensions */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.press-grid__container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 42px;
+    column-gap: 30px;
+    margin: 0px;
+
+    @media only screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+
+    .press-grid__item {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+.pagination-container:not(:has(ul)) {
+    display: none;
+}
+
+/* END */

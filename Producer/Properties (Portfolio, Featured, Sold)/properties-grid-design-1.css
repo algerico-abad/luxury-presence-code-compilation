@@ -1,0 +1,76 @@
+/* START - Re-theme properties card theme */
+.property-list-section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &>.container:is(.title-container) {
+        padding-top: 0px !important;
+    }
+
+    &>.container:not(.title-container) {
+        display: grid;
+        flex-direction: column;
+        gap: 40px;
+
+        .property-list {
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+            gap: 20px;
+
+            .property-list__item {
+                .property-list__item-link {
+                    .property-list__img {
+                        height: 100%;
+
+                        img {
+                            height: 100%;
+                        }
+                    }
+
+                    .property-list__label {
+                        left: 10px;
+                        top: 10px;
+                        padding: 4px 8px;
+                        font-size: 12px;
+                        font-weight: 400;
+                        max-width: fit-content;
+                        background: #0B090C;
+                        color: #fff;
+                    }
+
+                    .property-list__text {
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        bottom: 0px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: end;
+                        padding: 16px 24px;
+                        text-align: left;
+                        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0.6) 100%);
+
+                        & > * {
+                            margin-bottom: 0px;
+                            color: #FFF;
+
+                            &:is(p, h5) {
+                                font-size: 12px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media only screen and (max-width: 768px) {
+                .property-list__item {
+                    max-width: initial !important;
+                }
+            }
+        }
+    }
+}
+
+/* END */

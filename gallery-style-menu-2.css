@@ -1,0 +1,13 @@
+/* Start - Set paddings */
+.redesign {
+    padding-top: 96px !important;
+    padding-bottom: 48px !important;
+
+    /* Breakpoint for mobile */
+    @media only screen and (max-width: 768px) {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+}
+
+/* End */

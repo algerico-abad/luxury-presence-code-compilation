@@ -10,6 +10,8 @@
     }
 }
 
+/* END */
+
 /* Start - Fix the property element dimensions */
 .property-list-section>div {
     display: flex;
@@ -53,13 +55,13 @@
 
 /*START - change card theme*/
 div.redesign.property-list-section span.property-list__label {
-    background: #38B6FF;
+    background: #1E1E1E;
     color: #fff;
 }
 
 .property-list__text {
     color: #000;
-    background-color: #f1f1f1 !important;
+    background-color: #1E1E1E !important;
 }
 
 .property-list__item {

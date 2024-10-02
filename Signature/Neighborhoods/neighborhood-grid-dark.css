@@ -1,7 +1,7 @@
 /*Start - Theme pagination*/
 .paginationjs-next a,
 .paginationjs-prev a {
-    background: #BA960C !important;
+    background: #A49B8E !important;
     border-radius: 50%;
     transition: 0.4s;
     -webkit-tap-highlight-color: transparent;
@@ -18,11 +18,11 @@
         background: transparent !important;
 
         &:before {
-            border-color: #BA960C;
+            border-color: #A49B8E;
         }
 
         &:after {
-            background-color: #BA960C !important;
+            background-color: #A49B8E !important;
         }
     }
 }
@@ -32,17 +32,17 @@
 /*Start - Theme the underline pagination*/
 .paginationjs-page.active {
     a {
-        color: #BA960C;
+        color: #A49B8E;
     }
 
     a:after {
-        background-color: #BA960C !important;
+        background-color: #A49B8E !important;
     }
 }
 
 .paginationjs-page:not(.active) {
     a:hover {
-        border: 2px solid #BA960C !important;
+        border: 2px solid #A49B8E !important;
     }
 }
 
@@ -54,8 +54,8 @@ a.item {
         color: #000;
 
         &:after {
-            background-color: #BA960C;
-            border: 1px solid #BA960C;
+            background-color: #A49B8E;
+            border: 1px solid #A49B8E;
         }
 
         &:before {
@@ -66,15 +66,15 @@ a.item {
     &:hover .link-icon,
     &:focus .link-icon,
     &:active .link-icon {
-        color: #BA960C !important;
+        color: #A49B8E !important;
 
         &:after {
             background-color: transparent;
-            border-color: #BA960C;
+            border-color: #A49B8E;
         }
 
         &:before {
-            background-color: #BA960C !important;
+            background-color: #A49B8E !important;
         }
     }
 }

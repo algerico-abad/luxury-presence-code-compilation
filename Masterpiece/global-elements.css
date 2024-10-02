@@ -27,3 +27,53 @@ nav#global-navbar {
 }
 
 /*End*/
+
+/* START - Center socials on mobile */
+#global-footer .lp-socials {
+    @media (max-width: 768px) {
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 280px;
+        gap: 14px;
+        justify-content: center;
+        
+        li {
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+#global-sidemenu {
+    .sidemenu__socials {
+        margin-left: 0px !important;
+        
+        .lp-socials {
+            justify-content: center;
+            gap: 14px;
+            max-width: 280px;
+            margin: auto;
+            
+            li {
+                margin-right: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+#modal-global-contact-us .lp-socials {
+    gap: 14px;
+    justify-content: center;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    li {
+        margin-right: 0px !important;
+    }
+}
+
+/* END */

@@ -1,0 +1,58 @@
+/* START - Featured Neighborhoods Gallery Style */
+.items {
+    max-width: 100%;
+    padding-right: 16px;
+    margin-right: auto;
+    padding-left: 16px;
+    margin-left: auto;
+
+    &:is(.items-6) {
+        display: grid !important;
+        gap: 16px;
+
+        @media (min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: 'one two three' 'one five three' 'four five six';
+            grid-template-rows: 1fr 0.5fr 1fr;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-areas: 'one' 'two' 'three';
+            grid-template-rows: 1fr;
+        }
+
+        .item:nth-child(1) {
+            grid-area: one;
+        }
+
+        .item:nth-child(2) {
+            grid-area: two;
+        }
+
+        .item:nth-child(3) {
+            grid-area: three;
+        }
+        
+        .item:nth-child(4) {
+            grid-area: four;
+        }
+        
+        .item:nth-child(5) {
+            grid-area: five;
+        }
+        
+        .item:nth-child(6) {
+            grid-area: six;
+        }
+
+        .item {
+            width: 100% !important;
+
+            a {
+                height: 100%;
+            }
+        }
+    }
+}
+
+/* END */

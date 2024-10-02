@@ -7,11 +7,11 @@ div.section {
     }
 }
 
+/*END*/
+
 .tab-section__content {
     padding-bottom: 0px !important;
 }
-
-/*END*/
 
 /*START - 1 line for element title*/
 .lp-container .title {
@@ -30,17 +30,17 @@ div.section {
 
 /*END- 1 line for element title*/
 
-/*START - change button theme*/
+/*START - change pill button theme*/
 div.section div.lp-container div.nav-tab span.nav-tab__tab {
-    color: #670038 !important;
+    color: #141948 !important;
     background-color: transparent !important;
-    border-color: #670038 !important;
+    border-color: #141948 !important;
 
     &.active,
     &:hover {
         color: #fff !important;
-        background-color: #670038 !important;
-        border-color: #670038 !important;
+        background-color: #141948 !important;
+        border-color: #141948 !important;
     }
 }
 
@@ -49,15 +49,15 @@ div.section div.lp-container div.nav-tab span.nav-tab__tab {
 /*START - fixed popup info */
 p.overview-item__name--hint {
     &:after {
-        background-color: #670038 !important;
+        background-color: #141948 !important;
     }
 
     span.hint {
-        background-color: #670038;
+        background-color: #141948;
         color: #fff;
 
         &:after {
-            background-color: #670038;
+            background-color: #141948;
         }
     }
 }
@@ -66,30 +66,30 @@ p.overview-item__name--hint {
 
 /*START - border theming*/
 .tab-section:not(:last-child) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .tab .overview-item {
-    border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
 
     @media(max-width: 768px) {
-        border-right: 0 solid rgba(0, 0, 0, 0.1) !important;
+        border-right: 0 solid rgba(255, 255, 255, 0.1) !important;
     }
 }
 
 .description {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 /*END*/
 
 /*START - population bar theming*/
 div.population-age__bar {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .population-age__hint p {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 /*END*/

@@ -1,7 +1,7 @@
 /* Start - Theme license pill container */
 .license-wrapper {
-    border-color: #185770;
-    color: #185770;
+    border-color: #A49B8E;
+    color: #A49B8E;
 }
 
 /* End */
@@ -11,7 +11,7 @@
     color: #000;
 
     &:after {
-        background-color: #185770;
+        background-color: #A49B8E;
     }
 
     &:before {
@@ -21,11 +21,11 @@
     &:hover {
         &:after {
             background-color: transparent;
-            border: 1px solid #185770;
+            border: 1px solid #A49B8E;
         }
 
         &:before {
-            background-color: #185770;
+            background-color: #A49B8E;
         }
     }
 }
@@ -42,11 +42,11 @@
         }
 
         &:after {
-            background-color: #185770 !important;
+            background-color: #A49B8E !important;
         }
 
         &:hover {
-            color: #185770 !important;
+            color: #A49B8E !important;
         }
     }
 }
@@ -89,3 +89,12 @@
 }
 
 /* End */
+
+/* START - Remove bottom margin on mobile */
+.contact-details {
+    @media (max-width: 768px) {
+        margin-bottom: 0px !important;
+    }
+}
+
+/* END */

@@ -1,0 +1,70 @@
+/* START - Portrait properties grid */
+.property-list-section {
+    & > div {
+        .container {
+            .property-list {
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+                @media (min-width: 768px) {
+                    gap: 8px;
+                }
+
+                @media (max-width: 768px) {
+                    gap: 96px;
+                }
+
+                .property-list__item {
+                    aspect-ratio: 3/4;
+                    position: relative;
+
+                    .property-list__item-link {
+                        height: 100%;
+
+                        .property-list__img {
+                            height: 100%;
+
+                            &:after {
+                                content: ' ';
+                                display: block;
+                                position: absolute;
+                                top: 0px;
+                                height: 100%;
+                                width: 100%;
+                                background: rgba(0, 0, 0, 0.4);
+                            }
+                        }
+
+                        .property-list__text {
+                            position: absolute;
+                            width: 100%;
+                            bottom: 0px;
+                            background: transparent;
+                            color: #FFF;
+                        }
+                    }
+                }
+
+                .property-list__hover {
+                    @media (max-width: 768px) {
+                        .btn {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .lp-pagination {
+            @media (min-width: 768px) {
+                margin-top: 40px;
+            }
+
+            @media (max-width: 768px) {
+                margin-top: 96px;
+            }
+        }
+    }
+}
+
+/* END */

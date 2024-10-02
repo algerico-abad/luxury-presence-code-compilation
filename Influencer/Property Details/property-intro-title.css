@@ -1,0 +1,30 @@
+/*Property Detail Opening Fix*/
+.opening-property-title {
+    .container {
+        padding-bottom: 50px;
+    }
+
+    min-height: 500px;
+
+    .opening-property-title__content {
+        h1 {
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        @media only screen and (max-width: 762px) {
+            text-align: center;
+            padding-top: 50px;
+        }
+    }
+}
+
+/*Property Detail Opening Fix*/
+
+.opening-property-title h1 {
+    font-size: var(--global-h1-font-size, 56px) !important;
+}

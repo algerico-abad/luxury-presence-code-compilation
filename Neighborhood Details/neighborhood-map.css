@@ -1,0 +1,4 @@
+&:not(:has(div)) + section > .redesign,
+&:not(:has(div)) + section > .section {
+    padding-top: 0px !important;
+}

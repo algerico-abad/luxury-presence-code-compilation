@@ -1,7 +1,16 @@
+/* START - Remove vertical scroll */
+& {
+    overflow: hidden;
+}
+
+/* END */
+
 /*Start - Update the theme of the arrows*/
 .button-down {
+    margin-bottom: 0px !important;
+    
     svg path {
-        stroke: #BA960C !important;
+        stroke: #A49B8E !important;
     }
 }
 
@@ -9,15 +18,34 @@
 
 /* Start - Balance title paddings */    
 .custom-intro__wrapper {
-    @media only screen and (max-width: 768px) {
-        padding: 96px 0px !important;
+    .content-group {
+        min-height: auto !important;
+
+        @media (min-width: 1441px) {
+            padding-left: 177px !important;
+            padding-right: 177px !important;
+        }
+
+        @media (min-width: 768px) and (max-width: 1440px) {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+        }
     }
 
-    .content-group {
-        @media only screen and (min-width: 768px) {
-            padding: 0px 176px !important;
-        }
+    @media only screen and (max-width: 768px) {
+        padding: 96px 0px 0px 0px !important;
     }
 }
 
 /* End */
+
+/* START - Add border radius to image */
+.image-box {
+    overflow: hidden;
+    
+    @media (min-width: 768px) {
+        border-radius: 16px;
+    }
+}
+
+/* END */

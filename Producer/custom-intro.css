@@ -1,6 +1,16 @@
 /*START - custom intro - make title in one line */
-div.custom-intro .container {
-    max-width: 1400px;
+.container {
+    max-width: 1400px !important;
+    
+    @media (min-width: 768px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    @media (max-width: 768px) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
 /*END*/

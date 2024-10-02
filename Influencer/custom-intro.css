@@ -1,0 +1,11 @@
+/* START - Fix social icons spacings */
+.lp-socials {
+    gap: 16px;
+
+    li {
+        max-width: fit-content;
+        margin-bottom: 0px;
+    }
+}
+
+/* END */

@@ -1,7 +1,7 @@
 /* Start - Theme homepage search theme */
 .search-lease-tabs {
     .search-lease-tab:not(.active) {
-        background-color: #670038 !important;
+        background-color: #257040 !important;
         color: #fff;
     }
 }
@@ -21,6 +21,24 @@
 }
 
 /*End*/
+
+.lp-title-group {
+    h1:is(:empty) {
+        display: none;
+    }
+
+    h1, h2, h3, h4 {
+        margin-bottom: 0px;
+    }
+
+    .opening-description {
+        margin-bottom: 0px !important;
+    }
+}
+
+.search-form {
+    margin-top: 0px !important;
+}
 
 .opening-description {
     display: flex;

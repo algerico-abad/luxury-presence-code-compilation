@@ -7,7 +7,7 @@
     text-transform: uppercase;
 
     &:hover {
-        color: #670038 !important;
+        color: #7A92A3 !important;
     }
 
     &:before,
@@ -30,7 +30,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #670038 !important;
+        background-color: #7A92A3 !important;
     }
 
     &:hover:after {

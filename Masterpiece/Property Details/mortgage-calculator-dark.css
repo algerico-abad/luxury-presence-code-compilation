@@ -1,11 +1,11 @@
 /*Start - Update Link theme*/
 .lp-link {
     position: relative !important;
-    color: #000 !important;
+    color: #444 !important;
     text-decoration: none !important;
 
     &:hover {
-        color: #101010 !important;
+        color: #5098A3 !important;
         opacity: 1 !important;
     }
 
@@ -28,7 +28,7 @@
 
     &:after {
         width: 0% !important;
-        background-color: #101010 !important;
+        background-color: #5098A3 !important;
     }
 
     &:hover:after {
@@ -67,7 +67,7 @@
 /*mortgage arrow icon theme mobile view */
 @media (max-width: 768px) {
     div.results__expand {
-        background-color: #101010;
+        background-color: #5098A3;
     }
 }
 
@@ -160,33 +160,33 @@
 
 /*START - Mortgage Calc Dropdown*/
 .lp-input--light {
-    color: #000;
+    color: #444;
     border-color: rgba(0, 0, 0, 0.25);
 
     &:after {
-        border-color: #000;
+        border-color: #444;
     }
 
     &:hover {
-        color: #000;
+        color: #fff;
 
         &:after {
-            border-color: #000;
+            border-color: #5098A3;
         }
     }
 
     &:focus {
-        border-color: #000;
+        border-color: #5098A3;
     }
 }
 
 .custom-select-item {
-    color: #000 !important;
+    color: #444 !important;
     background-color: #fff !important;
 
     &:hover {
         color: #fff !important;
-        background-color: #101010 !important;
+        background-color: #5098A3 !important;
     }
 }
 

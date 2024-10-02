@@ -5,78 +5,73 @@
 
 /*END*/
 
-/*START - change hyperlink arrow color*/
-span.link-icon {
-    &:after {
-        border: 1px solid #fff;
-        background-color: transparent !important;
+/* START - Add theme to testimonial element */
+.lp-container {
+    /* Theme arrows */
+    .arrows-holder {
+        .lp-arrow {
+            &:before,
+            &:after {
+                transition: 0.25s;
+            }
+
+            &:before {
+                border-color: #FFF;
+                background: #FFF;
+            }
+
+            &:after {
+                background-color: #A29B8F !important;
+            }
+
+            &:hover {
+                &:before {
+                    background: transparent;
+                }
+
+                &:after {
+                    background-color: #FFF !important;
+                }
+            }
+        }
     }
 
-    &:before {
-        background-color: #fff !important;
+    /* Theme border */
+    .top-row {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    &:hover {
+    /*START - Theme Read More Button */
+    .link-icon {
+        color: #fff;
+
         &:after {
-            background-color: #fff !important;
-        }
-
-        &:before {
-            background-color: #BA960C !important;
-        }
-    }
-
-}
-
-/*END - change hyperlink color*/
-
-/*START - change slick arrow color*/
-.lp-arrow {
-    &:before {
-        border: 1px solid #fff;
-        background: transparent !important;
-    }
-
-    &:after {
-        background-color: #fff !important;
-    }
-
-    &:hover {
-        &:before {
+            background-color: #fff;
             border: 1px solid #fff;
-            background: transparent;
-            transition: 0.3s;
         }
 
-        &:after {
-            background-color: #fff !important;
-        }
-    }
-
-    &:focus {
         &:before {
-            border: 1px solid #fff;
-            background: transparent;
+            background-color: #A49B8E !important;
         }
 
-        &:after {
-            background-color: #fff !important;
+        &:hover,
+        &:active,
+        &:focus {
+            &:after {
+                background-color: transparent;
+                border-color: #fff;
+            }
+
+            &:before {
+                background-color: #fff !important;
+            }
         }
     }
+
+    /*END -change hyperlink color*/
 }
 
-.top-row {
-    border-bottom: solid 1px #fff !important;
-}
-
-/*END - change slick arrow color*/
-
-/*START - Featured Testi Line*/
-div.top-row {
-    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
-}
-
-/*END*/
+/* END */
 
 .feature {
     color: #000;

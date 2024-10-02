@@ -1,0 +1,35 @@
+/* START - Fix margin and spacings */
+.lp-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+
+    &>* {
+        margin-bottom: 0px !important;
+    }
+
+    .lp-title-group {
+        max-width: 100%;
+
+        &>* {
+            margin-bottom: 0px;
+        }
+    }
+
+    .boxed-text__description {
+        &>*:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+/* END */
+
+/* START - Hide button parent container if no buttons */
+.button-container {
+    &:not(:has(a)) {
+        display: none;
+    }
+}
+
+/* END */

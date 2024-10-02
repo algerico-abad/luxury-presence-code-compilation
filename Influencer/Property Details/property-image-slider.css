@@ -1,0 +1,10 @@
+.property-gallery {
+    padding-top: 0px!important;
+    padding-bottom: 96px!important;
+}
+
+span.property-gallery__label {
+    background: #E97A2B;
+    color: #FFF;
+    padding: 8px 16px;
+}

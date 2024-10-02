@@ -11,19 +11,19 @@
 
 /*START - slick arrow*/
 .js-arrows .lp-arrow {
-    border: solid 2px #AFA7A7;
-    background-color: #AFA7A7;
+    border: solid 2px #257040;
+    background-color: #257040;
 
     &:before {
         border-color: #fff;
     }
 
     &:hover {
-        border: solid 2px #AFA7A7;
+        border: solid 2px #257040;
         background-color: transparent;
 
         &::before {
-            border-color: #AFA7A7;
+            border-color: #257040;
         }
     }
 }

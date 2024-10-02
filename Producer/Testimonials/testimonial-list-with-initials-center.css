@@ -1,0 +1,19 @@
+/* START - Center contents */
+.container {
+    .data-container {
+        .testimonials__item {
+            .name__position {
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+
+                .author__image {
+                    margin-right: 0px;
+                    background: #000;
+                }
+            }
+        }
+    }
+} 
+
+/* END */

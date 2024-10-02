@@ -1,0 +1,61 @@
+/* START - Theme modal links */
+#modal-global-contact-us {
+    /*START - Theme link underline*/
+    a:not(.lp-socials__link) {
+        position: relative !important;
+        color: #000 !important;
+        transition: 0.4s;
+        font-weight: 400;
+        text-decoration: none !important;
+        opacity: 1;
+        display: inline-block;
+
+        &:hover {
+            color: #E97A2B !important;
+        }
+
+        &:before,
+        &:after {
+            transition: 0.4s;
+            text-decoration: none !important;
+            line-height: 1;
+            content: "" "";
+            height: 1px;
+            position: absolute !important;
+            bottom: 0;
+            left: 0;
+            opacity: 1;
+        }
+
+        &:before {
+            width: 100% !important;
+            background-color: rgba(0, 0, 0, 0.1) !important;
+        }
+
+        &:after {
+            width: 0% !important;
+            background-color: #E97A2B !important;
+        }
+
+        &:hover:after {
+            width: 100% !important;
+        }
+
+        @media only screen and (max-width: 768px) {
+            text-decoration: underline;
+
+            &:before,
+            &:after {
+                display: none;
+            }
+
+            &:hover {
+                color: #E97A2B;
+            }
+        }
+    }
+
+    /*END*/
+}
+
+/* EMD */

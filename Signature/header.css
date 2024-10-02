@@ -4,14 +4,14 @@ nav#global-navbar {
     /*START - light scroll background*/
     header.theme-light {
         button.hamburger-component span.hamburger__bars {
-            background-color: #BA960C;
+            background-color: #A49B8E;
 
             &:after {
-                background-color: #BA960C;
+                background-color: #A49B8E;
             }
 
             &:before {
-                background-color: #BA960C;
+                background-color: #A49B8E;
             }
         }
 
@@ -28,11 +28,11 @@ nav#global-navbar {
                 color: #fff;
 
                 &:hover {
-                    color: #BA960C;
+                    color: #A49B8E;
                 }
 
                 &:after {
-                    background-color: #BA960C;
+                    background-color: #A49B8E;
                 }
             }
 
@@ -43,7 +43,7 @@ nav#global-navbar {
                     color: #000;
 
                     &:hover {
-                        color: #BA960C !important;
+                        color: #A49B8E !important;
                     }
                 }
             }
@@ -57,7 +57,7 @@ nav#global-navbar {
             &:hover {
                 border-color: #fff;
                 background: #fff;
-                color: #BA960C;
+                color: #A49B8E;
             }
         }
     }
@@ -77,20 +77,20 @@ nav#global-navbar {
                 }
 
                 &:after {
-                    background-color: #BA960C;
+                    background-color: #A49B8E;
                 }
             }
         }
 
         button.hamburger-component span.hamburger__bars {
-            background-color: #BA960C;
+            background-color: #A49B8E;
 
             &:after {
-                background-color: #BA960C;
+                background-color: #A49B8E;
             }
 
             &:before {
-                background-color: #BA960C;
+                background-color: #A49B8E;
             }
         }
 
@@ -120,8 +120,8 @@ nav#global-navbar {
             color: #fff;
 
             &:hover {
-                border-color: #BA960C;
-                background: #BA960C;
+                border-color: #A49B8E;
+                background: #A49B8E;
                 color: #fff;
             }
         }

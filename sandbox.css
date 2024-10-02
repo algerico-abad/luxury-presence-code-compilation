@@ -1,6 +1,39 @@
-div#global-loader {
-    img {
-        max-height: 240px;
-        max-width: 100%;
+footer#global-footer div.contact {
+    flex-direction: column-reverse;
+
+    div.col:nth-child(2) {
+        margin-top: 20px;
+
+        p.bf-xl {
+            font-size: 0px !important;
+
+            &:before {
+                background-img: url(https://res.cloudinary.com/luxuryp/images/w_320,c_limit,f_auto,q_auto/x0rft5nldjofngxvkkdc/cb-logo-dark);
+                display: block;
+                background-size: contain;
+                height: 100px;
+                width: 100px;
+                background-repeat: no-repeat;
+            }
+
+        }
+    }
+
+    div.col:nth-child(1) {
+        margin-top: 20px;
+
+        p.bf-xl {
+            font-size: 0px !important;
+
+            &:before {
+                background-img: url(https://res.cloudinary.com/luxuryp/images/w_320,c_limit,f_auto,q_auto/obhubkcf5pievxfich1w/slshaw_logo_color);
+                display: block;
+                background-size: contain;
+                height: 100px;
+                width: 100px;
+                background-repeat: no-repeat;
+            }
+
+        }
     }
 }

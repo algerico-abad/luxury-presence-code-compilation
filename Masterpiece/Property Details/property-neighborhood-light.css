@@ -5,6 +5,7 @@ a {
     transition: 0.4s;
     opacity: 1 !important;
     border-bottom: none;
+    text-decoration: none;
 
     &:hover {
         color: #fff !important;

@@ -1,3 +1,17 @@
+/* Start - Reduce heading title margin */
+.lp-title-group {
+    margin-bottom: 20px !important;
+}
+
+/* End */
+
+/* Start - Hide view more button if hidden */
+.btn-holder:has(button[style="display: none;"]) {
+    display: none;
+}
+
+/* End */
+
 /*remove agent image*/
 .slick-slide img {
     display: none;
@@ -41,10 +55,17 @@ div.lp-container span.link-icon{
 
 /*End*/
 
-.btn-holder:has(button[style="display: none;"]) {
-    display: none;
+/* START - Fix dimensions */
+.lp-container {
+    @media (min-width: 1367px) {
+        padding-left: 77px;
+        padding-right: 77px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1366px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
-.lp-title-group {
-    margin-bottom: 20px !important;
-}
+/* END */

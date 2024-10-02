@@ -3,14 +3,14 @@
     cursor: pointer;
     
     &:before {
-        background-color: #BA960C !important;
+        background-color: #A49B8E !important;
     }
     
     &:hover {
-        color: #BA960C !important;
+        color: #A49B8E !important;
         
         &:before {
-            background-color: #BA960C !important;
+            background-color: #A49B8E !important;
         }
     }
 }
@@ -28,10 +28,10 @@
             }
             
             &:hover {
-                color: #BA960C !important;
+                color: #A49B8E !important;
 
                 i:before {
-                    background-color: #BA960C !important;
+                    background-color: #A49B8E !important;
                 }
             }
         }

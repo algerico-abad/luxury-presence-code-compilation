@@ -1,0 +1,141 @@
+/* Start - Theme underline */
+.collection {
+    .link:hover {
+        opacity: 1 !important;
+    }
+
+    .feature {
+        &:after {
+            display: none !important;
+        }
+    }
+
+
+    /* Theme underline with dark background */
+    li:nth-child(2),
+    li:nth-child(3),
+    li:nth-child(6) {
+        .link {
+            position: relative !important;
+            color: #fff !important;
+            transition: 0.4s;
+            font-weight: 400;
+            opacity: 1;
+
+            &:hover {
+                color: #fff !important;
+
+                svg {
+                    stroke: #fff;
+                }
+            }
+
+            &:before,
+            &:after {
+                transition: 0.4s;
+                text-decoration: none !important;
+                line-height: 1;
+                content: "" "";
+                height: 1px;
+                position: absolute !important;
+                bottom: 0;
+                left: 0;
+            }
+
+            &:before {
+                width: 100% !important;
+                background-color: rgba(255, 255, 255, 0.25) !important;
+            }
+
+            &:after {
+                width: 0% !important;
+                background-color: #fff !important;
+            }
+
+            &:hover:after {
+                width: 100% !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                text-decoration: underline;
+
+                &:before,
+                &:after {
+                    display: none;
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    /* Theme underline with light background */
+    li:nth-child(1),
+    li:nth-child(4),
+    li:nth-child(5) {
+        .link {
+            position: relative !important;
+            color: #000 !important;
+            transition: 0.4s;
+            font-weight: 400;
+
+            &:hover {
+                color: #1E1E1E !important;
+
+                svg {
+                    stroke: #1E1E1E;
+                }
+            }
+
+            &:before,
+            &:after {
+                transition: 0.4s;
+                text-decoration: none !important;
+                line-height: 1;
+                content: "" "";
+                height: 1px;
+                position: absolute !important;
+                bottom: 0;
+                left: 0;
+            }
+
+            &:before {
+                width: 100% !important;
+                background-color: rgba(0, 0, 0, 0.1) !important;
+            }
+
+            &:after {
+                width: 0% !important;
+                background-color: #1E1E1E !important;
+            }
+
+            &:hover:after {
+                width: 100% !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                text-decoration: underline;
+
+                &:before,
+                &:after {
+                    display: none;
+                }
+
+                &:hover {
+                    color: #1E1E1E;
+                }
+            }
+        }
+    }
+}
+    
+/* END */
+
+/* START - Remove bottom padding if no paginations is visible */
+.testimonials:has(.pagination-container[style="display: none;"]) {
+    padding-bottom: 0px;
+}
+
+/* END */

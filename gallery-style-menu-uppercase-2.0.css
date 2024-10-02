@@ -1,0 +1,8 @@
+/* Start - Uppercase Titles */
+a.gallery-card {
+    .lp-h3.gallery-card__title {
+        text-transform: uppercase;
+    }
+}
+
+/* End */

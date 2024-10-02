@@ -25,14 +25,17 @@
         }
 
         &.selected {
+            .calendar__item {
+                border: 1px solid #A49B8E;
+            }
 
             .calendar__date,
             .calendar__day {
-                color: #fff !important;
+                color: #A49B8E !important;
             }
 
             hr {
-                background: #fff !important;
+                background: #A49B8E !important;
             }
         }
     }
@@ -57,7 +60,7 @@
 
             /* Theme selected option */
             .custom-select-item.is-selected {
-                color: #BA960C;
+                color: #A49B8E;
             }
         }
     }
@@ -92,7 +95,7 @@ a.bf-s,
     text-decoration: none !important;
 
     &:hover {
-        color: #BA960C !important;
+        color: #A49B8E !important;
     }
 
     &:before,
@@ -114,7 +117,7 @@ a.bf-s,
 
     &:after {
         width: 0% !important;
-        background-color: #BA960C !important;
+        background-color: #A49B8E !important;
     }
 
     &:hover:after {
@@ -216,7 +219,7 @@ a.bf-s,
     color: #000;
 
     &:after {
-        background-color: #BA960C;
+        background-color: #A49B8E;
     }
 
     &:before {
@@ -226,11 +229,11 @@ a.bf-s,
     &:hover {
         &:after {
             background-color: transparent;
-            border: 1px solid #BA960C;
+            border: 1px solid #A49B8E;
         }
 
         &:before {
-            background-color: #BA960C;
+            background-color: #A49B8E;
         }
     }
 }

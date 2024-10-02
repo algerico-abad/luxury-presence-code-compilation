@@ -4,6 +4,7 @@ a {
     color: #fff !important;
     transition: 0.4s;
     font-weight: 400;
+    text-decoration: none !important;
 
     &:hover {
         color: #fff !important;
@@ -50,3 +51,10 @@ a {
 }
 
 /*END*/
+
+/* START - One line title */
+.lp-title-group {
+    max-width: 1400px;
+}
+
+/* END */

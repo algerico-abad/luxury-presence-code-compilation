@@ -1,7 +1,7 @@
 /*START - (blog centent) padding*/
 div.blog-content {
     padding-top: 96px;
-    padding-bottom: 94px;
+    padding-bottom: 96px;
 
     @media (max-width: 560px) {
         padding-top: 55px;

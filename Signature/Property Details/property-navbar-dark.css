@@ -8,7 +8,7 @@
 /* Start - Theme active selected navigation underline */
 .nav-item.link.active {
     &:before {
-        background-color: #BA960C;
+        background-color: #A49B8E;
     }
 }
 

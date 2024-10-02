@@ -12,18 +12,18 @@
 
 /*End*/
 
-.lp-title-group {
-    max-width: 1400px;
-    margin-bottom: 40px;
-}
-
 /* Start - Theme arrows */
 .accordion-opener {
-    border-color: #670038 !important;
+    border-color: #1E1E1E !important;
     
     &:before {
-        border-color: #670038 !important;
+        border-color: #1E1E1E !important;
     }
 }
 
 /* End */
+
+.lp-title-group {
+    max-width: 1400px;
+    margin-bottom: 40px;
+}

@@ -85,6 +85,7 @@
             width: 100%;
             position: absolute;
             top: 0px;
+            left: 0px;
 
             &:before {
                 font-size: 14px;

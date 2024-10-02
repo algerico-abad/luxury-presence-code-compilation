@@ -1,0 +1,45 @@
+/* START - Theme properties grid */
+.gallery-grid {
+    .gallery-grid__container {
+        .gallery-grid__item {
+            .gallery-grid__status {
+                background: #E97A2B;
+                color: #FFF;
+                padding: 8px 16px;
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Fix properties grid dimensions */
+.gallery-grid {
+    .lp-title-group {
+        h2 {
+            margin-top: 0px;
+        }
+    }
+
+    .gallery-grid__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px 102px;
+
+        &:after {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
+        .gallery-grid__item {
+            width: 100%;
+            max-width: unset;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+/* END */

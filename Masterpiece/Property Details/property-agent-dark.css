@@ -5,7 +5,7 @@ a.data.link {
     transition: 0.4s;
 
     &:hover {
-        color: #D6AD5B !important;
+        color: #5098A3 !important;
     }
 
     &:before,
@@ -27,7 +27,7 @@ a.data.link {
 
     &:after {
         width: 0% !important;
-        background-color: #D6AD5B !important;
+        background-color: #5098A3 !important;
     }
 
     &:hover:after {

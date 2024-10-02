@@ -25,14 +25,14 @@ input.lp-input--light::placeholder {
 /*START - add theming*/
 input.lp-input--light {
     color: #000 !important;
-    border-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1) !important;
 
     &::placeholder {
         color: #000 !important;
     }
 
     &:-webkit-autofill {
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
         -webkit-text-fill-color: #000 !important;
     }
 }
@@ -49,7 +49,7 @@ input.lp-input--light {
     text-decoration: none !important;
 
     &:hover {
-        color: #DFD9CD !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -72,7 +72,7 @@ input.lp-input--light {
 
     &:after {
         width: 0% !important;
-        background-color: #DFD9CD !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {

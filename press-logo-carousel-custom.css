@@ -15,3 +15,44 @@
 }
 
 /* End */
+
+/* START - Press carousel highlights */
+.slick-list {
+    .carousel-entity {
+        height: fit-content;
+
+        .press-item-inner {
+            border: none;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/* End */
+
+/* START - Adjust dimensions */
+.lp-container {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* END */
+
+/*START- update disclaimer text*/
+.lp-tcr-message{
+    font-size: 0;
+    
+    &:before{
+        content:"By providing your information to Live.Laugh.Denver. Real Estate Group, you agree to our Privacy Policy and consent to receive marketing via automated calls, texts, and emails, including artificial or prerecorded voices. This consent isn't required to purchase any products or services. You may opt out at any time: reply 'stop' to texts or click the unsubscribe link in emails. Message and data rates may apply.";
+        font-size: 12px;
+    }
+}
+/*End*/
+
+& {
+    background: linear-gradient(0deg, rgba(0,0,0,0) 40%, rgba(217,217,217,1) 40%, rgba(217,217,217,1) 100%);
+}

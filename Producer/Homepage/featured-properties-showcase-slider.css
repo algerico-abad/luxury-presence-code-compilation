@@ -13,19 +13,19 @@ div.f-properties {
 
 /*START - slick arrow*/
 .lp-arrow {
-    border: solid 2px #043954;
-    background-color: #043954;
+    border: solid 2px #1E1E1E;
+    background-color: #1E1E1E;
 
     &:before {
         border-color: #fff;
     }
 
     &:hover {
-        border: solid 2px #043954;
+        border: solid 2px #1E1E1E;
         background-color: transparent;
 
         &::before {
-            border-color: #043954;
+            border-color: #1E1E1E;
         }
     }
 }
@@ -97,9 +97,9 @@ div.f-properties {
 }
 
 .f-properties__action {
-    max-width: 1500px;
+    max-width: 1500px !important;
     box-sizing: border-box;
-    width: 100%;
+    width: 100% !important;
     padding-left: 50px;
     padding-right: 50px;
     

@@ -21,7 +21,7 @@ div.lp-container {
 
             &:hover {
                 color: #fff !important;
-                background: #001A72 !important;
+                background: #141948 !important;
             }
         }
     }
@@ -56,8 +56,8 @@ div.lp-container div.slider-content {
         }
 
         &:hover {
-            background-color: #001A72;
-            border: 1px solid #001A72;
+            background-color: #141948;
+            border: 1px solid #141948;
 
             i {
                 background: #fff;
@@ -114,7 +114,7 @@ div.properties-grid.lp-vertical-paddings div.lp-container {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        background-color: #001A72 !important;
+        background-color: #141948 !important;
     }
 }
 

@@ -1,0 +1,137 @@
+/*START - fix paddings */
+div.lp-vertical-paddings {
+    padding-top: 88px;
+    padding-bottom: 76px;
+
+    @media (max-width: 1024px) {
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+/* END */
+
+/*START - dropdown theme */
+div.lp-container {
+    div.custom-select-content {
+        background: #fff !important;
+
+        button.custom-select-item {
+            color: #000 !important;
+
+            &:hover {
+                color: #fff !important;
+                background: #0B090C !important;
+            }
+        }
+    }
+
+    .lp-input {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+.lp-input-group--search .lp-input {
+    color: #000 !important;
+}
+
+/*END - dropdown theme*/
+
+/*START - range input theme color*/
+div.lp-container div.slider-content {
+
+    .irs--round .irs-handle.state_hover,
+    .irs--round .irs-handle {
+        background-color: #fff;
+        border: 1px solid #000;
+
+        i {
+            background: #000;
+        }
+
+        &:hover {
+            background-color: #0B090C;
+            border: 1px solid #0B090C;
+
+            i {
+                background: #fff;
+            }
+
+        }
+    }
+}
+
+/*input*/
+.lp-input {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.range-slider .irs-from,
+.range-slider .irs-to,
+.range-slider .irs-single {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.range-slider .irs--round .irs-bar {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/*END - range input theme color*/
+
+/*START - change filter button*/
+div#filtersModal button#filtersSubmit {
+    border: 1px solid #0B090C;
+    background: #0B090C !important;
+    color: #fff;
+
+    &:hover {
+        border: 2px solid #0B090C;
+        background: transparent !important;
+        color: #0B090C;
+    }
+}
+
+/*END - change filter button*/
+
+/* START - Theme mls properties grid */
+.lp-container {
+    .properties-grid__container {
+        .properties-grid__item {
+            .listing-card {
+                position: relative;
+                aspect-ratio: 12/9;
+
+                .listing-card__img-wrap {
+                    height: 100%;
+                }
+                
+                .listing-card__status > div {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #fff;
+                    background-color: #0B090C !important;
+                }
+
+                .listing-card__info {
+                    position: absolute;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    bottom: 0px;
+                    color: #fff;
+                    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0.6) 100%);
+                }
+            }
+        }
+    }
+}
+    
+/* END */
+
+/* START - Make the button white */
+.listing-card__logo img {
+    filter: invert(1) grayscale(100) brightness(200);
+}
+
+/* END */

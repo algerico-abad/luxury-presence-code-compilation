@@ -1,9 +1,5 @@
-/* Start - Change dimensions of tiles to 1 by 1 center */
+/* Start - Center titles horizontally */
 a.gallery-card {
-    &:before {
-        background: rgba(0, 0, 0, 0.5) !important;
-    }
-    
     .lp-h3.gallery-card__title {
         text-align: center;
         

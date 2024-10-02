@@ -2,7 +2,7 @@
 div.lp-container div.mg-calc__wrap span.link-icon {
     &:hover {
         &:after {
-            background-color: #BA960C;
+            background-color: #A49B8E;
         }
 
         &:before {
@@ -11,7 +11,7 @@ div.lp-container div.mg-calc__wrap span.link-icon {
     }
 
     &:before {
-        background-color: #BA960C !important;
+        background-color: #A49B8E !important;
     }
 }
 
@@ -39,7 +39,7 @@ div.lp-container div.mg-calc__wrap span.link-icon {
     }
 
     &:after {
-        background-color: #BA960C !important;
+        background-color: #A49B8E !important;
         width: 0% !important;
     }
     
@@ -54,11 +54,11 @@ div.lp-container div.mg-calc__wrap span.link-icon {
 .custom-select {
     .custom-select-toggle {
         &:after {
-            background-color: #BA960C;
+            background-color: #A49B8E;
         }
 
         &:hover:after {
-            background-color: #BA960C !important;
+            background-color: #A49B8E !important;
         }
     }
 
@@ -69,7 +69,7 @@ div.lp-container div.mg-calc__wrap span.link-icon {
         button.custom-select-item:hover,
         button.custom-select-item:focus,
         button.custom-select-item.is-selected {
-            color: #BA960C !important;
+            color: #A49B8E !important;
         }
     }
 }
@@ -82,14 +82,14 @@ div.lp-container div.mg-calc__wrap span.link-icon {
     border-color: rgba(0, 0, 0, 0.1) !important;
 
     &:after {
-        background-color: #BA960C;
+        background-color: #A49B8E;
     }
 
     &:hover {
         color: #000;
 
         &:after {
-            background-color: #BA960C;
+            background-color: #A49B8E;
         }
     }
 
@@ -118,7 +118,7 @@ li.legend__item.is-hovered {
         color: #000;
         
         &:before {
-            background: #BA960C;
+            background: #A49B8E;
         }
     }
 }
@@ -138,10 +138,10 @@ li.legend__item.is-hovered {
         }
         
         &:hover {
-            color: #BA960C !important;
+            color: #A49B8E !important;
 
             i:before {
-                background-color: #BA960C !important;
+                background-color: #A49B8E !important;
             }
         }
     }

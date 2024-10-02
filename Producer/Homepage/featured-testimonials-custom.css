@@ -67,3 +67,68 @@ div.testimonials.redesign {
         }
     }
 }
+
+/* START - Center testimonials on desktop */
+.container {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+
+        &:after {
+            display: none !important;
+        }
+
+        .featured-testimonials__left {
+            padding-right: 0px !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: auto;
+            margin-left: auto;
+
+            h2 {
+                text-align: center;
+            }
+
+            .slick-links-nav {
+                display: flex !important;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+
+        .featured-testimonials__right {
+            padding-left: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .featured-testimonials__slider {
+                padding-left: 0px;
+                margin: 0px;
+                border-left: 0px;
+
+                .slick-slide {
+                    text-align: center;
+                }
+            }
+
+            & > .btn {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .featured-testimonials__slider {
+        .slick-slide {
+            text-align: center;
+        }
+    }
+}
+    
+/* END */

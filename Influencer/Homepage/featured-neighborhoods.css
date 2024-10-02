@@ -1,0 +1,27 @@
+.featured-neighborhoods__footer {
+    &:before {
+        border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+        opacity: 1 !important;
+    }
+}
+
+.featured-neighborhoods__arrows {
+    gap: 8px;
+
+    .slick-arrow {
+        background: #E97A2B;
+        border: 2px solid #E97A2B;
+
+        &:before {
+            color: #FFF;
+        }
+
+        &:hover {
+            background: transparent;
+
+            &:before {
+                color: #E97A2B;
+            }
+        }
+    }
+}

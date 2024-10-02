@@ -1,18 +1,17 @@
 /*Start - Fix padding*/
 .agent-info {
-    padding-top: 96px !important;
-    padding-bottom: 96px !important;
-    
-    @media only screen and (max-width: 768px) {
-        padding-top: 64px !important;
-        padding-bottom: 64px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    .container {
+        max-width: 1400px !important;
     }
 }
 
 /*End*/
 
 /*START - contact link underline */
-a.link {
+a:not(.lp-socials__link) {
     font-weight: 400;
     position: relative !important;
     color: #000 !important;
@@ -20,7 +19,7 @@ a.link {
     opacity: 1 !important;
 
     &:hover {
-        color: #38B6FF !important;
+        color: #1E1E1E !important;
     }
 
     &:before,
@@ -42,7 +41,7 @@ a.link {
 
     &:after {
         width: 0% !important;
-        background-color: #38B6FF !important;
+        background-color: #1E1E1E !important;
     }
 
     &:hover:after {
@@ -52,6 +51,19 @@ a.link {
 
 /*END*/
 
-.lp-socials {
-    margin-bottom: 0px;
+/* START - Center socials on mobile */
+.hide-desktop-socials {
+    .lp-socials {
+        padding-right: 0px !important;
+        gap: 14px;
+        justify-content: center;
+        margin-bottom: 0px;
+
+        li {
+            margin: 0px !important;
+            width: auto !important;
+        }
+    }
 }
+
+/* END */

@@ -1,0 +1,26 @@
+/* START - Theme expand mobile button */
+@media (max-width: 768px) {
+    div.results__expand {
+        background-color: #EC5639;
+        border: 1px solid #EC5639;
+        
+        svg {
+            stroke: #fff;
+        }
+    }
+}
+
+/* END */
+    
+/* START - Center title and desc in mobile view */
+@media (max-width: 767px) {
+    .mg-calc__title {
+        text-align: center;
+    }
+    
+    .mg-calc__description {
+        text-align: center;
+    }
+}
+
+/* END */

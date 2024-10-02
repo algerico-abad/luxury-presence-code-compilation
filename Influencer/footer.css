@@ -1,0 +1,68 @@
+/* START - Fix spacings on the footer information */
+footer#global-footer {
+    .container {
+        .footer__info {
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 96px;
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+                margin-bottom: 30px;
+                gap: 16px;
+            }
+
+            .footer__info-column {
+                margin-right: 0px;
+                flex: 1;
+                max-width: fit-content;
+                
+                @media (min-width: 768px) {
+                    margin-top: 70px !important;
+                }
+
+                @media (max-width: 768px) {
+                    margin-bottom: 0px;
+                }
+                
+                h4 {
+                    margin-top: 0px;
+                }
+
+                &:first-child {
+                    max-width: unset;
+                    margin-top: 0px !important;
+                }
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Fix spacings on the footer contact */
+footer#global-footer {
+    .footer__contact {
+        .lp-socials {
+            gap: 14px;
+
+            li {
+                margin: 0px;
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Fix spacings on the footer copyright */
+footer#global-footer {
+    .footer__copyright {
+        .footer__design {
+            margin-right: 0px;
+        }
+    }
+
+}
+
+/* END */

@@ -3,21 +3,21 @@
     color: #000;
     
     &:after {
-        background-color: #BA960C;
+        background-color: #A49B8E;
     }
     
     &:before {
-        background-color: #fff;
+        background-color: #fff !important;
     }
     
     &:hover {
         &:after {
             background-color: transparent;
-            border: 1px solid #BA960C;
+            border: 1px solid #A49B8E;
         }
         
         &:before {
-            background-color: #BA960C;
+            background-color: #A49B8E !important;
         }
     }
 }

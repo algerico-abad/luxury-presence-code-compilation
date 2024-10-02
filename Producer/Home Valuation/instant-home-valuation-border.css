@@ -5,8 +5,13 @@
     }
 }
 
-div.loader .line {
-    background: #BEAF87;
+div.loader {
+    bottom: unset;
+    top: 100%;
+    
+    .line {
+        background: #122C47;
+    }
 }
 
 /*End*/
@@ -14,11 +19,11 @@ div.loader .line {
 /* Start - Adjust width of the search bar */
 .home-valuation .content {
     @media only screen and (min-width: 768px) {
-        max-width: 1350px;
+        max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 25px !important;
-        padding-left: 25px !important;
+        padding-right: 50px !important;
+        padding-left: 50px !important;
     }
 }
 
@@ -39,7 +44,7 @@ div.home-valuation {
 
                 &:hover {
                     border: 2px solid #fff !important;
-                    color: #BEAF87 !important;
+                    color: #122C47 !important;
                     background-color: #fff !important;
                 }
             }

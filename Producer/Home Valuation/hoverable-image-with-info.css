@@ -1,0 +1,21 @@
+/* START - Reduce right content padding */
+.hoverable-image--reverse {
+    .hoverable-image__text-col {
+        @media (min-width: 768px) {
+            padding-right: 60px !important;
+        }
+    }
+}
+
+/* END */
+
+/* START - Reduce left content padding */
+.hoverable-image--straight {
+    .hoverable-image__text-col {
+        @media (min-width: 768px) {
+            padding-left: 60px !important;
+        }
+    }
+}
+
+/* END */

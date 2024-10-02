@@ -1,0 +1,133 @@
+/* Start - Fix dimension */
+.lp-container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    .btn-wrap {
+        button {
+            margin-bottom: 0px;
+        }
+    }
+    
+    .btn-wrap:has(button[style="display: none;"]) {
+        display: none;
+    }
+}
+
+/* End */
+
+/*START - Fix padding*/
+& {
+    .section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    
+        @media (max-width: 768px) {
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+    }
+}
+
+/*END*/
+
+/* START - 1 line for element title*/
+.lp-container .title {
+    max-width: 100% !important;
+
+    h2 {
+        max-width: 100% !important;
+    }
+}
+
+/*END- 1 line for element title*/
+
+/*START - Fix anchor tag opacity */
+.name-item__description {
+    opacity: 1 !important;
+}
+
+/* END */
+
+/*START - Change pill button theme*/
+div.type-list div.type-list__item {
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: #fff !important;
+
+    &.active,
+    &:hover {
+        color: #101010 !important;
+        background-color: #fff !important;
+        border-color: #fff !important;
+    }
+}
+
+/* END */
+
+/* START - Category theming */
+div.category-wrap {
+    background: #fff;
+    color: #101010;
+    text-transform: uppercase;
+}
+
+/* End */
+
+/* START - Stars color */
+div.rate-item .star-row:before {
+    background: linear-gradient(90deg, #fff var(--percent), rgba(255, 255, 255, 0.25) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* END */
+
+/* START - Border theming */
+div.items-box__filters {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+div.items-box__content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* END */
+
+/* START - Theme Filter (Sort) Arrows */
+.filter-arrows {
+    svg {
+        path {
+            fill: #fff !important;
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme school icon */
+.type-item {
+    .type-item__icon {
+        background: #f00 !important;
+    }
+
+    svg {
+        path {
+            fill: #fff !important;
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme title link arrow up */
+.name-item {
+    svg {
+        path {
+            fill: #fff !important;
+        }
+    }
+}
+
+/* END */

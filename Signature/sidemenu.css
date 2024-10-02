@@ -14,3 +14,51 @@ body>div.sidemenu .close {
 }
 
 /*END*/
+
+/* START - Theme sidemenu arrows */
+#global-sidemenu > div > button {
+    background: #A49B8E;
+    border-color: #A49B8E;
+    
+    &:before,
+    &:after {
+        background: #FFF;
+    }
+    
+    &:hover {
+        background: transparent;
+    
+        &:before,
+        &:after {
+            background: #A49B8E;
+        }
+    }
+}
+
+#global-sidemenu div.nav__nav-link-container > button {
+    transition: 0.25s;
+    
+    &:hover {
+        background: transparent;
+        
+        &:before {
+            background: transparent;
+        }
+        
+        &:after {
+            background: #A49B8E;
+        }
+    }
+    
+    &:before {
+        background: #A49B8E;
+        border-color: #A49B8E;
+        transition: 0.25s;
+    }
+    
+    &:after {
+        background: #FFF;
+    }
+}
+
+/* END */

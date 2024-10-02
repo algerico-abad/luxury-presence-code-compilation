@@ -1,0 +1,263 @@
+/* START - Make the button thin */
+.btn,
+.lp-btn {
+    border-width: 1px !important;
+    font-weight: 400 !important;
+}
+
+/* END */
+
+/* START - Theme dropdown menu */
+div.custom-select {
+    &:has(.custom-select-toggle.lp-input--light) {
+        .custom-select-toggle.is-placeholder {
+            border-color: rgba(255, 255, 255, 0.25) !important;
+
+            &:after {
+                border-color: #fff !important;
+            }
+        }
+    }
+    
+    &:has(.custom-select-toggle.lp-input--dark) {
+        .custom-select-toggle.is-placeholder {
+            border-color: rgba(0, 0, 0, 0.1) !important;
+
+            &:after {
+                border-color: #000 !important;
+            }
+        }
+    }
+    
+    .custom-select-content {
+        background-color: #fff !important;
+
+        .custom-select-item {
+            color: #000 !important;
+
+            &:hover {
+                color: #fff !important;
+                background-color: #EC5639 !important;
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme input box */
+form {
+    &:has(.lp-input--dark),
+    &:not(:has(.lp-input--light)) {
+        .lp-input {
+            border-color: rgba(0, 0, 0, 0.1) !important;
+                
+            &:focus {
+                border-color: rgba(0, 0, 0, 1) !important;
+            }
+        }
+        
+        .lp-disclaimer a {
+            color: #000 !important;
+
+            &:hover {
+                color: #EC5639 !important;
+            }
+
+            &:before {
+                background-color: rgba(0, 0, 0, 0.1) !important;
+            }
+
+            &:after {
+                background-color: #EC5639 !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                &:hover {
+                    color: #EC5639;
+                }
+            }
+        }
+    }
+
+    &:has(.lp-input--light) {
+        .lp-input {
+            border-color: rgba(255, 255, 255, 0.25) !important;
+                
+            &:focus {
+                border-color: rgba(255, 255, 255, 1) !important;
+            }
+        }
+
+        .lp-disclaimer a {
+            color: #fff !important;
+
+            &:hover {
+                color: #fff !important;
+            }
+
+            &:before {
+                background-color: rgba(255, 255, 255, 0.25) !important;
+            }
+
+            &:after {
+                background-color: #fff !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    & > {
+        .lp-disclaimer a {
+            position: relative !important;
+            transition: 0.4s;
+            font-weight: 400;
+            text-decoration: none !important;
+
+            &:before,
+            &:after {
+                transition: 0.4s;
+                text-decoration: none !important;
+                line-height: 1;
+                content: "" "";
+                height: 1px;
+                position: absolute !important;
+                bottom: 0;
+                left: 0;
+            }
+
+            &:before {
+                width: 100% !important;
+            }
+
+            &:after {
+                width: 0% !important;
+            }
+
+            &:hover:after {
+                width: 100% !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                text-decoration: underline;
+
+                &:before,
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme anchor links */
+.link, 
+.lp-link {
+    transition: 0.4s;
+    opacity: 1 !important;
+    position: relative !important;
+    text-decoration: none !important;
+
+    &:before,
+    &:after {
+        transition: 0.4s;
+        text-decoration: none !important;
+        line-height: 1;
+        content: "" "";
+        height: 1px;
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    &:before {
+        width: 100% !important;
+    }
+
+    &:after {
+        width: 0% !important;
+    }
+
+    &:hover:after {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        text-decoration: underline;
+
+        &:before,
+        &:after {
+            display: none;
+        }
+    }
+    
+    &:is(.lp-link--dark),
+    &:is(.lp-link--light) {
+        font-weight: 400;
+    }
+
+    /* Theme for links with light background */
+    /* Note: Switch number style if need to switch */
+    &:is(.lp-link:not(.hyperlink-style-2):not(.lp-link--light)),
+    &:is(.lp-link--dark),
+    &:is(.hyperlink-style-1) {
+        color: #000 !important;
+
+        &:hover {
+            color: #EC5639 !important;
+        }
+
+        &:before {
+            background-color: rgba(0, 0, 0, 0.1) !important;
+        }
+
+        &:after {
+            background-color: #EC5639 !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            &:hover {
+                color: #EC5639;
+            }
+        }
+    }
+
+    /* End */
+
+    /* Theme for links with dark background */
+    /* Note: Switch number style if need to switch */
+    &:is(.lp-link--light),
+    &:is(.hyperlink-style-2),
+    &:is(.link--white) {
+        color: #fff !important;
+        
+        &:hover {
+            color: #fff !important;
+        }
+
+        &:before {
+            background-color: rgba(255, 255, 255, 0.25) !important;
+        }
+
+        &:after {
+            background-color: #fff !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    /* END */
+}
+
+/* END */

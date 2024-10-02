@@ -1,18 +1,18 @@
 /*START - slick arrow theme (local)*/
 div.arrows .lp-arrow.lp-arrow--dark {
-    border: solid 2px #5F8480;
-    background-color: #5F8480;
+    border: solid 2px #A62125;
+    background-color: #A62125;
 
     &:before {
         border-color: #fff;
     }
 
     &:hover {
-        border: solid 2px #5F8480;
+        border: solid 2px #A62125;
         background-color: transparent;
 
         &:before {
-            border-color: #5F8480;
+            border-color: #A62125;
         }
     }
 }

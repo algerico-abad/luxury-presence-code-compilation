@@ -1,0 +1,83 @@
+/* START - Fix contact form dimensions */
+.custom-form {
+    .custom-form__container {
+        max-width: 1130px;
+    }
+
+    .lp-container {
+        .custom-form__row {
+            margin-left: 0px;
+            margin-right: 0px;
+            gap: 32px;
+
+            .elem-col {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme link underline */
+.custom-form {
+    .lp-input {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .lp-disclaimer {
+        a {
+            position: relative !important;
+            color: #000 !important;
+            transition: 0.4s;
+            font-weight: 400;
+            text-decoration: none !important;
+
+            &:hover {
+                color: #E97A2B !important;
+            }
+
+            &:before,
+            &:after {
+                transition: 0.4s;
+                text-decoration: none !important;
+                line-height: 1;
+                content: "" "";
+                height: 1px;
+                position: absolute !important;
+                bottom: 0;
+                left: 0;
+            }
+
+            &:before {
+                width: 100% !important;
+                background-color: rgba(0, 0, 0, 0.1) !important;
+            }
+
+            &:after {
+                width: 0% !important;
+                background-color: #E97A2B !important;
+            }
+
+            &:hover:after {
+                width: 100% !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                text-decoration: underline;
+
+                &:before,
+                &:after {
+                    display: none;
+                }
+
+                &:hover {
+                    color: #E97A2B;
+                }
+            }
+        }
+    }
+}
+
+/* END */

@@ -1,0 +1,77 @@
+/* START - Retheme the accordion tabs */
+.lp-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+
+    .lp-title-group {
+        max-width: 1200px;
+    }
+
+    .accordion {
+        display: flex;
+        flex-direction: column;
+
+        & > * {
+            margin-bottom: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+            background-color: transparent;
+
+            &:not(:first-child):not(.accordion-content) {
+                border-top: 1px solid rgba(255, 255, 255, 0.25);
+            }
+
+            &:is(.accordion-header) {
+                padding-top: 32px;
+                padding-bottom: 32px;
+
+                h5 {
+                    font-weight: 400;
+                }
+
+                .tab-button {
+                    border-width: 1px !important;
+                    border-color: #E97A2B;
+                    background: #E97A2B;
+                    transition: 0.25s;
+
+                    &:hover {
+                        background: transparent;
+
+                        &:before {
+                            border-color: #E97A2B;
+                        }
+                    }
+
+                    &:before {
+                        border-width: 0px 1px 1px 0px;
+                    }
+                }
+
+                &:has(+ .accordion-content:last-child) {
+                    padding-bottom: 0px;
+                }
+
+                &:has(+ .accordion-content.is-active:last-child) {
+                    padding-bottom: 32px;
+
+                    & + .accordion-content.is-active {
+                        padding-bottom: 0px;
+                    }
+                }
+            }
+
+            &:is(.accordion-content:is(.is-active)) {
+                padding-top: 0px;
+                padding-bottom: 32px;
+            }
+
+            &:is(.accordion-content:not(.is-active)) {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+/* END */

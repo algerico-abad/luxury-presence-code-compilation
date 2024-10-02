@@ -30,3 +30,22 @@ div.text-grid .scene__item--with-border div.border {
 }
 
 /*End*/
+
+/* START - Fix horizontal dimensions */
+.lp-container {
+    .scenes {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
+        .scene {
+            margin: 0px !important;
+        }
+    }
+}
+
+/* END */

@@ -2,7 +2,7 @@
 div.lp-container div.mg-calc__wrap span.link-icon {
     &:hover {
         &:after {
-            background-color: #185770;
+            background-color: #5F8DB5;
         }
 
         &:before {
@@ -11,7 +11,7 @@ div.lp-container div.mg-calc__wrap span.link-icon {
     }
 
     &:before {
-        background-color: #185770 !important;
+        background-color: #5F8DB5 !important;
     }
 }
 
@@ -39,7 +39,7 @@ a.lp-link {
     }
 
     &:after {
-        background-color: #185770 !important;
+        background-color: #5F8DB5 !important;
         width: 0% !important;
     }
     
@@ -54,11 +54,11 @@ a.lp-link {
 .custom-select {
     .custom-select-toggle {
         &:after {
-            background-color: #185770;
+            background-color: #5F8DB5;
         }
 
         &:hover:after {
-            background-color: #185770 !important;
+            background-color: #5F8DB5 !important;
         }
     }
 
@@ -69,7 +69,7 @@ a.lp-link {
         button.custom-select-item:hover,
         button.custom-select-item:focus,
         button.custom-select-item.is-selected {
-            color: #185770 !important;
+            color: #5F8DB5 !important;
         }
     }
 }
@@ -82,14 +82,14 @@ a.lp-link {
     border-color: rgba(0, 0, 0, 0.1) !important;
 
     &:after {
-        background-color: #185770;
+        background-color: #5F8DB5;
     }
 
     &:hover {
         color: #000;
 
         &:after {
-            background-color: #185770;
+            background-color: #5F8DB5;
         }
     }
 
@@ -119,7 +119,7 @@ li.legend__item.is-hovered {
         color: #000;
         
         &:before {
-            background: #185770;
+            background: #5F8DB5;
         }
     }
 }

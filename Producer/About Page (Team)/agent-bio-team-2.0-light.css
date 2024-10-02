@@ -1,11 +1,10 @@
 /*Start - Fix padding*/
 .agent-info {
-    padding-top: 96px !important;
-    padding-bottom: 96px !important;
-    
-    @media only screen and (max-width: 768px) {
-        padding-top: 64px !important;
-        padding-bottom: 64px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    .container {
+        max-width: 1400px !important;
     }
 }
 
@@ -52,6 +51,19 @@ a.lp-link {
 
 /*END*/
 
-.lp-socials {
-    margin-bottom: 0px;
+/* START - Center socials on mobile */
+.hide-desktop-socials {
+    .lp-socials {
+        padding-right: 0px !important;
+        gap: 14px;
+        justify-content: center;
+        margin-bottom: 0px;
+
+        li {
+            margin: 0px !important;
+            width: auto !important;
+        }
+    }
 }
+
+/* END */

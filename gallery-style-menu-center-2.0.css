@@ -1,4 +1,4 @@
-/* Start - Change dimensions of tiles to 1 by 1 center */
+/* START - Center the title */
 a.gallery-card {
     &:before {
         background: rgba(0, 0, 0, 0.5) !important;
@@ -15,4 +15,15 @@ a.gallery-card {
     }
 }
 
-/* End */
+/* END */
+
+/*START - Adjust font-size*/
+div > div > div > ul > li > a {
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: capitalize;
+}
+/*END - Adjust font-size*/
+div.container {
+    max-width: 100%;
+}

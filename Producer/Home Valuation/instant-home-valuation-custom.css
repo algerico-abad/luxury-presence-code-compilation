@@ -1,0 +1,10 @@
+/* START - Center text content */
+h2 {
+    text-align: center;
+}
+
+.benefits {
+    justify-content: center;
+}
+
+/* END */

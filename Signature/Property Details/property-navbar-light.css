@@ -4,6 +4,6 @@
 
 .nav-item.link.active {
     &:before {
-        background-color: #BA960C;
+        background-color: #5F8DB5;
     }
 }

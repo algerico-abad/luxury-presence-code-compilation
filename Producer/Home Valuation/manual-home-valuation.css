@@ -5,7 +5,7 @@
 
     &.active {
         background-color: #fff !important;
-        color: #031425 !important;
+        color: #7A92A4 !important;
     }
 }
 
@@ -20,7 +20,7 @@ div.redesign .custom-select-content {
 
         &:hover {
             color: #fff;
-            background-color: #031425;
+            background-color: #7A92A4;
         }
     }
 }

@@ -12,6 +12,24 @@ div.lp-vertical-paddings {
 /*END*/
 
 /* Start - Fix Dimensions */
+.lp-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    @media (max-width: 768px) {
+        gap: 24px;
+    }
+    
+    .lp-title-group {
+        margin-bottom: 0px !important;
+        
+        h2 {
+            margin-bottom: 0px !important;
+        }
+    }
+}
+
 .data-container {
     margin: 0px !important;
 
@@ -55,7 +73,7 @@ div.lp-vertical-paddings {
     text-decoration: none !important;
 
     &:hover {
-        color: #101010 !important;
+        color: #5098A3 !important;
     }
 
     &:before,
@@ -77,7 +95,7 @@ div.lp-vertical-paddings {
 
     &:after {
         width: 0% !important;
-        background-color: #101010 !important;
+        background-color: #5098A3 !important;
     }
 
     &:hover:after {
@@ -93,7 +111,7 @@ div.lp-vertical-paddings {
         }
 
         &:hover {
-            color: #101010;
+            color: #5098A3;
         }
     }
 }

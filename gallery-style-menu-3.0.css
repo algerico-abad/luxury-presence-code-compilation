@@ -1,0 +1,57 @@
+/* Start - Remove large bottom margin on title */
+.gallery-component__header {
+    max-width: 1000px !important;
+    margin-bottom: 32px !important;
+
+    h2 {
+        margin-bottom: 8px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
+
+/* End */
+
+/* Start - Remove and fix dimensions */
+.gallery-component__row {
+    display: grid !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    row-gap: 50px;
+    column-gap: 14px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    &:is(.cols-2) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &:is(.cols-3) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &:is(.cols-4) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .gallery-component__col {
+        margin-bottom: 0px !important;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 100% !important;
+    }
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* END */
+
+/* Start - Remove specified height */
+a.gallery-card {
+    height: auto;
+}
+
+/* End */
