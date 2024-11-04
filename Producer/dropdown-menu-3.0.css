@@ -1,0 +1,20 @@
+/* START - Globally update the dropdown menu theme */
+div.custom-select-menu {
+    div.custom-select-content {
+        background: #FFF !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        
+        button.custom-select-item {
+            color: #000 !important;
+            padding: 12px !important;
+            
+            &:hover {
+                background: #F00 !important;
+                color: #FFF !important;
+            }
+        }
+    }
+}
+
+/* END */
