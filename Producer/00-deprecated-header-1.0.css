@@ -1,0 +1,83 @@
+/*START - change header nav color*/
+nav#global-navbar {
+    .header .navigation .sub-nav ul {
+        background-color: transparent;
+
+        li {
+            background-color: #000;
+
+            &:hover {
+                background-color: #000;
+            }
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+
+    &.scroll {
+        background-color: #000 !important;
+
+        li.navigation__item a.navigation__link {
+            color: #fff;
+
+            & span:after {
+                background-color: #fff;
+            }
+        }
+
+        button.hamburger-component.hamburger {
+            color: #fff;
+        }
+    }
+}
+
+/*submenu background*/
+nav#global-navbar .header .navigation .sub-nav ul a {
+    background-color: #fff;
+    color: #000;
+}
+
+/*submenu upon hover*/
+nav#global-navbar .header .navigation .sub-nav ul a:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+
+nav#global-navbar .header .navigation .sub-nav ul a span:after {
+    background-color: #fff !important;
+    transition: 0.4s;
+}
+
+/*END - Change Header nav color*/
+
+/*START - header nav logo size adjustment*/
+nav#global-navbar .header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+
+    .logo {
+        a.logo__link img {
+            max-height: 100px !important;
+            
+            @media only screen and (max-width:768px) {
+                max-height: 70px !important;
+            }
+        }
+    }
+}
+
+/*END- header nav logo size adjustment*/
+
+/*START - header nav dropdown padding */
+nav .header .navigation .sub-nav__link {
+    max-width: 400px !important;
+}
+
+nav .header .navigation .sub-nav ul {
+    max-width: 400px !important;
+}
+
+/*END*/
