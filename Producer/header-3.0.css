@@ -1,0 +1,216 @@
+/* START - CSS adjustments for the main navigation menu */
+nav#global-navbar {
+    /* START - Adjust the element's max-width */
+    div.container {
+        max-width: 1400px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+        @media (max-width: 768px) {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    
+    /* END */
+    
+    /* START - Adjust the header navigation layout and alignments */
+    div.navbar {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        min-height: fit-content;
+        
+        /* START - Adjust the logo size */
+        div.logo {
+            margin-right: 0px;
+            max-width: 240px;
+        }
+        
+        /* END */
+        
+        /* START - Adjust the navigation links gaps */
+        div.navigation {
+            & > ul {
+                margin-left: 0px;
+                gap: 24px;
+                
+                li.navigation__item {
+                    a.navigation__link {
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+        
+        /* END */
+        
+        /* START - Adjust the hamburger menu paddings */
+        button.hamburger {
+            margin-left: 0px;
+            padding-left: 24px;
+            padding-right: 0px;
+            
+            span.hamburger__bars {
+                background: #FFF;
+                
+                &:before,
+                &:after {
+                    background: #FFF;
+                }
+            }
+        }
+        
+        /* END */
+    }
+    
+    /* END */
+    
+    /* START - Theme the navigation links */
+    div.navbar {
+        div.navigation {
+            & > ul {
+                li.navigation__item {
+                    a.navigation__link {
+                        span {
+                            color: #FFF;
+                            
+                            &:after {
+                                background: #FFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /* END */
+    
+    /* START - Theme the navigation dropdown links */
+    div.navbar {
+        div.navigation {
+            & > ul {
+                li.sub-nav-container {
+                    a.navigation__link {
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+    
+    /* END */
+    
+    /* START - Theme the dropdown box */
+    div.navbar {
+        div.navigation {
+            & > ul {
+                li.sub-nav-container {
+                    div.sub-nav {
+                        transform: translate(0, calc(100% + 16px));
+                        
+                        & > ul {
+                            background: #FFF;
+                            padding-top: 0px;
+                            padding-bottom: 0px;
+                            
+                            li.sub-nav__item {
+                                a.sub-nav__link {
+                                    padding: 16px 12px;
+                                    
+                                    span {
+                                        color: #000;
+                                        
+                                        &:after {
+                                            background: #000;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /* END */
+    
+    /* START - Adjust the header theme when scrolled */
+    &:is(.scroll) {
+        background: #000 !important;
+        
+        /* START - Adjust the logo displayed when scrolled */
+        div.navbar {
+            div.logo {
+                img.light {
+                    display: block;
+                }
+                
+                img.dark {
+                    display: none;
+                }
+            }
+
+        }
+        
+        /* END */
+        
+        /* START - Theme the navigation links on scroll */
+        div.navbar {
+            div.navigation {
+                & > ul {
+                    li.navigation__item {
+                        a.navigation__link {
+                            span {
+                                color: #FFF;
+
+                                &:after {
+                                    background: #FFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* END */
+        
+        /* START - Theme the navigation dropdown links */
+        div.navbar {
+            div.navigation {
+                & > ul {
+                    li.sub-nav-container {
+                        a.navigation__link {
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* END */
+        
+        /* START - Theme the hamburger menu when scrolled */
+        div.navbar {
+            button.hamburger {
+                span.hamburger__bars {
+                    background: #FFF;
+
+                    &:before,
+                    &:after {
+                        background: #FFF;
+                    }
+                }
+            }
+            
+        }
+        
+        /* END */
+    }
+    
+    /* END */
+}
+
+/* END */
