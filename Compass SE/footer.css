@@ -1,0 +1,36 @@
+/* START - Fix footer links large vertical lines */
+footer#global-footer {
+    div.footer-info {
+        div.columns {
+            div.two-cols:nth-child(2) {
+                div.column {
+                    &:nth-child(2) {
+                        margin-bottom: 0px;
+                    }
+                    
+                    div.column-text {
+                        display: flex;
+                        flex-direction: column;
+                        line-height: 21px;
+                        
+                        p {
+                            margin-top: 0px;
+                            margin-bottom: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* END */
+
+/* START - Increase footer disclaimer opacity */
+footer#global-footer {
+    div.disclaimers {
+        opacity: 1;
+    }
+}
+
+/* END */
