@@ -1,0 +1,27 @@
+/* START - Theme pagination arrows slider */
+.lp-arrow {
+    border-color: #F00;
+    background: transparent;
+
+    &:after {
+        background: #F00;
+    }
+}
+
+.lp-arrow:hover:not(:disabled) {
+    border-color: #F00;
+    background: #F00;
+
+    &:after {
+        background: #FFF;
+    }
+}
+
+/* END */
+
+/* START - Fix pagination number arrows on hover */
+.lp-pagination {
+    --lp-color-primary-2: #FFF;
+}
+
+/* END */
