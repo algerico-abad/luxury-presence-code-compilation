@@ -1,0 +1,77 @@
+/* START - Theme header default and on scroll background */
+.header:not(.scroll) {
+    background: #F00 !important;
+}
+
+.header:is(.scroll) {
+    background: #0F0 !important;
+}
+
+/* END */
+
+/* START - Theme the header dropdown menu */
+.header-navigation__sub-nav {
+    padding: 0px;
+    background: #00F;
+}
+
+.header-navigation__sub-nav-link {
+    padding: 12px 16px;
+    color: #F00;
+}
+
+.header-navigation__sub-nav-link:hover {
+    color: #0F0;
+}
+
+/* END */
+
+/* START - Theme header links triple dots and dropdown icon */
+.header-navigation__link:before,
+.header-navigation__link:after{
+    background-color: #F00;
+}
+
+/* END */
+
+/* START - Theme the header search icon button */
+.header-search-btn {
+    border-color: #F00;
+    background: #F00;
+}
+
+.header-search-btn:after {
+    background-color: #0F0;
+}
+
+.header-search-btn:hover:not(:disabled) {
+    border-color: #F00;
+    background: transparent;
+}
+
+.header-search-btn:hover:not(:disabled):after {
+    background-color: #F00;
+}
+
+/* END */
+
+/* START - Theme the header search icon button */
+.header-search-btn {
+    border-color: #F00;
+    background: #F00;
+}
+
+.header-search-btn:after {
+    background-color: #0F0;
+}
+
+.header-search-btn:hover:not(:disabled) {
+    border-color: #F00;
+    background: transparent;
+}
+
+.header-search-btn:hover:not(:disabled):after {
+    background-color: #F00;
+}
+
+/* END */

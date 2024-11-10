@@ -1,0 +1,20 @@
+/* START - Fix arrow button theme */
+.custom-intro__scroll-btn {
+    border-color: #F00;
+    background: #F00;
+}
+
+.custom-intro__scroll-btn:after {
+    background: #0F0;
+}
+
+.custom-intro__scroll-btn:hover {
+    border-color: #F00;
+    background: transparent;
+}
+
+.custom-intro__scroll-btn:hover:after {
+    background: #F00;
+}
+
+/* END */

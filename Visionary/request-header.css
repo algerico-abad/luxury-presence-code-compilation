@@ -1,0 +1,25 @@
+/* START - Turn the hamburger icon into text */
+.header-hamburger-btn {
+    width: auto;
+    border-radius: 500px;
+}
+
+.header-hamburger-btn:hover:empty:before {
+    color: #002A4E;
+}
+
+.header-hamburger-btn:empty:before {
+    content: 'Menu';
+    width: auto;
+    height: auto;
+    background-color: transparent !important;
+    line-height: 1;
+    color: #FFF;
+    padding: 12px 20px;
+}
+
+.header-hamburger-btn:empty:after {
+    display: none;
+}
+
+/* END */

@@ -1,0 +1,15 @@
+/* START - Fix contact form being underneath the header navigation */
+.mobile-contact-wrapper {
+    z-index: 102 !important;
+}
+
+/* END */
+
+.contact-form {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.contact-form__container {
+    padding: 32px;
+}

@@ -1,0 +1,16 @@
+/* START - Adjust the home valuation title for small mobile devices */
+.home-valuation-info {
+    @media (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.home-valuation-info__title {
+    @media (max-width: 767px) {
+        font-size: 19px;
+        font-weight: bold;
+    }
+}
+
+/* END */

@@ -1,0 +1,12 @@
+
+
+/* START - Max two-line the text grid title */
+h4.text-grid-scenes__scene-title {
+    font-size: 26px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* END */
