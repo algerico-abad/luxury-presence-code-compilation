@@ -1,4 +1,5 @@
-/* START - Theme pagination arrows slider */
+/* START - Fix pagination slider arrows on hover globally */
+/* Note: Pagination of element without numbers */
 .lp-arrow {
     border-color: #F00;
     background: transparent;
@@ -19,9 +20,35 @@
 
 /* END */
 
-/* START - Fix pagination number arrows on hover */
+/* START - Fix pagination number arrows on hover globally */
+/* Note: Pagination of element with numbers */
 .lp-pagination {
-    --lp-color-primary-2: #FFF;
+    --lp-color-primary-2: #F00;
+}
+
+/* END */
+
+/* START - Fix theme input boxes globally */
+.lp-input {
+    background: #0F0;
+    color: #F00;
+    border: 1px solid #000;
+}
+
+.lp-input:hover {
+    background: #00F;
+    color: #F00;
+    border: 1px solid #000;
+}
+
+.lp-input:focus {
+    background: #F00;
+    color: #00F;
+    border: 1px solid #000;
+}
+
+.lp-input-icon:after {
+    --iconColor: #F00;
 }
 
 /* END */
