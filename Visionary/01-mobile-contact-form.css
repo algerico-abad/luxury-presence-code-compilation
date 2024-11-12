@@ -1,15 +1,76 @@
-/* START - Fix contact form being underneath the header navigation */
+/* START - Fix the large padding of the floating contact form */
 .mobile-contact-wrapper {
-    z-index: 102 !important;
+    .lp-container {
+        padding: 0px !important;
+    }
+}
+
+.mobile-contact-wrapper {
+    .contact-form {
+        padding: 0px;
+    }
+}
+
+.mobile-contact-wrapper {
+    .contact-form__container {
+        padding: 48px;
+    }
 }
 
 /* END */
 
-.contact-form {
-    padding-left: 0px;
-    padding-right: 0px;
+/* START - Adjust the floating contact form close button position*/
+.mobile-contact-wrapper {
+    .close-btn {
+        top: 16px !important;
+        right: 16px !important;
+    }
 }
 
-.contact-form__container {
-    padding: 32px;
+/* END */
+
+/* START - Adjust the round corner to the inner form of the floating contact form */
+.mobile-contact-wrapper {
+    .contact-form__container {
+        border-radius: 8px;
+    }
 }
+
+/* END */
+
+/* START - Adjust the width of the floating contact form */
+.mobile-contact-wrapper {
+    .pop-up {
+        max-width: 700px !important;
+    }
+}
+
+/* END */
+
+/* START - Theme the inner form of the floating contact form */
+.mobile-contact-wrapper {
+    .pop-up {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.mobile-contact-wrapper {
+    .contact-form__container {
+        border-color: rgba(0, 0, 0, 0);
+    }
+}
+
+/* END */
+
+/* START - Theme the search icon of the floating contact form */
+.mobile-contact-wrapper {
+    .search-btn {
+        background: #F00 !important;
+    }
+    
+    .search-btn:before {
+        background: #0F0 !important;
+    }
+}
+
+/* END */
