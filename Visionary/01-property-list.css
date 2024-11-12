@@ -1,0 +1,100 @@
+/* START - Fix the properties list extra margins/paddings */
+.properties-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.properties-list__title-group,
+.properties-list__filters,
+.properties-list__show-btn,
+.properties-list__hide-btn,
+.properties-list__collection {
+    margin-bottom: 0px;
+}
+
+.properties-list .pagination-container {
+    margin-top: 0px;
+}
+
+.properties-list__btn-holder {
+    margin-top: 0px;
+}
+
+.properties-list__filters {
+    width: 100%;
+}
+
+/* Note: Add the class name properties-list__description-value to the description p/div element*/
+.properties-list__description-value {
+    margin-bottom: 0px;
+}
+
+/* END */
+
+/* START - Theme the properties list filters border */
+.properties-list__filters {
+    border-color: #F00;
+}
+
+.properties-list-range__block {
+    border-color: #F00 !important;
+}
+
+/* END */
+
+/* START - Theme the property list filter buttons on mobile */
+/* Note: You may combine the selectors if designs will be the same for each button */
+.properties-list__show-btn {
+    background: #F00;
+    color: #0F0;
+    border: 1px solid #00F;
+}
+
+.properties-list__hide-btn {
+    background: #00F;
+    color: #F00;
+    border: 1px solid #0F0;
+}
+
+/* END */
+
+/* START - Theme properties list cards amenities tag */
+.properties-list-item__icon-tag {
+    background: #F00;
+    color: #0F0;
+    border: 1px solid #00F;
+}
+
+/* END */
+
+/* START - Theme the properties list card underline */
+.properties-list-item__top-block {
+    border-bottom: 1px solid #F00;
+}
+
+/* END */
+
+/* START - Theme the properties list card status tag */
+.properties-list-item__tag {
+    background: #00F;
+    color: #0F0;
+    border: 1px solid #00F;
+}
+
+/* END */
+
+/* START - Theme the properties grid search CTA button */
+.properties-list__btn {
+    background: #0f0;
+    border-color: #F00;
+    color: #00F;
+}
+
+.properties-list__btn:hover:not(:disabled) {
+    background: transparent;
+    border-color: #00F;
+    color: #0FF;
+}
+
+/* END */
