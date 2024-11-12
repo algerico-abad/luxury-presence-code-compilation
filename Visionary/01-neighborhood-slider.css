@@ -1,0 +1,111 @@
+/* START - Fix the alignment of the element pre-title and sub-title on ipad mini and mobile */
+.neighborhoods-slider__pretitle {
+    @media (max-width: 768px) {
+        padding: 0 0 19px;
+        
+        &:before {
+            bottom: 0;
+            left: 50%;
+            top: auto;
+            transform: translateX(-50%);
+            width: 64px;
+        }
+    }
+}
+
+.neighborhoods-slider__subtitle {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+/* END */
+
+/* START - Fix and align the CTA button at the bottom of the image for non-fullbleed neighborhood desktop */
+.neighborhoods-slider__cta-btn {
+    max-height: fit-content;
+    align-self: end;
+}
+
+/* END */
+
+/* START - Fix the neighborhood slider content container large spacings */
+.neighborhoods-slider__card-content {
+    min-height: auto;
+}
+
+.neighborhoods-slider__card-link {
+    margin-top: 48px;
+}
+
+/* END */
+
+/* START - Fix the bottom padding for non-fullbleed and fullbleed desktop */
+.neighborhoods-slider:not(.neighborhoods-slider__slider-full-width) {
+    @media (min-width: 1025px) {
+        padding-bottom: calc(var(--lp-spacing-large) + 48px);
+    
+        .neighborhoods-slider__card-content {
+            bottom: -48px;
+        } 
+    }
+}
+
+.neighborhoods-slider:is(.neighborhoods-slider__slider-full-width) {
+    @media (min-width: 1025px) {
+        .neighborhoods-slider__card-content {
+            bottom: calc(-40px - 57.95px);
+        } 
+    }
+}
+
+/* END */
+
+/* START - Fix the left position of the neighborhood description on fullbleed design */
+.neighborhoods-slider.neighborhoods-slider__slider-full-width {
+    .neighborhoods-slider__card-content {
+        @media (max-width: 1024px) {
+            left: var(--lp-grid-gap-medium);
+        }
+    }
+}
+
+/* END */
+
+/* START - Adjust neighborhood slider images height on tablet and mobile view */
+.neighborhoods-slider {
+    @media (max-width: 1024px) and (min-width: 769px) {
+        .neighborhoods-slider__images {
+            aspect-ratio: 16/8;
+        }
+
+        .neighborhoods-slider__images-slider {
+            height: 100%;
+        }
+
+        .splide__track {
+            height: 100%;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .neighborhoods-slider__card-image {
+            height: auto;
+            aspect-ratio: 1/1;
+        }
+    }
+}
+
+/* END */
+
+/* START - Theme currently active/displayed neighborhoods */
+.neighborhoods-slider__list-item.is-active {
+    border-bottom: 1px solid #F00;
+    color: #0F0;
+}
+
+.neighborhoods-slider__list-item.is-active:after {
+    background: #00F;
+}
+
+/* END */
