@@ -1,0 +1,31 @@
+/* START - Fix media element spacings */
+div.lp-container {
+    div.row {
+        column-gap: 20px;
+        row-gap: 48px;
+
+        div.col {
+            padding-left: 0px;
+            padding-right: 0px;
+            flex: 1 1 calc(33.33% - 20px);
+
+            @media (max-width: 768px) {
+                flex: 1 1 100%;
+            }
+
+            div.media-card {
+                margin-bottom: 0px;
+
+                div.media-card__description {
+                    margin-bottom: 0px;
+
+                    & > * {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* END */
