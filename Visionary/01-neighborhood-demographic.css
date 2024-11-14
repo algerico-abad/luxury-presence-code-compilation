@@ -1,0 +1,42 @@
+/* START - Fix title max width to one line title */
+.neighborhood-demographics__title {
+    max-width: 100%;
+}
+
+/* END */
+
+/* START - Fix element extra bottom padding */
+.neighborhood-demographics-tabs__population {
+    padding-bottom: 0px;
+}
+
+/* END */
+
+/* START - Theme the popup dialog */
+.neighborhood-demographics-tabs__overview-name--hint:after {
+    background: #F00;
+}
+
+.neighborhood-demographics-tabs__overview-hint,
+.neighborhood-demographics-tabs__overview-hint:after {
+    background: #F00;
+    color: #0F0;
+}
+
+.neighborhood-demographics-tabs__overview-hint-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* END */
+
+/* START - Theme the population bar */
+.neighborhood-demographics-tabs__population-age-bar {
+    background: rgba(255, 0, 0, 0.25);
+}
+
+.neighborhood-demographics-tabs__age-hint {
+    color: #F00;
+}
+
+/* END */
