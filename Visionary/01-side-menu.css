@@ -147,3 +147,12 @@
 }
 
 /* END */
+
+/* START - Theme the side menu horizontal border */
+.sidemenu-footer:before,
+.sidemenu-socials-block:before {
+    background: #F00;
+    opacity: 1;
+}
+
+/* END */
