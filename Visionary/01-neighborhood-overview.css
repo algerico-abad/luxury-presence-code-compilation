@@ -1,0 +1,29 @@
+/* START - Fix title max width to one line the title */
+.neighborhood-overview__title {
+    max-width: 100%;
+}
+
+/* END */
+
+/* START - Theme the popup dialog */
+.neighborhood-overview-grid__hint:after {
+    --iconColor: #F00;
+}
+
+.neighborhood-overview-grid__pop-up,
+.neighborhood-overview-grid__pop-up:after {
+    background: #F00;
+}
+
+.neighborhood-overview-grid__pop-up {
+    color: #0F0;
+}
+
+/* END */
+
+/* START - Uppercase the popup dialog title */
+.neighborhood-overview-grid__popup-title {
+    text-transform: uppercase;
+}
+
+/* END */
