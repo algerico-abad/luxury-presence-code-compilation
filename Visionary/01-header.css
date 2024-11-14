@@ -56,21 +56,23 @@
 /* END */
 
 /* START - Theme the header search icon button */
-.header-search-btn {
+.header-hamburger-btn {
     border-color: #F00;
     background: #F00;
 }
 
-.header-search-btn:after {
+.header-hamburger-btn:empty:before,
+.header-hamburger-btn:empty:after {
     background-color: #0F0;
 }
 
-.header-search-btn:hover:not(:disabled) {
+.header-hamburger-btn:hover:not(:disabled) {
     border-color: #F00;
     background: transparent;
 }
 
-.header-search-btn:hover:not(:disabled):after {
+.header-hamburger-btn:hover:not(:disabled):before,
+.header-hamburger-btn:hover:not(:disabled):after {
     background-color: #F00;
 }
 
