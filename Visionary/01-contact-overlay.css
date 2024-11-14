@@ -1,0 +1,47 @@
+/* START - Fix contact overlay title to maximize spacing for title */
+.contact-with-image-details__title {
+    max-width: 100%;
+}
+
+/* END */
+
+/* START - Fix the opacity of the contact overlay text information */
+.contact-with-image-agent {
+    opacity: 1;
+}
+
+/* END */
+
+/* START - Theme the contact overlay links */
+.contact-with-image-agent__link {
+    transition: 0.25s;
+    --lp-color-secondary-gray-600: #F00;
+}
+
+.contact-with-image-agent__link:hover {
+    opacity: 0.5;
+    --lp-color-primary-accent: #0F0;
+}
+
+/* END */
+
+/* START - Reposition contact overlay close button */
+.contact-with-image__close-container {
+    top: 0px;
+    right: 0px;
+}
+
+.contact-with-image__close {
+    top: 16px !important;
+    right: 48px !important;
+    padding: 0px;
+}
+
+/* END */
+
+/* START - Theme contact overlay close button */
+.contact-with-image__close:after {
+    background: #F00;
+}
+
+/* END */
