@@ -1,0 +1,7 @@
+/* START - Fix textarea being off centered */
+.contact-form__input[name="message"] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* END */
