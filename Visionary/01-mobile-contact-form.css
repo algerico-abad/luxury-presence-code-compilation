@@ -19,6 +19,13 @@
 
 /* END */
 
+/* START - Fix floating contact form placed behind the header navigation */
+.mobile-contact-wrapper {
+    z-index: 101 !important;
+}
+
+/* END */
+
 /* START - Adjust the floating contact form close button position*/
 .mobile-contact-wrapper {
     .close-btn {
@@ -56,7 +63,7 @@
 
 .mobile-contact-wrapper {
     .contact-form__container {
-        border-color: rgba(0, 0, 0, 0);
+        border-color: rgba(255, 0, 0, 1);
     }
 }
 
