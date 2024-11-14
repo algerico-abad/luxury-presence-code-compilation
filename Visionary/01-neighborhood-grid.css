@@ -5,6 +5,13 @@
 
 /* END */
 
+/* START - Fix extra spacing of the neighborhood grid content if description is empty */
+.neighborhood-grid__text:has(.neighborhood-grid__desc:empty) {
+    min-height: auto;
+}
+
+/* END */
+
 /* START - One-line neighorhood grid card description text */
 .neighborhood-grid__desc {
     width: 100%;
