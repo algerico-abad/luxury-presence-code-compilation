@@ -1,0 +1,13 @@
+/* START - Fix the property description accordion when active */
+.property-details-accordion__header:is(.is-active):not(.property-details-accordion__header--no-accordion) {
+    padding: 24px;
+}
+
+/* END */
+
+/* START - Fix schedule a showing title width to one line title */
+.property-details-schedule-modal__title-group {
+    max-width: unset;
+}
+
+/* END */
